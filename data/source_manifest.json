@@ -1,0 +1,18 @@
+{
+  "data/upstream/cldr-zh.json": {
+    "url": "https://raw.githubusercontent.com/unicode-org/cldr-json/91c267402229a59e3ef2774544f001bf959e8809/cldr-json/cldr-annotations-full/annotations/zh/annotations.json",
+    "sha256": "8d2dfe9bf41894bd17c9c1a1906a31bf0ccc06204bf4b77c2ab2b0d8f79a5fdf"
+  },
+  "licenses/Unicode-3.0.txt": {
+    "url": "https://raw.githubusercontent.com/unicode-org/cldr-json/91c267402229a59e3ef2774544f001bf959e8809/LICENSE",
+    "sha256": "220ba0e1c43b99530d2d5bdb892a99dca0989414f51ab695ecd90163eaa1ec3b"
+  },
+  "data/upstream/jieba-dict.txt": {
+    "url": "https://raw.githubusercontent.com/fxsjy/jieba/67fa2e36e72f69d9134b8a1037b83fbb070b9775/jieba/dict.txt",
+    "sha256": "7197c3211ddd98962b036cdf40324d1ea2bfaa12bd028e68faa70111a88e12a8"
+  },
+  "licenses/jieba-MIT.txt": {
+    "url": "https://raw.githubusercontent.com/fxsjy/jieba/67fa2e36e72f69d9134b8a1037b83fbb070b9775/LICENSE",
+    "sha256": "18ba0984839f85853b29fadaf992f7dba8fd0ca0fbeae34de2b8735222dc7a37"
+  }
+}

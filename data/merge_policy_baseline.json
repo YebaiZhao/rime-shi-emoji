@@ -1,0 +1,5 @@
+{
+  "reason": "Policy changed from union of all source outputs to independently resolved per-phrase mappings. Literal/name precedence and scoped expressions can remove old incidental mappings. These are mapping counts, not semantic accuracy.",
+  "before": {"zero_terms": 0, "under_three": 362, "under_four": 551, "zero_primary": 11},
+  "after": {"zero_terms": 0, "under_three": 405, "under_four": 601, "zero_primary": 12}
+}

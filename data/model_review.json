@@ -1,0 +1,10 @@
+{
+  "reviewer": "Codex assistant supervision; project namespace migration only",
+  "date": "2026-10-26",
+  "scope": "Intermediate semantic scan plus final alias/cluster samples, thresholds and corrections; not every mapping individually reviewed",
+  "artifact_sha256": "7859d6ff01b75ea74c7df22ff7efaeec73b4a7309794cd025857f45c7ffc8901",
+  "predictions_sha256": "60aafcb917038695fa4438c1713b56c80b49219f4cf15cf3965b10b2811e75ce",
+  "policy_sha256": "e4aa3be19ab544659eedbaab2ca324b56d3d3a75a9be25116850c4f6d09376e2",
+  "summary": "docs/model-supervision.md",
+  "summary_sha256": "16dd089a2c6b17a01b3ebd0a8b6a42a93f7fd8cceb792e12b421eca7e8487c49"
+}

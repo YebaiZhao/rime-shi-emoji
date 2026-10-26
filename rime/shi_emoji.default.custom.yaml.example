@@ -1,0 +1,15 @@
+# Merge into default.custom.yaml (a DIFFERENT file from the schema custom patch).
+# No reset field on the schema switch: restore the user's saved choice.
+patch:
+  "switcher/save_options/+":
+    - shi_emoji
+    - shi_emoji_skin_default
+    - shi_emoji_skin_light
+    - shi_emoji_skin_medium_light
+    - shi_emoji_skin_medium
+    - shi_emoji_skin_medium_dark
+    - shi_emoji_skin_dark
+    - shi_emoji_gender_neutral
+    - shi_emoji_gender_female
+    - shi_emoji_gender_male
+    - shi_emoji_adult

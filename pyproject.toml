@@ -1,0 +1,30 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rime-shi-emoji"
+version = "0.1.0a1"
+description = "Shi Emoji (诗Emoji): lightweight Chinese intent-to-emoji phrase matching for Rime"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+dependencies = []
+
+[project.optional-dependencies]
+test = ["PyYAML>=6,<7"]
+build = ["sentence-transformers>=3,<6", "pypinyin>=0.51,<1", "numpy>=1.24,<3"]
+
+[project.scripts]
+rime-shi-emoji = "shi_emoji.build:main"
+rime-shi-emoji-match = "shi_emoji.match:main"
+rime-shi-emoji-export = "shi_emoji.export:main"
+rime-shi-emoji-sources = "shi_emoji.sources:main"
+rime-shi-emoji-generate = "shi_emoji.generate:main"
+rime-shi-emoji-coverage = "shi_emoji.coverage:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.urls]
+Repository = "https://github.com/YebaiZhao/rime-shi-emoji"
+Issues = "https://github.com/YebaiZhao/rime-shi-emoji/issues"
