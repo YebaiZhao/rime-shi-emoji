@@ -22,6 +22,8 @@
 
 短词会按完整候选长度分层：人工明确映射可独立触发；弱双字映射需至少 5 字上下文，少量宽泛单字只在长候选中可用。原始模型建议不因这项策略而删除；最终运行时由 `data/short_term_policy.json` 与合并规则决定。
 
+繁体与简体共用语义规则。`data/traditional_aliases.json` 是用 OpenCC `s2t`、`s2tw`、`s2hk` 在构建时生成的字形别名；显式人工词条优先，自动别名相互冲突时生成器会报错。保护词、否定词和分句标记也同步转换，避免只扩词条导致繁体句中的误匹配。运行时只查已经生成的 Lua trie，不调用 OpenCC，也不改宿主候选的原字形。地区口语差异与一简多繁歧义仍需人工补充和回归。
+
 ## 不运行模型也能构建发布包
 
 Python 3.10+。仓库包含已生成的数据和完整来源记录，以下命令使用标准库：
@@ -35,6 +37,8 @@ python3 scripts/package_runtime.py
 
 输出 `dist/rime-shi-emoji-runtime.zip`，附文件摘要；相同构建环境、相同文件内容得到相同 ZIP。不同 Python/zlib 版本不承诺压缩字节完全一致。模型权重、个人 profile、完整原始预测和 Python 均不进入运行时 ZIP。
 
+只有在词库、短词策略或保护词源发生变化时，才需重新生成繁体别名。开发环境安装 `pip install -e '.[traditional]'` 后，依次运行 `PYTHONPATH=src python3 -m shi_emoji.traditional` 与 `PYTHONPATH=src python3 -m shi_emoji.export`。OpenCC 固定为 1.4.2，只用于构建；普通用户及从已提交产物重新打包的开发者不需要它。别名产物记录源数据指纹，词库变更却未重生成时导出会明确失败。
+
 ## 重新生成词法目录与保护词
 
 首次获取固定数据需要网络，随后可用缓存离线生成：
@@ -43,6 +47,7 @@ python3 scripts/package_runtime.py
 PYTHONPATH=src python3 -m shi_emoji.sources
 PYTHONPATH=src python3 -m shi_emoji.coverage --fetch --check
 PYTHONPATH=src python3 -m shi_emoji.wordguards
+PYTHONPATH=src python3 -m shi_emoji.traditional
 PYTHONPATH=src python3 -m shi_emoji.export
 PYTHONPATH=src python3 -m shi_emoji.preferences
 ```

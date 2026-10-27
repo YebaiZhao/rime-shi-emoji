@@ -19,7 +19,14 @@ Project code and original curated descriptions/rules are MIT. Generated dictiona
 - Usage: Chinese words and frequency/POS signals. Selected 2–6-character noun, verb, adjective, and idiom entries become model queries. No segmentation service runs at typing time.
 - Offline noun-boundary guards also adapt this dictionary (frequency >= 3, 3–8 Han characters). Guard words and source SHA-256 are recorded in `data/word_guards.json` and embedded into the Lua runtime dictionary. No jieba library runs at typing time.
 
-Redistributors of the generated Lua dictionary must include this file and both license files. Original project data remains MIT; the entire generated dataset should not be labeled solely MIT.
+## OpenCC traditional-character aliases
+
+- Source: [OpenCC](https://github.com/BYVoid/OpenCC), Python package version `1.4.2`.
+- License: Apache-2.0; full notice: [licenses/OpenCC-Apache-2.0.txt](licenses/OpenCC-Apache-2.0.txt).
+- Usage: the `s2t.json`, `s2tw.json`, and `s2hk.json` conversion dictionaries generate additional spelling aliases, negators, boundaries, and protected-word forms from this project's existing reviewed mappings. The generated alias file records a source fingerprint and is committed at `data/traditional_aliases.json`.
+- OpenCC code and dictionaries are used only when regenerating the source artifact. Neither the library nor its dictionary files are bundled into the typing-time ZIP; the resulting aliases in `data.lua` retain this notice and license.
+
+Redistributors of the generated Lua dictionary must include this file and all three data-license files. Original project data remains MIT; the entire generated dataset should not be labeled solely MIT.
 
 ## Build-time model (not bundled)
 
@@ -35,4 +42,4 @@ Rime, Squirrel, librime-lua and system fonts are user-provided dependencies, not
 
 ## Distribution checklist
 
-Keep the root MIT license, this notice, `licenses/Unicode-3.0.txt` and `licenses/jieba-MIT.txt` when distributing the generated runtime. The pinned CLDR notice is preserved verbatim rather than replaced with the current Unicode website's copyright year. URLs/commit IDs/SHA-256 records identify the actual source versions. This document records provenance and redistribution notices, not a legal warranty or an audit of upstream data ownership.
+Keep the root MIT license, this notice, `licenses/Unicode-3.0.txt`, `licenses/jieba-MIT.txt` and `licenses/OpenCC-Apache-2.0.txt` when distributing the generated runtime. The pinned CLDR notice is preserved verbatim rather than replaced with the current Unicode website's copyright year. URLs/commit IDs/SHA-256 records identify the actual source versions. This document records provenance and redistribution notices, not a legal warranty or an audit of upstream data ownership.

@@ -27,4 +27,6 @@ Pinned Unicode Emoji 16.0 defines the denominator, not the previous model catalo
 
 `data/coverage_report.json` lists every emoji, all entry terms and primary entry terms. All 1,906 base entries have at least one mapped term. This does NOT imply every emoji appears in the final enhanced suffix: the composer selects at most three concepts and one primary emoji per concept (up to two for a single concept). Primary-entry gaps are tracked separately.
 
+Build-time Traditional spelling aliases are deliberately excluded from these semantic-coverage counts: a second script form of the same term is not a new meaning. They are included in runtime matching and tested separately.
+
 The latest exact counts are in `data/coverage_report.json`; `data/coverage_budget.json` sets non-regression limits for the four summary metrics. Both `--check` and the offline tests enforce them. These are lexical mapping counts, not reachability after word guards or final composition. Do not satisfy these by inventing unrelated words. Next work: supervised alias expansion for the audited gaps, disambiguation and final-render reachability tests across the whole inventory. The old model catalog remains unchanged for reproducibility; future model builds must explicitly adopt the new inventory rather than silently invalidating existing prediction/review hashes.

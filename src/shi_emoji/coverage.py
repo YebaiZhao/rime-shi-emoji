@@ -124,7 +124,8 @@ def main():
                 path.write_bytes(urllib.request.urlopen(url, timeout=40).read())
     rows = build()
     from .datafiles import merged_data
-    report = audit(rows, merged_data(ROOT / "data/phrases.json"))
+    # Script variants are spelling aliases, not additional semantic coverage.
+    report = audit(rows, merged_data(ROOT / "data/phrases.json", include_traditional=False))
     (ROOT / "data/coverage_report.json").write_text(json.dumps(report, ensure_ascii=False, indent=2) + "\n")
     print(json.dumps(report["summary"], ensure_ascii=False, indent=2))
     limits = json.loads((ROOT / "data/coverage_budget.json").read_text())

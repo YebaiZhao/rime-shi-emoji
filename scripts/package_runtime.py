@@ -21,7 +21,7 @@ def package(root, output):
     for name in ("compose.lua", "data.lua", "filter.lua", "matcher.lua", "processor.lua", "settings.lua", "variants.lua", "variant_data.lua", "adult.lua"):
         path = root / "rime/lua/shi_emoji" / name
         files[path] = "lua/shi_emoji/" + path.name
-    for name in ("Unicode-3.0.txt", "jieba-MIT.txt"):
+    for name in ("Unicode-3.0.txt", "jieba-MIT.txt", "OpenCC-Apache-2.0.txt"):
         path = root / "licenses" / name
         files[path] = "licenses/" + path.name
     for name in ("shi_emoji_phrase.custom.yaml.example", "shi_emoji.default.custom.yaml.example"):

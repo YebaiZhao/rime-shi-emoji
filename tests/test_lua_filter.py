@@ -12,6 +12,19 @@ LUA_LIBRARY = str(RIME_LUA) if RIME_LUA.exists() else C.util.find_library("lua5.
 
 @unittest.skipUnless(LUA_LIBRARY, "Needs Squirrel Lua or system liblua5.4")
 class LuaFilterTests(unittest.TestCase):
+    def test_traditional_preview_and_explicit_gender(self):
+        self.execute("""
+          local a=Candidate('sentence',0,6,'開發','')
+          run({a})
+          assert(a.comment:find('👨‍💻',1,true),a.comment)
+          output={};local b=Candidate('sentence',0,6,'開發票','')
+          run({b})
+          assert(b.comment=='',b.comment)
+          output={};local c=Candidate('sentence',0,6,'女科學家','')
+          run({c})
+          assert(c.comment:find('👩‍🔬',1,true),c.comment)
+        """, settings={"gender": "male"})
+
     def test_literal_cow_and_scoped_expression_outputs(self):
         for text, suffix in [('牛','🐄 🐂'),('老牛','🐄 🐂'),('黄牛','🐂 🐄'),
                              ('奶牛','🐄 🐮'),('牛逼','🐂🍺'),('虾仁','🦐 🍤'),

@@ -13,6 +13,7 @@ dependencies = []
 [project.optional-dependencies]
 test = ["PyYAML>=6,<7"]
 build = ["sentence-transformers>=3,<6", "pypinyin>=0.51,<1", "numpy>=1.24,<3"]
+traditional = ["OpenCC==1.4.2"]
 
 [project.scripts]
 rime-shi-emoji = "shi_emoji.build:main"

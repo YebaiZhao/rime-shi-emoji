@@ -36,7 +36,8 @@ def main():
 
 
 def runtime_source(data):
-    license_note = "MIT; includes Unicode-3.0 data, see THIRD_PARTY_NOTICES.md" if "attribution" in data else "MIT"
+    license_note = ("MIT; includes Unicode-3.0, jieba MIT, and OpenCC Apache-2.0 derived data; "
+                    "see THIRD_PARTY_NOTICES.md") if "attribution" in data else "MIT"
     runtime = {key: value for key, value in data.items()
                if key in {"version", "negators", "boundaries", "word_guards", "attribution"}}
     runtime["rules"] = [{key: value for key, value in rule.items()

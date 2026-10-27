@@ -76,7 +76,31 @@ def resolve_layers(layers):
     return result, audit
 
 
-def merged_data(path, include_generated=True):
+def traditional_source_sha256(data):
+    source = {key: data[key] for key in ("rules", "word_guards", "negators", "boundaries")}
+    encoded = json.dumps(source, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
+    return hashlib.sha256(encoded).hexdigest()
+
+
+def apply_traditional_aliases(data, artifact):
+    if artifact["source_sha256"] != traditional_source_sha256(data):
+        raise ValueError("Traditional aliases are stale; regenerate data/traditional_aliases.json")
+    originals = {rule["phrases"][0]: rule for rule in data["rules"]}
+    for alias, source in sorted(artifact["aliases"].items()):
+        if alias in originals or source not in originals:
+            raise ValueError(f"Invalid traditional alias: {alias!r} <- {source!r}")
+        rule = deepcopy(originals[source])
+        rule["phrases"] = [alias]
+        data["rules"].append(rule)
+        data["mapping_audit"][alias] = [{"source": "traditional_alias", "kind": "script",
+            "origin": source, "original_emoji": rule["emoji"],
+            "eligible_emoji": rule["emoji"], "selected": True}]
+    for key in ("word_guards", "negators", "boundaries"):
+        data[key] = sorted(set(data[key]) | set(artifact[key]))
+    return data
+
+
+def merged_data(path, include_generated=True, include_traditional=True):
     path = Path(path)
     data = json.loads(path.read_text(encoding="utf-8"))
     generated_path = path.parent / "model_phrases.json"
@@ -108,4 +132,8 @@ def merged_data(path, include_generated=True):
     if guards_path.exists():
         generated_guards = json.loads(guards_path.read_text(encoding="utf-8"))["words"]
         data["word_guards"] = sorted(set(data.get("word_guards", [])) | set(generated_guards))
+    traditional_path = path.parent / "traditional_aliases.json"
+    if include_traditional and traditional_path.exists():
+        artifact = json.loads(traditional_path.read_text(encoding="utf-8"))
+        data = apply_traditional_aliases(data, artifact)
     return data

@@ -22,14 +22,15 @@ These are checked examples, not a promise to understand arbitrary Chinese. Match
 - An [experimental numbered candidate slot](docs/experimental-candidate-slot.md) is available as an opt-in: its number key commits emoji only. It sets a seven-item page, so an ordinary seventh candidate may still appear when there is no emoji match, and Wanxiang's `7` key no longer serves its original tone behavior. The default installation does not enable it.
 - Finds several concepts inside a sentence, rather than requiring an exact whole-sentence entry.
 - Runs locally with Lua and static data. The plugin does not collect typing telemetry; host IME logging is separate.
+- Simplified and Traditional spellings share one semantic mapping. OpenCC generates standard, Taiwan, and Hong Kong aliases at build time; no converter runs while typing. Regional colloquialisms still need curation.
 - The native menu keeps only the main switch. Skin tone, gender and optional edgy associations (重口联想) are static schema settings; one archive includes everything, with edgy associations off by default.
 - Auditable data: official names, curated literal meanings and associations, and model suggestions are resolved separately.
 
 ## Install and use
 
-**v0.1.0-alpha.1** is a prerelease candidate, primarily tested with macOS Squirrel and Simplified Chinese candidates. Installation into Luna Pinyin Simplified has also been checked in an isolated profile. Traditional-character vocabulary coverage is limited; other frontends are not yet verified.
+**v0.1.0-alpha.1** is an Alpha prerelease, primarily tested with macOS Squirrel. Isolated profiles have checked Wanxiang, Luna Pinyin Simplified, and Luna Pinyin with Traditional-character output. Other frontends are not yet verified.
 
-When a release is available, download `rime-shi-emoji-runtime.zip` from this repository's Releases. Until then, use **Code → Download ZIP** on GitHub and copy from `rime/lua/shi_emoji` instead of `lua/shi_emoji`; the YAML examples are in `rime/`. End users do not need Python.
+Download `rime-shi-emoji-runtime.zip` from [Releases](https://github.com/YebaiZhao/rime-shi-emoji/releases). Alternatively, use **Code → Download ZIP** on GitHub and copy from `rime/lua/shi_emoji` instead of `lua/shi_emoji`; the YAML examples are in `rime/`. End users do not need Python.
 
 Copy `lua/shi_emoji` into the Rime user directory; merge the two bundled YAML examples into your Chinese schema custom file and `default.custom.yaml`; redeploy/reload. Do not overwrite existing customizations. The schema ID determines the custom filename: `luna_pinyin_simp` uses `luna_pinyin_simp.custom.yaml`, not `luna_pinyin.custom.yaml`. Full instructions and an English quick start are in [INSTALL.md](INSTALL.md); see also the [manual integration guide](docs/manual-integration.md) for Luna Pinyin and existing `__patch` lists.
 
@@ -41,6 +42,7 @@ Defaults: original skin color, gender-neutral, edgy associations off. Female + m
 
 - Not a runtime semantic model. Missing vocabulary, ambiguity, sarcasm and negation can produce wrong or absent suggestions. Real-estate development may still trigger a programmer.
 - Word guards reduce substring errors, but can also suppress useful compound-word matches.
+- Auto-generated Traditional spellings do not imply complete regional vocabulary or ambiguity coverage; explicit curated entries take precedence.
 - Chinese interpretation belongs to the host schema. Each full candidate is matched independently; partial-word candidates are not treated as complete sentences.
 - Thousands of phrases and lexical entries for 1,906 base Emoji do **not** establish contextual reachability or semantic accuracy.
 - Engineering/regression checks are not an independent semantic benchmark. Broad accuracy, other platforms and long-running resource behavior remain unverified.
@@ -52,4 +54,4 @@ See [architecture and build commands](docs/architecture.md), [mapping provenance
 
 ## Licensing
 
-[MIT](LICENSE) covers original project code and rules. Generated data also adapts Unicode-3.0 and jieba MIT data; retain [third-party notices](THIRD_PARTY_NOTICES.md) and `licenses/` when redistributing. No model weights or third-party emoji artwork are shipped. This is an independent project, not an official Rime integration.
+[MIT](LICENSE) covers original project code and rules. Generated data also adapts Unicode-3.0, jieba MIT, and OpenCC Apache-2.0 data; retain [third-party notices](THIRD_PARTY_NOTICES.md) and `licenses/` when redistributing. No model weights or third-party emoji artwork are shipped. This is an independent project, not an official Rime integration.

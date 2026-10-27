@@ -11,10 +11,11 @@ class CoverageTests(unittest.TestCase):
     def setUpClass(cls):
         cls.rows = json.loads(Path("data/emoji_inventory.json").read_text())
         cls.data = merged_data("data/phrases.json")
+        cls.semantic_data = merged_data("data/phrases.json", include_traditional=False)
         cls.matcher = Matcher(cls.data)
 
     def test_inventory_and_all_base_entries(self):
-        report = audit(self.rows, self.data)
+        report = audit(self.rows, self.semantic_data)
         self.assertEqual(report["summary"]["inventory"], 3781)
         self.assertEqual(report["summary"]["base_emoji"], 1906)
         self.assertEqual(report["summary"]["zero_terms"], 0)
@@ -59,7 +60,7 @@ class CoverageTests(unittest.TestCase):
 
     def test_single_character_runtime_rules_are_reviewed(self):
         policy = json.loads(Path("data/short_term_policy.json").read_text())
-        active = {rule["phrases"][0]: rule for rule in self.data["rules"]
+        active = {rule["phrases"][0]: rule for rule in self.semantic_data["rules"]
                   if len(rule["phrases"][0]) == 1 and "\u3400" <= rule["phrases"][0] <= "\u9fff"}
         self.assertEqual(set(active), set(policy["standalone_single"]) | set(policy["contextual_single"]))
         for term, emoji in policy["standalone_single"].items():

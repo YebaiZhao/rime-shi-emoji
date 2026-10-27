@@ -10,7 +10,8 @@ function M.apply(emoji, phrase, settings)
   local tone = tones[settings.skin]
   -- Explicit wording wins over defaults. Existing gender stays untouched.
   local explicit = false
-  for _, word in ipairs({'女','男','妈妈','爸爸','母亲','父亲','姐姐','哥哥','妹妹','弟弟','老公','老婆','女士','先生','妻','夫'}) do
+  for _, word in ipairs({'女','男','妈妈','媽媽','爸爸','母亲','母親','父亲','父親',
+      '姐姐','姊姊','哥哥','妹妹','弟弟','老公','老婆','女士','先生','妻','夫'}) do
     if phrase:find(word,1,true) then explicit = true; break end
   end
   if explicit then

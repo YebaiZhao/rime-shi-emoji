@@ -4,7 +4,7 @@
 
 ## 环境与文件
 
-需要带 **librime-lua（Lua 5.4）** 的 Rime 前端和一个正常工作的中文方案。当前在 macOS 鼠须管 + 万象全拼验证主要功能；朙月拼音的手动补丁另有[可照做的示例](docs/manual-integration.md)。词库主要针对简体候选；繁体候选覆盖不足。其他前端与方案仍需各自验收。普通用户不需要 Python、模型、账号或后台服务。
+需要带 **librime-lua（Lua 5.4）** 的 Rime 前端和一个正常工作的中文方案。当前在 macOS 鼠须管 + 万象全拼验证主要功能；朙月拼音的手动补丁另有[可照做的示例](docs/manual-integration.md)。简繁候选共用映射，繁体字形别名已内置；其他前端与方案仍需各自验收。普通用户不需要 Python、OpenCC、模型、账号或后台服务。
 
 有 GitHub Release 时，下载统一的 `rime-shi-emoji-runtime.zip`；如果尚无 Release，也可在仓库网页用 **Code → Download ZIP** 下载源码，不用安装 Python。两种 ZIP 的目录层级不同：
 

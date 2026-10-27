@@ -35,6 +35,8 @@ class ReleaseDocTests(unittest.TestCase):
         notices=(ROOT/'THIRD_PARTY_NOTICES.md').read_text()
         self.assertIn('Unicode-3.0',notices)
         self.assertIn('jieba',notices)
+        self.assertIn('OpenCC',notices)
         self.assertIn('not bundled',notices)
         self.assertIn('UNICODE LICENSE V3',(ROOT/'licenses/Unicode-3.0.txt').read_text())
         self.assertIn('Copyright (c) 2013 Sun Junyi',(ROOT/'licenses/jieba-MIT.txt').read_text())
+        self.assertIn('Apache License',(ROOT/'licenses/OpenCC-Apache-2.0.txt').read_text())

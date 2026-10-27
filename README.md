@@ -21,15 +21,16 @@
 - **可选的 `0` 键实验**：高亮词有联想时，候选旁提示 `0 → Emoji`，按 `0` 只上屏 Emoji；不新增候选行，保留万象的 `7` 键用途。见[试用说明](docs/experimental-zero-key.md)，与第 7 项候选槽二选一。
 - **长句里找线索**：从多个片段组合最多三个概念，不要求整句已经收进词典。
 - **全程本地**：运行时只有 Lua 和静态数据，不联网、不加载模型、不依赖后台服务；插件自身不采集打字日志。宿主输入法的日志设置独立于本插件。
+- **简繁共用映射**：构建时用 OpenCC 从现有映射生成标准繁体、台湾和香港字形别名；输入时不运行转换器，原候选字形保持不变。地区口语和未收录的词仍需补充。
 - **有偏好，不强迫**：原生选单只保留总开关；肤色、性别与默认关闭的重口联想在方案配置文件中设置，所有文件在同一个安装包里。
 - **能追查来源**：正式名称、人工本义、人工联想与模型建议分层决策，不把模型分数当正确率。
 
 ## 开始使用
 
-当前准备版本为 **v0.1.0-alpha.1**，优先面向 macOS 鼠须管 + 简体中文方案试用。已隔离验证万象全拼和朙月拼音·简化字的接入；繁体词形覆盖不足，其他前端尚未完成兼容性验收。
-发布后可从本仓库 Releases 下载 `rime-shi-emoji-runtime.zip`；尚无 Release 时，可在仓库网页用 **Code → Download ZIP** 直接取源码。普通用户不需要 Python。两种 ZIP 的目录层级区别见[安装指南](INSTALL.md)。
+当前版本为 **v0.1.0-alpha.1**，优先面向 macOS 鼠须管试用。已隔离验证万象全拼、朙月拼音·简化字及朙月拼音繁体输出；其他前端尚未完成兼容性验收。
+从 [Releases](https://github.com/YebaiZhao/rime-shi-emoji/releases) 下载 `rime-shi-emoji-runtime.zip`；也可在仓库网页用 **Code → Download ZIP** 直接取源码。普通用户不需要 Python。两种 ZIP 的目录层级区别见[安装指南](INSTALL.md)。
 
-1. 解压，将 `lua/shi_emoji` 放进 Rime 用户目录的 `lua` 下。
+1. 解压，将 ZIP 中对应的 `shi_emoji` 文件夹放进 Rime 用户目录的 `lua` 下。
 2. 合并包内两个 `.yaml.example` 的配置：中文 schema custom 文件添加组件、总开关和三个低频偏好，`default.custom.yaml` 只保存总开关。不要覆盖已有配置。
 3. 重新部署、重载，在 Ctrl + 反引号选单中切到「诗Emoji开」。
 
@@ -55,6 +56,7 @@
 ## 能力边界，先说在前面
 
 - **不是实时语义模型**：词库有限，歧义、反讽、双重否定和陌生说法仍可能出错。「房地产开发」仍可能误联想到程序员。
+- **繁体是字形别名，不是第二套语义库**：自动转换不保证覆盖所有地区习惯用词，也可能存在一简对多繁的歧义；显式人工词条优先。
 - **中文解释由原方案决定**：插件分别匹配每条完整中文候选，不会把首选词的 Emoji 套到其他同音词上。局部候选不会被当成整句匹配。
 - **工程测试不是语义盲测**：本机原生 Rime、Lua、安装包和回归检查通过；没有独立总体准确率，也未完成长时间内存与跨平台验收。
 
@@ -80,6 +82,6 @@ PYTHONPATH=src python3 -m shi_emoji.match 奶牛 --top-k 20
 
 ## 许可与致谢
 
-原创代码与规则采用 [MIT](LICENSE)。派生词库另包含 Unicode-3.0 和 jieba MIT 数据，分发时须保留 [第三方声明](THIRD_PARTY_NOTICES.md) 与 `licenses/`；不能把整个生成词库只标成原创 MIT。无模型权重、无第三方 Emoji 图片，图形由系统字体显示。
+原创代码与规则采用 [MIT](LICENSE)。派生词库另包含 Unicode-3.0、jieba MIT 与 OpenCC Apache-2.0 数据，分发时须保留 [第三方声明](THIRD_PARTY_NOTICES.md) 与 `licenses/`；不能把整个生成词库只标成原创 MIT。无模型权重、无第三方 Emoji 图片，图形由系统字体显示。
 
 感谢 [Rime](https://github.com/rime/librime)、[librime-lua](https://github.com/hchunhui/librime-lua)、[Unicode CLDR](https://github.com/unicode-org/cldr-json)、[jieba](https://github.com/fxsjy/jieba) 和 [Sentence Transformers](https://www.sbert.net/)。本项目独立开发，不代表这些项目的官方插件或背书。
