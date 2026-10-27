@@ -12,7 +12,7 @@ from pathlib import Path
 class RimeIntegrationTests(unittest.TestCase):
     def probe(self, keys, state="on", menu=False, ascii_mode=False):
         command = [sys.executable, "scripts/rime_probe.py", "--user", os.environ["RIME_PROBE_USER"],
-                   "--keys", keys, "--option-state", state, "--reset-preferences"]
+                   "--keys", keys, "--option-state", state]
         if menu:
             command.append("--menu-toggle")
         if ascii_mode:
@@ -48,7 +48,7 @@ class RimeIntegrationTests(unittest.TestCase):
     def test_selected_homophone_uses_its_own_preview(self):
         rows = self.probe("xiaren")["candidates"]
         self.assertEqual(rows[0]["text"], "吓人")
-        self.assertIn("🧟 👹", rows[0]["comment"])
+        self.assertEqual(rows[0]["comment"], "")
         self.assertEqual(rows[2]["text"], "虾仁")
         self.assertEqual(rows[2]["comment"], "")
         selected = self.probe("xiaren{Down}{Down}")["candidates"]
@@ -68,18 +68,53 @@ class RimeIntegrationTests(unittest.TestCase):
 
             def probe(keys):
                 result = subprocess.run([sys.executable, "scripts/rime_probe.py", "--user", str(profile),
-                                         "--keys", keys, "--option-state", "on", "--reset-preferences"],
+                                         "--keys", keys, "--option-state", "on"],
                                         check=True, capture_output=True, text=True)
                 return json.loads(result.stdout)
 
             rows = probe("xiaren")["candidates"]
             self.assertEqual([row["text"] for row in rows[:3]], ["吓人", "下人", "虾仁"])
-            self.assertEqual(rows[6]["text"], "🧟 👹")
+            self.assertEqual(rows[6]["text"], "吓人")
             selected = probe("xiaren{Down}{Down}")
             self.assertEqual(selected["highlighted"], 2)
             self.assertEqual(selected["candidates"][6]["text"], "🦐 🍤")
             self.assertEqual(probe("xiaren{Down}{Down}7")["commit"], "🦐 🍤")
             self.assertEqual(probe("xiaren{space}")["commit"], "吓人")
+            self.assertFalse(any("诗Emoji" in row["comment"] for row in probe("en")["candidates"]))
+
+    def test_zero_key_commits_only_highlighted_emoji(self):
+        with tempfile.TemporaryDirectory(prefix="shi-emoji-zero-") as directory:
+            profile = Path(directory) / "profile"
+            subprocess.run([sys.executable, "scripts/prepare_wanxiang_probe.py", "--source",
+                            os.environ["RIME_PROBE_USER"], "--output", str(profile),
+                            "--zero-key"], check=True, capture_output=True, text=True)
+
+            def probe(keys, state="on"):
+                result = subprocess.run([sys.executable, "scripts/rime_probe.py", "--user", str(profile),
+                                         "--keys", keys, "--option-state", state],
+                                        check=True, capture_output=True, text=True)
+                return json.loads(result.stdout)
+
+            rows = probe("xiaren")["candidates"]
+            self.assertEqual(len(rows), 6)
+            self.assertEqual(rows[0]["comment"], "")
+            selected = probe("xiaren{Down}{Down}")
+            self.assertIn("0 → 🦐 🍤", selected["candidates"][2]["comment"])
+            self.assertEqual(probe("xiaren{Down}{Down}0")["commit"], "🦐 🍤")
+            self.assertEqual(probe("xiaren{space}")["commit"], "吓人")
+            self.assertEqual(probe("hao")["candidates"][0]["comment"], "")
+            self.assertEqual(probe("haoren")["candidates"][0]["comment"], "")
+            ice = probe("bing{Down}{Down}")
+            self.assertEqual(ice["candidates"][2]["text"], "冰")
+            self.assertIn("0 → 🧊", ice["candidates"][2]["comment"])
+            self.assertEqual(probe("bing{Down}{Down}0")["commit"], "🧊")
+            longer = probe("nizhenshiyigehaoren")
+            self.assertEqual(longer["candidates"][0]["text"], "你真是一个好人")
+            self.assertIn("0 → 🫵 🦸", longer["candidates"][0]["comment"])
+            self.assertEqual(probe("nizhenshiyigehaoren0")["commit"], "🫵 🦸")
+            self.assertEqual(probe("en0")["preedit"], "en⁴")
+            self.assertEqual(probe("xiaren7")["commit"], "")
+            self.assertEqual(probe("xiaren0", state="off")["commit"], "")
             self.assertFalse(any("诗Emoji" in row["comment"] for row in probe("en")["candidates"]))
 
     def test_tab_remains_wanxiang_syllable_navigation(self):

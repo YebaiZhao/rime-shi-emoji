@@ -20,7 +20,7 @@ class ReleaseDocTests(unittest.TestCase):
         self.assertEqual(len(blocks),2)
         for block,name in zip(blocks,['shi_emoji_phrase.custom.yaml.example','shi_emoji.default.custom.yaml.example']):
             source=(ROOT/'rime'/name).read_text()
-            source='\n'.join(line for line in source.splitlines() if not line.startswith('#')).strip()
+            source='\n'.join(line for line in source.splitlines() if not line.lstrip().startswith('#')).strip()
             self.assertEqual(block.strip(),source)
 
     def test_local_markdown_links_resolve(self):

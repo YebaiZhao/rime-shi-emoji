@@ -57,6 +57,18 @@ class CoverageTests(unittest.TestCase):
         self.assertTrue(matcher.search("蛋")["matches"])
         self.assertFalse(matcher.search("蛋糕")["matches"])
 
+    def test_single_character_runtime_rules_are_reviewed(self):
+        policy = json.loads(Path("data/short_term_policy.json").read_text())
+        active = {rule["phrases"][0]: rule for rule in self.data["rules"]
+                  if len(rule["phrases"][0]) == 1 and "\u3400" <= rule["phrases"][0] <= "\u9fff"}
+        self.assertEqual(set(active), set(policy["standalone_single"]) | set(policy["contextual_single"]))
+        for term, emoji in policy["standalone_single"].items():
+            self.assertEqual(active[term]["emoji"], emoji)
+            self.assertTrue(active[term]["exact_only"])
+        for term, emoji in policy["contextual_single"].items():
+            self.assertEqual(active[term]["emoji"], [emoji])
+            self.assertEqual(active[term]["min_context_len"], 5)
+
     def test_skin_variants_remain_explicitly_out_of_baseline(self):
         self.assertTrue(any(r["skin_variant"] for r in self.rows))
         self.assertTrue(any(r["subgroup"] == "country-flag" for r in self.rows))

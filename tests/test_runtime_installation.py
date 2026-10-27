@@ -56,7 +56,8 @@ class RuntimeInstallationTests(unittest.TestCase):
             (profile / "lua/shi_emoji").unlink()
             self.assertEqual(probe("off"), disabled)
 
-    def test_native_preference_menus_persist_and_bundled_extension(self):
+    def test_static_preferences_and_bundled_extension(self):
+        import yaml
         import test_package
         with tempfile.TemporaryDirectory(dir=ROOT/'dist',prefix='preferences-probe-') as directory:
             temp=Path(directory)
@@ -65,20 +66,27 @@ class RuntimeInstallationTests(unittest.TestCase):
             with zipfile.ZipFile(archive_path) as archive:
                 archive.extractall(temp/'extracted')
             runtime=temp/'extracted/rime-shi-emoji/lua/shi_emoji'
-            profile=temp/'profile'
+            profile=temp/'configured-profile'
             subprocess.run([sys.executable,'scripts/prepare_wanxiang_probe.py','--source',os.environ['RIME_PROBE_USER'],
-                            '--output',str(profile),'--runtime',str(runtime)],check=True,capture_output=True,text=True)
-            def probe(keys, labels=()):
-                command=[sys.executable,'scripts/rime_probe.py','--user',str(profile),'--option-state','on','--keys',keys]
-                for label in labels: command+=['--menu-select',label]
+                            '--output',str(profile),'--runtime',str(runtime),
+                            '--skin','medium','--gender','female','--adult'],
+                           check=True,capture_output=True,text=True)
+            def probe(user, keys):
+                command=[sys.executable,'scripts/rime_probe.py','--user',str(user),'--option-state','on','--keys',keys]
                 return json.loads(subprocess.run(command,check=True,capture_output=True,text=True).stdout)
-            result=probe('kaifa{Alt+Return}',['女性表情','中肤色','重口联想关'])
+            schema=yaml.safe_load((profile/'build/wanxiang.schema.yaml').read_text())
+            plugin_switches=[s for s in schema['switches'] if s.get('name','').startswith('shi_emoji')
+                             or any(v.startswith('shi_emoji') for v in s.get('options',[]))]
+            self.assertEqual([s['name'] for s in plugin_switches],['shi_emoji'])
+            default=yaml.safe_load((profile/'build/default.yaml').read_text())
+            self.assertEqual([v for v in default['switcher']['save_options'] if v.startswith('shi_emoji')],
+                             ['shi_emoji'])
+            result=probe(profile,'kaifa{Alt+Return}')
             self.assertEqual(result['commit'],'开发 👩🏽‍💻')
-            self.assertEqual(probe('kaifa{Alt+Return}')['commit'],'开发 👩🏽‍💻')
-            rows=probe('sese')['candidates']
-            self.assertFalse(any('〔重口 ' in r['comment'] for r in rows),rows)
-            rows=probe('sese{Down}')['candidates']
+            rows=probe(profile,'sese{Down}')['candidates']
             self.assertTrue(any(r['text'] in {'涩涩','色色'} and '〔重口 🍆🍑' in r['comment'] for r in rows),rows)
-            rows=probe('sese',['重口联想开'])['candidates']
-            self.assertFalse(any('〔重口 ' in r['comment'] for r in rows))
-            self.assertFalse(any('〔重口 ' in r['comment'] for r in probe('sese')['candidates']))
+            off_profile=temp/'default-profile'
+            subprocess.run([sys.executable,'scripts/prepare_wanxiang_probe.py','--source',os.environ['RIME_PROBE_USER'],
+                            '--output',str(off_profile),'--runtime',str(runtime)],
+                           check=True,capture_output=True,text=True)
+            self.assertFalse(any('〔重口 ' in r['comment'] for r in probe(off_profile,'sese{Down}')['candidates']))

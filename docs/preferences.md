@@ -1,18 +1,24 @@
-# 表情偏好与重口联想开关
+# 表情偏好与重口联想配置
 
-三个配置组均由 Rime 原生菜单管理，无独立 GUI。共享静态运行目录不等于两个 macOS 账号自动重新部署；各账号须分别重新部署／重启输入法。
+肤色、性别与重口联想在当前中文方案的 `.custom.yaml` 中设置，不占用 Rime 原生菜单；菜单只保留诗Emoji总开关。两账号可共用这份静态配置，但各账号仍须分别重新部署／重启输入法。
 
 下文的 74 项是该功能完成时的历史检查数；当前版本检查见 [发布工程](release-engineering.md)。
 
-## 菜单配置
+## 方案配置
 
-将 `rime/shi_emoji_phrase.custom.yaml.example` 的三个新开关组追加至已有 schema patch，不重复安装主开关及 processor/filter。将 `rime/shi_emoji.default.custom.yaml.example` 的保存项合并至 `default.custom.yaml`。重新部署、重载。
+在当前中文方案的 `.custom.yaml` 的 `patch:` 下修改以下值；例如万象是 `wanxiang.custom.yaml`。不要改自动生成的 `build/` 文件。
+
+```yaml
+  "shi_emoji/skin": default
+  "shi_emoji/gender": neutral
+  "shi_emoji/adult": false
+```
 
 - 肤色：原色（默认）、浅、中浅、中、中深、深。
 - 性别：中性（默认）、女性、男性。
 - 重口联想：关闭（默认）、开启。统一安装包内已包含相关文件，无需另装。
 
-菜单显示当前状态的布尔开关，选中会切换；肤色/性别是互斥多选项组。无需更改 Emoji 主开关的现有状态。原生菜单选择会保存至每个账号各自的 Rime 状态文件；共享静态插件不等于两账号自动共享偏好。
+对应值分别为 `default | light | medium_light | medium | medium_dark | dark`、`neutral | female | male`、`false | true`。改完重新部署并重载；无需改动主开关。`default.custom.yaml` 只需保存 `shi_emoji` 总开关，菜单选择仍由各账号各自记忆。旧版 `shi_emoji_skin_*`、`shi_emoji_gender_*`、`shi_emoji_adult` 菜单及保存项应从自定义补丁移除。
 
 ## 变体规则
 
@@ -24,7 +30,7 @@
 
 详见 [开关范围](adult-addon.md)。统一安装包内包含独立的映射模块，默认关闭，不需要额外下载。关闭时不加载、不查询；开启后建立的索引可缓存，但关掉后不查询。主开关关闭或英文模式同样阻止查询。
 
-默认安装开启后，仅在当前高亮候选旁分别显示主库和重口预览，不新增候选行。⌥+回车提交主库结果，⌃⌥+回车提交重口结果；Tab 保留万象原有行为。另行启用[实验候选槽](experimental-candidate-slot.md)时，数字键可只提交主库 Emoji。统一安装包中的扩展文件缺失或语法损坏属于安装错误，会明确报错，不再伪装成可选安装。它不是主库或其他输入法的内容过滤器。
+将 `shi_emoji/adult` 设为 `true` 后，仅在当前高亮候选旁分别显示主库和重口预览，不新增候选行。⌥+回车提交主库结果，⌃⌥+回车提交重口结果；Tab 保留万象原有行为。另行启用[实验候选槽](experimental-candidate-slot.md)时，数字键可只提交主库 Emoji。统一安装包中的扩展文件缺失或语法损坏属于安装错误，会明确报错，不再伪装成可选安装。它不是主库或其他输入法的内容过滤器。
 
 当前有 140 个输入短语、38 组联想；它们覆盖一批常见说法，不代表任意长句都能正确理解。短而多义的词仅在整条候选精确匹配时触发，减少普通语境误联想。
 
@@ -41,4 +47,4 @@ python scripts/prepare_wanxiang_probe.py --source /path/to/compiled/rime --outpu
 python scripts/check_release.py --profile dist/preferences-probe
 ```
 
-测试覆盖生成序列合法性、显式性别、肤色、不支持的组合、重口联想关闭/开启/再关闭、ZIP 内置扩展，以及原生选单选择后跨进程记忆。输入拼音的“sese”在当前隔离词典中优先解释为“瑟瑟”；移到“色色”时才在它旁边显示重口预览，不会把“色色”的联想套在“瑟瑟”上。
+测试覆盖生成序列合法性、显式性别、肤色、不支持的组合、重口联想静态关闭/开启、ZIP 内置扩展，以及总开关跨进程记忆。输入拼音的“sese”在当前隔离词典中优先解释为“瑟瑟”；移到“色色”时才在它旁边显示重口预览，不会把“色色”的联想套在“瑟瑟”上。

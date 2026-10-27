@@ -61,7 +61,6 @@ class VariantBuildTests(unittest.TestCase):
 class PreferenceLuaTests(unittest.TestCase):
     def test_expanded_edgy_candidates_and_false_positives(self):
         lua_tests.LuaFilterTests().execute("""
-          env.engine.context.get_option=function(_,n) return n=='shi_emoji' or n=='shi_emoji_adult' end
           local cases={
             {'今晚想看涩图','今晚想看涩图 🔞🖼️'},
             {'这个地狱笑话太冷了','这个地狱笑话太冷了 💀😂'},
@@ -80,54 +79,52 @@ class PreferenceLuaTests(unittest.TestCase):
             local expected=case[2] and case[2]:sub(#case[1]+2) or nil
             assert(edgy==expected,case[1]..': '..tostring(edgy))
           end
-        """)
+        """, settings={"adult": True})
 
     def test_basic_action_is_available_without_adult_extension(self):
         lua_tests.LuaFilterTests().execute("""
           run({Candidate('sentence',0,6,'万圣节暴打小朋友','')})
           assert(output[1].comment:find('🎃 👊 🧒',1,true),output[1].comment)
           assert(not package.loaded['shi_emoji.adult'])
-          env.engine.context.get_option=function(_,n) return n=='shi_emoji' or n=='shi_emoji_gender_female' end
-          output={};run({Candidate('sentence',0,6,'万圣节暴打小朋友','')})
+        """)
+        lua_tests.LuaFilterTests().execute("""
+          run({Candidate('sentence',0,6,'万圣节暴打小朋友','')})
           assert(output[1].comment:find('🎃 👊 👧',1,true),output[1].comment)
           assert(not package.loaded['shi_emoji.adult'])
-        """)
+        """, settings={"gender": "female"})
 
     def test_main_switch_and_ascii_block_adult_lookup(self):
         lua_tests.LuaFilterTests().execute("""
-          env.engine.context.get_option=function(_,n) return n=='shi_emoji_adult' end
+          env.engine.context.get_option=function() return false end
           run({Candidate('sentence',0,6,'涩涩','')})
           assert(#output==1 and not package.loaded['shi_emoji.adult'])
-          env.engine.context.get_option=function(_,n) return true end
+          env.engine.context.get_option=function(_,n) return n=='shi_emoji' or n=='ascii_mode' end
           output={};run({Candidate('sentence',0,6,'涩涩','')})
           assert(#output==1 and not package.loaded['shi_emoji.adult'])
-        """)
+        """, settings={"adult": True})
 
     def test_gender_skin_explicit_words_and_unsupported_emoji(self):
         lua_tests.LuaFilterTests().execute("""
           local variants=require('shi_emoji.variants')
-          local flags={shi_emoji_gender_female=true,shi_emoji_skin_medium=true}
-          local context={get_option=function(_,n) return flags[n] or false end}
-          assert(variants.apply('🧑‍💻','开发',context)=='👩🏽‍💻')
-          assert(variants.apply('👨‍🔬','男科学家',context)=='👨🏽‍🔬')
-          assert(variants.apply('👩‍🔬','女科学家',context)=='👩🏽‍🔬')
-          assert(variants.apply('🧒','小朋友',context)=='👧🏽')
-          assert(variants.apply('🐂🍺','牛逼',context)=='🐂🍺')
-          assert(variants.apply('🍆','茄子',context)=='🍆')
+          local settings={gender='female',skin='medium'}
+          assert(variants.apply('🧑‍💻','开发',settings)=='👩🏽‍💻')
+          assert(variants.apply('👨‍🔬','男科学家',settings)=='👨🏽‍🔬')
+          assert(variants.apply('👩‍🔬','女科学家',settings)=='👩🏽‍🔬')
+          assert(variants.apply('🧒','小朋友',settings)=='👧🏽')
+          assert(variants.apply('🐂🍺','牛逼',settings)=='🐂🍺')
+          assert(variants.apply('🍆','茄子',settings)=='🍆')
         """)
 
-    def test_adult_off_on_off_and_ordinary_candidate_preserved(self):
+    def test_static_adult_off_and_on_preserve_ordinary_candidates(self):
         lua_tests.LuaFilterTests().execute("""
           run({Candidate('sentence',0,6,'涩涩','')})
           assert(#output==1 and not package.loaded['shi_emoji.adult'])
-          env.engine.context.get_option=function(_,n) return n=='shi_emoji' or n=='shi_emoji_adult' end
-          output={};run({Candidate('sentence',0,6,'涩涩','')})
+        """)
+        lua_tests.LuaFilterTests().execute("""
+          run({Candidate('sentence',0,6,'涩涩','')})
           assert(#output==1 and output[1].comment:find('〔重口 🍆🍑',1,true))
           output={};run({Candidate('sentence',0,6,'开车','')})
           assert(#output==1 and output[1].text=='开车')
           assert(output[1].comment:find('〔诗Emoji 🚗',1,true))
           assert(output[1].comment:find('〔重口 🔞🚗',1,true))
-          env.engine.context.get_option=function(_,n) return n=='shi_emoji' end
-          output={};run({Candidate('sentence',0,6,'涩涩','')})
-          assert(#output==1)
-        """)
+        """, settings={"adult": True})

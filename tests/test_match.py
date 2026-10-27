@@ -27,6 +27,32 @@ class PhraseTests(unittest.TestCase):
     def test_unknown_returns_empty(self):
         self.assertEqual(self.emojis("嗯"), [])
 
+    def test_short_terms_depend_on_complete_candidate_length(self):
+        for text in ("病", "好", "好人", "你"):
+            with self.subTest(isolated=text):
+                self.assertEqual(self.emojis(text), [])
+        self.assertEqual(self.emojis("冰"), ["🧊"])
+        self.assertIn("🏖️", self.emojis("海边"))
+        longer = self.emojis("你真是一个好人")
+        self.assertIn("🫵", longer)
+        self.assertIn("🦸", longer)
+        self.assertNotIn("🦟", self.emojis("我今天生病了"))
+
+    def test_reviewed_literal_mappings(self):
+        for term, expected in [
+            ("牛", ["🐄", "🐂", "🐮"]),
+            ("虾", ["🦐"]),
+            ("苹果", ["🍎", "🍏"]),
+            ("蛋糕", ["🍰", "🎂"]),
+            ("乌龟", ["🐢"]),
+            ("橙子", ["🍊"]),
+            ("月亮", ["🌙", "🌕"]),
+        ]:
+            with self.subTest(term=term):
+                self.assertEqual(self.emojis(term), expected)
+        self.assertNotIn("🔥", self.emojis("我去坐火车"))
+        self.assertNotIn("🧠", self.emojis("我买了电脑"))
+
     def test_local_negation(self):
         result = self.matcher.search("我不想去海边")
         self.assertEqual(result["candidates"][0]["emoji"], "🏖️")

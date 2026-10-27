@@ -24,9 +24,11 @@ class PackageTests(unittest.TestCase):
             with zipfile.ZipFile(first) as archive:
                 self.assertIsNone(archive.testzip())
                 files = archive.namelist()
-                self.assertEqual(len(files), 36)
+                self.assertEqual(len(files), 39)
                 self.assertTrue(any(n.endswith('/adult.lua') for n in files))
                 self.assertIn('rime-shi-emoji/docs/experimental-candidate-slot.md', files)
+                self.assertIn('rime-shi-emoji/docs/experimental-zero-key.md', files)
+                self.assertIn('rime-shi-emoji/docs/manual-integration.md', files)
                 manifest = json.loads(archive.read("rime-shi-emoji/MANIFEST.sha256.json"))
                 self.assertEqual(set(files), {"rime-shi-emoji/" + n for n in manifest} |
                                  {"rime-shi-emoji/MANIFEST.sha256.json"})
@@ -57,8 +59,7 @@ class PackageTests(unittest.TestCase):
               assert(not package.path:find('/rime/lua/',1,true))
               run({Candidate('sentence',0,6,'电动车','')})
               assert(output[1].text=='电动车' and output[1].comment:find('🛵 🔋',1,true))
-              env.engine.context.get_option=function(_,name) return name=='shi_emoji' or name=='shi_emoji_adult' end
               output={}
               run({Candidate('sentence',0,6,'涩涩','')})
               assert(output[1].comment:find('🍆🍑',1,true), 'Single package includes extension')
-            """, lua_root=lua_root)
+            """, lua_root=lua_root, settings={"adult": True})

@@ -61,6 +61,8 @@ class Matcher:
                 if None not in node:
                     continue
                 rule, phrase = node[None], text[position:end]
+                if len(text) < rule.get("min_context_len", 0):
+                    continue
                 if rule.get("exact_only") and (position != 0 or end != len(text)):
                     continue
                 if any(a <= position and end <= b and (a != position or end != b) for a, b in guards):

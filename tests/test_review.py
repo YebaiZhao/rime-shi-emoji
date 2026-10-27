@@ -11,6 +11,8 @@ class ReviewBoundaryTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
             (root / "phrases.json").write_text(json.dumps({"rules": []}))
+            (root / "short_term_policy.json").write_text(json.dumps({
+                "standalone_single": {}, "contextual_single": {}}))
             generated = root / "model_phrases.json"
             generated.write_text(json.dumps({"rules": [], "attribution": "test"}))
             with self.assertRaisesRegex(ValueError, "need"):

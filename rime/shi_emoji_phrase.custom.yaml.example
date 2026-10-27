@@ -4,12 +4,13 @@ patch:
   "engine/processors/@before 0": lua_processor@*shi_emoji.processor
   "engine/filters/+":
     - lua_filter@*shi_emoji.filter
+  # Infrequent preferences: edit these values, then redeploy and reload Rime.
+  # skin: default | light | medium_light | medium | medium_dark | dark
+  "shi_emoji/skin": default
+  # gender: neutral | female | male; explicit gender words still take precedence.
+  "shi_emoji/gender": neutral
+  # adult: false (off) | true (on); controls the separate 重口联想 library.
+  "shi_emoji/adult": false
   "switches/+":
     - name: shi_emoji
       states: [诗Emoji关, 诗Emoji开]
-    - options: [shi_emoji_skin_default, shi_emoji_skin_light, shi_emoji_skin_medium_light, shi_emoji_skin_medium, shi_emoji_skin_medium_dark, shi_emoji_skin_dark]
-      states: [原色肤色, 浅肤色, 中浅肤色, 中肤色, 中深肤色, 深肤色]
-    - options: [shi_emoji_gender_neutral, shi_emoji_gender_female, shi_emoji_gender_male]
-      states: [中性表情, 女性表情, 男性表情]
-    - name: shi_emoji_adult
-      states: [重口联想关, 重口联想开]

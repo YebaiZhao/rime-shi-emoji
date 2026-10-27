@@ -3969,7 +3969,7 @@
         "🐢"
       ],
       "priority": -500,
-      "kind": "keyword",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -8318,6 +8318,18 @@
       "exact_only": false
     },
     {
+      "id": "lexical:冰",
+      "phrases": [
+        "冰"
+      ],
+      "emoji": [
+        "🧊"
+      ],
+      "priority": -500,
+      "kind": "literal",
+      "exact_only": true
+    },
+    {
       "id": "lexical:冰上溜石",
       "phrases": [
         "冰上溜石"
@@ -10017,11 +10029,10 @@
         "动车"
       ],
       "emoji": [
-        "🚄",
-        "🚅"
+        "🚄"
       ],
       "priority": -500,
-      "kind": "keyword",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -26613,6 +26624,18 @@
       "exact_only": false
     },
     {
+      "id": "lexical:开车",
+      "phrases": [
+        "开车"
+      ],
+      "emoji": [
+        "🚗"
+      ],
+      "priority": -500,
+      "kind": "literal",
+      "exact_only": false
+    },
+    {
       "id": "lexical:开锁",
       "phrases": [
         "开锁"
@@ -38999,6 +39022,19 @@
       "exact_only": true
     },
     {
+      "id": "lexical:月亮",
+      "phrases": [
+        "月亮"
+      ],
+      "emoji": [
+        "🌙",
+        "🌕"
+      ],
+      "priority": -500,
+      "kind": "literal",
+      "exact_only": false
+    },
+    {
       "id": "lexical:月度",
       "phrases": [
         "月度"
@@ -41446,6 +41482,18 @@
       ],
       "priority": -500,
       "kind": "keyword",
+      "exact_only": false
+    },
+    {
+      "id": "lexical:橙子",
+      "phrases": [
+        "橙子"
+      ],
+      "emoji": [
+        "🍊"
+      ],
+      "priority": -500,
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -60713,7 +60761,7 @@
         "🍏"
       ],
       "priority": -500,
-      "kind": "keyword",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -62378,11 +62426,11 @@
         "蛋糕"
       ],
       "emoji": [
-        "🎂",
-        "🍰"
+        "🍰",
+        "🎂"
       ],
       "priority": -500,
-      "kind": "keyword",
+      "kind": "literal",
       "exact_only": false
     },
     {

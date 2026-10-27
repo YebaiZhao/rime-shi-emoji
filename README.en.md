@@ -22,16 +22,16 @@ These are checked examples, not a promise to understand arbitrary Chinese. Match
 - An [experimental numbered candidate slot](docs/experimental-candidate-slot.md) is available as an opt-in: its number key commits emoji only. It sets a seven-item page, so an ordinary seventh candidate may still appear when there is no emoji match, and Wanxiang's `7` key no longer serves its original tone behavior. The default installation does not enable it.
 - Finds several concepts inside a sentence, rather than requiring an exact whole-sentence entry.
 - Runs locally with Lua and static data. The plugin does not collect typing telemetry; host IME logging is separate.
-- Native menu preferences for skin tone, gender and optional edgy associations (重口联想). One installation archive; the latter is off by default.
+- The native menu keeps only the main switch. Skin tone, gender and optional edgy associations (重口联想) are static schema settings; one archive includes everything, with edgy associations off by default.
 - Auditable data: official names, curated literal meanings and associations, and model suggestions are resolved separately.
 
 ## Install and use
 
-**v0.1.0-alpha.1** is a prerelease candidate, primarily tested with macOS Squirrel + Wanxiang full pinyin. Other frontends are not yet verified.
+**v0.1.0-alpha.1** is a prerelease candidate, primarily tested with macOS Squirrel and Simplified Chinese candidates. Installation into Luna Pinyin Simplified has also been checked in an isolated profile. Traditional-character vocabulary coverage is limited; other frontends are not yet verified.
 
-When a release is available, download `rime-shi-emoji-runtime.zip` from this repository's Releases. Before publication, build it using `python3 scripts/package_runtime.py`. End users do not need Python.
+When a release is available, download `rime-shi-emoji-runtime.zip` from this repository's Releases. Until then, use **Code → Download ZIP** on GitHub and copy from `rime/lua/shi_emoji` instead of `lua/shi_emoji`; the YAML examples are in `rime/`. End users do not need Python.
 
-Copy `lua/shi_emoji` into the Rime user directory; merge the two bundled YAML examples into your Chinese schema custom file and `default.custom.yaml`; redeploy/reload. Do not overwrite existing customizations. Full instructions and an English quick start are in [INSTALL.md](INSTALL.md).
+Copy `lua/shi_emoji` into the Rime user directory; merge the two bundled YAML examples into your Chinese schema custom file and `default.custom.yaml`; redeploy/reload. Do not overwrite existing customizations. The schema ID determines the custom filename: `luna_pinyin_simp` uses `luna_pinyin_simp.custom.yaml`, not `luna_pinyin.custom.yaml`. Full instructions and an English quick start are in [INSTALL.md](INSTALL.md); see also the [manual integration guide](docs/manual-integration.md) for Luna Pinyin and existing `__patch` lists.
 
 Enable **诗Emoji开** in the Ctrl + grave switcher menu. Only the highlighted full Chinese candidate shows a preview; other rows stay unchanged. Option+Return commits the highlighted candidate plus its main emoji; Control+Option+Return chooses the optional edgy preview. Tab always keeps the host schema's behavior. Committing and Escape do not disable the plugin.
 

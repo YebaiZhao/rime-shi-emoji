@@ -3,13 +3,3 @@
 patch:
   "switcher/save_options/+":
     - shi_emoji
-    - shi_emoji_skin_default
-    - shi_emoji_skin_light
-    - shi_emoji_skin_medium_light
-    - shi_emoji_skin_medium
-    - shi_emoji_skin_medium_dark
-    - shi_emoji_skin_dark
-    - shi_emoji_gender_neutral
-    - shi_emoji_gender_female
-    - shi_emoji_gender_male
-    - shi_emoji_adult

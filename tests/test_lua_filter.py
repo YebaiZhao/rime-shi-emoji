@@ -14,7 +14,9 @@ LUA_LIBRARY = str(RIME_LUA) if RIME_LUA.exists() else C.util.find_library("lua5.
 class LuaFilterTests(unittest.TestCase):
     def test_literal_cow_and_scoped_expression_outputs(self):
         for text, suffix in [('牛','🐄 🐂'),('老牛','🐄 🐂'),('黄牛','🐂 🐄'),
-                             ('奶牛','🐄 🐮'),('牛逼','🐂🍺'),('虾仁','🦐 🍤')]:
+                             ('奶牛','🐄 🐮'),('牛逼','🐂🍺'),('虾仁','🦐 🍤'),
+                             ('虾','🦐'),('苹果','🍎 🍏'),('蛋糕','🍰 🎂'),
+                             ('乌龟','🐢'),('橙子','🍊'),('月亮','🌙 🌕')]:
             with self.subTest(text=text):
                 self.execute("run({Candidate('sentence',0,6," + json.dumps(text, ensure_ascii=False)
                              + ",'')}); assert(#output==1 and output[1].text=="
@@ -34,7 +36,7 @@ class LuaFilterTests(unittest.TestCase):
             body.append('end')
         self.execute('\n'.join(body))
 
-    def execute(self, body, lua_root=Path("rime/lua"), slot=False):
+    def execute(self, body, lua_root=Path("rime/lua"), slot=False, settings=None):
         if RIME_LUA.exists():
             self.rime = C.CDLL(str(BASE / "librime.1.dylib"), mode=C.RTLD_GLOBAL)
         lua = C.CDLL(LUA_LIBRARY, mode=C.RTLD_GLOBAL)
@@ -48,7 +50,9 @@ class LuaFilterTests(unittest.TestCase):
         state = lua.luaL_newstate()
         lua.luaL_openlibs(state)
         prefix = str((lua_root / "?.lua").resolve()) + ";"
-        script = "package.path = " + json.dumps(prefix, ensure_ascii=False) + " .. package.path\n" + """
+        settings = {"skin": "default", "gender": "neutral", "adult": False} | (settings or {})
+        configuration = "local CONFIG={skin=" + json.dumps(settings["skin"]) + ",gender=" + json.dumps(settings["gender"]) + ",adult=" + json.dumps(settings["adult"]) + "}\n"
+        script = "package.path = " + json.dumps(prefix, ensure_ascii=False) + " .. package.path\n" + configuration + """
           local output = {}
           function yield(candidate) output[#output + 1] = candidate end
           function Candidate(kind, start, finish, text, comment)
@@ -70,7 +74,14 @@ class LuaFilterTests(unittest.TestCase):
             end},
             get_selected_candidate=function(self) return output[self.selected_index] end}
           local env = {engine={context=context, schema={config={
-            get_bool=function(_, key) return key=='shi_emoji/candidate_slot' and SLOT_ENABLED end,
+            get_bool=function(_, key)
+              if key=='shi_emoji/adult' then return CONFIG.adult end
+              return key=='shi_emoji/candidate_slot' and SLOT_ENABLED
+            end,
+            get_string=function(_, key)
+              if key=='shi_emoji/skin' then return CONFIG.skin end
+              if key=='shi_emoji/gender' then return CONFIG.gender end
+            end,
             get_int=function(_, key) return key=='menu/page_size' and 7 end
           }}}}
           filter.init(env)
@@ -104,7 +115,7 @@ class LuaFilterTests(unittest.TestCase):
           run({a,b,c})
           assert(#output==3 and output[1].text=='吓人' and output[2].text=='虾仁')
           assert(output[1].comment:find('释义',1,true)==1)
-          assert(output[1].comment:find('🧟 👹',1,true))
+          assert(output[1].comment=='释义')
           assert(output[2].comment=='')
           select(2)
           assert(output[1].comment=='释义')
@@ -113,23 +124,35 @@ class LuaFilterTests(unittest.TestCase):
           assert(output[2].comment=='' and output[3].comment=='')
         """)
 
+    def test_short_candidate_preview_is_quiet_until_context_is_longer(self):
+        self.execute("""
+          for _,word in ipairs({'病','好','好人','你'}) do
+            output={};run({Candidate('sentence',0,6,word,'')})
+            assert(output[1].comment=='',word)
+          end
+          output={};run({Candidate('sentence',0,6,'冰','')})
+          assert(output[1].comment:find('🧊',1,true))
+          output={};run({Candidate('sentence',0,6,'你真是一个好人','')})
+          assert(output[1].comment:find('🫵 🦸',1,true),output[1].comment)
+        """)
+
     def test_dynamic_candidate_slot_follows_short_and_full_pages(self):
         self.execute("""
           run({Candidate('sentence',0,6,'吓人',''),Candidate('sentence',0,6,'虾仁','')})
           assert(#output==3 and output[3].type=='shi_emoji')
-          assert(output[3].text=='🧟 👹',output[3].text)
+          assert(output[3].text=='吓人',output[3].text)
           select(2)
           assert(output[3].text=='🦐 🍤',output[3].text)
           local rows={}
           for i=1,5 do rows[i]=Candidate('sentence',0,6,'甲乙','') end
           rows[6]=Candidate('sentence',0,6,'虾仁','')
-          rows[7]=Candidate('sentence',0,6,'吓人','')
+          rows[7]=Candidate('sentence',0,6,'海边','')
           output={};run(rows)
           assert(#output==9 and output[7].type=='shi_emoji' and output[8]==rows[7])
           select(6)
           assert(output[7].text=='🦐 🍤',output[7].text)
           select(8)
-          assert(output[9].type=='shi_emoji' and output[9].text=='🧟 👹')
+          assert(output[9].type=='shi_emoji' and output[9].text=='🏖️')
         """, slot=True)
 
     def test_partial_word_is_not_used_for_whole_sentence_enhancement(self):

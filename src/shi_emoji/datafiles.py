@@ -5,6 +5,42 @@ import json
 from pathlib import Path
 
 
+def short_han_phrase(phrase):
+    return len(phrase) <= 2 and any('\u3400' <= char <= '\u9fff' for char in phrase)
+
+
+def apply_short_term_policy(rules, policy):
+    standalone = policy["standalone_single"]
+    contextual = policy["contextual_single"]
+    result = []
+    for rule in rules:
+        phrase = rule["phrases"][0]
+        if not short_han_phrase(phrase):
+            result.append(rule)
+            continue
+        if len(phrase) == 1:
+            if phrase in standalone:
+                rule["emoji"] = standalone[phrase]
+                rule["exact_only"] = True
+            elif phrase in contextual:
+                rule["emoji"] = [contextual[phrase]]
+                rule["exact_only"] = False
+                rule["min_context_len"] = 5
+            else:
+                continue
+        elif rule["mapping_source"] == "curated":
+            pass
+        elif rule["mapping_source"] == "lexical" and (
+                rule["kind"] in {"literal", "association"}
+                or rule["kind"] == "name" and (len(rule["emoji"]) == 1
+                    or all(0x1f1e6 <= ord(char) <= 0x1f1ff for char in rule["emoji"][0]))):
+            pass
+        else:
+            rule["min_context_len"] = 5
+        result.append(rule)
+    return result
+
+
 def resolve_layers(layers):
     """Resolve per phrase, without mutating or sharing source rule objects."""
     offers = {}
@@ -66,6 +102,8 @@ def merged_data(path, include_generated=True):
     if lexical_path.exists():
         layers.append(("lexical", 200, json.loads(lexical_path.read_text(encoding="utf-8"))["rules"]))
     data["rules"], data["mapping_audit"] = resolve_layers(layers)
+    short_policy = json.loads((path.parent / "short_term_policy.json").read_text(encoding="utf-8"))
+    data["rules"] = apply_short_term_policy(data["rules"], short_policy)
     guards_path = path.parent / "word_guards.json"
     if guards_path.exists():
         generated_guards = json.loads(guards_path.read_text(encoding="utf-8"))["words"]

@@ -72,7 +72,6 @@ def main():
     p.add_argument("--ascii", action="store_true")
     p.add_argument("--menu-toggle", action="store_true", help="Toggle 诗Emoji through the native switcher menu")
     p.add_argument("--menu-select", action="append", default=[], help="Select exact native option label; repeat for several preferences")
-    p.add_argument("--reset-preferences", action="store_true", help="Initialize neutral/original/edgy-associations-off for independent regression tests")
     args = p.parse_args()
     lib = C.CDLL(str(args.library), mode=C.RTLD_GLOBAL)
     plugin = C.CDLL(str(args.plugin), mode=C.RTLD_GLOBAL)
@@ -97,12 +96,6 @@ def main():
         if not fn("select_schema", C.c_int, C.c_size_t, C.c_char_p)(session, args.schema.encode()):
             raise RuntimeError("Schema selection failed")
         fn("set_option", None, C.c_size_t, C.c_char_p, C.c_int)(session, b"ascii_mode", int(args.ascii))
-        if args.reset_preferences:
-            for group, values in [('skin',['default','light','medium_light','medium','medium_dark','dark']),
-                                  ('gender',['neutral','female','male'])]:
-                for i,value in enumerate(values):
-                    fn('set_option',None,C.c_size_t,C.c_char_p,C.c_int)(session,('shi_emoji_'+group+'_'+value).encode(),int(i==0))
-            fn('set_option',None,C.c_size_t,C.c_char_p,C.c_int)(session,b'shi_emoji_adult',0)
         if args.mode or args.option_state != "saved":
             fn("set_option", None, C.c_size_t, C.c_char_p, C.c_int)(
                 session, b"shi_emoji", int(args.mode or args.option_state == "on"))

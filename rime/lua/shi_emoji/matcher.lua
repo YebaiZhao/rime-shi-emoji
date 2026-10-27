@@ -28,6 +28,7 @@ end
 
 function M.search(index, text, limit)
   local result, scores, position, groups = {}, {}, 1, {}
+  local text_length = utf8.len(text)
   local guards, start = {}, 1
   while start <= #text do
     local node, finish = index.guard_root, start
@@ -66,7 +67,9 @@ function M.search(index, text, limit)
     while finish <= #text and node[text:sub(finish, finish)] do
       node = node[text:sub(finish, finish)]
       finish = finish + 1
-      if node.rule and not protected(position, finish)
+      if node.rule and (not node.rule.min_context_len
+          or text_length >= node.rule.min_context_len)
+          and not protected(position, finish)
           and (not node.rule.exact_only or (position == 1 and finish == #text + 1)) then
         local found, phrase = node.rule, text:sub(position, finish - 1)
         groups[#groups + 1] = {start = position, finish = finish, phrase = phrase,

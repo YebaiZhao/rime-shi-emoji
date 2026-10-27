@@ -40,7 +40,7 @@ def runtime_source(data):
     runtime = {key: value for key, value in data.items()
                if key in {"version", "negators", "boundaries", "word_guards", "attribution"}}
     runtime["rules"] = [{key: value for key, value in rule.items()
-                         if key in {"id", "phrases", "emoji", "priority", "suffix", "exact_only"}}
+                         if key in {"id", "phrases", "emoji", "priority", "suffix", "exact_only", "min_context_len"}}
                         for rule in data["rules"]]
     return "-- Generated from reviewed phrase data; " + license_note + "\nreturn " + lua_value(runtime) + "\n"
 

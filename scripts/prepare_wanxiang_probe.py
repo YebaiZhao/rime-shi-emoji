@@ -14,7 +14,13 @@ def main():
     p.add_argument("--schema", default="wanxiang", help="Compiled Chinese schema to adapt")
     p.add_argument("--runtime", type=Path, help="Extracted runtime lua/shi_emoji directory; defaults to source checkout")
     p.add_argument("--candidate-slot", action="store_true", help="Enable experimental dynamic candidate slot")
+    p.add_argument("--zero-key", action="store_true", help="Use 0 for highlighted Emoji and restore six-candidate pages")
+    p.add_argument("--skin", choices=("default", "light", "medium_light", "medium", "medium_dark", "dark"))
+    p.add_argument("--gender", choices=("neutral", "female", "male"))
+    p.add_argument("--adult", action="store_true", help="Enable the static 重口联想 preference")
     args = p.parse_args()
+    if args.candidate_slot and args.zero_key:
+        p.error("Choose either --candidate-slot or --zero-key")
     source, output = args.source.resolve(), args.output.resolve()
     output.mkdir(parents=True, exist_ok=False)
     build = output / "build"
@@ -25,6 +31,7 @@ def main():
     default = yaml.safe_load((source / "build/default.yaml").read_text())
     default["switcher"]["fold_options"] = False  # Deterministic option-menu tests.
     saved = default["switcher"].setdefault("save_options", [])
+    saved[:] = [option for option in saved if not option.startswith("shi_emoji")]
     root = Path(__file__).resolve().parents[1]
     options = yaml.safe_load((root/'rime/shi_emoji.default.custom.yaml.example').read_text())['patch']['switcher/save_options/+']
     for option in options:
@@ -41,12 +48,21 @@ def main():
                               if not item.get("name",'').startswith(name)
                               and not any(o.startswith(name) for o in item.get('options',[]))]
         schema.pop(name, None)
+    patch = yaml.safe_load((root/'rime/shi_emoji_phrase.custom.yaml.example').read_text())['patch']
     schema["engine"]["processors"].insert(0, "lua_processor@*shi_emoji.processor")
     schema["engine"]["filters"].append("lua_filter@*shi_emoji.filter")
-    schema["switches"].extend(yaml.safe_load((root/'rime/shi_emoji_phrase.custom.yaml.example').read_text())['patch']['switches/+'])
+    schema["switches"].extend(patch['switches/+'])
+    schema["shi_emoji"] = {key.removeprefix('shi_emoji/'): value for key, value in patch.items()
+                           if key.startswith('shi_emoji/')}
+    if args.skin: schema["shi_emoji"]["skin"] = args.skin
+    if args.gender: schema["shi_emoji"]["gender"] = args.gender
+    if args.adult: schema["shi_emoji"]["adult"] = True
     if args.candidate_slot:
         schema["menu"]["page_size"] = 7
-        schema["shi_emoji"] = {"candidate_slot": True}
+        schema["shi_emoji"]["candidate_slot"] = True
+    if args.zero_key:
+        schema["menu"]["page_size"] = 6
+        schema["shi_emoji"]["zero_key"] = True
     schema["translator"]["enable_user_dict"] = False
     (build / (args.schema + ".schema.yaml")).write_text(yaml.safe_dump(schema, allow_unicode=True))
     lua = output / "lua"
