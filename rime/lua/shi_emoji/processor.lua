@@ -23,7 +23,9 @@ function M.func(key, env)
   if adult and not env.settings.adult then return 2 end
   local suffix = preview.suffix(candidate.text, env.settings, adult)
   if not suffix then return 2 end
-  env.engine:commit_text(zero and suffix or candidate.text .. " " .. suffix)
+  local output = zero and context:get_option("shi_emoji_emoji_only")
+      and suffix or candidate.text .. " " .. suffix
+  env.engine:commit_text(output)
   context:clear()
   return 1
 end

@@ -12,6 +12,7 @@ def short_han_phrase(phrase):
 def apply_short_term_policy(rules, policy):
     standalone = policy["standalone_single"]
     contextual = policy["contextual_single"]
+    standalone_double = set(policy["standalone_double"])
     result = []
     for rule in rules:
         phrase = rule["phrases"][0]
@@ -28,7 +29,7 @@ def apply_short_term_policy(rules, policy):
                 rule["min_context_len"] = 5
             else:
                 continue
-        elif rule["mapping_source"] == "curated":
+        elif phrase in standalone_double or rule["mapping_source"] == "curated":
             pass
         elif rule["mapping_source"] == "lexical" and (
                 rule["kind"] in {"literal", "association"}

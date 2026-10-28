@@ -12802,6 +12802,19 @@
       "exact_only": false
     },
     {
+      "id": "lexical:发脾气",
+      "phrases": [
+        "发脾气"
+      ],
+      "emoji": [
+        "😡",
+        "💢"
+      ],
+      "priority": -500,
+      "kind": "association",
+      "exact_only": false
+    },
+    {
       "id": "lexical:发芽",
       "phrases": [
         "发芽"
@@ -15864,6 +15877,18 @@
       "priority": -500,
       "kind": "keyword",
       "exact_only": true
+    },
+    {
+      "id": "lexical:喝咖啡",
+      "phrases": [
+        "喝咖啡"
+      ],
+      "emoji": [
+        "☕"
+      ],
+      "priority": -500,
+      "kind": "association",
+      "exact_only": false
     },
     {
       "id": "lexical:喝彩",
@@ -41872,6 +41897,18 @@
       "exact_only": false
     },
     {
+      "id": "lexical:歪嘴笑",
+      "phrases": [
+        "歪嘴笑"
+      ],
+      "emoji": [
+        "😏"
+      ],
+      "priority": -500,
+      "kind": "association",
+      "exact_only": false
+    },
+    {
       "id": "lexical:死",
       "phrases": [
         "死"
@@ -53197,6 +53234,18 @@
       ],
       "priority": -500,
       "kind": "keyword",
+      "exact_only": false
+    },
+    {
+      "id": "lexical:眨眼笑",
+      "phrases": [
+        "眨眼笑"
+      ],
+      "emoji": [
+        "😉"
+      ],
+      "priority": -500,
+      "kind": "association",
       "exact_only": false
     },
     {

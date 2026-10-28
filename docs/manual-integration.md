@@ -33,7 +33,7 @@ __patch:
         - lua_filter@*shi_emoji.filter
       "shi_emoji/skin": default
       "shi_emoji/gender": neutral
-      "shi_emoji/adult": false
+      "shi_emoji/adult": true
       "switches/+":
         - name: shi_emoji
           states: [诗Emoji关, 诗Emoji开]
@@ -47,6 +47,6 @@ __patch:
 
 ## 按键与验证
 
-默认模式不改每页候选数，也不改原方案的数字键。中文模式打开「诗Emoji开」，输入 `kaifa` 并高亮“开发”或“開發”：都应看到 🧑‍💻 预览；普通空格上屏原文，macOS ⌥+回车上屏「原候选 + 🧑‍💻」，不会把繁体候选改成简体。想让主键区 `0` 只上屏 Emoji，可再按[实验 `0` 键](experimental-zero-key.md)配置；它会接管命中时原方案的 `0` 功能，所以需要自行确认方案是否用 `0` 输入声调或选词。不要同时启用[第 7 项候选槽](experimental-candidate-slot.md)。
+默认模式不改每页候选数，也不改原方案的数字键。中文模式打开「诗Emoji开」，输入 `kaifa` 并高亮“开发”或“開發”：都应看到 🧑‍💻 预览；普通空格上屏原文，macOS ⌥+回车上屏「原候选 + 🧑‍💻」，不会把繁体候选改成简体。想让主键区 `0` 上屏，可再按[实验 `0` 键](experimental-zero-key.md)配置；默认提交原文＋Emoji，选单可切成仅Emoji。它会接管命中时原方案的 `0` 功能，所以需要自行确认方案是否用 `0` 输入声调或选词。不要同时启用[第 7 项候选槽](experimental-candidate-slot.md)。
 
 部署后菜单没有开关：先查方案 ID 和 `switches`；有开关却无预览：查 processor/filter 是否各出现一次、Lua 文件是否放对目录、是否在中文模式；部署报 YAML 错：先找重复 `patch:`、重复键和缩进。修改原配置前留一份自己的副本，排障时不要删用户词库或整个 Rime 目录。

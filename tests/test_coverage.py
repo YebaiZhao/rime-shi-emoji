@@ -70,6 +70,15 @@ class CoverageTests(unittest.TestCase):
             self.assertEqual(active[term]["emoji"], [emoji])
             self.assertEqual(active[term]["min_context_len"], 5)
 
+    def test_reviewed_double_terms_are_not_context_gated(self):
+        policy = json.loads(Path("data/short_term_policy.json").read_text())
+        active = {rule["phrases"][0]: rule for rule in self.semantic_data["rules"]}
+        for term in policy["standalone_double"]:
+            with self.subTest(term=term):
+                self.assertEqual(len(term), 2)
+                self.assertIn(term, active)
+                self.assertNotIn("min_context_len", active[term])
+
     def test_skin_variants_remain_explicitly_out_of_baseline(self):
         self.assertTrue(any(r["skin_variant"] for r in self.rows))
         self.assertTrue(any(r["subgroup"] == "country-flag" for r in self.rows))

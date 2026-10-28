@@ -14,10 +14,10 @@ def main():
     p.add_argument("--schema", default="wanxiang", help="Compiled Chinese schema to adapt")
     p.add_argument("--runtime", type=Path, help="Extracted runtime lua/shi_emoji directory; defaults to source checkout")
     p.add_argument("--candidate-slot", action="store_true", help="Enable experimental dynamic candidate slot")
-    p.add_argument("--zero-key", action="store_true", help="Use 0 for highlighted Emoji and restore six-candidate pages")
+    p.add_argument("--zero-key", action="store_true", help="Use 0 for highlighted text plus Emoji and restore six-candidate pages")
     p.add_argument("--skin", choices=("default", "light", "medium_light", "medium", "medium_dark", "dark"))
     p.add_argument("--gender", choices=("neutral", "female", "male"))
-    p.add_argument("--adult", action="store_true", help="Enable the static 重口联想 preference")
+    p.add_argument("--no-adult", action="store_true", help="Disable the default-on 重口联想 preference")
     args = p.parse_args()
     if args.candidate_slot and args.zero_key:
         p.error("Choose either --candidate-slot or --zero-key")
@@ -36,7 +36,6 @@ def main():
     options = yaml.safe_load((root/'rime/shi_emoji.default.custom.yaml.example').read_text())['patch']['switcher/save_options/+']
     for option in options:
         if option not in saved: saved.append(option)
-    (build / "default.yaml").write_text(yaml.safe_dump(default, allow_unicode=True))
     schema = yaml.safe_load((source / "build" / (args.schema + ".schema.yaml")).read_text())
     # Probe fixtures may originate from either side of the namespace migration.
     for name in ("semantic_emoji", "shi_emoji"):
@@ -56,13 +55,18 @@ def main():
                            if key.startswith('shi_emoji/')}
     if args.skin: schema["shi_emoji"]["skin"] = args.skin
     if args.gender: schema["shi_emoji"]["gender"] = args.gender
-    if args.adult: schema["shi_emoji"]["adult"] = True
+    if args.no_adult: schema["shi_emoji"]["adult"] = False
     if args.candidate_slot:
         schema["menu"]["page_size"] = 7
         schema["shi_emoji"]["candidate_slot"] = True
     if args.zero_key:
         schema["menu"]["page_size"] = 6
         schema["shi_emoji"]["zero_key"] = True
+        schema["switches"].append({"name": "shi_emoji_emoji_only",
+                                   "states": ["原文＋Emoji", "仅Emoji"]})
+        if "shi_emoji_emoji_only" not in saved:
+            saved.append("shi_emoji_emoji_only")
+    (build / "default.yaml").write_text(yaml.safe_dump(default, allow_unicode=True))
     schema["translator"]["enable_user_dict"] = False
     (build / (args.schema + ".schema.yaml")).write_text(yaml.safe_dump(schema, allow_unicode=True))
     lua = output / "lua"

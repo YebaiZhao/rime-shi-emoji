@@ -13,7 +13,7 @@
 | Release 运行时 ZIP | `lua/shi_emoji` | ZIP 根目录 |
 | GitHub 源码 ZIP | `rime/lua/shi_emoji` | `rime/` |
 
-运行时包内有 Lua、两份配置例、说明及许可证；重口联想文件已包含，但默认关闭。`MANIFEST.sha256.json` 用于文件一致性检查，不是数字签名。只需复制上述插件文件夹和合并配置例，不要把源码 ZIP 整包放进 Rime 用户目录。
+运行时包内有 Lua、两份配置例、说明及许可证；重口联想文件已包含，默认开启，可在方案配置中关闭。`MANIFEST.sha256.json` 用于文件一致性检查，不是数字签名。只需复制上述插件文件夹和合并配置例，不要把源码 ZIP 整包放进 Rime 用户目录。
 
 ## 1. 放置插件
 
@@ -34,7 +34,7 @@ patch:
     - lua_filter@*shi_emoji.filter
   "shi_emoji/skin": default
   "shi_emoji/gender": neutral
-  "shi_emoji/adult": false
+  "shi_emoji/adult": true
   "switches/+":
     - name: shi_emoji
       states: [诗Emoji关, 诗Emoji开]
@@ -42,7 +42,7 @@ patch:
 
 已有相同 patch 键时，合并列表项，不能重复写 YAML 键。若已有插件占用 `engine/processors/@before 0`，按原方案调整插入位置，保留两者；诗Emoji processor 放前面，filter 放末尾。自定义末尾过滤器可能影响候选结果，需要自行验证。
 
-肤色、性别、重口联想都在这份方案配置里修改，具体可选值见[偏好说明](docs/preferences.md)。改完需重新部署并重载输入法；菜单里只保留诗Emoji总开关。
+肤色、性别、重口联想都在这份方案配置里修改，具体可选值见[偏好说明](docs/preferences.md)。改完需重新部署并重载输入法；默认安装的菜单只保留诗Emoji总开关，启用 `0` 键实验时可另加输出方式开关。
 
 ## 3. 保存总开关状态
 
@@ -64,7 +64,7 @@ patch:
 
 性别、肤色和重口联想详见 [偏好说明](docs/preferences.md)。重口联想开启时只在高亮候选旁另显示“重口”预览，使用 Control/⌃ + Option/⌥ + 回车提交；不会额外占用候选行。
 
-如果想用一个键只上屏 Emoji，可选[实验 `0` 键](docs/experimental-zero-key.md)；它不新增候选行，但命中时会接管原方案的 `0` 键行为。另一种[实验候选槽](docs/experimental-candidate-slot.md)会改变候选页大小及数字选词行为。两者都不是通用默认值，先检查与当前方案的按键冲突，不要同时启用。
+如果想用一个键上屏，可选[实验 `0` 键](docs/experimental-zero-key.md)：默认提交「原文 + Emoji」，可在输入法选单中切到「仅 Emoji」。它不新增候选行，但命中时会接管原方案的 `0` 键行为。另一种[实验候选槽](docs/experimental-candidate-slot.md)会改变候选页大小及数字选词行为。两者都不是通用默认值，先检查与当前方案的按键冲突，不要同时启用。
 
 ## 更新与卸载
 
@@ -94,6 +94,6 @@ Use a Rime frontend with librime-lua / Lua 5.4. macOS Squirrel + Wanxiang full p
 
 Copy the nine files in `lua/shi_emoji` into your Rime user directory without replacing other plugins. Merge `shi_emoji_phrase.custom.yaml.example` into the current Chinese schema's custom file and `shi_emoji.default.custom.yaml.example` into `default.custom.yaml`. Preserve existing patches and avoid duplicate YAML keys. Skin, gender and edgy associations are static schema settings; only the main switch appears in the native Ctrl+grave menu. Redeploy/reload, then enable **诗Emoji开**.
 
-Candidate order stays unchanged. Only the highlighted Chinese candidate shows an emoji preview; press Option+Return to commit text plus the main emoji, or Control+Option+Return for the optional edgy preview. Tab keeps the host schema's behavior and Space still commits plain Chinese. Defaults: original skin, neutral gender, edgy associations off. All files are in one ZIP. To upgrade, replace only this plugin's files and merge new settings. To uninstall, remove its two components, all four setting groups and all `shi_emoji*` save-options, redeploy, then remove only this plugin's folder. No user dictionary deletion is needed.
+Candidate order stays unchanged. Only the highlighted Chinese candidate shows an emoji preview; press Option+Return to commit text plus the main emoji, or Control+Option+Return for the edgy preview. Tab keeps the host schema's behavior and Space still commits plain Chinese. Defaults: original skin, neutral gender, edgy associations on. The optional `0` key commits text plus emoji by default; its native menu item switches to emoji-only output. All files are in one ZIP. To upgrade, replace only this plugin's files and merge new settings. To uninstall, remove its two components, all plugin setting groups and all `shi_emoji*` save-options, redeploy, then remove only this plugin's folder. No user dictionary deletion is needed.
 
 When redistributing the runtime, retain `LICENSE`, `THIRD_PARTY_NOTICES.md` and `licenses/` alongside the plugin.

@@ -59,6 +59,16 @@ class VariantBuildTests(unittest.TestCase):
 
 @unittest.skipUnless(lua_tests.LUA_LIBRARY,'Needs Lua')
 class PreferenceLuaTests(unittest.TestCase):
+    def test_adult_defaults_on_but_explicit_false_stays_off(self):
+        lua_tests.LuaFilterTests().execute("""
+          local load=require('shi_emoji.settings').load
+          local absent={get_string=function() return nil end, get_bool=function() return nil end}
+          local disabled={get_string=function() return nil end,
+            get_bool=function(_,key) if key=='shi_emoji/adult' then return false end end}
+          assert(load(absent).adult==true)
+          assert(load(disabled).adult==false)
+        """)
+
     def test_expanded_edgy_candidates_and_false_positives(self):
         lua_tests.LuaFilterTests().execute("""
           local cases={

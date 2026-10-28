@@ -69,7 +69,7 @@ class RuntimeInstallationTests(unittest.TestCase):
             profile=temp/'configured-profile'
             subprocess.run([sys.executable,'scripts/prepare_wanxiang_probe.py','--source',os.environ['RIME_PROBE_USER'],
                             '--output',str(profile),'--runtime',str(runtime),
-                            '--skin','medium','--gender','female','--adult'],
+                            '--skin','medium','--gender','female'],
                            check=True,capture_output=True,text=True)
             def probe(user, keys):
                 command=[sys.executable,'scripts/rime_probe.py','--user',str(user),'--option-state','on','--keys',keys]
@@ -87,6 +87,6 @@ class RuntimeInstallationTests(unittest.TestCase):
             self.assertTrue(any(r['text'] in {'涩涩','色色'} and '〔重口 🍆🍑' in r['comment'] for r in rows),rows)
             off_profile=temp/'default-profile'
             subprocess.run([sys.executable,'scripts/prepare_wanxiang_probe.py','--source',os.environ['RIME_PROBE_USER'],
-                            '--output',str(off_profile),'--runtime',str(runtime)],
+                            '--output',str(off_profile),'--runtime',str(runtime),'--no-adult'],
                            check=True,capture_output=True,text=True)
             self.assertFalse(any('〔重口 ' in r['comment'] for r in probe(off_profile,'sese{Down}')['candidates']))

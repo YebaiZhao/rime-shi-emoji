@@ -20,15 +20,16 @@ These are checked examples, not a promise to understand arbitrary Chinese. Match
 
 - Original candidate order stays intact. Space commits plain text and Tab retains the host schema's behavior; highlight a candidate and press Option+Return to commit its previewed emoji.
 - An [experimental numbered candidate slot](docs/experimental-candidate-slot.md) is available as an opt-in: its number key commits emoji only. It sets a seven-item page, so an ordinary seventh candidate may still appear when there is no emoji match, and Wanxiang's `7` key no longer serves its original tone behavior. The default installation does not enable it.
+- An [experimental `0` key](docs/experimental-zero-key.md) commits highlighted text plus emoji by default. Its native menu item switches to emoji-only output and remembers the choice. It adds no candidate row and is mutually exclusive with the numbered slot.
 - Finds several concepts inside a sentence, rather than requiring an exact whole-sentence entry.
 - Runs locally with Lua and static data. The plugin does not collect typing telemetry; host IME logging is separate.
 - Simplified and Traditional spellings share one semantic mapping. OpenCC generates standard, Taiwan, and Hong Kong aliases at build time; no converter runs while typing. Regional colloquialisms still need curation.
-- The native menu keeps only the main switch. Skin tone, gender and optional edgy associations (重口联想) are static schema settings; one archive includes everything, with edgy associations off by default.
+- The default native menu keeps only the main switch; opting into the `0` key adds its output-mode item. Skin tone, gender and edgy associations (重口联想) are static schema settings; one archive includes everything, with edgy associations on by default.
 - Auditable data: official names, curated literal meanings and associations, and model suggestions are resolved separately.
 
 ## Install and use
 
-**v0.1.0-alpha.1** is an Alpha prerelease, primarily tested with macOS Squirrel. Isolated profiles have checked Wanxiang, Luna Pinyin Simplified, and Luna Pinyin with Traditional-character output. Other frontends are not yet verified.
+**v0.1.0-alpha.2** is an Alpha prerelease, primarily tested with macOS Squirrel. Isolated profiles have checked Wanxiang, Luna Pinyin Simplified, and Luna Pinyin with Traditional-character output. Other frontends are not yet verified.
 
 Download `rime-shi-emoji-runtime.zip` from [Releases](https://github.com/YebaiZhao/rime-shi-emoji/releases). Alternatively, use **Code → Download ZIP** on GitHub and copy from `rime/lua/shi_emoji` instead of `lua/shi_emoji`; the YAML examples are in `rime/`. End users do not need Python.
 
@@ -36,7 +37,7 @@ Copy `lua/shi_emoji` into the Rime user directory; merge the two bundled YAML ex
 
 Enable **诗Emoji开** in the Ctrl + grave switcher menu. Only the highlighted full Chinese candidate shows a preview; other rows stay unchanged. Option+Return commits the highlighted candidate plus its main emoji; Control+Option+Return chooses the optional edgy preview. Tab always keeps the host schema's behavior. Committing and Escape do not disable the plugin.
 
-Defaults: original skin color, gender-neutral, edgy associations off. Female + medium skin can turn 开发 into `开发 👩🏽‍💻`; explicit gender wording is preserved. Only variants in the pinned Unicode inventory are emitted; mixed multi-person skin tones are not generally transformed.
+Defaults: original skin color, gender-neutral, edgy associations on. Female + medium skin can turn 开发 into `开发 👩🏽‍💻`; explicit gender wording is preserved. Only variants in the pinned Unicode inventory are emitted; mixed multi-person skin tones are not generally transformed.
 
 ## Honest boundaries
 

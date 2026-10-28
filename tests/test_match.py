@@ -38,6 +38,22 @@ class PhraseTests(unittest.TestCase):
         self.assertIn("🦸", longer)
         self.assertNotIn("🦟", self.emojis("我今天生病了"))
 
+    def test_reviewed_two_character_terms_can_match_alone(self):
+        for term, first in [("上班", "💼"), ("地铁", "🚇"), ("拍照", "📷"),
+                            ("打针", "💉"), ("小猫", "🐈"), ("彩虹", "🌈"),
+                            ("拥抱", "🤗"), ("牛排", "🥩")]:
+            with self.subTest(term=term):
+                self.assertEqual(self.emojis(term)[0], first)
+        for term in ("好人", "牛奶"):
+            with self.subTest(contextual=term):
+                self.assertEqual(self.emojis(term), [])
+
+    def test_clear_three_character_aliases_are_available(self):
+        for term, first in [("歪嘴笑", "😏"), ("眨眼笑", "😉"),
+                            ("喝咖啡", "☕"), ("发脾气", "😡")]:
+            with self.subTest(term=term):
+                self.assertEqual(self.emojis(term)[0], first)
+
     def test_reviewed_literal_mappings(self):
         for term, expected in [
             ("牛", ["🐄", "🐂", "🐮"]),

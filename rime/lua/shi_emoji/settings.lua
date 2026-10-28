@@ -8,7 +8,9 @@ function M.load(config)
   local gender = config:get_string('shi_emoji/gender') or 'neutral'
   assert(skins[skin], 'Invalid shi_emoji/skin: ' .. skin)
   assert(genders[gender], 'Invalid shi_emoji/gender: ' .. gender)
-  return {skin=skin, gender=gender, adult=config:get_bool('shi_emoji/adult') or false}
+  local adult = config:get_bool('shi_emoji/adult')
+  if adult == nil then adult = true end
+  return {skin=skin, gender=gender, adult=adult}
 end
 
 return M

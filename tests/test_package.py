@@ -24,10 +24,11 @@ class PackageTests(unittest.TestCase):
             with zipfile.ZipFile(first) as archive:
                 self.assertIsNone(archive.testzip())
                 files = archive.namelist()
-                self.assertEqual(len(files), 40)
+                self.assertEqual(len(files), 41)
                 self.assertTrue(any(n.endswith('/adult.lua') for n in files))
                 self.assertIn('rime-shi-emoji/docs/experimental-candidate-slot.md', files)
                 self.assertIn('rime-shi-emoji/docs/experimental-zero-key.md', files)
+                self.assertIn('rime-shi-emoji/docs/reverse-audit.md', files)
                 self.assertIn('rime-shi-emoji/docs/manual-integration.md', files)
                 self.assertIn('rime-shi-emoji/licenses/OpenCC-Apache-2.0.txt', files)
                 manifest = json.loads(archive.read("rime-shi-emoji/MANIFEST.sha256.json"))

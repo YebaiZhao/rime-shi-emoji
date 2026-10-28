@@ -52,8 +52,12 @@ function M.init(env)
     if not normal and not adult then return end
     local preview = ""
     if normal then
-      preview = preview .. (env.zero_key and " 〔0 → " .. normal .. "〕"
-          or " 〔诗Emoji " .. normal .. "〕")
+      if env.zero_key then
+        local hint = context:get_option("shi_emoji_emoji_only") and "" or "原文＋"
+        preview = preview .. " 〔0 → " .. hint .. normal .. "〕"
+      else
+        preview = preview .. " 〔诗Emoji " .. normal .. "〕"
+      end
     end
     if adult then preview = preview .. " 〔重口 " .. adult .. "〕" end
     local original = candidate.comment or ""

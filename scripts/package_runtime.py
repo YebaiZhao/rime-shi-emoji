@@ -4,7 +4,7 @@ import hashlib
 import json
 import zipfile
 
-USER_DOCS = ('adult-addon.md','architecture.md','coverage.md','evaluation.md','first-run.md',
+USER_DOCS = ('adult-addon.md','architecture.md','coverage.md','evaluation.md','reverse-audit.md','first-run.md',
              'experimental-candidate-slot.md','experimental-zero-key.md','mapping-resolution.md','model-review-sample.md','model-supervision.md','naming.md',
              'manual-integration.md','phrase-mode.md','phrase-results.md','preferences.md','release-engineering.md','word-boundaries.md')
 

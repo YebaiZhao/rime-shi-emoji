@@ -1,6 +1,6 @@
 # 表情偏好与重口联想配置
 
-肤色、性别与重口联想在当前中文方案的 `.custom.yaml` 中设置，不占用 Rime 原生菜单；菜单只保留诗Emoji总开关。两账号可共用这份静态配置，但各账号仍须分别重新部署／重启输入法。
+肤色、性别与重口联想在当前中文方案的 `.custom.yaml` 中设置，不占用 Rime 原生菜单；默认菜单只保留诗Emoji总开关，启用 `0` 键实验时可加一个输出方式开关。两账号可共用静态配置，但各账号仍须分别重新部署／重启输入法，菜单选择也分别保存。
 
 下文的 74 项是该功能完成时的历史检查数；当前版本检查见 [发布工程](release-engineering.md)。
 
@@ -11,14 +11,14 @@
 ```yaml
   "shi_emoji/skin": default
   "shi_emoji/gender": neutral
-  "shi_emoji/adult": false
+  "shi_emoji/adult": true
 ```
 
 - 肤色：原色（默认）、浅、中浅、中、中深、深。
 - 性别：中性（默认）、女性、男性。
-- 重口联想：关闭（默认）、开启。统一安装包内已包含相关文件，无需另装。
+- 重口联想：开启（默认）、关闭。统一安装包内已包含相关文件，无需另装。
 
-对应值分别为 `default | light | medium_light | medium | medium_dark | dark`、`neutral | female | male`、`false | true`。改完重新部署并重载；无需改动主开关。`default.custom.yaml` 只需保存 `shi_emoji` 总开关，菜单选择仍由各账号各自记忆。旧版 `shi_emoji_skin_*`、`shi_emoji_gender_*`、`shi_emoji_adult` 菜单及保存项应从自定义补丁移除。
+对应值分别为 `default | light | medium_light | medium | medium_dark | dark`、`neutral | female | male`、`false | true`。改完重新部署并重载；无需改动主开关。默认情况下 `default.custom.yaml` 只需保存 `shi_emoji` 总开关；若启用 [0 键实验](experimental-zero-key.md)，还要保存 `shi_emoji_emoji_only`。两个账号的菜单选择分别记忆。旧版 `shi_emoji_skin_*`、`shi_emoji_gender_*`、`shi_emoji_adult` 菜单及保存项应从自定义补丁移除。
 
 ## 变体规则
 
@@ -28,9 +28,9 @@
 
 ## 重口联想扩展
 
-详见 [开关范围](adult-addon.md)。统一安装包内包含独立的映射模块，默认关闭，不需要额外下载。关闭时不加载、不查询；开启后建立的索引可缓存，但关掉后不查询。主开关关闭或英文模式同样阻止查询。
+详见 [开关范围](adult-addon.md)。统一安装包内包含独立的映射模块，默认开启，不需要额外下载。设为 `false` 后不加载、不查询；开启后建立的索引可缓存，但关闭并重载后不查询。主开关关闭或英文模式同样阻止查询。
 
-将 `shi_emoji/adult` 设为 `true` 后，仅在当前高亮候选旁分别显示主库和重口预览，不新增候选行。⌥+回车提交主库结果，⌃⌥+回车提交重口结果；Tab 保留万象原有行为。另行启用[实验候选槽](experimental-candidate-slot.md)时，数字键可只提交主库 Emoji。统一安装包中的扩展文件缺失或语法损坏属于安装错误，会明确报错，不再伪装成可选安装。它不是主库或其他输入法的内容过滤器。
+保持 `shi_emoji/adult: true` 时，仅在当前高亮候选旁分别显示主库和重口预览，不新增候选行。⌥+回车提交主库结果，⌃⌥+回车提交重口结果；Tab 保留万象原有行为。另行启用[实验候选槽](experimental-candidate-slot.md)时，数字键可只提交主库 Emoji。统一安装包中的扩展文件缺失或语法损坏属于安装错误，会明确报错，不再伪装成可选安装。它不是主库或其他输入法的内容过滤器。
 
 当前有 140 个输入短语、38 组联想；它们覆盖一批常见说法，不代表任意长句都能正确理解。短而多义的词仅在整条候选精确匹配时触发，减少普通语境误联想。
 

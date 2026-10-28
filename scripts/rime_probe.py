@@ -136,9 +136,11 @@ def main():
             committed = commit.text.decode()
             fn("free_commit", C.c_int, C.POINTER(Commit))(C.byref(commit))
         mode = fn("get_option", C.c_int, C.c_size_t, C.c_char_p)(session, b"shi_emoji")
+        emoji_only = fn("get_option", C.c_int, C.c_size_t, C.c_char_p)(session, b"shi_emoji_emoji_only")
         print(json.dumps({"keys": args.keys, "preedit": preedit, "candidates": rows,
                           "highlighted": highlighted, "page_no": page_no,
-                          "commit": committed, "mode": bool(mode), "sequence_ms": elapsed}, ensure_ascii=False, indent=2))
+                          "commit": committed, "mode": bool(mode), "emoji_only": bool(emoji_only),
+                          "sequence_ms": elapsed}, ensure_ascii=False, indent=2))
     finally:
         fn("destroy_session", C.c_int, C.c_size_t)(session)
         fn("finalize", None)()

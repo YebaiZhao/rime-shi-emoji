@@ -1,6 +1,6 @@
-# 首次 GitHub 发布核查清单
+# GitHub 发布核查清单
 
-版本目标：`v0.1.0-alpha.1`（prerelease）。源码提交／推送不等于创建标签或 GitHub Release；各步骤按实际远端状态核对。
+版本目标：`v0.1.0-alpha.2`（prerelease）。源码提交／推送不等于创建标签或 GitHub Release；各步骤按实际远端状态核对。
 
 ## 本地已准备
 
@@ -9,7 +9,7 @@
 - 统一运行时 ZIP、逐文件清单、版本元数据、外部 SHA-256 文件。
 - 模型历史审核产物与摘要保持不变，未伪造新审核。
 - 独立 profile 的完整检查、ZIP 生命周期和文档一致性检查。
-- [GitHub About / Topics 文案](github-listing.md) 与 [Release 正文](release-notes.md)。
+- [GitHub About / Topics 文案](github-listing.md) 与 [本次 Release 正文](release-notes-alpha.2.md)。
 
 ## 发布时及发布后核对
 

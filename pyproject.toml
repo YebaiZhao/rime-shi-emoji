@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "rime-shi-emoji"
-version = "0.1.0a1"
+version = "0.1.0a2"
 description = "Shi Emoji (诗Emoji): lightweight Chinese intent-to-emoji phrase matching for Rime"
 requires-python = ">=3.10"
 license = {text = "MIT"}

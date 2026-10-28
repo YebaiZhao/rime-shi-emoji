@@ -9,8 +9,8 @@ patch:
   "shi_emoji/skin": default
   # gender: neutral | female | male; explicit gender words still take precedence.
   "shi_emoji/gender": neutral
-  # adult: false (off) | true (on); controls the separate 重口联想 library.
-  "shi_emoji/adult": false
+  # adult: true (default) | false (off); controls the separate 重口联想 library.
+  "shi_emoji/adult": true
   "switches/+":
     - name: shi_emoji
       states: [诗Emoji关, 诗Emoji开]
