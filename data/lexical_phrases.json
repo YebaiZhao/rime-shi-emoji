@@ -2182,6 +2182,18 @@
       "exact_only": false
     },
     {
+      "id": "lexical:上箭头",
+      "phrases": [
+        "上箭头"
+      ],
+      "emoji": [
+        "⬆️"
+      ],
+      "priority": -500,
+      "kind": "literal",
+      "exact_only": false
+    },
+    {
       "id": "lexical:上衣",
       "phrases": [
         "上衣"
@@ -2288,6 +2300,18 @@
       ],
       "priority": -500,
       "kind": "keyword",
+      "exact_only": false
+    },
+    {
+      "id": "lexical:下箭头",
+      "phrases": [
+        "下箭头"
+      ],
+      "emoji": [
+        "⬇️"
+      ],
+      "priority": -500,
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -4256,11 +4280,10 @@
         "书签"
       ],
       "emoji": [
-        "📑",
         "🔖"
       ],
       "priority": -500,
-      "kind": "name",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -8362,7 +8385,7 @@
         "⛸️"
       ],
       "priority": -500,
-      "kind": "keyword",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -10092,7 +10115,7 @@
         "🥄"
       ],
       "priority": -500,
-      "kind": "keyword",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -13539,6 +13562,18 @@
       "exact_only": false
     },
     {
+      "id": "lexical:右箭头",
+      "phrases": [
+        "右箭头"
+      ],
+      "emoji": [
+        "➡️"
+      ],
+      "priority": -500,
+      "kind": "literal",
+      "exact_only": false
+    },
+    {
       "id": "lexical:右转弯",
       "phrases": [
         "右转弯"
@@ -15461,7 +15496,7 @@
         "😢"
       ],
       "priority": -500,
-      "kind": "keyword",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -16211,10 +16246,10 @@
         "嘴唇"
       ],
       "emoji": [
-        "🫦"
+        "👄"
       ],
       "priority": -500,
-      "kind": "keyword",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -16748,11 +16783,10 @@
         "图钉"
       ],
       "emoji": [
-        "📌",
-        "📍"
+        "📌"
       ],
       "priority": -500,
-      "kind": "name",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -18252,11 +18286,10 @@
         "培根"
       ],
       "emoji": [
-        "🐖",
         "🥓"
       ],
       "priority": -500,
-      "kind": "name",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -24160,6 +24193,18 @@
       "exact_only": false
     },
     {
+      "id": "lexical:小腿",
+      "phrases": [
+        "小腿"
+      ],
+      "emoji": [
+        "🦵"
+      ],
+      "priority": -500,
+      "kind": "literal",
+      "exact_only": false
+    },
+    {
       "id": "lexical:小袋鼠",
       "phrases": [
         "小袋鼠"
@@ -24905,6 +24950,18 @@
       ],
       "priority": -500,
       "kind": "name",
+      "exact_only": false
+    },
+    {
+      "id": "lexical:左箭头",
+      "phrases": [
+        "左箭头"
+      ],
+      "emoji": [
+        "⬅️"
+      ],
+      "priority": -500,
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -30775,11 +30832,10 @@
         "报纸"
       ],
       "emoji": [
-        "📰",
-        "🗞️"
+        "📰"
       ],
       "priority": -500,
-      "kind": "name",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -34254,11 +34310,10 @@
         "新月"
       ],
       "emoji": [
-        "🌑",
-        "🌚"
+        "🌑"
       ],
       "priority": -500,
-      "kind": "keyword",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -37886,11 +37941,10 @@
         "日元"
       ],
       "emoji": [
-        "💴",
-        "💹"
+        "💴"
       ],
       "priority": -500,
-      "kind": "name",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -39612,11 +39666,10 @@
         "木头"
       ],
       "emoji": [
-        "🪵",
-        "🪓"
+        "🪵"
       ],
       "priority": -500,
-      "kind": "name",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -41258,11 +41311,10 @@
         "椅子"
       ],
       "emoji": [
-        "💺",
         "🪑"
       ],
       "priority": -500,
-      "kind": "name",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -42482,11 +42534,10 @@
         "气球"
       ],
       "emoji": [
-        "💬",
         "🎈"
       ],
       "priority": -500,
-      "kind": "name",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -42594,7 +42645,7 @@
         "🪣"
       ],
       "priority": -500,
-      "kind": "keyword",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -43148,11 +43199,10 @@
         "沙漏"
       ],
       "emoji": [
-        "⌛",
-        "⏳"
+        "⌛"
       ],
       "priority": -500,
-      "kind": "name",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -44396,6 +44446,18 @@
       "priority": -500,
       "kind": "name",
       "exact_only": true
+    },
+    {
+      "id": "lexical:洞口",
+      "phrases": [
+        "洞口"
+      ],
+      "emoji": [
+        "🕳️"
+      ],
+      "priority": -500,
+      "kind": "literal",
+      "exact_only": false
     },
     {
       "id": "lexical:津巴布韦",
@@ -46942,11 +47004,10 @@
         "焰火"
       ],
       "emoji": [
-        "🎆",
-        "🎇"
+        "🎆"
       ],
       "priority": -500,
-      "kind": "name",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -49190,11 +49251,10 @@
         "球门"
       ],
       "emoji": [
-        "🥍",
         "🥅"
       ],
       "priority": -500,
-      "kind": "name",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -53673,6 +53733,18 @@
       "exact_only": true
     },
     {
+      "id": "lexical:砖头",
+      "phrases": [
+        "砖头"
+      ],
+      "emoji": [
+        "🧱"
+      ],
+      "priority": -500,
+      "kind": "literal",
+      "exact_only": false
+    },
+    {
       "id": "lexical:砰",
       "phrases": [
         "砰"
@@ -57262,7 +57334,7 @@
         "🧵"
       ],
       "priority": -500,
-      "kind": "keyword",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -58888,7 +58960,7 @@
         "🦅"
       ],
       "priority": -500,
-      "kind": "keyword",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -59535,6 +59607,18 @@
       "exact_only": false
     },
     {
+      "id": "lexical:脚掌",
+      "phrases": [
+        "脚掌"
+      ],
+      "emoji": [
+        "🦶"
+      ],
+      "priority": -500,
+      "kind": "literal",
+      "exact_only": false
+    },
+    {
       "id": "lexical:脚踏车",
       "phrases": [
         "脚踏车"
@@ -60050,6 +60134,18 @@
       "priority": -500,
       "kind": "name",
       "exact_only": true
+    },
+    {
+      "id": "lexical:船锚",
+      "phrases": [
+        "船锚"
+      ],
+      "emoji": [
+        "⚓"
+      ],
+      "priority": -500,
+      "kind": "literal",
+      "exact_only": false
     },
     {
       "id": "lexical:色子",
@@ -62267,11 +62363,10 @@
         "蘑菇"
       ],
       "emoji": [
-        "🍄",
-        "🍄‍🟫"
+        "🍄"
       ],
       "priority": -500,
-      "kind": "name",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -62549,11 +62644,10 @@
         "蜘蛛"
       ],
       "emoji": [
-        "🕷️",
-        "🕸️"
+        "🕷️"
       ],
       "priority": -500,
-      "kind": "name",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -62577,7 +62671,7 @@
         "🦡"
       ],
       "priority": -500,
-      "kind": "keyword",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -64428,7 +64522,7 @@
         "🫘"
       ],
       "priority": -500,
-      "kind": "keyword",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -64739,11 +64833,10 @@
         "货车"
       ],
       "emoji": [
-        "🚚",
-        "🚛"
+        "🚚"
       ],
       "priority": -500,
-      "kind": "name",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -64923,11 +65016,10 @@
         "赛车"
       ],
       "emoji": [
-        "🏎️",
-        "🏍️"
+        "🏎️"
       ],
       "priority": -500,
-      "kind": "name",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -65994,10 +66086,10 @@
         "轮船"
       ],
       "emoji": [
-        "⛴️"
+        "🚢"
       ],
       "priority": -500,
-      "kind": "keyword",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -68140,11 +68232,10 @@
         "钱包"
       ],
       "emoji": [
-        "👛",
-        "💰"
+        "👛"
       ],
       "priority": -500,
-      "kind": "name",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -68275,11 +68366,10 @@
         "铃铛"
       ],
       "emoji": [
-        "🎐",
         "🔔"
       ],
       "priority": -500,
-      "kind": "name",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -68354,6 +68444,18 @@
       "priority": -500,
       "kind": "name",
       "exact_only": true
+    },
+    {
+      "id": "lexical:铲子",
+      "phrases": [
+        "铲子"
+      ],
+      "emoji": [
+        "🪏"
+      ],
+      "priority": -500,
+      "kind": "literal",
+      "exact_only": false
     },
     {
       "id": "lexical:银",
@@ -70180,11 +70282,10 @@
         "雪人"
       ],
       "emoji": [
-        "☃️",
         "⛄"
       ],
       "priority": -500,
-      "kind": "name",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -70888,7 +70989,7 @@
         "🧨"
       ],
       "priority": -500,
-      "kind": "keyword",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -72470,11 +72571,10 @@
         "骨头"
       ],
       "emoji": [
-        "☠️",
         "🦴"
       ],
       "priority": -500,
-      "kind": "name",
+      "kind": "literal",
       "exact_only": false
     },
     {
@@ -73245,11 +73345,10 @@
         "鸭子"
       ],
       "emoji": [
-        "🦆",
-        "🪿"
+        "🦆"
       ],
       "priority": -500,
-      "kind": "name",
+      "kind": "literal",
       "exact_only": false
     },
     {

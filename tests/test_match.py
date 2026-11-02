@@ -69,6 +69,21 @@ class PhraseTests(unittest.TestCase):
         self.assertNotIn("🔥", self.emojis("我去坐火车"))
         self.assertNotIn("🧠", self.emojis("我买了电脑"))
 
+    def test_basic_emoji_names_and_direction_aliases_are_reachable(self):
+        for term, emoji in [
+            ("右箭头", "➡️"), ("左箭头", "⬅️"),
+            ("上箭头", "⬆️"), ("下箭头", "⬇️"),
+            ("气球", "🎈"), ("鞭炮", "🧨"), ("球门", "🥅"),
+            ("鸭子", "🦆"), ("蜘蛛", "🕷️"), ("蘑菇", "🍄"),
+            ("培根", "🥓"), ("书签", "🔖"), ("椅子", "🪑"),
+            ("图钉", "📌"), ("沙漏", "⌛"), ("船锚", "⚓"),
+            ("轮船", "🚢"), ("木头", "🪵"),
+        ]:
+            with self.subTest(term=term):
+                self.assertEqual(self.emojis(term)[0], emoji)
+        self.assertEqual(self.emojis("右"), [])
+        self.assertEqual(self.emojis("箭头"), [])
+
     def test_local_negation(self):
         result = self.matcher.search("我不想去海边")
         self.assertEqual(result["candidates"][0]["emoji"], "🏖️")

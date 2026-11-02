@@ -53,8 +53,7 @@ function M.init(env)
     local preview = ""
     if normal then
       if env.zero_key then
-        local hint = context:get_option("shi_emoji_emoji_only") and "" or "原文＋"
-        preview = preview .. " 〔0 → " .. hint .. normal .. "〕"
+        preview = preview .. " 〔0→" .. normal .. "〕"
       else
         preview = preview .. " 〔诗Emoji " .. normal .. "〕"
       end

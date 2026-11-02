@@ -20,7 +20,7 @@ These are checked examples, not a promise to understand arbitrary Chinese. Match
 
 - Original candidate order stays intact. Space commits plain text and Tab retains the host schema's behavior; highlight a candidate and press Option+Return to commit its previewed emoji.
 - An [experimental numbered candidate slot](docs/experimental-candidate-slot.md) is available as an opt-in: its number key commits emoji only. It sets a seven-item page, so an ordinary seventh candidate may still appear when there is no emoji match, and Wanxiang's `7` key no longer serves its original tone behavior. The default installation does not enable it.
-- An [experimental `0` key](docs/experimental-zero-key.md) commits highlighted text plus emoji by default. Its native menu item switches to emoji-only output and remembers the choice. It adds no candidate row and is mutually exclusive with the numbered slot.
+- An [experimental `0` key](docs/experimental-zero-key.md) commits highlighted text plus emoji by default; Shift+0 commits emoji only. Switching its native output-mode menu swaps the two actions and remembers the choice. The compact hint shows only `0→Emoji`. It adds no candidate row and is mutually exclusive with the numbered slot.
 - Finds several concepts inside a sentence, rather than requiring an exact whole-sentence entry.
 - Runs locally with Lua and static data. The plugin does not collect typing telemetry; host IME logging is separate.
 - Simplified and Traditional spellings share one semantic mapping. OpenCC generates standard, Taiwan, and Hong Kong aliases at build time; no converter runs while typing. Regional colloquialisms still need curation.
@@ -29,7 +29,7 @@ These are checked examples, not a promise to understand arbitrary Chinese. Match
 
 ## Install and use
 
-**v0.1.0-alpha.2** is an Alpha prerelease, primarily tested with macOS Squirrel. Isolated profiles have checked Wanxiang, Luna Pinyin Simplified, and Luna Pinyin with Traditional-character output. Other frontends are not yet verified.
+**v0.1.0-alpha.3** is an Alpha prerelease, primarily tested with macOS Squirrel. Isolated profiles have checked Wanxiang, Luna Pinyin Simplified, and Luna Pinyin with Traditional-character output. Other frontends are not yet verified.
 
 Download `rime-shi-emoji-runtime.zip` from [Releases](https://github.com/YebaiZhao/rime-shi-emoji/releases). Alternatively, use **Code → Download ZIP** on GitHub and copy from `rime/lua/shi_emoji` instead of `lua/shi_emoji`; the YAML examples are in `rime/`. End users do not need Python.
 
