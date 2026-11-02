@@ -1,8 +1,8 @@
 # Reverse coverage baseline
 
-Latest policy: see [per-phrase resolution](mapping-resolution.md) and [short-term evaluation](evaluation.md). The current generated baseline is 0 zero-term entries, 444 below three terms, 652 below four, and 0 without a primary term. The earlier per-phrase policy-change record is `data/merge_policy_baseline.json`; these are not comparable accuracy measurements.
+Latest policy: see [per-phrase resolution](mapping-resolution.md) and [short-term evaluation](evaluation.md). The current generated baseline is 0 zero-term entries, 445 below three terms, 652 below four, and 0 without a primary term. The earlier per-phrase policy-change record is `data/merge_policy_baseline.json`; these are not comparable accuracy measurements. Standalone reachability is tracked separately in the [reverse audit](reverse-audit.md).
 
-This development milestone is not installed into the active input method.
+These source statistics do not establish whether a particular user's active input method has been upgraded.
 
 ## Reproduce
 
