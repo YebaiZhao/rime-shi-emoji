@@ -24,7 +24,7 @@ These are checked examples, not a promise to understand arbitrary Chinese. Match
 - Finds several concepts inside a sentence, rather than requiring an exact whole-sentence entry.
 - Runs locally with Lua and static data. The plugin does not collect typing telemetry; host IME logging is separate.
 - Simplified and Traditional spellings share one semantic mapping. OpenCC generates standard, Taiwan, and Hong Kong aliases at build time; no converter runs while typing. Regional colloquialisms still need curation.
-- The default native menu keeps only the main switch; opting into the `0` key adds its output-mode item. Skin tone, gender and edgy associations (重口联想) are static schema settings; one archive includes everything, with edgy associations on by default.
+- The development branch adds association tiers to the native menu. Enabling the `0` key adds a separate output-mode item. Skin tone, gender and edgy associations (重口联想) are static schema settings.
 - Auditable data: official names, curated literal meanings and associations, and model suggestions are resolved separately.
 
 ## Install and use
@@ -38,6 +38,16 @@ Copy `lua/shi_emoji` into the Rime user directory; merge the two bundled YAML ex
 Enable **诗Emoji开** in the Ctrl + grave switcher menu. Only the highlighted full Chinese candidate shows a preview; other rows stay unchanged. Option+Return commits the highlighted candidate plus its main emoji; Control+Option+Return chooses the optional edgy preview. Tab always keeps the host schema's behavior. Committing and Escape do not disable the plugin.
 
 Defaults: original skin color, gender-neutral, edgy associations on. Female + medium skin can turn 开发 into `开发 👩🏽‍💻`; explicit gender wording is preserved. Only variants in the pinned Unicode inventory are emitted; mixed multi-person skin tones are not generally transformed.
+
+### Commit with 0 and change settings
+
+Follow the [0-key setup](docs/experimental-zero-key.md) to enable `shi_emoji/zero_key` and add the output-mode switch. After redeploying, highlight a candidate with a `〔0→…〕` preview and press the **main keyboard `0`**. The default commits text plus emoji; Space still commits plain text. Without a preview, the host schema handles `0`.
+
+Press **Ctrl + grave** to open the switcher, expand its settings if folded, then select a row and confirm to cycle it. The label shows the current setting:
+
+- **诗Emoji开 / 诗Emoji关** turns the plugin on or off.
+- **诗Emoji一般 / 诗Emoji严格 / 诗Emoji发散** selects General, Strict or Creative (development branch only; General is the default).
+- **原文＋Emoji / 仅Emoji** selects text plus emoji or emoji only for `0`. Option+0 does the reverse on the development branch; the alpha.3 archive uses Shift+0 and does not have the tier switch.
 
 ## Honest boundaries
 

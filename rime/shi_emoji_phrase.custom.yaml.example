@@ -16,4 +16,4 @@ patch:
     - name: shi_emoji
       states: [诗Emoji关, 诗Emoji开]
     - options: [shi_emoji_general, shi_emoji_strict, shi_emoji_divergent]
-      states: [联想一般, 联想严格, 联想发散]
+      states: [诗Emoji一般, 诗Emoji严格, 诗Emoji发散]

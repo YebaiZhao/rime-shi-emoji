@@ -40,7 +40,7 @@ patch:
     - name: shi_emoji
       states: [诗Emoji关, 诗Emoji开]
     - options: [shi_emoji_general, shi_emoji_strict, shi_emoji_divergent]
-      states: [联想一般, 联想严格, 联想发散]
+      states: [诗Emoji一般, 诗Emoji严格, 诗Emoji发散]
 ```
 
 已有相同 patch 键时，合并列表项，不能重复写 YAML 键。若已有插件占用 `engine/processors/@before 0`，按原方案调整插入位置，保留两者；诗Emoji processor 放前面，filter 放末尾。自定义末尾过滤器可能影响候选结果，需要自行验证。
