@@ -11,6 +11,9 @@ patch:
   "shi_emoji/gender": neutral
   # adult: true (default) | false (off); controls the separate 重口联想 library.
   "shi_emoji/adult": true
+  "shi_emoji/tiered": true
   "switches/+":
     - name: shi_emoji
       states: [诗Emoji关, 诗Emoji开]
+    - options: [shi_emoji_general, shi_emoji_strict, shi_emoji_divergent]
+      states: [联想一般, 联想严格, 联想发散]

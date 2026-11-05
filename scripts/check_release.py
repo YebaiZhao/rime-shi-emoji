@@ -16,6 +16,7 @@ def main():
         parser.error("Expected a marked isolated Wanxiang probe made by prepare_wanxiang_probe.py")
     os.environ["RIME_PROBE_USER"] = str(profile)
     os.chdir(root)
+    sys.path.insert(0, str(root))
     sys.path.insert(0, str(root / "src"))
     result = unittest.TextTestRunner(verbosity=2).run(unittest.defaultTestLoader.discover(str(root / "tests")))
     if result.skipped:

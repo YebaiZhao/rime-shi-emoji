@@ -3,3 +3,6 @@
 patch:
   "switcher/save_options/+":
     - shi_emoji
+    - shi_emoji_general
+    - shi_emoji_strict
+    - shi_emoji_divergent

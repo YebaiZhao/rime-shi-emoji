@@ -33,6 +33,27 @@ class RimeIntegrationTests(unittest.TestCase):
         self.assertEqual(result["commit"], "玩耍")
         self.assertTrue(result["mode"])
 
+    def test_reviewed_basic_names_preview_and_commit(self):
+        cases = {row['query']: row['expected'][0] for row in json.loads(
+            Path('tests/fixtures/basic_keywords_116.json').read_text())['cases']}
+        for text, keys in [('桃子','taozi'), ('月牙','yueya'), ('玫瑰花','meiguihua'),
+                           ('双肩包','shuangjianbao'), ('教师','jiaoshi'), ('大脑','danao'),
+                           ('大蒜','dasuan'), ('婴儿','yinger'), ('便便','bianbian'),
+                           ('加号','jiahao'), ('减号','jianhao'), ('乘号','chenghao'),
+                           ('电池','dianchi'), ('扳手','banshou'), ('牙齿','yachi'),
+                           ('口红','kouhong'), ('王冠','wangguan'), ('满月','manyue'),
+                           ('恐龙','konglong'), ('幽灵','youling')]:
+            with self.subTest(text=text):
+                rows = self.probe(keys)['candidates']
+                index = next((i for i, row in enumerate(rows) if row['text'] == text), None)
+                self.assertIsNotNone(index, rows)
+                selected_keys = keys + '{Down}' * index
+                preview = self.probe(selected_keys)['candidates'][index]['comment']
+                self.assertIn(cases[text].replace('️',''), preview.replace('️',''))
+                commit = self.probe(selected_keys + '{Alt+Return}')['commit']
+                self.assertTrue(commit.startswith(text + ' '), commit)
+                self.assertIn(cases[text].replace('️',''), commit.replace('️',''))
+
     def test_option_return_commits_preview(self):
         result = self.probe("wanshua{Alt+Return}")
         self.assertEqual(result["commit"], "玩耍 🏖️ 🎮")
@@ -101,8 +122,7 @@ class RimeIntegrationTests(unittest.TestCase):
             selected = probe("xiaren{Down}{Down}")
             self.assertIn("0→🦐 🍤", selected["candidates"][2]["comment"])
             self.assertEqual(probe("xiaren{Down}{Down}0")["commit"], "虾仁 🦐 🍤")
-            self.assertEqual(probe("xiaren{Down}{Down}{Shift+0}")["commit"], "🦐 🍤")
-            self.assertEqual(probe("xiaren{Down}{Down}{Shift+parenright}")["commit"], "🦐 🍤")
+            self.assertEqual(probe("xiaren{Down}{Down}{Alt+0}")["commit"], "🦐 🍤")
             self.assertEqual(probe("xiaren{Down}{Down}{Alt+Return}")["commit"], "🦐 🍤")
             self.assertEqual(probe("xiaren{space}")["commit"], "吓人")
             self.assertEqual(probe("hao")["candidates"][0]["comment"], "")
@@ -116,7 +136,7 @@ class RimeIntegrationTests(unittest.TestCase):
             self.assertIn("0→🫵 🦸", longer["candidates"][0]["comment"])
             self.assertEqual(probe("nizhenshiyigehaoren0")["commit"], "你真是一个好人 🫵 🦸")
             self.assertEqual(probe("en0")["preedit"], "en⁴")
-            self.assertEqual(probe("en{Shift+0}")["preedit"], "en⁴")
+            self.assertEqual(probe("en{Alt+0}")["commit"], "")
             self.assertEqual(probe("xiaren7")["commit"], "")
             self.assertEqual(probe("xiaren0", state="off")["commit"], "")
             self.assertFalse(any("诗Emoji" in row["comment"] for row in probe("en")["candidates"]))
@@ -144,11 +164,11 @@ class RimeIntegrationTests(unittest.TestCase):
             self.assertTrue(selected["emoji_only"])
             self.assertIn("0→🦐 🍤", selected["candidates"][2]["comment"])
             self.assertEqual(probe("xiaren{Down}{Down}0")["commit"], "🦐 🍤")
-            self.assertEqual(probe("xiaren{Down}{Down}{Shift+0}")["commit"], "虾仁 🦐 🍤")
+            self.assertEqual(probe("xiaren{Down}{Down}{Alt+0}")["commit"], "虾仁 🦐 🍤")
             self.assertEqual(probe("xiaren{Down}{Down}{Alt+Return}")["commit"], "虾仁 🦐 🍤")
             self.assertEqual(probe("xiaren{Down}{Down}0", "仅Emoji")["commit"], "虾仁 🦐 🍤")
             self.assertFalse(probe("xiaren")["emoji_only"])
-            self.assertEqual(probe("xiaren{Down}{Down}{Shift+0}")["commit"], "🦐 🍤")
+            self.assertEqual(probe("xiaren{Down}{Down}{Alt+0}")["commit"], "🦐 🍤")
             self.assertEqual(probe("xiaren{space}")["commit"], "吓人")
             self.assertEqual(probe("en0")["preedit"], "en⁴")
 

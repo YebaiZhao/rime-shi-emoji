@@ -1,0 +1,822 @@
+{
+  "note": "Assistant-adjudicated regression cases: explicit meanings and acceptable variants checked against pinned Unicode inventory. Not a blind test or redistributed system dictionary.",
+  "cases": [
+    {
+      "review_id": 4,
+      "query": "OK手势",
+      "expected": [
+        "👌"
+      ]
+    },
+    {
+      "review_id": 8,
+      "query": "X光片",
+      "expected": [
+        "🩻"
+      ]
+    },
+    {
+      "review_id": 19,
+      "query": "丝带",
+      "expected": [
+        "🎀"
+      ]
+    },
+    {
+      "review_id": 43,
+      "query": "乘号",
+      "expected": [
+        "✖️"
+      ]
+    },
+    {
+      "review_id": 48,
+      "query": "云朵",
+      "expected": [
+        "☁️"
+      ]
+    },
+    {
+      "review_id": 62,
+      "query": "便便",
+      "expected": [
+        "💩"
+      ]
+    },
+    {
+      "review_id": 63,
+      "query": "便利商店",
+      "expected": [
+        "🏪"
+      ]
+    },
+    {
+      "review_id": 90,
+      "query": "减号",
+      "expected": [
+        "➖"
+      ]
+    },
+    {
+      "review_id": 97,
+      "query": "办公室职员",
+      "expected": [
+        "🧑‍💼"
+      ]
+    },
+    {
+      "review_id": 98,
+      "query": "加号",
+      "expected": [
+        "➕"
+      ]
+    },
+    {
+      "review_id": 113,
+      "query": "卫星",
+      "expected": [
+        "🛰️"
+      ]
+    },
+    {
+      "review_id": 119,
+      "query": "卷纸",
+      "expected": [
+        "🧻"
+      ]
+    },
+    {
+      "review_id": 127,
+      "query": "双肩包",
+      "expected": [
+        "🎒"
+      ]
+    },
+    {
+      "review_id": 129,
+      "query": "口红",
+      "expected": [
+        "💄"
+      ]
+    },
+    {
+      "review_id": 130,
+      "query": "台钟",
+      "expected": [
+        "🕰️"
+      ]
+    },
+    {
+      "review_id": 153,
+      "query": "啤酒杯",
+      "expected": [
+        "🍺"
+      ]
+    },
+    {
+      "review_id": 154,
+      "query": "喷水池",
+      "expected": [
+        "⛲️"
+      ]
+    },
+    {
+      "review_id": 164,
+      "query": "图书",
+      "expected": [
+        "📚"
+      ]
+    },
+    {
+      "review_id": 181,
+      "query": "大拇指朝上",
+      "expected": [
+        "👍"
+      ]
+    },
+    {
+      "review_id": 182,
+      "query": "大拇指朝下",
+      "expected": [
+        "👎"
+      ]
+    },
+    {
+      "review_id": 184,
+      "query": "大脑",
+      "expected": [
+        "🧠"
+      ]
+    },
+    {
+      "review_id": 185,
+      "query": "大蒜",
+      "expected": [
+        "🧄"
+      ]
+    },
+    {
+      "review_id": 190,
+      "query": "头骨",
+      "expected": [
+        "💀"
+      ]
+    },
+    {
+      "review_id": 212,
+      "query": "婴儿",
+      "expected": [
+        "👶"
+      ]
+    },
+    {
+      "review_id": 216,
+      "query": "安全背心",
+      "expected": [
+        "🦺"
+      ]
+    },
+    {
+      "review_id": 223,
+      "query": "对话气泡",
+      "expected": [
+        "💬"
+      ]
+    },
+    {
+      "review_id": 226,
+      "query": "山羊",
+      "expected": [
+        "🐐"
+      ]
+    },
+    {
+      "review_id": 246,
+      "query": "幽灵",
+      "expected": [
+        "👻"
+      ]
+    },
+    {
+      "review_id": 253,
+      "query": "得意地笑",
+      "expected": [
+        "😏"
+      ]
+    },
+    {
+      "review_id": 264,
+      "query": "恐龙",
+      "expected": [
+        "🦕",
+        "🦖"
+      ]
+    },
+    {
+      "review_id": 265,
+      "query": "恳求脸",
+      "expected": [
+        "🥺"
+      ]
+    },
+    {
+      "review_id": 273,
+      "query": "房屋",
+      "expected": [
+        "🏠"
+      ]
+    },
+    {
+      "review_id": 283,
+      "query": "手机信号条",
+      "expected": [
+        "📶"
+      ]
+    },
+    {
+      "review_id": 294,
+      "query": "扳手",
+      "expected": [
+        "🔧"
+      ]
+    },
+    {
+      "review_id": 295,
+      "query": "技术员",
+      "expected": [
+        "🧑‍💻"
+      ]
+    },
+    {
+      "review_id": 298,
+      "query": "拍手",
+      "expected": [
+        "👏"
+      ]
+    },
+    {
+      "review_id": 318,
+      "query": "教堂",
+      "expected": [
+        "⛪️"
+      ]
+    },
+    {
+      "review_id": 319,
+      "query": "教师",
+      "expected": [
+        "🧑‍🏫"
+      ]
+    },
+    {
+      "review_id": 320,
+      "query": "斧子",
+      "expected": [
+        "🪓"
+      ]
+    },
+    {
+      "review_id": 339,
+      "query": "曲奇",
+      "expected": [
+        "🍪"
+      ]
+    },
+    {
+      "review_id": 340,
+      "query": "月牙",
+      "expected": [
+        "🌙"
+      ]
+    },
+    {
+      "review_id": 352,
+      "query": "桃子",
+      "expected": [
+        "🍑"
+      ]
+    },
+    {
+      "review_id": 371,
+      "query": "比心手势",
+      "expected": [
+        "🫶",
+        "🫰"
+      ]
+    },
+    {
+      "review_id": 374,
+      "query": "沙滩伞",
+      "expected": [
+        "⛱️"
+      ]
+    },
+    {
+      "review_id": 377,
+      "query": "河狸",
+      "expected": [
+        "🦫"
+      ]
+    },
+    {
+      "review_id": 383,
+      "query": "泡泡",
+      "expected": [
+        "🫧"
+      ]
+    },
+    {
+      "review_id": 384,
+      "query": "波浪",
+      "expected": [
+        "🌊"
+      ]
+    },
+    {
+      "review_id": 386,
+      "query": "派对脸",
+      "expected": [
+        "🥳"
+      ]
+    },
+    {
+      "review_id": 387,
+      "query": "流星",
+      "expected": [
+        "🌠"
+      ]
+    },
+    {
+      "review_id": 389,
+      "query": "浴缸",
+      "expected": [
+        "🛁"
+      ]
+    },
+    {
+      "review_id": 397,
+      "query": "满月",
+      "expected": [
+        "🌕"
+      ]
+    },
+    {
+      "review_id": 399,
+      "query": "火鸡",
+      "expected": [
+        "🦃"
+      ]
+    },
+    {
+      "review_id": 401,
+      "query": "炸虾",
+      "expected": [
+        "🍤"
+      ]
+    },
+    {
+      "review_id": 408,
+      "query": "爱你手势",
+      "expected": [
+        "🤟"
+      ]
+    },
+    {
+      "review_id": 421,
+      "query": "牙齿",
+      "expected": [
+        "🦷"
+      ]
+    },
+    {
+      "review_id": 431,
+      "query": "王冠",
+      "expected": [
+        "👑"
+      ]
+    },
+    {
+      "review_id": 434,
+      "query": "玫瑰花",
+      "expected": [
+        "🌹"
+      ]
+    },
+    {
+      "review_id": 438,
+      "query": "甜椒",
+      "expected": [
+        "🫑"
+      ]
+    },
+    {
+      "review_id": 441,
+      "query": "电池",
+      "expected": [
+        "🔋"
+      ]
+    },
+    {
+      "review_id": 461,
+      "query": "画笔",
+      "expected": [
+        "🖌️"
+      ]
+    },
+    {
+      "review_id": 474,
+      "query": "皮鞋",
+      "expected": [
+        "👞"
+      ]
+    },
+    {
+      "review_id": 479,
+      "query": "盆栽",
+      "expected": [
+        "🪴"
+      ]
+    },
+    {
+      "review_id": 492,
+      "query": "短裤",
+      "expected": [
+        "🩳"
+      ]
+    },
+    {
+      "review_id": 493,
+      "query": "砖块",
+      "expected": [
+        "🧱"
+      ]
+    },
+    {
+      "review_id": 494,
+      "query": "破碎的心",
+      "expected": [
+        "💔"
+      ]
+    },
+    {
+      "review_id": 495,
+      "query": "碰杯",
+      "expected": [
+        "🥂"
+      ]
+    },
+    {
+      "review_id": 508,
+      "query": "笑得打滚",
+      "expected": [
+        "🤣"
+      ]
+    },
+    {
+      "review_id": 510,
+      "query": "等号",
+      "expected": [
+        "🟰"
+      ]
+    },
+    {
+      "review_id": 511,
+      "query": "篮子",
+      "expected": [
+        "🧺"
+      ]
+    },
+    {
+      "review_id": 514,
+      "query": "糖果",
+      "expected": [
+        "🍬"
+      ]
+    },
+    {
+      "review_id": 526,
+      "query": "绳结",
+      "expected": [
+        "🪢"
+      ]
+    },
+    {
+      "review_id": 527,
+      "query": "绵羊",
+      "expected": [
+        "🐑"
+      ]
+    },
+    {
+      "review_id": 531,
+      "query": "罐子",
+      "expected": [
+        "🫙"
+      ]
+    },
+    {
+      "review_id": 534,
+      "query": "老人",
+      "expected": [
+        "🧓"
+      ]
+    },
+    {
+      "review_id": 538,
+      "query": "肉排",
+      "expected": [
+        "🥩"
+      ]
+    },
+    {
+      "review_id": 539,
+      "query": "肥皂",
+      "expected": [
+        "🧼"
+      ]
+    },
+    {
+      "review_id": 540,
+      "query": "脑子爆炸",
+      "expected": [
+        "🤯"
+      ]
+    },
+    {
+      "review_id": 541,
+      "query": "脚",
+      "expected": [
+        "🦶"
+      ]
+    },
+    {
+      "review_id": 542,
+      "query": "腿",
+      "expected": [
+        "🦵"
+      ]
+    },
+    {
+      "review_id": 544,
+      "query": "自拍",
+      "expected": [
+        "🤳"
+      ]
+    },
+    {
+      "review_id": 545,
+      "query": "自行车手",
+      "expected": [
+        "🚴"
+      ]
+    },
+    {
+      "review_id": 546,
+      "query": "舌头",
+      "expected": [
+        "👅"
+      ]
+    },
+    {
+      "review_id": 551,
+      "query": "花朵",
+      "expected": [
+        "🌼",
+        "🌸"
+      ]
+    },
+    {
+      "review_id": 571,
+      "query": "蜜罐",
+      "expected": [
+        "🍯"
+      ]
+    },
+    {
+      "review_id": 572,
+      "query": "蝎子",
+      "expected": [
+        "🦂"
+      ]
+    },
+    {
+      "review_id": 573,
+      "query": "螃蟹",
+      "expected": [
+        "🦀"
+      ]
+    },
+    {
+      "review_id": 580,
+      "query": "解剖的心",
+      "expected": [
+        "🫀"
+      ]
+    },
+    {
+      "review_id": 581,
+      "query": "警告",
+      "expected": [
+        "⚠️"
+      ]
+    },
+    {
+      "review_id": 582,
+      "query": "警官",
+      "expected": [
+        "👮"
+      ]
+    },
+    {
+      "review_id": 584,
+      "query": "警车",
+      "expected": [
+        "🚓"
+      ]
+    },
+    {
+      "review_id": 588,
+      "query": "豆荚",
+      "expected": [
+        "🫛"
+      ]
+    },
+    {
+      "review_id": 590,
+      "query": "贝果",
+      "expected": [
+        "🥯"
+      ]
+    },
+    {
+      "review_id": 591,
+      "query": "账簿",
+      "expected": [
+        "📒"
+      ]
+    },
+    {
+      "review_id": 594,
+      "query": "越野车",
+      "expected": [
+        "🚙"
+      ]
+    },
+    {
+      "review_id": 600,
+      "query": "轮渡",
+      "expected": [
+        "⛴️"
+      ]
+    },
+    {
+      "review_id": 601,
+      "query": "轮滑鞋",
+      "expected": [
+        "🛼"
+      ]
+    },
+    {
+      "review_id": 609,
+      "query": "金牌",
+      "expected": [
+        "🥇"
+      ]
+    },
+    {
+      "review_id": 612,
+      "query": "钩子",
+      "expected": [
+        "🪝"
+      ]
+    },
+    {
+      "review_id": 613,
+      "query": "铁铲",
+      "expected": [
+        "🪏"
+      ]
+    },
+    {
+      "review_id": 614,
+      "query": "铁镐",
+      "expected": [
+        "⛏️"
+      ]
+    },
+    {
+      "review_id": 615,
+      "query": "铅笔",
+      "expected": [
+        "✏️"
+      ]
+    },
+    {
+      "review_id": 632,
+      "query": "门票",
+      "expected": [
+        "🎫",
+        "🎟️"
+      ]
+    },
+    {
+      "review_id": 635,
+      "query": "闪光",
+      "expected": [
+        "✨"
+      ]
+    },
+    {
+      "review_id": 639,
+      "query": "除号",
+      "expected": [
+        "➗"
+      ]
+    },
+    {
+      "review_id": 645,
+      "query": "面包车",
+      "expected": [
+        "🚐"
+      ]
+    },
+    {
+      "review_id": 650,
+      "query": "面饼",
+      "expected": [
+        "🫓"
+      ]
+    },
+    {
+      "review_id": 651,
+      "query": "靶心",
+      "expected": [
+        "🎯"
+      ]
+    },
+    {
+      "review_id": 655,
+      "query": "飞机着陆",
+      "expected": [
+        "🛬"
+      ]
+    },
+    {
+      "review_id": 656,
+      "query": "飞机起飞",
+      "expected": [
+        "🛫"
+      ]
+    },
+    {
+      "review_id": 658,
+      "query": "馅饼",
+      "expected": [
+        "🥧"
+      ]
+    },
+    {
+      "review_id": 660,
+      "query": "马桶吸",
+      "expected": [
+        "🪠"
+      ]
+    },
+    {
+      "review_id": 663,
+      "query": "骆驼",
+      "expected": [
+        "🐪",
+        "🐫"
+      ]
+    },
+    {
+      "review_id": 670,
+      "query": "魔法棒",
+      "expected": [
+        "🪄"
+      ]
+    },
+    {
+      "review_id": 671,
+      "query": "鱿鱼",
+      "expected": [
+        "🦑"
+      ]
+    },
+    {
+      "review_id": 672,
+      "query": "鸡蛋",
+      "expected": [
+        "🥚"
+      ]
+    },
+    {
+      "review_id": 674,
+      "query": "鸽子",
+      "expected": [
+        "🕊️"
+      ]
+    }
+  ]
+}

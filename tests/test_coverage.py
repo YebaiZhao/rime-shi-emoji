@@ -19,7 +19,8 @@ class CoverageTests(unittest.TestCase):
         self.assertEqual(report["summary"]["inventory"], 3781)
         self.assertEqual(report["summary"]["base_emoji"], 1906)
         self.assertEqual(report["summary"]["zero_terms"], 0)
-        self.assertEqual(report["summary"]["zero_primary"], 0)
+        self.assertEqual({normalize(row['emoji']) for row in report['entries']
+                          if not row['skin_variant'] and not row['primary_terms']}, {'💫'})
         self.assertEqual(report, json.loads(Path("data/coverage_report.json").read_text()))
         for key, maximum in json.loads(Path("data/coverage_budget.json").read_text()).items():
             self.assertLessEqual(report["summary"][key], maximum, key)

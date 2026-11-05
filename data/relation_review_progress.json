@@ -1,0 +1,328 @@
+{
+  "schema_version": 3,
+  "scope": "all_sources_core_first",
+  "status": "revision_incomplete",
+  "core_status": "semantic_decisions_complete",
+  "core_completed": 11937,
+  "core_remaining": 0,
+  "standard_id": "human-confirmed-two-axis-v3",
+  "semantic_acceptance": "incomplete",
+  "semantic_next_index": null,
+  "semantic_recheck_batches": [
+    {
+      "batch": "standard3-revalidate-001",
+      "range": [
+        1,
+        800
+      ],
+      "examined": 800,
+      "decided": 800,
+      "needs_discussion": 0,
+      "grade_changes": 12,
+      "decisions": {
+        "strict": 346,
+        "excluded": 104,
+        "general": 323,
+        "divergent": 27
+      }
+    },
+    {
+      "batch": "standard3-002",
+      "range": [
+        801,
+        1600
+      ],
+      "examined": 800,
+      "decided": 800,
+      "needs_discussion": 0,
+      "grade_changes": 40,
+      "decisions": {
+        "strict": 305,
+        "general": 349,
+        "excluded": 104,
+        "divergent": 42
+      }
+    },
+    {
+      "batch": "standard3-003",
+      "range": [
+        1601,
+        2400
+      ],
+      "examined": 800,
+      "decided": 800,
+      "needs_discussion": 0,
+      "grade_changes": 22,
+      "decisions": {
+        "strict": 327,
+        "general": 357,
+        "excluded": 92,
+        "divergent": 24
+      }
+    },
+    {
+      "batch": "standard3-004",
+      "range": [
+        2401,
+        3200
+      ],
+      "examined": 800,
+      "decided": 800,
+      "needs_discussion": 0,
+      "grade_changes": 57,
+      "decisions": {
+        "excluded": 111,
+        "general": 318,
+        "strict": 347,
+        "divergent": 24
+      }
+    },
+    {
+      "batch": "standard3-005",
+      "range": [
+        3201,
+        4000
+      ],
+      "examined": 800,
+      "decided": 800,
+      "needs_discussion": 0,
+      "grade_changes": 45,
+      "decisions": {
+        "strict": 362,
+        "general": 311,
+        "excluded": 105,
+        "divergent": 22
+      }
+    },
+    {
+      "batch": "standard3-006",
+      "range": [
+        4001,
+        4800
+      ],
+      "examined": 800,
+      "decided": 800,
+      "needs_discussion": 0,
+      "grade_changes": 48,
+      "decisions": {
+        "general": 443,
+        "strict": 224,
+        "divergent": 41,
+        "excluded": 92
+      }
+    },
+    {
+      "batch": "standard3-007",
+      "range": [
+        4801,
+        5600
+      ],
+      "examined": 800,
+      "decided": 800,
+      "needs_discussion": 0,
+      "grade_changes": 43,
+      "decisions": {
+        "divergent": 46,
+        "general": 355,
+        "strict": 308,
+        "excluded": 91
+      }
+    },
+    {
+      "batch": "standard3-008",
+      "range": [
+        5601,
+        6400
+      ],
+      "examined": 800,
+      "decided": 800,
+      "needs_discussion": 0,
+      "grade_changes": 45,
+      "decisions": {
+        "strict": 434,
+        "general": 261,
+        "divergent": 19,
+        "excluded": 86
+      }
+    },
+    {
+      "batch": "standard3-009",
+      "range": [
+        6401,
+        7200
+      ],
+      "examined": 800,
+      "decided": 800,
+      "needs_discussion": 0,
+      "grade_changes": 49,
+      "decisions": {
+        "general": 336,
+        "excluded": 106,
+        "strict": 312,
+        "divergent": 46
+      }
+    },
+    {
+      "batch": "standard3-010",
+      "range": [
+        7201,
+        8000
+      ],
+      "examined": 800,
+      "decided": 800,
+      "needs_discussion": 0,
+      "grade_changes": 41,
+      "decisions": {
+        "general": 405,
+        "strict": 263,
+        "divergent": 33,
+        "excluded": 99
+      }
+    },
+    {
+      "batch": "standard3-011",
+      "range": [
+        8001,
+        8800
+      ],
+      "examined": 799,
+      "decided": 799,
+      "needs_discussion": 0,
+      "grade_changes": 29,
+      "decisions": {
+        "strict": 338,
+        "excluded": 87,
+        "general": 353,
+        "divergent": 21
+      }
+    },
+    {
+      "batch": "standard3-targeted",
+      "range": [
+        8204,
+        8204
+      ],
+      "examined": 1,
+      "decided": 1,
+      "needs_discussion": 0,
+      "grade_changes": 0,
+      "decisions": {
+        "excluded": 1
+      }
+    },
+    {
+      "batch": "standard3-012",
+      "range": [
+        8801,
+        9600
+      ],
+      "examined": 800,
+      "decided": 800,
+      "needs_discussion": 0,
+      "grade_changes": 35,
+      "decisions": {
+        "general": 344,
+        "strict": 314,
+        "excluded": 102,
+        "divergent": 40
+      }
+    },
+    {
+      "batch": "standard3-013",
+      "range": [
+        9601,
+        10400
+      ],
+      "examined": 800,
+      "decided": 800,
+      "needs_discussion": 0,
+      "grade_changes": 51,
+      "decisions": {
+        "general": 340,
+        "strict": 336,
+        "excluded": 98,
+        "divergent": 26
+      }
+    },
+    {
+      "batch": "standard3-014",
+      "range": [
+        10401,
+        11200
+      ],
+      "examined": 800,
+      "decided": 800,
+      "needs_discussion": 0,
+      "grade_changes": 41,
+      "decisions": {
+        "general": 377,
+        "strict": 294,
+        "excluded": 84,
+        "divergent": 45
+      }
+    },
+    {
+      "batch": "standard3-015",
+      "range": [
+        11201,
+        11937
+      ],
+      "examined": 737,
+      "decided": 737,
+      "needs_discussion": 0,
+      "grade_changes": 40,
+      "decisions": {
+        "strict": 334,
+        "general": 303,
+        "excluded": 78,
+        "divergent": 22
+      }
+    }
+  ],
+  "sentence_scope_stage": 3,
+  "entry_access_stage": 3,
+  "runtime_implementation_stage": 3,
+  "phase_two_full_source_status": "incomplete",
+  "all_source_total": 130820,
+  "noncore_pending": 118883,
+  "all_source_remaining": 118883,
+  "all_source_unexamined": 118883,
+  "new_relations_added": 0,
+  "counting_note": "examined includes needs_discussion; completed counts decided only; cumulative_decisions includes unaccepted historical labels",
+  "core_total": 11937,
+  "initial_decisions_completed": 11937,
+  "semantic_recheck_examined": 11937,
+  "semantic_recheck_completed": 11937,
+  "semantic_recheck_pending": 0,
+  "semantic_needs_discussion": 0,
+  "discussion_categories": {},
+  "scope_pending": 5388,
+  "scope_specification_reviewed": 6549,
+  "scope_codes": {
+    "F": 438,
+    "N": 1440,
+    "C": 5388,
+    "W": 4671
+  },
+  "cumulative_decisions": {
+    "strict": 4844,
+    "excluded": 1440,
+    "general": 5175,
+    "divergent": 478
+  },
+  "reviewed_decisions": {
+    "strict": 4844,
+    "excluded": 1440,
+    "general": 5175,
+    "divergent": 478
+  },
+  "historical_unrevisited_decisions": {},
+  "target_kinds": {
+    "single_emoji": 11654,
+    "fixed_sequence": 274,
+    "text_symbol": 9
+  },
+  "normalization_conflicts": 0,
+  "runtime_validation": "not_run",
+  "runtime_eligible": 0
+}

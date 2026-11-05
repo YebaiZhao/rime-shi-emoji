@@ -12,6 +12,78 @@ LUA_LIBRARY = str(RIME_LUA) if RIME_LUA.exists() else C.util.find_library("lua5.
 
 @unittest.skipUnless(LUA_LIBRARY, "Needs Squirrel Lua or system liblua5.4")
 class LuaFilterTests(unittest.TestCase):
+    def test_tier_matching_and_scope(self):
+        self.execute("""
+          local preferences={skin='default',gender='neutral'}
+          assert(filter.suffix('冰',preferences,false,1)=='🧊')
+          assert(filter.suffix('海狮',preferences,false,1)==nil)
+          assert(filter.suffix('海狮',preferences,false,2)=='🦭')
+          assert(filter.suffix('凤凰传奇',preferences,false,2)==nil)
+          assert(filter.suffix('凤凰传奇',preferences,false,3)=='🐦‍🔥')
+          local nested=filter.suffix('我刚看了凤凰传奇',preferences,false,3) or ''
+          assert(not nested:find('🐦‍🔥',1,true))
+          local invoice=filter.suffix('开发票',preferences,false,3) or ''
+          assert(not invoice:find('🧑‍💻',1,true))
+          local matcher=require('shi_emoji.matcher')
+          local index=matcher.tiered({boundaries={},negators={}}, {
+            ['甲']={{'A',1,true,false}}, ['甲乙']={{'B',3,true,false}},
+            ['丙']={{'C',3,true,false}}, ['丁']={{'D',3,true,false}},
+            ['戊']={{'E',2,false,false}},
+          })
+          local compose=require('shi_emoji.compose')
+          local _,groups=matcher.search(index,'甲乙丙丁戊',100,3)
+          assert(compose.suffix(groups)=='A C')
+        """)
+
+    def test_option_zero_output_modes_and_passthrough(self):
+        self.execute("""
+          local processor=require('shi_emoji.processor')
+          env.zero_key=true
+          env.settings=require('shi_emoji.settings').load(env.engine.schema.config)
+          local options={shi_emoji=true, ascii_mode=false, shi_emoji_emoji_only=false}
+          context.get_option=function(_, name) return options[name] or false end
+          local committed,cleared
+          env.engine.commit_text=function(_, text) committed=text end
+          context.clear=function() cleared=true end
+          local function key(code, modifiers)
+            modifiers=modifiers or {}
+            return {keycode=code,
+              release=function() return modifiers.release or false end,
+              alt=function() return modifiers.alt or false end,
+              shift=function() return modifiers.shift or false end,
+              ctrl=function() return modifiers.ctrl or false end,
+              super=function() return modifiers.super or false end}
+          end
+          local function check(event, expected)
+            committed=nil;cleared=false
+            local result=processor.func(event,env)
+            assert(result==(expected and 1 or 2), ('key=%x result=%s expected=%s'):format(event.keycode,result,tostring(expected)))
+            assert(committed==expected, ('actual=%s expected=%s'):format(tostring(committed),tostring(expected)))
+            assert(cleared==(expected~=nil))
+          end
+          run({Candidate('sentence',0,6,'虾仁','')})
+          for _,only in ipairs({false,true}) do
+            options.shi_emoji_emoji_only=only
+            check(key(0x30), only and '🦐 🍤' or '虾仁 🦐 🍤')
+            check(key(0x30,{alt=true}), only and '虾仁 🦐 🍤' or '🦐 🍤')
+            check(key(0xff0d,{alt=true}), only and '虾仁 🦐 🍤' or '🦐 🍤')
+          end
+          check(key(0x30,{shift=true}),nil)
+          check(key(0x29,{shift=true}),nil)
+          check(key(0x30,{alt=true,release=true}),nil)
+          for _,modifier in ipairs({'shift','ctrl','super'}) do
+            check(key(0x30,{alt=true,[modifier]=true}),nil)
+          end
+          for _,name in ipairs({'shi_emoji','ascii_mode'}) do
+            local saved=options[name];options[name]=not saved
+            check(key(0x30,{alt=true}),nil);options[name]=saved
+          end
+          env.zero_key=false;check(key(0x30,{alt=true}),nil);env.zero_key=true
+          output={}
+          run({Candidate('sentence',0,6,'丙丁','')})
+          check(key(0x30,{alt=true}),nil)
+        """)
+
     def test_traditional_preview_and_explicit_gender(self):
         self.execute("""
           local a=Candidate('sentence',0,6,'開發','')

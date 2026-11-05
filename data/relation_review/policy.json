@@ -1,0 +1,70 @@
+{
+  "schema_version": 3,
+  "scope": "130820 source candidates, core-first review of 11937 relations",
+  "tiers": {
+    "strict": "系统 Emoji 建议级的直观性，关键词更自然。直接图示、常用叫法及无需解释且不会在日常使用中误导的视觉近似可入；不要求专业分类完全相同。",
+    "general": "适合爱用 Emoji 的用户日常表达；允许直观视觉近似、典型对象、约定手势或语气。联想应自然且不离谱，不能仅凭因果链或任意成员。",
+    "divergent": "允许更频繁、更有创意的联想，包括清楚可理解的双关、比喻、意象组合、氛围、专名及社群用法；必须能说明具体关联，不收容任意映射。",
+    "excluded": "只存在间接知识联系、泛属性任意指定对象，或解释后仍牵强。",
+    "needs_discussion": "词义、图形身份或自然程度尚不能可靠判断，记录问题并继续队列，禁止强行批准。"
+  },
+  "tier_refinement": {
+    "scope": "用户澄清三档体验；在298条待议裁决中处理最后36条，不将此前已审关系自动改级。",
+    "visual_approximation": "通常从一般档评估；严格档只接受日常可直接认作该物、不会遗漏关键区别的图形。仅同一大类不是视觉近似。",
+    "creative_association": "氛围和专名按发散档评估。完整候选可成立不等于可作句中触发；本批新批准关系均不授权句中线索。"
+  },
+  "normalization": {
+    "expression": "OpenCC 1.4.2 t2s diagnostic map in expression_normalization.json",
+    "target": "remove VS16 for diagnostic grouping only",
+    "raw_fields": "never rewritten",
+    "exceptions": []
+  },
+  "scope_policy": {
+    "codes": {
+      "W": "完整候选及句中完整词的规格已审定；句中需词边界实现验证，运行仍未授权。",
+      "F": "仅完整候选；不授权句中线索。",
+      "C": "完整候选关系已核对；句中适用范围尚未定案，可能涉及义项、语用或边界，不视作已有消歧条件且不授权句中线索。",
+      "P": "本标准尚未逐项检查范围，不得把统一中间态当完成。",
+      "N": "关系排除，无适用范围。",
+      "Q": "关系待议，暂无适用范围授权。"
+    },
+    "conditions": [
+      "exact_candidate",
+      "verified_token_boundary"
+    ],
+    "unimplemented_context": "只记录所需义项能力与未决原因，不写样例字符串条件，不用句长>=5代替。",
+    "runtime_eligible": false
+  },
+  "semantic_revision": {
+    "batch_size": 800,
+    "unrevisited": "pending",
+    "historic_decisions": "preserved, not acceptance",
+    "standard_id": "human-confirmed-two-axis-v3"
+  },
+  "runtime_validation": "not_run",
+  "standard_id": "human-confirmed-two-axis-v3",
+  "axes": {
+    "semantics": "是否成立及最低等级，与适用范围独立；来源及分数不能自动授予等级。",
+    "scope": "逐项审定完整候选、句中完整词、上下文限定；词边界不是完整语义消歧。"
+  },
+  "regression_cases": [
+    [
+      "病",
+      "🦟"
+    ],
+    [
+      "两个",
+      "‼️"
+    ],
+    [
+      "0",
+      "⭕"
+    ],
+    [
+      "表情",
+      "🙎"
+    ]
+  ],
+  "regression_note": "已知决定的回归检查，不是新增判定分支，不是独立语义验收。",
+  "migration": "旧名单、正常词库、人工监督和通用词边界算法保留；不在此次数据审定中更改运行入口。"
+}

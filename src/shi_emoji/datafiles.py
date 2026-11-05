@@ -16,6 +16,8 @@ def apply_short_term_policy(rules, policy):
     result = []
     for rule in rules:
         phrase = rule["phrases"][0]
+        if phrase in policy["suppressed_generic"]:
+            continue
         if not short_han_phrase(phrase):
             result.append(rule)
             continue
@@ -129,6 +131,10 @@ def merged_data(path, include_generated=True, include_traditional=True):
     data["rules"], data["mapping_audit"] = resolve_layers(layers)
     short_policy = json.loads((path.parent / "short_term_policy.json").read_text(encoding="utf-8"))
     data["rules"] = apply_short_term_policy(data["rules"], short_policy)
+    for phrase, reason in short_policy["suppressed_generic"].items():
+        for offer in data["mapping_audit"].get(phrase, []):
+            offer["selected"] = False
+            offer["policy_exclusion"] = reason
     guards_path = path.parent / "word_guards.json"
     if guards_path.exists():
         generated_guards = json.loads(guards_path.read_text(encoding="utf-8"))["words"]

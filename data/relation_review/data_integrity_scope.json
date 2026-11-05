@@ -1,0 +1,33 @@
+{
+  "files": {
+    "tests/fixtures/basic_keywords_116.json": "c38431fa1c557518bf57763fe4388fab5194a8e17b1459b3801479123958e226",
+    "data/adult_phrases.json": "a3bdcfb3f876aa54b8096ce9ded90d85c9e5ba782aaf1730e9f87c81b4651e74",
+    "data/coverage_budget.json": "659d0d88855e066dd08f508ae897cf9f4687f0d1efcaeed3d87a75a9e7900b61",
+    "data/coverage_report.json": "cc5bd9b792368f1aaf343c9e4289e4b3c505cb80c91316b29930a970f135cff9",
+    "data/emoji.jsonl": "935b47a3769c27b5c0f3742a389c3f152e8c88a565526dcf2cd7a9c7038488ba",
+    "data/emoji_inventory.json": "754fd45cbe8f39d8a5ecdaed66c8d243dabe76c3ba668ec5aa77101b4e3965fc",
+    "data/everyday_queries.json": "ebc88854d6bcf2d3bfd406806a855f159a0530ee0e816d241de66b37f96a9264",
+    "data/intents.json": "cf26c637647f8e0917f3581b816f8a8a5d534e760ee6887a15eb0c0c00a65e84",
+    "data/lexical_aliases.json": "4717222cbfde3d9d9091889dc727631b36a80c9cd35197fb8d3eedf005dc424a",
+    "data/lexical_phrases.json": "9e2254c5f0f870c592fbed68cd922ceb688ec5b227755eb4ccaacf3f63bd9c8a",
+    "data/literal_aliases.json": "0e3cc3e8bf355390bcb358001a2655f8b81cba62ef409a533be25a0c1d07418b",
+    "data/matching_cases.json": "6255081b2ebd2ac55726563935415bcfc109883e0f03af230ef7e66643691453",
+    "data/merge_policy_baseline.json": "6489a651228c0b03f0d5e452070b47a94ab842bb6189c2ed25a1da15801606fb",
+    "data/model_catalog.json": "e9ba60db7409eb6bfb2fbea99d73cd2ee2c57b589d8c018979e72d35091f9c7d",
+    "data/model_phrases.json": "7859d6ff01b75ea74c7df22ff7efaeec73b4a7309794cd025857f45c7ffc8901",
+    "data/model_predictions.json": "60aafcb917038695fa4438c1713b56c80b49219f4cf15cf3965b10b2811e75ce",
+    "data/model_queries.json": "ccd3ed0e8bd7e6b054ba21504a136e9a2173c059b2dd7a0999118b03829e6708",
+    "data/model_review.json": "a0e6a24e85427eca251cfdd2b1c7cb52a986c7eef5a5c2b32d75ec838df9e934",
+    "data/phrases.json": "81eef84e848b219a72479a2af8e984aeedfc0f7fcd08d9be52c9d11bf7294f3f",
+    "data/review_policy.json": "e4aa3be19ab544659eedbaab2ca324b56d3d3a75a9be25116850c4f6d09376e2",
+    "data/short_term_policy.json": "8d92bd263fc5d265083d9ddd9daffc9aeff90ee4a3f4949c8c561bcf0c7ca736",
+    "data/source_manifest.json": "9ea2c071f2015bd6e6521858ef1c73da4d0ef6b36250e685c45a012f90a915bb",
+    "data/traditional_aliases.json": "0d5bb4d3b551f9ca8adf7cee9b55f5868177e2c67df0e9b010cb568075f1dc4b",
+    "data/word_guards.json": "8990828cd048cf27f21a2e83683fe0fd12438a0b988f6283c7faaf4088f6e110",
+    "data/upstream/cldr-derived-zh.json": "1ff96249af6fc69067f2dfabc26b450786a93d8048f2764ecfad53fd64953f92",
+    "data/upstream/jieba-dict.txt": "7197c3211ddd98962b036cdf40324d1ea2bfaa12bd028e68faa70111a88e12a8",
+    "data/upstream/cldr-zh.json": "8d2dfe9bf41894bd17c9c1a1906a31bf0ccc06204bf4b77c2ab2b0d8f79a5fdf",
+    "data/upstream/emoji-test-16.0.txt": "24f0c534e86cf142e2496953e8f0e46a3e702392911eddcd29c6cced85139697"
+  },
+  "note": "Historic frozen_inputs remains intact. Whole-tree hash equality is no longer claimed after user-authorized Option+0 edits. This boundary protects original data and the 116-word fixture."
+}

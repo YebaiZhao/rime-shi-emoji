@@ -1,0 +1,9 @@
+{
+  "total": 130820,
+  "core": 11937,
+  "noncore": 118883,
+  "occurrences": 172019,
+  "order": "Unicode sorted raw expression,target; stable queue_index",
+  "sha256": "855905e1463aeb263dd27a7821d087a7da6479526909cd14909f3067bb606210",
+  "normalization": "raw source identity preserved; deriving from a reviewed relation requires an explicit base id and still has a queue destination"
+}

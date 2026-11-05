@@ -24,7 +24,9 @@ class PackageTests(unittest.TestCase):
             with zipfile.ZipFile(first) as archive:
                 self.assertIsNone(archive.testzip())
                 files = archive.namelist()
-                self.assertEqual(len(files), 41)
+                self.assertEqual(len(files), 43)
+                self.assertIn('rime-shi-emoji/lua/shi_emoji/tier_data.lua', files)
+                self.assertIn('rime-shi-emoji/docs/basic-keywords-116.md', files)
                 self.assertTrue(any(n.endswith('/adult.lua') for n in files))
                 self.assertIn('rime-shi-emoji/docs/experimental-candidate-slot.md', files)
                 self.assertIn('rime-shi-emoji/docs/experimental-zero-key.md', files)

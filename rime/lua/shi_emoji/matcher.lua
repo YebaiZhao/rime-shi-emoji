@@ -26,7 +26,37 @@ function M.new(data)
   return {root = root, data = data, guard_root = guard_root}
 end
 
-function M.search(index, text, limit)
+function M.tiered(data, entries)
+  local rules = {}
+  local guards = {}
+  for _, word in ipairs(data.word_guards or {}) do guards[#guards + 1] = word end
+  for phrase, relations in pairs(entries) do
+    rules[#rules + 1] = {id = phrase, phrases = {phrase}, relations = relations}
+    local sentence = false
+    for _, relation in ipairs(relations) do sentence = sentence or relation[3] end
+    if not sentence then guards[#guards + 1] = phrase end
+  end
+  return M.new({rules = rules, word_guards = guards,
+                boundaries = data.boundaries, negators = data.negators})
+end
+
+local function tier_rule(rule, tier, exact)
+  if not rule.relations then return rule end
+  local found = {id = rule.id, emoji = {}}
+  for _, entry in ipairs(rule.relations) do
+    local target, level, sentence, sequence = table.unpack(entry)
+    if level <= tier and (exact or sentence) then
+      if not found.level then
+        found.level = level
+        if sequence then found.suffix = target end
+      end
+      found.emoji[#found.emoji + 1] = target
+    end
+  end
+  if found.level then return found end
+end
+
+function M.search(index, text, limit, tier)
   local result, scores, position, groups = {}, {}, 1, {}
   local text_length = utf8.len(text)
   local guards, start = {}, 1
@@ -67,13 +97,16 @@ function M.search(index, text, limit)
     while finish <= #text and node[text:sub(finish, finish)] do
       node = node[text:sub(finish, finish)]
       finish = finish + 1
-      if node.rule and (not node.rule.min_context_len
-          or text_length >= node.rule.min_context_len)
+      local exact = position == 1 and finish == #text + 1
+      local found = node.rule and tier_rule(node.rule, tier, exact)
+      if found and (not found.min_context_len
+          or text_length >= found.min_context_len)
           and not protected(position, finish)
-          and (not node.rule.exact_only or (position == 1 and finish == #text + 1)) then
-        local found, phrase = node.rule, text:sub(position, finish - 1)
+          and (not found.exact_only or exact) then
+        local phrase = text:sub(position, finish - 1)
         groups[#groups + 1] = {start = position, finish = finish, phrase = phrase,
-          intent = found.id, emoji = found.emoji, suffix = found.suffix, negated = negated}
+          intent = found.id, emoji = found.emoji, suffix = found.suffix, negated = negated,
+          level = found.level}
         for rank, emoji in ipairs(found.emoji) do
           local score = utf8.len(phrase) * 100 + 21 - rank + (found.priority or 0)
           if not scores[emoji] or score > scores[emoji].score

@@ -35,14 +35,17 @@ patch:
   "shi_emoji/skin": default
   "shi_emoji/gender": neutral
   "shi_emoji/adult": true
+  "shi_emoji/tiered": true
   "switches/+":
     - name: shi_emoji
       states: [诗Emoji关, 诗Emoji开]
+    - options: [shi_emoji_general, shi_emoji_strict, shi_emoji_divergent]
+      states: [联想一般, 联想严格, 联想发散]
 ```
 
 已有相同 patch 键时，合并列表项，不能重复写 YAML 键。若已有插件占用 `engine/processors/@before 0`，按原方案调整插入位置，保留两者；诗Emoji processor 放前面，filter 放末尾。自定义末尾过滤器可能影响候选结果，需要自行验证。
 
-肤色、性别、重口联想都在这份方案配置里修改，具体可选值见[偏好说明](docs/preferences.md)。改完需重新部署并重载输入法；默认安装的菜单只保留诗Emoji总开关，启用 `0` 键实验时可另加输出方式开关。
+肤色、性别、重口联想都在这份方案配置里修改，具体可选值见[偏好说明](docs/preferences.md)。改完需重新部署并重载输入法；选单提供总开关和联想档位，启用 `0` 键实验时可另加输出方式开关。
 
 ## 3. 保存总开关状态
 
@@ -52,6 +55,9 @@ patch:
 patch:
   "switcher/save_options/+":
     - shi_emoji
+    - shi_emoji_general
+    - shi_emoji_strict
+    - shi_emoji_divergent
 ```
 
 不要给总开关增加 `reset`，否则可能覆盖已保存的选择。
@@ -68,7 +74,7 @@ patch:
 
 ## 更新与卸载
 
-- **更新**：用新版包替换本插件的九个 Lua 文件，保留其他 Lua 文件与个人词库。对照两份配置例，仅补新增条目，不重复添加已有组件或开关；旧版肤色、性别和重口菜单项及其保存项应移除；重新部署、重载。
+- **更新**：用新版包替换本插件的 Lua 文件，保留其他 Lua 文件与个人词库。对照两份配置例，仅补新增条目，不重复添加已有组件或开关；旧版肤色、性别和重口菜单项及其保存项应移除；重新部署、重载。
 - **旧临时模式迁移**：移除旧 `shi_emoji/hotkey` 与 `reset`；不再使用 Ctrl+Shift+E。早期 `semantic_emoji` 组件需从配置中移除，不与现行组件同时启用。
 - **双账号**：可以共享静态文件和这三个配置值，但两个账号分别部署、分别保存总开关状态。共享目录权限由本机管理者设置，插件不会自动修改权限。
 - **卸载**：先移除 schema 中本插件的两个组件、总开关和三个配置值，以及 `default.custom.yaml` 中 `shi_emoji` 保存项。保留其他项目；部署、重载后再移除 `lua/shi_emoji`。不要删除整个 Rime 目录或用户词库。
@@ -92,7 +98,7 @@ patch:
 
 Use a Rime frontend with librime-lua / Lua 5.4. macOS Squirrel + Wanxiang full pinyin is the primary tested setup.
 
-Copy the nine files in `lua/shi_emoji` into your Rime user directory without replacing other plugins. Merge `shi_emoji_phrase.custom.yaml.example` into the current Chinese schema's custom file and `shi_emoji.default.custom.yaml.example` into `default.custom.yaml`. Preserve existing patches and avoid duplicate YAML keys. Skin, gender and edgy associations are static schema settings; only the main switch appears in the native Ctrl+grave menu. Redeploy/reload, then enable **诗Emoji开**.
+Copy the Lua files in `lua/shi_emoji` into your Rime user directory without replacing other plugins. Merge `shi_emoji_phrase.custom.yaml.example` into the current Chinese schema's custom file and `shi_emoji.default.custom.yaml.example` into `default.custom.yaml`. Preserve existing patches and avoid duplicate YAML keys. Skin, gender and edgy associations are static schema settings. The unreleased tiered schema patch adds a three-way association setting to the native Ctrl+grave menu, defaulting to general. Redeploy/reload, then enable **诗Emoji开**.
 
 Candidate order stays unchanged. Only the highlighted Chinese candidate shows an emoji preview; press Option+Return to commit text plus the main emoji, or Control+Option+Return for the edgy preview. Tab keeps the host schema's behavior and Space still commits plain Chinese. Defaults: original skin, neutral gender, edgy associations on. The optional `0` key commits text plus emoji by default; its native menu item switches to emoji-only output. All files are in one ZIP. To upgrade, replace only this plugin's files and merge new settings. To uninstall, remove its two components, all plugin setting groups and all `shi_emoji*` save-options, redeploy, then remove only this plugin's folder. No user dictionary deletion is needed.
 

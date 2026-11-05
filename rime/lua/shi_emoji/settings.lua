@@ -10,7 +10,14 @@ function M.load(config)
   assert(genders[gender], 'Invalid shi_emoji/gender: ' .. gender)
   local adult = config:get_bool('shi_emoji/adult')
   if adult == nil then adult = true end
-  return {skin=skin, gender=gender, adult=adult}
+  return {skin=skin, gender=gender, adult=adult, tiered=config:get_bool('shi_emoji/tiered')}
+end
+
+function M.tier(preferences, context)
+  if not preferences.tiered then return nil end
+  if context:get_option('shi_emoji_strict') then return 1 end
+  if context:get_option('shi_emoji_divergent') then return 3 end
+  return 2
 end
 
 return M

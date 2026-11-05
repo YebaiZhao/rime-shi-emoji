@@ -5,6 +5,11 @@ local settings = require("shi_emoji.settings")
 local M = {}
 local shared_index
 local adult_index
+local tier_index
+
+function M.current_suffix(text, env, adult)
+  return M.suffix(text, env.settings, adult, settings.tier(env.settings, env.engine.context))
+end
 
 function M.init(env)
   env.index = shared_index
@@ -41,14 +46,14 @@ function M.init(env)
       if candidate ~= slot.candidate then slot.source = candidate end
       local source = slot.source
       if not M.eligible(source, context) then return end
-      local suffix = M.suffix(source.text, env.settings)
+      local suffix = M.current_suffix(source.text, env)
       slot.candidate.text = suffix or source.text
       slot.candidate.comment = suffix and "诗Emoji" or "诗Emoji · 当前词无联想"
       return
     end
     if not M.eligible(candidate, context) then return end
-    local normal = M.suffix(candidate.text, env.settings)
-    local adult = env.settings.adult and M.suffix(candidate.text, env.settings, true)
+    local normal = M.current_suffix(candidate.text, env)
+    local adult = env.settings.adult and M.current_suffix(candidate.text, env, true)
     if not normal and not adult then return end
     local preview = ""
     if normal then
@@ -91,16 +96,19 @@ function M.eligible(candidate, context)
       and candidate.text:find("[\228-\233]") ~= nil
 end
 
-function M.suffix(text, settings, adult)
+function M.suffix(text, settings, adult, tier)
   local index
   if adult then
     adult_index = adult_index or matcher.new(require("shi_emoji.adult"))
     index = adult_index
+  elseif tier then
+    tier_index = tier_index or matcher.tiered(require("shi_emoji.data"), require("shi_emoji.tier_data"))
+    index = tier_index
   else
     shared_index = shared_index or matcher.new(require("shi_emoji.data"))
     index = shared_index
   end
-  local rows, groups = matcher.search(index, text, 6)
+  local rows, groups = matcher.search(index, text, 6, tier)
   if #rows == 0 then return nil end
   return compose.suffix(groups, function(emoji, phrase)
     return variants.apply(emoji, phrase, settings)
@@ -120,14 +128,14 @@ function M.func(translation, env)
   local function emit_page()
     local source
     for i = 1, math.min(#rows, env.page_size - 1) do
-      if M.eligible(rows[i], context) and M.suffix(rows[i].text, env.settings) then
+      if M.eligible(rows[i], context) and M.current_suffix(rows[i].text, env) then
         source = rows[i]
         break
       end
     end
     if source then
       for i = 1, math.min(#rows, env.page_size - 1) do yield(rows[i]) end
-      local suffix = M.suffix(rows[1].text, env.settings)
+      local suffix = M.current_suffix(rows[1].text, env)
       local text = suffix or rows[1].text
       local slot = Candidate("shi_emoji", 0, #context.input, text,
           suffix and "诗Emoji" or "诗Emoji · 当前词无联想")
