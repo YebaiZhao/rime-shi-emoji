@@ -20,16 +20,16 @@ These are checked examples, not a promise to understand arbitrary Chinese. Match
 
 - Original candidate order stays intact. Space commits plain text and Tab retains the host schema's behavior; highlight a candidate and press Option+Return to commit its previewed emoji.
 - An [experimental numbered candidate slot](docs/experimental-candidate-slot.md) is available as an opt-in: its number key commits emoji only. It sets a seven-item page, so an ordinary seventh candidate may still appear when there is no emoji match, and Wanxiang's `7` key no longer serves its original tone behavior. The default installation does not enable it.
-- An [experimental `0` key](docs/experimental-zero-key.md) commits highlighted text plus emoji by default; Option+0 commits emoji only. Switching its native output-mode menu swaps the two actions and remembers the choice. The compact hint shows only `0→Emoji`. It adds no candidate row and is mutually exclusive with the numbered slot. Option+0 is an unreleased change pending integration testing; the alpha.3 release archive still uses Shift+0.
+- An [experimental `0` key](docs/experimental-zero-key.md) commits highlighted text plus emoji by default; Option+0 commits emoji only. Switching its native output-mode menu swaps the two actions and remembers the choice. The compact hint shows only `0→Emoji`. It adds no candidate row and is mutually exclusive with the numbered slot.
 - Finds several concepts inside a sentence, rather than requiring an exact whole-sentence entry.
 - Runs locally with Lua and static data. The plugin does not collect typing telemetry; host IME logging is separate.
 - Simplified and Traditional spellings share one semantic mapping. OpenCC generates standard, Taiwan, and Hong Kong aliases at build time; no converter runs while typing. Regional colloquialisms still need curation.
-- The development branch adds association tiers to the native menu. Enabling the `0` key adds a separate output-mode item. Skin tone, gender and edgy associations (重口联想) are static schema settings.
+- The native menu offers three association tiers. Enabling the `0` key adds a separate output-mode item. Skin tone, gender and edgy associations (重口联想) are static schema settings.
 - Auditable data: official names, curated literal meanings and associations, and model suggestions are resolved separately.
 
 ## Install and use
 
-**v0.1.0-alpha.3** is an Alpha prerelease, primarily tested with macOS Squirrel. Isolated profiles have checked Wanxiang, Luna Pinyin Simplified, and Luna Pinyin with Traditional-character output. Other frontends are not yet verified.
+**v0.1.0-alpha.4** is an Alpha prerelease for trying the three tiers, primarily on macOS Squirrel with Wanxiang Pinyin. Other frontends are not yet verified for this release.
 
 Download `rime-shi-emoji-runtime.zip` from [Releases](https://github.com/YebaiZhao/rime-shi-emoji/releases). Alternatively, use **Code → Download ZIP** on GitHub and copy from `rime/lua/shi_emoji` instead of `lua/shi_emoji`; the YAML examples are in `rime/`. End users do not need Python.
 
@@ -43,11 +43,11 @@ Defaults: original skin color, gender-neutral, edgy associations on. Female + me
 
 Follow the [0-key setup](docs/experimental-zero-key.md) to enable `shi_emoji/zero_key` and add the output-mode switch. After redeploying, highlight a candidate with a `〔0→…〕` preview and press the **main keyboard `0`**. The default commits text plus emoji; Space still commits plain text. Without a preview, the host schema handles `0`.
 
-Press **Ctrl + grave** to open the switcher, expand its settings if folded, then select a row and confirm to cycle it. The label shows the current setting:
+Press **Ctrl + grave** to open the switcher and expand its settings if folded. Select the tier you want directly. The on/off and output-mode rows show their current state; selecting one toggles it.
 
 - **诗Emoji开 / 诗Emoji关** turns the plugin on or off.
-- **诗Emoji一般 / 诗Emoji严格 / 诗Emoji发散** selects General, Strict or Creative (development branch only; General is the default).
-- **原文＋Emoji / 仅Emoji** selects text plus emoji or emoji only for `0`. Option+0 does the reverse on the development branch; the alpha.3 archive uses Shift+0 and does not have the tier switch.
+- **诗Emoji一般 / 诗Emoji严格 / 诗Emoji发散** selects General, Strict or Creative (General is the default).
+- **原文＋Emoji / 仅Emoji** selects text plus emoji or emoji only for `0`. Option+0 does the reverse; the older alpha.3 archive uses Shift+0 and has no tier switch.
 
 ## Honest boundaries
 

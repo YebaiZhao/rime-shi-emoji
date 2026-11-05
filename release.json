@@ -1,7 +1,7 @@
 {
-  "version": "0.1.0-alpha.3",
-  "python_version": "0.1.0a3",
-  "tag": "v0.1.0-alpha.3",
+  "version": "0.1.0-alpha.4",
+  "python_version": "0.1.0a4",
+  "tag": "v0.1.0-alpha.4",
   "stage": "alpha",
   "runtime_asset": "rime-shi-emoji-runtime.zip"
 }

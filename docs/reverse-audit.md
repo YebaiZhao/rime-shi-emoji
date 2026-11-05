@@ -2,7 +2,7 @@
 
 2026-11-02 对当前工作树的全量复核，固定 Unicode 16.0 的 1,906 个基础 Emoji。在源码仓库中复现（运行时 ZIP 不包含 Python 源码）：
 
-后续未发布的[116词修正](basic-keywords-116.md)保持零可达6项，将不足3个独立可达入口的数量由1,049降至1,013。下面保留alpha.3阶段的统计，避免将两个阶段混作一次验收。
+alpha.4 的[116词修正](basic-keywords-116.md)保持零可达6项，将不足3个独立可达入口的数量由1,049降至1,013。下面保留alpha.3阶段的统计，避免将两个阶段混作一次验收。
 
 ```sh
 PYTHONPATH=src python3 -m shi_emoji.reverse_audit --max-reachable 0 --limit 50

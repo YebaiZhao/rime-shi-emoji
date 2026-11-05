@@ -217,7 +217,11 @@ def check(rows):
             assert index[case['query'], target.replace('\ufe0f', '')]['status'] == 'approved'
     # User-authorized keyboard changes legitimately invalidate the historic whole-tree freeze.
     for path, digest in read_json(DATA / 'data_integrity_scope.json')['files'].items():
-        assert hashlib.sha256((ROOT / path).read_bytes()).hexdigest() == digest, path
+        source = ROOT / path
+        # Upstream build caches are intentionally absent from fresh source checkouts.
+        if path.startswith('data/upstream/') and not source.exists():
+            continue
+        assert hashlib.sha256(source.read_bytes()).hexdigest() == digest, path
     return {
         'core_total': len(rows),
         'initial_decisions_completed': len(rows),

@@ -1,6 +1,6 @@
 # 手动接入朙月拼音与其他 Rime 中文方案
 
-先按[安装指南](../INSTALL.md)把九个 Lua 文件放进用户目录。这里说明如何在不覆盖原有配置的情况下，接入一个已有的中文方案。本文只在 macOS 鼠须管的朙月拼音、朙月拼音·简化字上做过配置编译验证；简体和繁体字形共用映射，但地区口语词仍不保证覆盖。其他前端可参考相同的 Rime 补丁结构，但不保证快捷键或候选界面一致。
+先按[安装指南](../INSTALL.md)把十个 Lua 文件放进用户目录。这里说明如何在不覆盖原有配置的情况下，接入一个已有的中文方案。朙月拼音与朙月拼音·简化字此前做过配置编译验证；alpha.4 的三档主要在万象拼音验收。其他前端可参考相同的 Rime 补丁结构，但不保证快捷键或候选界面一致。
 
 ## 找对文件：按方案 ID，不按显示名
 
@@ -34,9 +34,12 @@ __patch:
       "shi_emoji/skin": default
       "shi_emoji/gender": neutral
       "shi_emoji/adult": true
+      "shi_emoji/tiered": true
       "switches/+":
         - name: shi_emoji
           states: [诗Emoji关, 诗Emoji开]
+        - options: [shi_emoji_general, shi_emoji_strict, shi_emoji_divergent]
+          states: [诗Emoji一般, 诗Emoji严格, 诗Emoji发散]
 ```
 
 这段是**追加结构示意**，不是可覆盖整个现有文件的模板。如果原列表已有同一 `patch/+` 且使用相同键，把列表项合进去，避免重复 YAML 键。最安全的检查是重新部署后打开 `build/ID.schema.yaml`：`engine/processors` 有一次 `lua_processor@*shi_emoji.processor`，`engine/filters` 有一次 `lua_filter@*shi_emoji.filter`，`switches` 有一次 `shi_emoji`，并且原方案组件仍在。
@@ -47,6 +50,6 @@ __patch:
 
 ## 按键与验证
 
-默认模式不改每页候选数，也不改原方案的数字键。中文模式打开「诗Emoji开」，输入 `kaifa` 并高亮“开发”或“開發”：都应看到 🧑‍💻 预览；普通空格上屏原文，macOS ⌥+回车上屏「原候选 + 🧑‍💻」，不会把繁体候选改成简体。想让主键区 `0`／`⌥+0` 上屏，可再按[实验 `0` 键](experimental-zero-key.md)配置：`0` 按选单模式输出，`⌥+0` 输出另一种，默认分别为原文＋Emoji和仅Emoji。`⌥+0` 为未发布、待集成验证的替换键位；alpha.3 发布包仍为 `Shift+0`。它会接管命中时原方案的这两个键，所以需要自行确认方案是否用它们输入声调、标点或选词。不要同时启用[第 7 项候选槽](experimental-candidate-slot.md)。
+默认模式不改每页候选数，也不改原方案的数字键。中文模式打开「诗Emoji开」，输入 `kaifa` 并高亮“开发”或“開發”：都应看到 🧑‍💻 预览；普通空格上屏原文，macOS ⌥+回车上屏「原候选 + 🧑‍💻」，不会把繁体候选改成简体。想让主键区 `0`／`⌥+0` 上屏，可再按[实验 `0` 键](experimental-zero-key.md)配置：`0` 按选单模式输出，`⌥+0` 输出另一种，默认分别为原文＋Emoji和仅Emoji。alpha.4 使用 `⌥+0`；alpha.3 发布包仍为 `Shift+0`。它会接管命中时原方案的这两个键，所以需要自行确认方案是否用它们输入声调、标点或选词。不要同时启用[第 7 项候选槽](experimental-candidate-slot.md)。
 
 部署后菜单没有开关：先查方案 ID 和 `switches`；有开关却无预览：查 processor/filter 是否各出现一次、Lua 文件是否放对目录、是否在中文模式；部署报 YAML 错：先找重复 `patch:`、重复键和缩进。修改原配置前留一份自己的副本，排障时不要删用户词库或整个 Rime 目录。

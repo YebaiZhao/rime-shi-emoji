@@ -26,7 +26,29 @@ class RuntimeInstallationTests(unittest.TestCase):
             profile = temp / "profile"
             subprocess.run([sys.executable, "scripts/prepare_wanxiang_probe.py", "--source",
                             os.environ["RIME_PROBE_USER"], "--output", str(profile),
-                            "--runtime", str(runtime)], cwd=ROOT, check=True, capture_output=True, text=True)
+                            "--runtime", str(runtime), "--tiered", "--zero-key"],
+                           cwd=ROOT, check=True, capture_output=True, text=True)
+
+            def native(keys, select=None):
+                command = [sys.executable, "scripts/rime_probe.py", "--user", str(profile),
+                           "--keys", keys, "--option-state", "on"]
+                if select:
+                    command += ["--menu-select", select]
+                result = subprocess.run(command, cwd=ROOT, check=True, capture_output=True, text=True)
+                return json.loads(result.stdout)
+
+            phrase = "fenghuangchuanqi"
+            self.assertNotIn("🐦‍🔥", native(phrase)["candidates"][0]["comment"])
+            self.assertNotIn("🐦‍🔥", native(phrase, "诗Emoji一般")["candidates"][0]["comment"])
+            self.assertNotIn("🐦‍🔥", native(phrase, "诗Emoji严格")["candidates"][0]["comment"])
+            self.assertIn("🐦‍🔥", native(phrase, "诗Emoji发散")["candidates"][0]["comment"])
+            self.assertIn("🐦‍🔥", native(phrase)["candidates"][0]["comment"])
+            self.assertNotIn("🐦‍🔥", native(phrase, "诗Emoji一般")["candidates"][0]["comment"])
+            keys = "xiaren{Down}{Down}"
+            self.assertEqual(native(keys + "0")["commit"], "虾仁 🦐 🍤")
+            alternate = native(keys + "{Alt+0}haibian")
+            self.assertEqual(alternate["commit"], "🦐 🍤")
+            self.assertEqual(alternate["candidates"][0]["text"], "海边")
 
             def probe(state):
                 result = subprocess.run([sys.executable, "scripts/rime_probe.py", "--user", str(profile),
@@ -37,7 +59,7 @@ class RuntimeInstallationTests(unittest.TestCase):
             disabled = probe("off")
             enabled = probe("on")
             self.assertEqual([r['text'] for r in enabled], [r['text'] for r in disabled])
-            self.assertIn("🛵 🔋", enabled[0]["comment"])
+            self.assertIn("0→🛵 🔋", enabled[0]["comment"])
             self.assertEqual(probe("off"), disabled)
 
             # Remove only this plugin from this disposable profile, retaining
@@ -69,7 +91,7 @@ class RuntimeInstallationTests(unittest.TestCase):
             profile=temp/'configured-profile'
             subprocess.run([sys.executable,'scripts/prepare_wanxiang_probe.py','--source',os.environ['RIME_PROBE_USER'],
                             '--output',str(profile),'--runtime',str(runtime),
-                            '--skin','medium','--gender','female'],
+                            '--skin','medium','--gender','female','--tiered'],
                            check=True,capture_output=True,text=True)
             def probe(user, keys):
                 command=[sys.executable,'scripts/rime_probe.py','--user',str(user),'--option-state','on','--keys',keys]
@@ -77,10 +99,14 @@ class RuntimeInstallationTests(unittest.TestCase):
             schema=yaml.safe_load((profile/'build/wanxiang.schema.yaml').read_text())
             plugin_switches=[s for s in schema['switches'] if s.get('name','').startswith('shi_emoji')
                              or any(v.startswith('shi_emoji') for v in s.get('options',[]))]
-            self.assertEqual([s['name'] for s in plugin_switches],['shi_emoji'])
+            self.assertEqual(plugin_switches, [
+                {'name': 'shi_emoji', 'states': ['诗Emoji关', '诗Emoji开']},
+                {'options': ['shi_emoji_general', 'shi_emoji_strict', 'shi_emoji_divergent'],
+                 'states': ['诗Emoji一般', '诗Emoji严格', '诗Emoji发散']},
+            ])
             default=yaml.safe_load((profile/'build/default.yaml').read_text())
             self.assertEqual([v for v in default['switcher']['save_options'] if v.startswith('shi_emoji')],
-                             ['shi_emoji'])
+                             ['shi_emoji', 'shi_emoji_general', 'shi_emoji_strict', 'shi_emoji_divergent'])
             result=probe(profile,'kaifa{Alt+Return}')
             self.assertEqual(result['commit'],'开发 👩🏽‍💻')
             rows=probe(profile,'sese{Down}')['candidates']
