@@ -3,13 +3,15 @@ local M = {}
 local tones = {default='0', light='1', medium_light='2', medium='3',
   medium_dark='4', dark='5'}
 local function norm(s) return (s:gsub('️','')) end
+local explicit_names = {['老头']=true, ['老爷爷']=true, ['爷爷']=true,
+  ['老奶奶']=true, ['奶奶']=true, ['老太太']=true}
 function M.apply(emoji, phrase, settings)
   local entry = data[norm(emoji)]
   if not entry then return emoji end
   local gender = settings.gender
   local tone = tones[settings.skin]
   -- Explicit wording wins over defaults. Existing gender stays untouched.
-  local explicit = false
+  local explicit = explicit_names[phrase] or false
   for _, word in ipairs({'女','男','妈妈','媽媽','爸爸','母亲','母親','父亲','父親',
       '姐姐','姊姊','哥哥','妹妹','弟弟','老公','老婆','女士','先生','妻','夫'}) do
     if phrase:find(word,1,true) then explicit = true; break end

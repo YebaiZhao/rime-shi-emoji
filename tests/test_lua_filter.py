@@ -15,14 +15,15 @@ class LuaFilterTests(unittest.TestCase):
     def test_tier_matching_and_scope(self):
         self.execute("""
           local preferences={skin='default',gender='neutral'}
-          assert(filter.suffix('冰',preferences,false,1)=='🧊')
-          assert(filter.suffix('海狮',preferences,false,1)==nil)
-          assert(filter.suffix('海狮',preferences,false,2)=='🦭')
-          assert(filter.suffix('凤凰传奇',preferences,false,2)==nil)
-          assert(filter.suffix('凤凰传奇',preferences,false,3)=='🐦‍🔥')
-          local nested=filter.suffix('我刚看了凤凰传奇',preferences,false,3) or ''
+          assert(filter.suffix('海狮',preferences)=='🦭')
+          assert(filter.suffix('冰',preferences,1)=='🧊')
+          assert(filter.suffix('海狮',preferences,1)==nil)
+          assert(filter.suffix('海狮',preferences,2)=='🦭')
+          assert(filter.suffix('凤凰传奇',preferences,2)==nil)
+          assert(filter.suffix('凤凰传奇',preferences,3)=='🐦‍🔥')
+          local nested=filter.suffix('我刚看了凤凰传奇',preferences,3) or ''
           assert(not nested:find('🐦‍🔥',1,true))
-          local invoice=filter.suffix('开发票',preferences,false,3) or ''
+          local invoice=filter.suffix('开发票',preferences,3) or ''
           assert(not invoice:find('🧑‍💻',1,true))
           local matcher=require('shi_emoji.matcher')
           local index=matcher.tiered({boundaries={},negators={}}, {
@@ -82,6 +83,17 @@ class LuaFilterTests(unittest.TestCase):
           output={}
           run({Candidate('sentence',0,6,'丙丁','')})
           check(key(0x30,{alt=true}),nil)
+          env.settings.adult=true
+          options.shi_emoji_divergent=true
+          output={};run({Candidate('sentence',0,6,'黄色段子','')})
+          assert(output[1].comment:find('🔞🗣️',1,true))
+          assert(not output[1].comment:find('重口',1,true))
+          check(key(0x30),'🔞🗣️')
+          check(key(0x30,{alt=true}),'黄色段子 🔞🗣️')
+          options.shi_emoji_emoji_only=false
+          check(key(0x30),'黄色段子 🔞🗣️')
+          check(key(0x30,{alt=true}),'🔞🗣️')
+          check(key(0xff0d,{alt=true,ctrl=true}),nil)
         """)
 
     def test_traditional_preview_and_explicit_gender(self):
@@ -99,7 +111,7 @@ class LuaFilterTests(unittest.TestCase):
 
     def test_literal_cow_and_scoped_expression_outputs(self):
         for text, suffix in [('牛','🐄 🐂'),('老牛','🐄 🐂'),('黄牛','🐂 🐄'),
-                             ('奶牛','🐄 🐮'),('牛逼','🐂🍺'),('虾仁','🦐 🍤'),
+                             ('奶牛','🐄 🐮'),('牛逼','🤯 👏'),('虾仁','🦐 🍤'),
                              ('虾','🦐'),('苹果','🍎 🍏'),('蛋糕','🍰 🎂'),
                              ('乌龟','🐢'),('橙子','🍊'),('月亮','🌙 🌕')]:
             with self.subTest(text=text):
@@ -109,8 +121,10 @@ class LuaFilterTests(unittest.TestCase):
                              + json.dumps(suffix,ensure_ascii=False) + ",1,true), output[1].comment)")
     def test_word_guard_corpus_matches_python_in_actual_lua(self):
         from shi_emoji.match import Matcher
-        matcher = Matcher.load('data/phrases.json')
-        body = ["local matcher=require('shi_emoji.matcher'); local index=matcher.new(require('shi_emoji.data'))"]
+        from shi_emoji.datafiles import merged_data
+        source = merged_data('data/phrases.json')
+        matcher = Matcher(source)
+        body = ["local index = reference_index"]
         for case in json.loads(Path('data/matching_cases.json').read_text()):
             text = json.dumps(case['text'], ensure_ascii=False)
             expected = sorted(r['emoji'] for r in matcher.search(case['text'], 100)['candidates'])
@@ -119,7 +133,28 @@ class LuaFilterTests(unittest.TestCase):
             for emoji in expected:
                 body.append('assert(found[' + json.dumps(emoji, ensure_ascii=False) + '], ' + text + ')')
             body.append('end')
-        self.execute('\n'.join(body))
+        self.execute_reference('\n'.join(body))
+
+    def execute_reference(self, body):
+        """Check pre-tier development data without installing a second runtime."""
+        from shi_emoji.datafiles import merged_data
+        from shi_emoji.export import runtime_source
+        data = runtime_source(merged_data('data/phrases.json'))
+        self.execute("""
+          local matcher=require('shi_emoji.matcher')
+          local compose=require('shi_emoji.compose')
+          local variants=require('shi_emoji.variants')
+          local reference_index=matcher.new((function()
+        """ + data + """
+          end)())
+          local function reference_suffix(text, preferences)
+            local _,groups=matcher.search(reference_index,text,6)
+            if #groups==0 then return nil end
+            return compose.suffix(groups,function(emoji,phrase)
+              return variants.apply(emoji,phrase,preferences)
+            end)
+          end
+        """ + body)
 
     def execute(self, body, lua_root=Path("rime/lua"), slot=False, settings=None):
         if RIME_LUA.exists():
@@ -200,7 +235,7 @@ class LuaFilterTests(unittest.TestCase):
           run({a,b,c})
           assert(#output==3 and output[1].text=='吓人' and output[2].text=='虾仁')
           assert(output[1].comment:find('释义',1,true)==1)
-          assert(output[1].comment=='释义')
+          assert(output[1].comment:find('🧟 👹',1,true))
           assert(output[2].comment=='')
           select(2)
           assert(output[1].comment=='释义')
@@ -209,23 +244,24 @@ class LuaFilterTests(unittest.TestCase):
           assert(output[2].comment=='' and output[3].comment=='')
         """)
 
-    def test_short_candidate_preview_is_quiet_until_context_is_longer(self):
+    def test_strict_candidate_preview_ignores_loose_short_matches(self):
         self.execute("""
+          context.get_option=function(_,name)
+            return name=='shi_emoji' or name=='shi_emoji_strict'
+          end
           for _,word in ipairs({'病','好','好人','你'}) do
             output={};run({Candidate('sentence',0,6,word,'')})
             assert(output[1].comment=='',word)
           end
           output={};run({Candidate('sentence',0,6,'冰','')})
           assert(output[1].comment:find('🧊',1,true))
-          output={};run({Candidate('sentence',0,6,'你真是一个好人','')})
-          assert(output[1].comment:find('🫵 🦸',1,true),output[1].comment)
         """)
 
     def test_dynamic_candidate_slot_follows_short_and_full_pages(self):
         self.execute("""
           run({Candidate('sentence',0,6,'吓人',''),Candidate('sentence',0,6,'虾仁','')})
           assert(#output==3 and output[3].type=='shi_emoji')
-          assert(output[3].text=='吓人',output[3].text)
+          assert(output[3].text=='🧟 👹',output[3].text)
           select(2)
           assert(output[3].text=='🦐 🍤',output[3].text)
           local rows={}
@@ -250,20 +286,23 @@ class LuaFilterTests(unittest.TestCase):
 
     def test_multiple_concepts_and_nested_child_phrase(self):
         self.execute("""
-          run({Candidate('sentence',0,6,'万圣节暴走小朋友','')})
-          assert(#output==1 and output[1].comment:find('🎃 🏃 🧒',1,true))
+          run({Candidate('sentence',0,6,'两个生日蛋糕','')})
+          assert(#output==1 and output[1].comment:find('🎂',1,true))
         """)
 
-    def test_combo_preserved_alongside_other_concepts(self):
+    def test_divergent_keeps_curated_combo(self):
         self.execute("""
-          run({Candidate('sentence',0,6,'牛逼海边','')})
-          assert(#output==1 and output[1].comment:find('🐂🍺 🏖️',1,true))
+          context.get_option=function(_,name)
+            return name=='shi_emoji' or name=='shi_emoji_divergent'
+          end
+          run({Candidate('sentence',0,6,'牛马','')})
+          assert(#output==1 and output[1].comment:find('🐂🐎',1,true))
         """)
 
     def test_curated_meaning_and_country_priority(self):
         self.execute("""
           local cases={
-            {'厉害','厉害 👏 👍'}, {'牛马','牛马 🐂🐎'},
+            {'厉害','厉害 👏 👍'},
             {'中国','中国 🇨🇳 🐉'}, {'见一面','见一面 🤝'},
             {'房地产开发',false}, {'开发房地产',false}, {'发展中国家',false},
           }

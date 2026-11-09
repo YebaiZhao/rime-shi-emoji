@@ -18,7 +18,7 @@ def package(root, output):
         files[root/name] = name
     for name in USER_DOCS:
         files[root/'docs'/name] = 'docs/'+name
-    for name in ("compose.lua", "data.lua", "tier_data.lua", "filter.lua", "matcher.lua", "processor.lua", "settings.lua", "variants.lua", "variant_data.lua", "adult.lua"):
+    for name in ("compose.lua", "tier_data.lua", "entry_data.lua", "match_metadata.lua", "filter.lua", "matcher.lua", "processor.lua", "settings.lua", "variants.lua", "variant_data.lua", "adult.lua"):
         path = root / "rime/lua/shi_emoji" / name
         files[path] = "lua/shi_emoji/" + path.name
     for name in ("Unicode-3.0.txt", "jieba-MIT.txt", "OpenCC-Apache-2.0.txt"):

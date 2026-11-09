@@ -25,7 +25,7 @@ def lua_value(value):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--phrases", type=Path, default=Path("data/phrases.json"))
-    parser.add_argument("--output", type=Path, default=Path("rime/lua/shi_emoji/data.lua"))
+    parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--curated-only", action="store_true")
     args = parser.parse_args()
     data = merged_data(args.phrases, include_generated=not args.curated_only)

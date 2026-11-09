@@ -1,6 +1,6 @@
 -- MIT. Match Chinese candidate text; no shell, network, or model calls.
 local M = {}
-function M.new(data)
+local function new(data, guard_root)
   local root = {}
   for _, rule in ipairs(data.rules) do
     for _, phrase in ipairs(rule.phrases) do
@@ -13,17 +13,27 @@ function M.new(data)
       node.rule = rule
     end
   end
-  local guard_root = {}
-  for _, word in ipairs(data.word_guards or {}) do
-    local node = guard_root
-    for i = 1, #word do
-      local byte = word:sub(i, i)
-      node[byte] = node[byte] or {}
-      node = node[byte]
+  if not guard_root then
+    guard_root = {}
+    for _, word in ipairs(data.word_guards or {}) do
+      local node = guard_root
+      for i = 1, #word do
+        local byte = word:sub(i, i)
+        node[byte] = node[byte] or {}
+        node = node[byte]
+      end
+      node.terminal = true
     end
-    node.terminal = true
   end
   return {root = root, data = data, guard_root = guard_root}
+end
+
+function M.new(data)
+  return new(data)
+end
+
+function M.with_guard(data, index)
+  return new(data, index.guard_root)
 end
 
 function M.tiered(data, entries)

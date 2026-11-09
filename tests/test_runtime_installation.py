@@ -26,7 +26,7 @@ class RuntimeInstallationTests(unittest.TestCase):
             profile = temp / "profile"
             subprocess.run([sys.executable, "scripts/prepare_wanxiang_probe.py", "--source",
                             os.environ["RIME_PROBE_USER"], "--output", str(profile),
-                            "--runtime", str(runtime), "--tiered", "--zero-key"],
+                            "--runtime", str(runtime), "--zero-key"],
                            cwd=ROOT, check=True, capture_output=True, text=True)
 
             def native(keys, select=None):
@@ -91,10 +91,12 @@ class RuntimeInstallationTests(unittest.TestCase):
             profile=temp/'configured-profile'
             subprocess.run([sys.executable,'scripts/prepare_wanxiang_probe.py','--source',os.environ['RIME_PROBE_USER'],
                             '--output',str(profile),'--runtime',str(runtime),
-                            '--skin','medium','--gender','female','--tiered'],
+                            '--skin','medium','--gender','female'],
                            check=True,capture_output=True,text=True)
-            def probe(user, keys):
+            def probe(user, keys, tier=None):
                 command=[sys.executable,'scripts/rime_probe.py','--user',str(user),'--option-state','on','--keys',keys]
+                if tier:
+                    command += ['--menu-select', tier]
                 return json.loads(subprocess.run(command,check=True,capture_output=True,text=True).stdout)
             schema=yaml.safe_load((profile/'build/wanxiang.schema.yaml').read_text())
             plugin_switches=[s for s in schema['switches'] if s.get('name','').startswith('shi_emoji')
@@ -109,10 +111,10 @@ class RuntimeInstallationTests(unittest.TestCase):
                              ['shi_emoji', 'shi_emoji_general', 'shi_emoji_strict', 'shi_emoji_divergent'])
             result=probe(profile,'kaifa{Alt+Return}')
             self.assertEqual(result['commit'],'开发 👩🏽‍💻')
-            rows=probe(profile,'sese{Down}')['candidates']
-            self.assertTrue(any(r['text'] in {'涩涩','色色'} and '〔重口 🍆🍑' in r['comment'] for r in rows),rows)
+            rows=probe(profile,'sese{Down}', '诗Emoji发散')['candidates']
+            self.assertTrue(any(r['text'] in {'涩涩','色色'} and '〔诗Emoji 🍆🍑' in r['comment'] for r in rows),rows)
             off_profile=temp/'default-profile'
             subprocess.run([sys.executable,'scripts/prepare_wanxiang_probe.py','--source',os.environ['RIME_PROBE_USER'],
                             '--output',str(off_profile),'--runtime',str(runtime),'--no-adult'],
                            check=True,capture_output=True,text=True)
-            self.assertFalse(any('〔重口 ' in r['comment'] for r in probe(off_profile,'sese{Down}')['candidates']))
+            self.assertFalse(any('🍆🍑' in r['comment'] for r in probe(off_profile,'sese{Down}', '诗Emoji发散')['candidates']))

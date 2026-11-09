@@ -24,7 +24,10 @@ class PackageTests(unittest.TestCase):
             with zipfile.ZipFile(first) as archive:
                 self.assertIsNone(archive.testzip())
                 files = archive.namelist()
-                self.assertEqual(len(files), 43)
+                self.assertEqual(len(files), 44)
+                self.assertNotIn('rime-shi-emoji/lua/shi_emoji/data.lua', files)
+                self.assertIn('rime-shi-emoji/lua/shi_emoji/match_metadata.lua', files)
+                self.assertIn('rime-shi-emoji/lua/shi_emoji/entry_data.lua', files)
                 self.assertIn('rime-shi-emoji/lua/shi_emoji/tier_data.lua', files)
                 self.assertIn('rime-shi-emoji/docs/basic-keywords-116.md', files)
                 self.assertTrue(any(n.endswith('/adult.lua') for n in files))
@@ -61,9 +64,11 @@ class PackageTests(unittest.TestCase):
             lua_root = Path(directory) / "extracted/rime-shi-emoji/lua"
             lua_tests.LuaFilterTests().execute("""
               assert(not package.path:find('/rime/lua/',1,true))
+              assert(filter.suffix('虾仁',CONFIG,2)=='🦐 🍤')
+              assert(not package.loaded['shi_emoji.data'], 'Three tiers must not load the legacy mapping')
               run({Candidate('sentence',0,6,'电动车','')})
               assert(output[1].text=='电动车' and output[1].comment:find('🛵 🔋',1,true))
-              output={}
-              run({Candidate('sentence',0,6,'涩涩','')})
-              assert(output[1].comment:find('🍆🍑',1,true), 'Single package includes extension')
+              assert(filter.suffix('害羞的笑脸',CONFIG,2)=='😊')
+              assert(filter.suffix('红脸',CONFIG,2)=='😳')
+              assert(filter.suffix('涩涩',CONFIG,3)=='🍆🍑', 'Single package includes extension')
             """, lua_root=lua_root, settings={"adult": True})

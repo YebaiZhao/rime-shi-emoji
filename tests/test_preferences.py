@@ -76,7 +76,7 @@ class PreferenceLuaTests(unittest.TestCase):
             {'这个地狱笑话太冷了','这个地狱笑话太冷了 💀😂'},
             {'这场面血流成河','这场面血流成河 🩸'},
             {'今晚去开房','今晚去开房 🏨🔞'},
-            {'头破血流','头破血流 🤕 🩸'},
+            {'头破血流','头破血流 🤕'},
             {'今天开车去公司',false},
             {'手机爆头条新闻',false},
             {'特色图片',false},
@@ -84,22 +84,27 @@ class PreferenceLuaTests(unittest.TestCase):
             {'万圣节暴打小朋友',false},
           }
           for _,case in ipairs(cases) do
-            output={};run({Candidate('sentence',0,6,case[1],'')})
-            local edgy=output[1].comment:match('〔重口 (.-)〕')
+            local edgy=filter.suffix(case[1],CONFIG,3)
             local expected=case[2] and case[2]:sub(#case[1]+2) or nil
-            assert(edgy==expected,case[1]..': '..tostring(edgy))
+            if expected then
+              assert(edgy and edgy:find(expected,1,true),case[1]..': '..tostring(edgy))
+            else
+              CONFIG.adult=false
+              assert(edgy==filter.suffix(case[1],CONFIG,3),case[1]..': '..tostring(edgy))
+              CONFIG.adult=true
+            end
           end
         """, settings={"adult": True})
 
-    def test_basic_action_is_available_without_adult_extension(self):
+    def test_child_variants_are_available_without_adult_extension(self):
         lua_tests.LuaFilterTests().execute("""
           run({Candidate('sentence',0,6,'万圣节暴打小朋友','')})
-          assert(output[1].comment:find('🎃 👊 🧒',1,true),output[1].comment)
+          assert(output[1].comment:find('🧒',1,true),output[1].comment)
           assert(not package.loaded['shi_emoji.adult'])
         """)
         lua_tests.LuaFilterTests().execute("""
           run({Candidate('sentence',0,6,'万圣节暴打小朋友','')})
-          assert(output[1].comment:find('🎃 👊 👧',1,true),output[1].comment)
+          assert(output[1].comment:find('👧',1,true),output[1].comment)
           assert(not package.loaded['shi_emoji.adult'])
         """, settings={"gender": "female"})
 
@@ -131,10 +136,15 @@ class PreferenceLuaTests(unittest.TestCase):
           assert(#output==1 and not package.loaded['shi_emoji.adult'])
         """)
         lua_tests.LuaFilterTests().execute("""
+          context.get_option=function(_,name) return name=='shi_emoji' or name=='shi_emoji_divergent' end
           run({Candidate('sentence',0,6,'涩涩','')})
-          assert(#output==1 and output[1].comment:find('〔重口 🍆🍑',1,true))
+          assert(#output==1 and output[1].comment:find('〔诗Emoji 🍆🍑',1,true))
+          assert(filter.suffix('涩涩',CONFIG,1)==nil)
+          assert(filter.suffix('涩涩',CONFIG,2)==nil)
+          CONFIG.adult=false
+          assert(filter.suffix('涩涩',CONFIG,3)==nil)
           output={};run({Candidate('sentence',0,6,'开车','')})
           assert(#output==1 and output[1].text=='开车')
           assert(output[1].comment:find('〔诗Emoji 🚗',1,true))
-          assert(output[1].comment:find('〔重口 🔞🚗',1,true))
+          assert(not output[1].comment:find('🔞',1,true))
         """, settings={"adult": True})

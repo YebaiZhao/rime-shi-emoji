@@ -72,28 +72,28 @@ class BasicKeywordTests(unittest.TestCase):
         lua_filter.LuaFilterTests().execute('\n'.join(body))
 
     @unittest.skipUnless(lua_filter.LUA_LIBRARY, 'Needs actual Lua')
-    def test_reasonable_differences_are_preserved_in_final_output(self):
+    def test_reasonable_differences_are_preserved_in_reference_data(self):
         self.assertEqual(len({query for query, _ in REASONABLE}), 15)
         body = ["local norm=function(s) return (s:gsub('️','')) end"]
         for query, target in REASONABLE + [('碰杯','🍻'), ('电池','🪫'), ('警车','🚔'),
                                           ('头骨','☠️'), ('丝带','🎗️'), ('满月','🌝')]:
             text, emoji = json.dumps(query, ensure_ascii=False), json.dumps(normalize(target), ensure_ascii=False)
-            body.append('assert(norm(filter.suffix(' + text + ',CONFIG) or ""):find('
+            body.append('assert(norm(reference_suffix(' + text + ',CONFIG) or ""):find('
                         + emoji + ',1,true), ' + text + ')')
-        body.append("assert(filter.suffix('向上箭头',CONFIG)=='⬆️')")
-        body.append("assert(filter.suffix('音符',CONFIG)=='🎵')")
-        lua_filter.LuaFilterTests().execute('\n'.join(body))
+        body.append("assert(reference_suffix('向上箭头',CONFIG)=='⬆️')")
+        body.append("assert(reference_suffix('音符',CONFIG)=='🎵')")
+        lua_filter.LuaFilterTests().execute_reference('\n'.join(body))
 
     @unittest.skipUnless(lua_filter.LUA_LIBRARY, 'Needs actual Lua')
-    def test_generic_pollution_is_gone_in_final_output(self):
-        lua_filter.LuaFilterTests().execute('''
+    def test_generic_pollution_is_gone_in_reference_data(self):
+        lua_filter.LuaFilterTests().execute_reference('''
           for _,text in ipairs({'这两个文件需要整理','两个妈妈和儿子一家','这个表情真可爱'}) do
-            local suffix=filter.suffix(text,CONFIG) or ''
+            local suffix=reference_suffix(text,CONFIG) or ''
             assert(not suffix:find('‼️',1,true),text..suffix)
             assert(not suffix:find('🙎',1,true),text..suffix)
           end
-          assert(filter.suffix('表情',CONFIG)==nil)
-          assert(filter.suffix('两个',CONFIG)==nil)
-          assert((filter.suffix('两个生日蛋糕',CONFIG) or ''):find('🎂',1,true))
-          assert((filter.suffix('双叹号',CONFIG) or ''):find('‼️',1,true))
+          assert(reference_suffix('表情',CONFIG)==nil)
+          assert(reference_suffix('两个',CONFIG)==nil)
+          assert((reference_suffix('两个生日蛋糕',CONFIG) or ''):find('🎂',1,true))
+          assert((reference_suffix('双叹号',CONFIG) or ''):find('‼️',1,true))
         ''')

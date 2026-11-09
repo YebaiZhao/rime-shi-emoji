@@ -2,17 +2,16 @@ local matcher = require("shi_emoji.matcher")
 local compose = require("shi_emoji.compose")
 local variants = require("shi_emoji.variants")
 local settings = require("shi_emoji.settings")
+local entry_data = require("shi_emoji.entry_data")
 local M = {}
-local shared_index
 local adult_index
 local tier_index
 
-function M.current_suffix(text, env, adult)
-  return M.suffix(text, env.settings, adult, settings.tier(env.settings, env.engine.context))
+function M.current_suffix(text, env)
+  return M.suffix(text, env.settings, settings.tier(env.engine.context))
 end
 
 function M.init(env)
-  env.index = shared_index
   env.settings = settings.load(env.engine.schema.config)
   env.candidate_slot = env.engine.schema.config:get_bool("shi_emoji/candidate_slot")
   env.zero_key = env.engine.schema.config:get_bool("shi_emoji/zero_key")
@@ -52,18 +51,9 @@ function M.init(env)
       return
     end
     if not M.eligible(candidate, context) then return end
-    local normal = M.current_suffix(candidate.text, env)
-    local adult = env.settings.adult and M.current_suffix(candidate.text, env, true)
-    if not normal and not adult then return end
-    local preview = ""
-    if normal then
-      if env.zero_key then
-        preview = preview .. " 〔0→" .. normal .. "〕"
-      else
-        preview = preview .. " 〔诗Emoji " .. normal .. "〕"
-      end
-    end
-    if adult then preview = preview .. " 〔重口 " .. adult .. "〕" end
+    local suffix = M.current_suffix(candidate.text, env)
+    if not suffix then return end
+    local preview = (env.zero_key and " 〔0→" or " 〔诗Emoji ") .. suffix .. "〕"
     local original = candidate.comment or ""
     candidate.comment = original .. preview
     if candidate.comment == original .. preview then
@@ -96,20 +86,50 @@ function M.eligible(candidate, context)
       and candidate.text:find("[\228-\233]") ~= nil
 end
 
-function M.suffix(text, settings, adult, tier)
-  local index
-  if adult then
-    adult_index = adult_index or matcher.new(require("shi_emoji.adult"))
-    index = adult_index
-  elseif tier then
-    tier_index = tier_index or matcher.tiered(require("shi_emoji.data"), require("shi_emoji.tier_data"))
-    index = tier_index
-  else
-    shared_index = shared_index or matcher.new(require("shi_emoji.data"))
-    index = shared_index
+function M.suffix(text, settings, tier)
+  tier = tier or 2
+  tier_index = tier_index or matcher.tiered(require("shi_emoji.match_metadata"), require("shi_emoji.tier_data"))
+  local index = tier_index
+  local _, groups = matcher.search(index, text, 6, tier)
+  -- Entry repair is an exact-candidate lookup. It must not add trie words or
+  -- guards: those would change the existing behavior inside sentences.
+  local entry = entry_data[text]
+  if entry and tier >= entry.min_tier then
+    local targets, level = {}, nil
+    for _, relation in ipairs(entry.targets) do
+      if relation[2] <= tier then
+        targets[#targets + 1] = relation[1]
+        level = level or relation[2]
+      end
+    end
+    groups = {{start=1, finish=#text+1, phrase=text, intent=text,
+               emoji=targets, level=level}}
   end
-  local rows, groups = matcher.search(index, text, 6, tier)
-  if #rows == 0 then return nil end
+  if tier == 3 and settings.adult then
+    if not adult_index then
+      local adult = require("shi_emoji.adult")
+      adult_index = matcher.with_guard({rules = adult.rules,
+                                       boundaries = adult.boundaries, negators = adult.negators}, index)
+    end
+    local _, extra = matcher.search(adult_index, text, 6)
+    local function whole(group)
+      return group.start == 1 and group.finish == #text + 1
+    end
+    local ordinary_whole = false
+    for _, group in ipairs(groups) do ordinary_whole = ordinary_whole or whole(group) end
+    for _, group in ipairs(extra) do
+      group.level = 3
+      if whole(group) then
+        if not ordinary_whole then
+          groups = {group}
+          break
+        end
+      else
+        groups[#groups + 1] = group
+      end
+    end
+  end
+  if #groups == 0 then return nil end
   return compose.suffix(groups, function(emoji, phrase)
     return variants.apply(emoji, phrase, settings)
   end)

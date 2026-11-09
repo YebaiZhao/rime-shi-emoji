@@ -13,7 +13,6 @@ def main():
     p.add_argument("--output", type=Path, required=True, help="NEW isolated probe directory")
     p.add_argument("--schema", default="wanxiang", help="Compiled Chinese schema to adapt")
     p.add_argument("--runtime", type=Path, help="Extracted runtime lua/shi_emoji directory; defaults to source checkout")
-    p.add_argument("--tiered", action="store_true", help="Use the packaged three-tier behavior instead of the legacy regression mode")
     p.add_argument("--candidate-slot", action="store_true", help="Enable experimental dynamic candidate slot")
     p.add_argument("--zero-key", action="store_true", help="Use 0 for highlighted text plus Emoji and restore six-candidate pages")
     p.add_argument("--skin", choices=("default", "light", "medium_light", "medium", "medium_dark", "dark"))
@@ -54,11 +53,6 @@ def main():
     schema["switches"].extend(patch['switches/+'])
     schema["shi_emoji"] = {key.removeprefix('shi_emoji/'): value for key, value in patch.items()
                            if key.startswith('shi_emoji/')}
-    if not args.tiered:
-        schema["shi_emoji"].pop("tiered", None)
-        schema["switches"] = [s for s in schema["switches"]
-                              if "shi_emoji_general" not in s.get("options", [])]
-        saved[:] = [o for o in saved if o not in ("shi_emoji_general", "shi_emoji_strict", "shi_emoji_divergent")]
     if args.skin: schema["shi_emoji"]["skin"] = args.skin
     if args.gender: schema["shi_emoji"]["gender"] = args.gender
     if args.no_adult: schema["shi_emoji"]["adult"] = False
