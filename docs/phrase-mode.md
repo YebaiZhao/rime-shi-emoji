@@ -7,11 +7,11 @@
 ## 组件职责
 
 - `filter.lua`：默认原样转发候选；监听高亮变化，仅对当前完整中文候选匹配并临时追加注释预览，离开时还原原注释。每个同音词独立匹配。可选的[实验候选槽](experimental-candidate-slot.md)改为增加一项只提交 Emoji 的候选。
-- `processor.lua`：高亮完整候选且有匹配时，⌥+回车提交主库、⌃⌥+回车提交重口库。Tab 完全交还宿主，不改变万象音节跳转。
+- `processor.lua`：高亮完整候选且有匹配时，⌥+回车提交当前显示的联想，发散档默认纳入重口联想。Tab 完全交还宿主，不改变万象音节跳转。
 - `matcher.lua`：在每个字符位置收集所有命中的短语，包含嵌套与重叠命中，再合并表情。较长短语和原监督规则仍优先，去重后保留前六项用于推荐。
-- `data.lua`：由监督词库和经审核的模型产物导出，附数据来源和许可声明。
+- `tier_data.lua`：离线导出的三档联想词库。
 
-新增[完整词保护](word-boundaries.md)：先检索离线编译的名词跨度，过滤严格位于完整名词内部的短语；其余嵌套与重叠短语继续参与。保护词也包含在导出的 `data.lua` 中，无运行时分词依赖。
+新增[完整词保护](word-boundaries.md)：先检索离线编译的名词跨度，过滤严格位于完整名词内部的短语；其余嵌套与重叠短语继续参与。保护词在 `match_metadata.lua` 中，无运行时分词依赖。
 
 索引在首次启用并实际查询时才建立，同一 Lua 模块内复用；关闭或英文模式不进行词典查询。不宣称切换开关就立即释放全部内存。
 
@@ -39,7 +39,7 @@
 
 ```sh
 PYTHONPATH=src python3 -m shi_emoji.match '我不想去海边'
-PYTHONPATH=src python3 -m shi_emoji.export
+PYTHONPATH=src python3 -m shi_emoji.tier_export
 PYTHONPATH=src python3 -m unittest discover -s tests -v
 ```
 

@@ -1,68 +1,48 @@
 # Shi Emoji · 诗Emoji
 
-**Keep your Chinese text. Add a little expression.**
+**Type Chinese as usual. Add emoji when you want.**
 
-A lightweight Rime / Squirrel plugin that previews emoji only beside the highlighted Chinese candidate. Press Option+Return to commit **text + emoji**. No runtime AI model, network request, or background service.
+Shi Emoji is a local Rime plugin. It shows emoji beside the highlighted Chinese candidate without changing candidate order. It supports Simplified and Traditional Chinese and runs without a network connection or a model.
 
-[中文](README.md) · [Install](INSTALL.md) · [Architecture](docs/architecture.md) · [Contribute](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
-
-```text
-我不想去海边 → 我不想去海边 🙅 🏖️
-牛逼         → 牛逼 🐂🍺
-德国         → 德国 🇩🇪
-三文鱼       → 三文鱼 🍣
-开发         → 开发 🧑‍💻
-```
-
-These are checked examples, not a promise to understand arbitrary Chinese. Matching uses finite phrase dictionaries, local heuristics and offline-reviewed associations.
+[Download alpha.4](https://github.com/YebaiZhao/rime-shi-emoji/releases/tag/v0.1.0-alpha.4) · [Installation](INSTALL.md) · [中文](README.md)
 
 ## Why try it?
 
-- Original candidate order stays intact. Space commits plain text and Tab retains the host schema's behavior; highlight a candidate and press Option+Return to commit its previewed emoji.
-- An [experimental numbered candidate slot](docs/experimental-candidate-slot.md) is available as an opt-in: its number key commits emoji only. It sets a seven-item page, so an ordinary seventh candidate may still appear when there is no emoji match, and Wanxiang's `7` key no longer serves its original tone behavior. The default installation does not enable it.
-- An [experimental `0` key](docs/experimental-zero-key.md) commits highlighted text plus emoji by default; Option+0 commits emoji only. Switching its native output-mode menu swaps the two actions and remembers the choice. The compact hint shows only `0→Emoji`. It adds no candidate row and is mutually exclusive with the numbered slot.
-- Finds several concepts inside a sentence, rather than requiring an exact whole-sentence entry.
-- Runs locally with Lua and static data. The plugin does not collect typing telemetry; host IME logging is separate.
-- Simplified and Traditional spellings share one semantic mapping. OpenCC generates standard, Taiwan, and Hong Kong aliases at build time; no converter runs while typing. Regional colloquialisms still need curation.
-- The native menu offers three association tiers. Enabling the `0` key adds a separate output-mode item. Skin tone, gender and edgy associations (重口联想) are static schema settings.
-- Auditable data: official names, curated literal meanings and associations, and model suggestions are resolved separately.
+- **Use everyday Chinese, not emoji names.** 收到 can suggest 👌; 虾仁 can suggest 🦐 🍤.
+- **Move the highlight to see a different suggestion.** When you move from 吓人 to 虾仁, the emoji beside the highlighted candidate changes.
+- **Choose how creative it gets.** Strict favors direct matches, General adds natural associations, and Creative adds more playful ones.
+- **Choose what to commit.** Space keeps its normal behavior. Use Option+Return to include emoji, or enable the optional `0` and Option+0 shortcuts to switch quickly between text plus emoji and emoji only.
 
-## Install and use
+## Install and try it
 
-**v0.1.0-alpha.4** is an Alpha prerelease for trying the three tiers, primarily on macOS Squirrel with Wanxiang Pinyin. Other frontends are not yet verified for this release.
+**v0.1.0-alpha.4** is a prerelease, tested primarily on macOS Squirrel with Wanxiang Pinyin. See the [manual integration guide](docs/manual-integration.md) for Luna Pinyin. Other frontends need librime-lua and may handle shortcuts differently.
 
-Download `rime-shi-emoji-runtime.zip` from [Releases](https://github.com/YebaiZhao/rime-shi-emoji/releases). Alternatively, use **Code → Download ZIP** on GitHub and copy from `rime/lua/shi_emoji` instead of `lua/shi_emoji`; the YAML examples are in `rime/`. End users do not need Python.
+1. Download [`rime-shi-emoji-runtime.zip`](https://github.com/YebaiZhao/rime-shi-emoji/releases/download/v0.1.0-alpha.4/rime-shi-emoji-runtime.zip). Extract it and copy `lua/shi_emoji` into the `lua` folder in your Rime user directory. No source checkout or Python installation is needed.
+2. Merge the two YAML examples into your schema's `*.custom.yaml` and `default.custom.yaml` as shown in [INSTALL.md](INSTALL.md). Keep your existing settings.
+3. Redeploy. In Chinese mode, open the menu with **Ctrl + grave**, turn on **诗Emoji开**, and select **诗Emoji一般** (General).
+4. Type `xiaren`, highlight 虾仁, and press **Option+Return** once 🦐 🍤 appears. Space still commits plain text.
 
-Copy `lua/shi_emoji` into the Rime user directory; merge the two bundled YAML examples into your Chinese schema custom file and `default.custom.yaml`; redeploy/reload. Do not overwrite existing customizations. The schema ID determines the custom filename: `luna_pinyin_simp` uses `luna_pinyin_simp.custom.yaml`, not `luna_pinyin.custom.yaml`. Full instructions and an English quick start are in [INSTALL.md](INSTALL.md); see also the [manual integration guide](docs/manual-integration.md) for Luna Pinyin and existing `__patch` lists.
+## Commit with 0 and change settings
 
-Enable **诗Emoji开** in the Ctrl + grave switcher menu. Only the highlighted full Chinese candidate shows a preview; other rows stay unchanged. Option+Return commits the highlighted candidate plus its main emoji; Control+Option+Return chooses the optional edgy preview. Tab always keeps the host schema's behavior. Committing and Escape do not disable the plugin.
+The plugin leaves `0` alone by default. Follow the [0-key setup](docs/experimental-zero-key.md) to enable it and add the output-mode switch, then redeploy. Do not enable the numbered candidate slot at the same time.
 
-Defaults: original skin color, gender-neutral, edgy associations on. Female + medium skin can turn 开发 into `开发 👩🏽‍💻`; explicit gender wording is preserved. Only variants in the pinned Unicode inventory are emitted; mixed multi-person skin tones are not generally transformed.
+When the highlighted candidate shows `〔0→…〕`, use the main keyboard `0`:
 
-### Commit with 0 and change settings
+| Current output mode | `0` | Option+0 |
+|---|---|---|
+| 原文＋Emoji (text + emoji, default) | 虾仁 🦐 🍤 | 🦐 🍤 |
+| 仅Emoji (emoji only) | 🦐 🍤 | 虾仁 🦐 🍤 |
 
-Follow the [0-key setup](docs/experimental-zero-key.md) to enable `shi_emoji/zero_key` and add the output-mode switch. After redeploying, highlight a candidate with a `〔0→…〕` preview and press the **main keyboard `0`**. The default commits text plus emoji; Space still commits plain text. Without a preview, the host schema handles `0`.
+Without the `0→` hint, your schema handles `0` as usual. With these shortcuts enabled, Option+Return is an alias for Option+0.
 
-Press **Ctrl + grave** to open the switcher and expand its settings if folded. Select the tier you want directly. The on/off and output-mode rows show their current state; selecting one toggles it.
+In the **Ctrl + grave** menu, expand settings if folded. Select **诗Emoji一般 / 诗Emoji严格 / 诗Emoji发散** for General, Strict, or Creative. Selecting the on/off or output-mode row toggles its current value.
 
-- **诗Emoji开 / 诗Emoji关** turns the plugin on or off.
-- **诗Emoji一般 / 诗Emoji严格 / 诗Emoji发散** selects General, Strict or Creative (General is the default).
-- **原文＋Emoji / 仅Emoji** selects text plus emoji or emoji only for `0`. Option+0 does the reverse; the older alpha.3 archive uses Shift+0 and has no tier switch.
+Skin tone, gender, and edgy associations are set in your [schema configuration](docs/preferences.md). In alpha.4, the separate `〔重口 …〕` hint uses Control+Option+Return, not `0`. Unreleased changes merge these associations into Creative and use the regular commit keys.
 
-## Honest boundaries
+## Feedback and contributing
 
-- Not a runtime semantic model. Missing vocabulary, ambiguity, sarcasm and negation can produce wrong or absent suggestions. Real-estate development may still trigger a programmer.
-- Word guards reduce substring errors, but can also suppress useful compound-word matches.
-- Auto-generated Traditional spellings do not imply complete regional vocabulary or ambiguity coverage; explicit curated entries take precedence.
-- Chinese interpretation belongs to the host schema. Each full candidate is matched independently; partial-word candidates are not treated as complete sentences.
-- Thousands of phrases and lexical entries for 1,906 base Emoji do **not** establish contextual reachability or semantic accuracy.
-- Engineering/regression checks are not an independent semantic benchmark. Broad accuracy, other platforms and long-running resource behavior remain unverified.
-- Edgy associations cover innuendo, dark humor and stylized violent expressions. They are not a content filter or age classification of words/emoji. Ordinary action meanings remain in the main dictionary.
+Local dictionaries can miss new expressions or misread context. When reporting a match, include the pinyin, the Chinese candidate, and the actual and expected emoji. Please leave out private messages and user dictionaries.
 
-## Develop and contribute
+[Contributing](CONTRIBUTING.md) · [How it works](docs/architecture.md) · [Mapping sources](docs/mapping-resolution.md) · [Changelog](CHANGELOG.md)
 
-See [architecture and build commands](docs/architecture.md), [mapping provenance](docs/mapping-resolution.md) and [contribution rules](CONTRIBUTING.md). Bring anonymized real examples, not private chats or personal user dictionaries. Once an example informs dictionary tuning, it is a regression example—not a blind test.
-
-## Licensing
-
-[MIT](LICENSE) covers original project code and rules. Generated data also adapts Unicode-3.0, jieba MIT, and OpenCC Apache-2.0 data; retain [third-party notices](THIRD_PARTY_NOTICES.md) and `licenses/` when redistributing. No model weights or third-party emoji artwork are shipped. This is an independent project, not an official Rime integration.
+Original code and rules use the [MIT license](LICENSE). See [third-party notices](THIRD_PARTY_NOTICES.md) for derived data. This is an independent plugin, not an official Rime component.

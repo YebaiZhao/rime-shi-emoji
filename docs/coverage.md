@@ -8,7 +8,7 @@ These source statistics do not establish whether a particular user's active inpu
 
 ```sh
 PYTHONPATH=src python -m shi_emoji.coverage --fetch --check
-PYTHONPATH=src python -m shi_emoji.export
+PYTHONPATH=src python -m shi_emoji.tier_export
 PYTHONPATH=src python -m unittest discover -s tests -v
 ```
 

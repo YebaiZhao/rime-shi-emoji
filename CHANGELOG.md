@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+- 发散档默认包含重口联想，统一显示并使用普通上屏键；移除专用 Ctrl+Option+Return。仍可用 `shi_emoji/adult: false` 关闭。
+
 ## v0.1.0-alpha.4
 
 - 接入核心关系三档联想：一般默认，严格收窄，发散增加创意关联。句中只启用已审定范围且受词边界保护；重口联想仍独立。

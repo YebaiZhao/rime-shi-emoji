@@ -39,7 +39,7 @@ PYTHONPATH=src python -m shi_emoji.generate
 PYTHONPATH=src python -m shi_emoji.generate --reuse
 # 完成实际检查后才记录本轮审核：
 PYTHONPATH=src python -m shi_emoji.review --reviewer '你的名字' --summary docs/model-supervision.md
-PYTHONPATH=src python -m shi_emoji.export
+PYTHONPATH=src python -m shi_emoji.tier_export
 ```
 
 此批处理默认使用本地模型缓存；首次没有缓存时需先按模型卡获取权重。新增常用表达应先进入查询集，再由模型推荐、监督审核。增大词库能提高句中短语覆盖率，但没有让运行时获得任意句子的语义理解能力。

@@ -4,15 +4,17 @@
 
 | 文件 | 职责 |
 |---|---|
-| `processor.lua` | 对高亮且有匹配的完整中文候选，处理 ⌥+回车／⌃⌥+回车；可选 `0` 按菜单模式输出、`⌥+0` 输出相反模式；不接管 Tab 或 Shift+0 |
-| `filter.lua` | 默认透传原候选，只给当前高亮项追加主库／重口预览；可选候选槽模式下，在页末插入随高亮变化、只提交 Emoji 的候选 |
+| `processor.lua` | 对高亮且有匹配的完整中文候选，处理 ⌥+回车；可选 `0` 按菜单模式输出、`⌥+0` 输出相反模式；不接管 Tab 或 Shift+0 |
+| `filter.lua` | 默认透传原候选，只给当前高亮项追加统一的联想预览；可选候选槽模式下，在页末插入随高亮变化、只提交 Emoji 的候选 |
 | `matcher.lua` | 两棵 trie：词组检索、完整名词保护；局部否定标记 |
 | `compose.lua` | 最多三个不重叠、不同概念，按原文顺序组合；单概念最多两个表情 |
 | `settings.lua` | 启动时读取并校验方案配置中的肤色、性别和重口联想值 |
 | `variants.lua` | 性别/肤色偏好与明确性别表达保护 |
-| `data.lua` | 主词库与保护词，离线生成 |
+| `match_metadata.lua` | 三档模式的保护词、分句和否定词；发散档扩展复用同一棵保护词索引 |
+| `tier_data.lua` | 已审定三档关系与句中权限，离线生成 |
+| `entry_data.lua` | 已审定自然名的完整候选补充表；不进入子串 trie 或新增保护词 |
 | `variant_data.lua` | 固定 Unicode 目录中确实存在的变体，离线生成 |
-| `adult.lua` | 默认开启的重口联想库，首次相关查询时加载；文件名保留以兼容既有数据 |
+| `adult.lua` | 仅在发散档且配置未关闭时加载的重口联想库；文件名保留以兼容既有数据 |
 
 主开关关闭或英文模式直接透传；开启且发生查询后才建立索引，模块内复用。关闭不保证立刻回收索引内存。插件不运行 shell、网络请求、后台进程或模型，不采集输入日志；宿主能力及其日志策略另计。
 
@@ -29,15 +31,15 @@
 Python 3.10+。仓库包含已生成的数据和完整来源记录，以下命令使用标准库：
 
 ```sh
-PYTHONPATH=src python3 -m shi_emoji.export
 PYTHONPATH=src python3 -m shi_emoji.preferences
+PYTHONPATH=src python3 -m shi_emoji.tier_export
 PYTHONPATH=src python3 -m unittest discover -s tests -v
 python3 scripts/package_runtime.py
 ```
 
 输出 `dist/rime-shi-emoji-runtime.zip`，附文件摘要；相同构建环境、相同文件内容得到相同 ZIP。不同 Python/zlib 版本不承诺压缩字节完全一致。模型权重、个人 profile、完整原始预测和 Python 均不进入运行时 ZIP。
 
-只有在词库、短词策略或保护词源发生变化时，才需重新生成繁体别名。开发环境安装 `pip install -e '.[traditional]'` 后，依次运行 `PYTHONPATH=src python3 -m shi_emoji.traditional` 与 `PYTHONPATH=src python3 -m shi_emoji.export`。OpenCC 固定为 1.4.2，只用于构建；普通用户及从已提交产物重新打包的开发者不需要它。别名产物记录源数据指纹，词库变更却未重生成时导出会明确失败。
+只有在词库、短词策略或保护词源发生变化时，才需重新生成繁体别名。开发环境安装 `pip install -e '.[traditional]'` 后，依次运行 `PYTHONPATH=src python3 -m shi_emoji.traditional` 与 `PYTHONPATH=src python3 -m shi_emoji.tier_export`。OpenCC 固定为 1.4.2，只用于构建；普通用户及从已提交产物重新打包的开发者不需要它。别名产物记录源数据指纹，词库变更却未重生成时导出会明确失败。
 
 ## 重新生成词法目录与保护词
 
@@ -48,8 +50,8 @@ PYTHONPATH=src python3 -m shi_emoji.sources
 PYTHONPATH=src python3 -m shi_emoji.coverage --fetch --check
 PYTHONPATH=src python3 -m shi_emoji.wordguards
 PYTHONPATH=src python3 -m shi_emoji.traditional
-PYTHONPATH=src python3 -m shi_emoji.export
 PYTHONPATH=src python3 -m shi_emoji.preferences
+PYTHONPATH=src python3 -m shi_emoji.tier_export
 ```
 
 `sources` 会刷新离线模型的查询/目录输入；若之后重用旧预测，哈希改变会阻止 `--reuse`，需要明确重跑推理。生成 Lua 不需要重新推理。数据哈希分别记录在 `source_manifest.json`、`lexical_phrases.json`、`word_guards.json` 和模型审核记录中。
