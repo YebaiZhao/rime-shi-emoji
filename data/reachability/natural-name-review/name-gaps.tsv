@@ -1,0 +1,1907 @@
+index	emoji	selected_names	missing_tier_mapping	not_emitted_general	general_reachable_names	usage	native_status
+1	😀	咧嘴笑/笑脸	咧嘴笑	咧嘴笑	笑脸	everyday	unverified
+2	😃	哈哈/开口笑		哈哈	开口笑	everyday	unverified
+3	😄	大笑/开心			大笑/开心	everyday	unverified
+4	😁	嘻嘻/露齿笑			嘻嘻/露齿笑	everyday	unverified
+5	😆	眯眼大笑/眯眼笑	眯眼笑	眯眼笑	眯眼大笑	descriptive	unverified
+6	😅	尬笑/苦笑	尬笑	尬笑	苦笑	everyday	unverified
+7	🤣	笑得打滚/笑翻了	笑翻了	笑翻了	笑得打滚	everyday	unverified
+8	😂	笑哭/笑哭了			笑哭/笑哭了	everyday	unverified
+9	🙂	微笑/微笑脸	微笑/微笑脸	微笑/微笑脸		everyday	unverified
+10	🙃	倒着的笑脸/倒脸	倒着的笑脸	倒着的笑脸	倒脸	descriptive	unverified
+11	🫠	融化/融化脸	融化脸		融化/融化脸	everyday	unverified
+12	😉	眨眼/眨眼笑			眨眼/眨眼笑	everyday	unverified
+13	😊	害羞的笑脸/微笑	害羞的笑脸	害羞的笑脸	微笑	everyday	unverified
+14	😇	天使笑脸/带光环的笑脸	天使笑脸/带光环的笑脸	天使笑脸/带光环的笑脸		descriptive	unverified
+15	🥰	三颗爱心的笑脸/爱心笑脸	爱心笑脸	爱心笑脸	三颗爱心的笑脸	descriptive	unverified
+16	😍	爱心眼	爱心眼	爱心眼		prior_review	unverified
+17	🤩	星星眼	星星眼	星星眼		prior_review	unverified
+18	😘	飞吻			飞吻	everyday	unverified
+19	😗	亲亲/亲吻		亲亲/亲吻		everyday	unverified
+20	☺️	微笑/笑脸	笑脸	笑脸	微笑	everyday	unverified
+21	😚	闭眼亲亲/闭眼亲吻	闭眼亲亲	闭眼亲亲	闭眼亲吻	descriptive	unverified
+22	😙	微笑亲亲/笑着亲吻	笑着亲吻	笑着亲吻	微笑亲亲	descriptive	unverified
+23	🥲	含泪微笑/含泪的笑脸	含泪微笑	含泪微笑	含泪的笑脸	everyday	unverified
+24	😋	好吃/馋嘴	馋嘴	馋嘴	好吃	everyday	unverified
+25	😛	吐舌/吐舌头	吐舌头	吐舌头	吐舌	everyday	unverified
+26	😜	单眼吐舌/眨眼吐舌	眨眼吐舌	眨眼吐舌	单眼吐舌	descriptive	unverified
+27	🤪	搞怪脸/滑稽脸	搞怪脸/滑稽脸	搞怪脸/滑稽脸		everyday	unverified
+28	😝	眯眼吐舌			眯眼吐舌	descriptive	unverified
+29	🤑	财迷脸/金钱脸	财迷脸/金钱脸	财迷脸/金钱脸		descriptive	unverified
+30	🤗	抱抱/拥抱		抱抱	拥抱	everyday	unverified
+31	🤭	捂嘴/捂嘴笑	捂嘴/捂嘴笑	捂嘴/捂嘴笑		everyday	unverified
+32	🫢	惊讶捂嘴/睁眼捂嘴	惊讶捂嘴	惊讶捂嘴	睁眼捂嘴	descriptive	unverified
+33	🫣	偷看/捂眼偷看	捂眼偷看		偷看/捂眼偷看	everyday	unverified
+34	🤫	嘘/噤声	噤声	噤声	嘘	everyday	unverified
+35	🤔	思考/想一想/托腮思考	托腮思考	托腮思考	思考/想一想	everyday	unverified
+36	🫡	敬礼/致敬			敬礼/致敬	everyday	unverified
+37	🤐	拉链嘴/闭嘴	拉链嘴	拉链嘴	闭嘴	everyday	unverified
+38	🤨	挑眉/挑眉脸	挑眉脸		挑眉/挑眉脸	everyday	unverified
+39	😐	冷漠脸/面无表情	冷漠脸	冷漠脸	面无表情	everyday	unverified
+40	😑	无语/面无表情			无语/面无表情	everyday	unverified
+41	😶	沉默/没嘴			沉默/没嘴	everyday	unverified
+42	🫥	虚线脸/隐形脸	隐形脸	隐形脸	虚线脸	descriptive	unverified
+43	😶‍🌫️	云里的脸/云雾脸	云里的脸/云雾脸	云里的脸/云雾脸		descriptive	unverified
+44	😏	得意的笑/歪嘴笑			得意的笑/歪嘴笑	everyday	unverified
+45	😒	不爽/不高兴	不爽	不爽	不高兴	everyday	unverified
+46	🙄	白眼/翻白眼			白眼/翻白眼	everyday	unverified
+47	😬	龇牙/龇牙咧嘴	龇牙	龇牙	龇牙咧嘴	everyday	unverified
+48	😮‍💨	叹气/呼气			叹气/呼气	everyday	unverified
+49	🤥	说谎/长鼻子脸			说谎/长鼻子脸	everyday	unverified
+50	🫨	发抖/颤抖脸	颤抖脸		发抖/颤抖脸	everyday	unverified
+51	🙂‍↔️	左右摇头/摇头			左右摇头/摇头	everyday	unverified
+52	🙂‍↕️	点头			点头	prior_review	unverified
+53	😌	松了口气/释然	释然	释然	松了口气	everyday	unverified
+54	😔	忧伤/沉思	忧伤	忧伤	沉思	everyday	unverified
+55	😪	困/犯困	犯困	犯困	困	everyday	unverified
+56	🤤	流口水			流口水	everyday	unverified
+57	😴	睡着了/睡觉			睡着了/睡觉	everyday	unverified
+58	🫩	有眼袋/眼袋脸	眼袋脸	眼袋脸	有眼袋	descriptive	unverified
+59	😷	口罩脸/戴口罩	口罩脸	口罩脸	戴口罩	everyday	unverified
+60	🤒	发烧/含体温计的脸	含体温计的脸	含体温计的脸	发烧	everyday	unverified
+61	🤕	受伤的脸/头缠绷带	受伤的脸/头缠绷带	头缠绷带	受伤的脸	descriptive	unverified
+62	🤢	恶心/想吐	想吐	想吐	恶心	everyday	unverified
+63	🤮	吐了/呕吐	吐了		吐了/呕吐	everyday	unverified
+64	🤧	打喷嚏/擤鼻涕	擤鼻涕	擤鼻涕	打喷嚏	everyday	unverified
+65	🥵	热死了/热脸	热死了/热脸	热死了/热脸		everyday	unverified
+66	🥶	冷得发抖/冻僵	冷得发抖	冷得发抖	冻僵	everyday	unverified
+67	🥴	晕乎乎/醉脸	晕乎乎/醉脸	晕乎乎/醉脸		everyday	unverified
+68	😵	叉眼脸/晕倒脸	叉眼脸/晕倒脸	叉眼脸/晕倒脸		descriptive	unverified
+69	😵‍💫	眼冒金星/螺旋眼	眼冒金星/螺旋眼	眼冒金星/螺旋眼		descriptive	unverified
+70	🤯	爆头脸/脑袋爆炸	爆头脸/脑袋爆炸	爆头脸/脑袋爆炸		descriptive	unverified
+71	🤠	戴牛仔帽的脸/牛仔帽笑脸	戴牛仔帽的脸/牛仔帽笑脸	戴牛仔帽的脸/牛仔帽笑脸		descriptive	unverified
+72	🥳	庆祝脸/派对脸	庆祝脸	庆祝脸	派对脸	everyday	unverified
+73	🥸	伪装脸/假胡子眼镜脸	伪装脸/假胡子眼镜脸	伪装脸/假胡子眼镜脸		descriptive	unverified
+74	😎	墨镜笑脸/戴墨镜	戴墨镜	戴墨镜	墨镜笑脸	everyday	unverified
+75	🤓	书呆子脸/眼镜笑脸			书呆子脸/眼镜笑脸	everyday	unverified
+76	🧐	单片眼镜脸/戴单片眼镜的脸	单片眼镜脸/戴单片眼镜的脸	单片眼镜脸/戴单片眼镜的脸		descriptive	unverified
+77	😕	困惑/疑惑脸	疑惑脸	疑惑脸	困惑	everyday	unverified
+78	🫤	歪嘴脸/郁闷	歪嘴脸	歪嘴脸	郁闷	everyday	unverified
+79	😟	担心/担忧			担心/担忧	everyday	unverified
+80	🙁	不开心的脸/微微皱眉	不开心的脸/微微皱眉	不开心的脸/微微皱眉		descriptive	unverified
+81	☹️	不满/皱眉			不满/皱眉	everyday	unverified
+82	😮	吃惊/张嘴吃惊	张嘴吃惊	张嘴吃惊	吃惊	everyday	unverified
+83	😯	张嘴惊讶的脸/惊讶张嘴	张嘴惊讶的脸/惊讶张嘴	张嘴惊讶的脸/惊讶张嘴		descriptive	unverified
+84	😲	惊讶/震惊		震惊	惊讶	everyday	unverified
+85	😳	红脸/脸红	红脸	红脸/脸红		everyday	unverified
+86	🥺	可怜巴巴/恳求脸	可怜巴巴	可怜巴巴	恳求脸	everyday	unverified
+87	🥹	含泪/忍住泪水	含泪	含泪	忍住泪水	everyday	unverified
+88	😦	吃惊的脸/张嘴皱眉	吃惊的脸/张嘴皱眉	吃惊的脸/张嘴皱眉		descriptive	unverified
+89	😧	痛苦/痛苦的脸	痛苦的脸	痛苦的脸	痛苦	everyday	unverified
+90	😨	害怕/恐惧		害怕	恐惧	everyday	unverified
+91	😰	冷汗/紧张冒汗	紧张冒汗	紧张冒汗	冷汗	everyday	unverified
+92	😥	失望又松口气/流汗的难过脸	失望又松口气/流汗的难过脸	失望又松口气/流汗的难过脸		descriptive	unverified
+93	😢	哭/流泪	流泪	流泪	哭	everyday	unverified
+94	😭	大哭/痛哭			大哭/痛哭	everyday	unverified
+95	😱	吓死了/尖叫			吓死了/尖叫	everyday	unverified
+96	😖	痛苦皱脸/纠结	痛苦皱脸	痛苦皱脸	纠结	everyday	unverified
+97	😣	忍耐/痛苦			忍耐/痛苦	everyday	unverified
+98	😞	失望/难过		失望	难过	everyday	unverified
+99	😓	冒汗/失落冒汗	失落冒汗		冒汗/失落冒汗	everyday	unverified
+100	😩	疲惫/累死了		累死了	疲惫	everyday	unverified
+101	😫	累/累坏了	累坏了	累坏了	累	everyday	unverified
+102	🥱	打呵欠/打哈欠			打呵欠/打哈欠	everyday	unverified
+103	😤	气哼哼/鼻孔喷气	气哼哼/鼻孔喷气	气哼哼/鼻孔喷气		everyday	unverified
+104	😡	发怒/怒火中烧/红脸生气	发怒/红脸生气	发怒/红脸生气	怒火中烧	everyday	unverified
+105	😠	愤怒/生气		生气	愤怒	everyday	unverified
+106	🤬	爆粗口/骂人	爆粗口/骂人	爆粗口/骂人		everyday	unverified
+107	😈	坏笑恶魔/恶魔笑脸	坏笑恶魔/恶魔笑脸	坏笑恶魔/恶魔笑脸		everyday	unverified
+108	👿	生气的恶魔			生气的恶魔	descriptive	unverified
+109	💀	头骨/骷髅头	骷髅头		头骨/骷髅头	everyday	unverified
+110	☠️	骷髅交叉骨/骷髅标志	骷髅交叉骨/骷髅标志	骷髅交叉骨/骷髅标志		descriptive	unverified
+111	💩	便便/大便			便便/大便	everyday	unverified
+112	🤡	小丑/小丑脸			小丑/小丑脸	everyday	unverified
+113	👹	红脸鬼面/食人魔面具	红脸鬼面/食人魔面具	红脸鬼面	食人魔面具	descriptive	unverified
+114	👺	天狗面具/长鼻子鬼面	天狗面具/长鼻子鬼面	天狗面具/长鼻子鬼面		descriptive	unverified
+115	👻	幽灵/鬼			幽灵/鬼	everyday	unverified
+116	👽	外星人			外星人	everyday	unverified
+117	👾	像素怪物/外星怪物	像素怪物	像素怪物	外星怪物	descriptive	unverified
+118	🤖	机器人/机器人头	机器人头		机器人/机器人头	everyday	unverified
+119	😺	咧嘴笑的猫/笑脸猫	咧嘴笑的猫/笑脸猫	咧嘴笑的猫/笑脸猫		descriptive	unverified
+120	😸	微笑猫/眯眼笑的猫	微笑猫/眯眼笑的猫	微笑猫/眯眼笑的猫		descriptive	unverified
+121	😹	笑哭猫/笑哭的猫	笑哭猫/笑哭的猫	笑哭猫/笑哭的猫		everyday	unverified
+122	😻	爱心眼猫/花痴猫	爱心眼猫/花痴猫	爱心眼猫/花痴猫		descriptive	unverified
+123	😼	坏笑猫/奸笑猫	坏笑猫/奸笑猫	坏笑猫/奸笑猫		everyday	unverified
+124	😽	亲亲猫/亲吻猫	亲吻猫	亲吻猫	亲亲猫	everyday	unverified
+125	🙀	尖叫猫	尖叫猫	尖叫猫		prior_review	unverified
+126	😿	哭泣猫/流泪猫	哭泣猫/流泪猫	哭泣猫/流泪猫		everyday	unverified
+127	😾	生气猫/生气的猫	生气猫	生气猫	生气的猫	everyday	unverified
+128	🙈	不看猴/捂眼猴	不看猴/捂眼猴	不看猴/捂眼猴		everyday	unverified
+129	🙉	不听猴/捂耳猴	不听猴/捂耳猴	不听猴/捂耳猴		everyday	unverified
+130	🙊	不说猴/捂嘴猴	不说猴/捂嘴猴	不说猴	捂嘴猴	everyday	unverified
+131	💌	情书			情书	everyday	unverified
+132	💘	一箭穿心/中箭的心	中箭的心	中箭的心	一箭穿心	everyday	unverified
+133	💝	礼物爱心/系丝带的心	礼物爱心/系丝带的心	礼物爱心/系丝带的心		descriptive	unverified
+134	💖	闪亮爱心/闪闪的心	闪亮爱心/闪闪的心	闪亮爱心/闪闪的心		everyday	unverified
+135	💗	变大的爱心/放大的心	变大的爱心/放大的心	变大的爱心/放大的心		descriptive	unverified
+136	💓	心跳/跳动的心	跳动的心	跳动的心	心跳	everyday	unverified
+137	💞	旋转爱心/环绕的心	旋转爱心/环绕的心	旋转爱心/环绕的心		descriptive	unverified
+138	💕	两颗心/双心	双心	双心	两颗心	everyday	unverified
+139	💟	心形图案/爱心装饰	心形图案/爱心装饰	心形图案/爱心装饰		descriptive	unverified
+140	❣️	心形叹号/爱心叹号	心形叹号/爱心叹号	心形叹号	爱心叹号	descriptive	unverified
+141	💔	心碎/碎心	碎心	碎心	心碎	everyday	unverified
+142	❤️‍🔥	火焰爱心/燃烧的心	火焰爱心/燃烧的心	火焰爱心/燃烧的心		descriptive	unverified
+143	❤️‍🩹	包扎的心/绷带爱心	包扎的心/绷带爱心	包扎的心/绷带爱心		descriptive	unverified
+144	❤️	红心/红色爱心	红色爱心	红色爱心	红心	everyday	unverified
+145	🩷	粉心			粉心	prior_review	unverified
+146	🧡	橙心/橙色爱心	橙色爱心	橙色爱心	橙心	everyday	unverified
+147	💛	黄心/黄色爱心	黄色爱心	黄色爱心	黄心	everyday	unverified
+148	💚	绿心/绿色爱心	绿色爱心	绿色爱心	绿心	everyday	unverified
+149	💙	蓝心/蓝色爱心	蓝色爱心	蓝色爱心	蓝心	everyday	unverified
+150	🩵	浅蓝心	浅蓝心	浅蓝心		prior_review	unverified
+151	💜	紫心/紫色爱心	紫色爱心	紫色爱心	紫心	everyday	unverified
+152	🤎	棕心/棕色爱心			棕心/棕色爱心	everyday	unverified
+153	🖤	黑心/黑色爱心	黑色爱心	黑色爱心	黑心	everyday	unverified
+154	🩶	灰色爱心	灰色爱心	灰色爱心		prior_review	unverified
+155	🤍	白心/白色爱心			白心/白色爱心	everyday	unverified
+156	💋	吻痕/唇印	吻痕	吻痕	唇印	everyday	unverified
+157	💯	一百分/满分			一百分/满分	everyday	unverified
+158	💢	怒气/生气符号	怒气/生气符号	怒气/生气符号		everyday	unverified
+159	💥	爆炸/碰撞	碰撞	碰撞	爆炸	everyday	unverified
+160	💫	眩晕星星/转圈星星	眩晕星星/转圈星星	眩晕星星/转圈星星		descriptive	unverified
+161	💦	水滴/汗滴	水滴	水滴	汗滴	everyday	unverified
+162	💨	一溜烟/烟尘	一溜烟/烟尘	一溜烟/烟尘		everyday	unverified
+163	🕳️	洞/洞口			洞/洞口	everyday	unverified
+164	💬	对话气泡/聊天气泡	聊天气泡	聊天气泡	对话气泡	everyday	unverified
+165	👁️‍🗨️	带眼睛的对话框/眼睛对话气泡	带眼睛的对话框/眼睛对话气泡	带眼睛的对话框/眼睛对话气泡		descriptive	unverified
+166	🗨️	左向对话气泡/朝左的对话框	左向对话气泡/朝左的对话框	左向对话气泡	朝左的对话框	descriptive	unverified
+167	🗯️	生气气泡/锯齿对话框	生气气泡/锯齿对话框	生气气泡/锯齿对话框		descriptive	unverified
+168	💭	思考气泡/想法气泡	思考气泡/想法气泡	思考气泡/想法气泡		everyday	unverified
+169	💤	呼噜/睡觉符号	睡觉符号	睡觉符号	呼噜	everyday	unverified
+170	👋	招手/挥手	招手	招手	挥手	everyday	unverified
+171	🤚	举起手背/手背			举起手背/手背	descriptive	unverified
+172	🖐️	张开手掌/手掌	张开手掌		张开手掌/手掌	everyday	unverified
+173	✋	举手/举起手			举手/举起手	everyday	unverified
+174	🖖	瓦肯举手礼/瓦肯手势	瓦肯手势	瓦肯手势	瓦肯举手礼	specialist	unverified
+175	🫱	向右伸手/朝右的手	向右伸手/朝右的手	朝右的手	向右伸手	descriptive	unverified
+176	🫲	向左伸手/朝左的手	向左伸手/朝左的手	朝左的手	向左伸手	descriptive	unverified
+177	🫳	手心向下/掌心向下	手心向下/掌心向下	手心向下/掌心向下		descriptive	unverified
+178	🫴	手心向上/掌心向上	手心向上/掌心向上	手心向上/掌心向上		descriptive	unverified
+179	🫷	向左推手/左推手	向左推手/左推手		向左推手/左推手	descriptive	unverified
+180	🫸	右推手/向右推手	右推手/向右推手		右推手/向右推手	descriptive	unverified
+181	👌	OK手势/好的手势	好的手势	好的手势	OK手势	everyday	unverified
+182	🤌	捏手指/捏拢手指	捏拢手指	捏拢手指	捏手指	descriptive	unverified
+183	🤏	一点点/捏合手势	捏合手势	捏合手势	一点点	everyday	unverified
+184	✌️	比耶			比耶	prior_review	unverified
+185	🤞	交叉手指/手指交叉	交叉手指/手指交叉	交叉手指/手指交叉		everyday	unverified
+186	🫰	手指比心/比心手势	手指比心		手指比心/比心手势	everyday	unverified
+187	🤟	爱你手势/爱你的手势			爱你手势/爱你的手势	descriptive	unverified
+188	🤘	摇滚手势/金属礼	摇滚手势	摇滚手势	金属礼	everyday	unverified
+189	🤙	打电话手势/给我打电话	打电话手势	打电话手势	给我打电话	everyday	unverified
+190	👈	向左指/手指向左	手指向左	手指向左	向左指	descriptive	unverified
+191	👉	向右指/手指向右	手指向右	手指向右	向右指	descriptive	unverified
+192	👆	向上指/手指向上	手指向上	手指向上	向上指	descriptive	unverified
+193	🖕	中指/竖中指			中指/竖中指	everyday	unverified
+194	👇	向下指/手指向下	手指向下	手指向下	向下指	descriptive	unverified
+195	☝️	向上指/食指向上	食指向上		向上指/食指向上	descriptive	unverified
+196	🫵	指向你/指着你	指向你/指着你	指向你/指着你		everyday	unverified
+197	👍	大拇指/点赞/赞	大拇指	大拇指	点赞/赞	everyday	unverified
+198	👎	倒拇指/差评	倒拇指/差评	倒拇指/差评		everyday	unverified
+199	✊	举拳/握拳			举拳/握拳	everyday	unverified
+200	👊	出拳/拳头	拳头	拳头	出拳	everyday	unverified
+201	🤛	向左的拳头/左拳	向左的拳头/左拳	左拳	向左的拳头	descriptive	unverified
+202	🤜	右拳/向右的拳头	右拳/向右的拳头	右拳	向右的拳头	descriptive	unverified
+203	👏	拍手/鼓掌			拍手/鼓掌	everyday	unverified
+204	🙌	举双手/双手举起	双手举起		举双手/双手举起	everyday	unverified
+205	🫶	双手比心/比心	双手比心		双手比心/比心	everyday	unverified
+206	👐	张开双手/摊开双手	摊开双手		张开双手/摊开双手	descriptive	unverified
+207	🤲	双手捧起/双手掌心向上	双手捧起/双手掌心向上	双手捧起/双手掌心向上		descriptive	unverified
+208	🤝	握手			握手	everyday	unverified
+209	🙏	双手合十/合十	合十	合十	双手合十	everyday	unverified
+210	✍️	写字/写字的手	写字的手		写字/写字的手	everyday	unverified
+211	💅	涂指甲油/美甲			涂指甲油/美甲	everyday	unverified
+212	🤳	自拍			自拍	everyday	unverified
+213	💪	秀肌肉/肌肉/肱二头肌	秀肌肉/肱二头肌		秀肌肉/肌肉/肱二头肌	everyday	unverified
+214	🦾	假肢手臂/机械手臂	假肢手臂	假肢手臂	机械手臂	everyday	unverified
+215	🦿	假肢腿/机械腿	假肢腿	假肢腿	机械腿	everyday	unverified
+216	🦵	腿			腿	everyday	unverified
+217	🦶	脚/脚丫	脚丫		脚/脚丫	everyday	unverified
+218	👂	耳朵			耳朵	everyday	unverified
+219	🦻	助听耳/戴助听器的耳朵	助听耳	助听耳	戴助听器的耳朵	descriptive	unverified
+220	👃	鼻子			鼻子	everyday	unverified
+221	🧠	大脑/脑子	脑子	脑子	大脑	everyday	unverified
+222	🫀	心脏			心脏	everyday	unverified
+223	🫁	肺/肺部			肺/肺部	everyday	unverified
+224	🦷	牙/牙齿	牙	牙	牙齿	everyday	unverified
+225	🦴	骨头			骨头	everyday	unverified
+226	👀	双眼/眼睛			双眼/眼睛	everyday	unverified
+227	👁️	单眼/眼睛			单眼/眼睛	everyday	unverified
+228	👅	舌头			舌头	everyday	unverified
+229	👄	嘴唇/嘴巴	嘴巴		嘴唇/嘴巴	everyday	unverified
+230	🫦	咬唇/咬嘴唇	咬唇	咬唇	咬嘴唇	everyday	unverified
+231	👶	婴儿/宝宝			婴儿/宝宝	everyday	unverified
+232	🧒	儿童/小孩			儿童/小孩	everyday	unverified
+233	👦	小男孩/男孩	小男孩	小男孩	男孩	everyday	unverified
+234	👧	女孩/小女孩	小女孩	小女孩	女孩	everyday	unverified
+235	🧑	成人/成年人	成年人	成年人	成人	everyday	unverified
+236	👱	金发成人/金发的人	金发成人/金发的人		金发成人/金发的人	descriptive	unverified
+237	👨	男人/男性	男性	男性	男人	everyday	unverified
+238	🧔	大胡子/有胡子的人			大胡子/有胡子的人	descriptive	unverified
+239	🧔‍♂️	有胡子的男人/胡子男	有胡子的男人/胡子男	有胡子的男人/胡子男		descriptive	unverified
+240	🧔‍♀️	有胡子的女人/胡子女	有胡子的女人/胡子女	有胡子的女人/胡子女		descriptive	unverified
+241	👨‍🦰	红发男/红发男人	红发男/红发男人	红发男/红发男人		descriptive	unverified
+242	👨‍🦱	卷发男/卷发男人	卷发男/卷发男人	卷发男/卷发男人		descriptive	unverified
+243	👨‍🦳	白发男/白发男人	白发男/白发男人	白发男/白发男人		descriptive	unverified
+244	👨‍🦲	光头男/光头男人	光头男/光头男人	光头男/光头男人		descriptive	unverified
+245	👩	女人/女性			女人/女性	everyday	unverified
+246	👩‍🦰	红发女/红发女人	红发女/红发女人	红发女/红发女人		descriptive	unverified
+247	🧑‍🦰	红发成人/红发的人	红发成人/红发的人	红发成人/红发的人		descriptive	unverified
+248	👩‍🦱	卷发女/卷发女人	卷发女/卷发女人	卷发女/卷发女人		descriptive	unverified
+249	🧑‍🦱	卷发成人/卷发的人	卷发成人/卷发的人	卷发成人/卷发的人		descriptive	unverified
+250	👩‍🦳	白发女/白发女人	白发女/白发女人	白发女/白发女人		descriptive	unverified
+251	🧑‍🦳	白发成人/白发的人	白发成人/白发的人	白发成人/白发的人		descriptive	unverified
+252	👩‍🦲	光头女/光头女人	光头女/光头女人	光头女/光头女人		descriptive	unverified
+253	🧑‍🦲	光头成人/光头的人	光头成人/光头的人	光头成人/光头的人		descriptive	unverified
+254	👱‍♀️	金发女/金发女人	金发女人		金发女/金发女人	descriptive	unverified
+255	👱‍♂️	金发男/金发男人	金发男人		金发男/金发男人	descriptive	unverified
+256	🧓	老人/老年人			老人/老年人	everyday	unverified
+257	👴	老头/老爷爷		老头/老爷爷		everyday	unverified
+258	👵	老太太/老奶奶	老太太	老太太/老奶奶		everyday	unverified
+259	🙍	皱眉/皱眉的人			皱眉/皱眉的人	everyday	unverified
+260	🙍‍♂️	男生皱眉/皱眉的男人	男生皱眉/皱眉的男人	男生皱眉/皱眉的男人		descriptive	unverified
+261	🙍‍♀️	女生皱眉/皱眉的女人	女生皱眉/皱眉的女人	女生皱眉/皱眉的女人		descriptive	unverified
+262	🙎	撅嘴/撅嘴的人			撅嘴/撅嘴的人	everyday	unverified
+263	🙎‍♂️	撅嘴的男人/男生撅嘴	撅嘴的男人/男生撅嘴	撅嘴的男人/男生撅嘴		descriptive	unverified
+264	🙎‍♀️	女生撅嘴/撅嘴的女人	女生撅嘴/撅嘴的女人	女生撅嘴/撅嘴的女人		descriptive	unverified
+265	🙅	双臂交叉/拒绝手势	双臂交叉/拒绝手势	双臂交叉/拒绝手势		everyday	unverified
+266	🙅‍♂️	男人做拒绝手势/男生拒绝	男人做拒绝手势/男生拒绝	男人做拒绝手势/男生拒绝		descriptive	unverified
+267	🙅‍♀️	女人做拒绝手势/女生拒绝	女人做拒绝手势/女生拒绝	女人做拒绝手势/女生拒绝		descriptive	unverified
+268	🙆	双手举过头顶/双臂画圆	双手举过头顶/双臂画圆	双手举过头顶/双臂画圆		descriptive	unverified
+269	🙆‍♂️	男生做同意手势/男生双手举过头顶	男生做同意手势/男生双手举过头顶	男生做同意手势/男生双手举过头顶		descriptive	unverified
+270	🙆‍♀️	女生做同意手势/女生双手举过头顶	女生做同意手势/女生双手举过头顶	女生做同意手势/女生双手举过头顶		descriptive	unverified
+271	💁	单手托起的人/单手摊开	单手托起的人/单手摊开	单手托起的人/单手摊开		descriptive	unverified
+272	💁‍♂️	托手的男人/男生托手	托手的男人/男生托手	托手的男人/男生托手		descriptive	unverified
+273	💁‍♀️	女生托手/托手的女人	女生托手/托手的女人	女生托手/托手的女人		descriptive	unverified
+274	🙋	举手/举手的人			举手/举手的人	everyday	unverified
+275	🙋‍♂️	举手的男人/男生举手	举手的男人	举手的男人	男生举手	descriptive	unverified
+276	🙋‍♀️	举手的女人/女生举手	举手的女人	举手的女人	女生举手	descriptive	unverified
+277	🧏	听障人士/失聪者	听障人士	听障人士	失聪者	everyday	unverified
+278	🧏‍♂️	听障男性/失聪的男人	听障男性	听障男性	失聪的男人	descriptive	unverified
+279	🧏‍♀️	听障女性/失聪的女人	听障女性	听障女性	失聪的女人	descriptive	unverified
+280	🙇	鞠躬			鞠躬	everyday	unverified
+281	🙇‍♂️	男生鞠躬/鞠躬的男人	鞠躬的男人	鞠躬的男人	男生鞠躬	descriptive	unverified
+282	🙇‍♀️	女生鞠躬/鞠躬的女人	鞠躬的女人	鞠躬的女人	女生鞠躬	descriptive	unverified
+283	🤦	扶额/捂脸			扶额/捂脸	everyday	unverified
+284	🤦‍♂️	男人扶额/男生捂脸	男人扶额	男人扶额	男生捂脸	descriptive	unverified
+285	🤦‍♀️	女人扶额/女生捂脸	女人扶额	女人扶额	女生捂脸	descriptive	unverified
+286	🤷	摊手/耸肩	摊手	摊手	耸肩	everyday	unverified
+287	🤷‍♂️	男人摊手/男生耸肩	男人摊手	男人摊手	男生耸肩	descriptive	unverified
+288	🤷‍♀️	女人摊手/女生耸肩	女人摊手	女人摊手	女生耸肩	descriptive	unverified
+289	🧑‍⚕️	医护/医护人员	医护/医护人员	医护	医护人员	everyday	unverified
+290	👨‍⚕️	男医护/男医生	男医护	男医护	男医生	everyday	unverified
+291	👩‍⚕️	女医护/女医生	女医护	女医护	女医生	everyday	unverified
+292	🧑‍🎓	学生/毕业生			学生/毕业生	everyday	unverified
+293	👨‍🎓	男学生/男毕业生	男毕业生	男毕业生	男学生	everyday	unverified
+294	👩‍🎓	女学生/女毕业生	女毕业生	女毕业生	女学生	everyday	unverified
+295	🧑‍🏫	教师/老师			教师/老师	everyday	unverified
+296	👨‍🏫	男教师/男老师	男教师	男教师	男老师	everyday	unverified
+297	👩‍🏫	女教师/女老师	女教师	女教师	女老师	everyday	unverified
+298	🧑‍⚖️	法官			法官	everyday	unverified
+299	👨‍⚖️	男法官			男法官	everyday	unverified
+300	👩‍⚖️	女法官			女法官	everyday	unverified
+301	🧑‍🌾	农场工人/农民	农场工人	农场工人	农民	everyday	unverified
+302	👨‍🌾	农夫/男农民	男农民	男农民	农夫	everyday	unverified
+303	👩‍🌾	女农民	女农民	女农民		prior_review	unverified
+304	🧑‍🍳	厨师			厨师	everyday	unverified
+305	👨‍🍳	男厨师			男厨师	everyday	unverified
+306	👩‍🍳	女厨师			女厨师	everyday	unverified
+307	🧑‍🔧	技工/维修工	维修工	维修工	技工	everyday	unverified
+308	👨‍🔧	男技工/男维修工	男维修工	男维修工	男技工	everyday	unverified
+309	👩‍🔧	女技工/女维修工	女维修工	女维修工	女技工	everyday	unverified
+310	🧑‍🏭	工人/工厂工人	工厂工人		工人/工厂工人	everyday	unverified
+311	👨‍🏭	男工人			男工人	everyday	unverified
+312	👩‍🏭	女工人			女工人	everyday	unverified
+313	🧑‍💼	上班族/白领	上班族	上班族	白领	everyday	unverified
+314	👨‍💼	男白领/男职员	男职员	男职员	男白领	everyday	unverified
+315	👩‍💼	女白领/女职员	女职员	女职员	女白领	everyday	unverified
+316	🧑‍🔬	科学家/科研人员	科研人员	科研人员	科学家	everyday	unverified
+317	👨‍🔬	男科学家			男科学家	everyday	unverified
+318	👩‍🔬	女科学家			女科学家	everyday	unverified
+319	🧑‍💻	技术人员/程序员	技术人员	技术人员	程序员	everyday	unverified
+320	👨‍💻	男程序员			男程序员	everyday	unverified
+321	👩‍💻	女程序员			女程序员	everyday	unverified
+322	🧑‍🎤	歌手			歌手	everyday	unverified
+323	👨‍🎤	男歌手			男歌手	everyday	unverified
+324	👩‍🎤	女歌手			女歌手	everyday	unverified
+325	🧑‍🎨	画家/艺术家	画家	画家	艺术家	everyday	unverified
+326	👨‍🎨	男画家/男艺术家	男画家	男画家	男艺术家	everyday	unverified
+327	👩‍🎨	女画家/女艺术家	女画家	女画家	女艺术家	everyday	unverified
+328	🧑‍✈️	飞行员			飞行员	everyday	unverified
+329	👨‍✈️	男飞行员			男飞行员	everyday	unverified
+330	👩‍✈️	女飞行员			女飞行员	everyday	unverified
+331	🧑‍🚀	宇航员/航天员	航天员	航天员	宇航员	everyday	unverified
+332	👨‍🚀	男宇航员/男航天员	男航天员	男航天员	男宇航员	everyday	unverified
+333	👩‍🚀	女宇航员/女航天员	女航天员	女航天员	女宇航员	everyday	unverified
+334	🧑‍🚒	消防员			消防员	everyday	unverified
+335	👨‍🚒	男消防员			男消防员	everyday	unverified
+336	👩‍🚒	女消防员			女消防员	everyday	unverified
+337	👮	警员/警察	警员	警员	警察	everyday	unverified
+338	👮‍♂️	男警察			男警察	everyday	unverified
+339	👮‍♀️	女警察			女警察	everyday	unverified
+340	🕵️	侦探			侦探	everyday	unverified
+341	🕵️‍♂️	男侦探			男侦探	everyday	unverified
+342	🕵️‍♀️	女侦探			女侦探	everyday	unverified
+343	💂	卫兵/守卫			卫兵/守卫	everyday	unverified
+344	💂‍♂️	男卫兵			男卫兵	everyday	unverified
+345	💂‍♀️	女卫兵			女卫兵	everyday	unverified
+346	🥷	忍者			忍者	everyday	unverified
+347	👷	工地工人/建筑工人	工地工人		工地工人/建筑工人	everyday	unverified
+348	👷‍♂️	男建筑工人			男建筑工人	everyday	unverified
+349	👷‍♀️	女建筑工人			女建筑工人	everyday	unverified
+350	🫅	戴王冠的人/王冠人物	王冠人物	王冠人物	戴王冠的人	descriptive	unverified
+351	🤴	王子			王子	everyday	unverified
+352	👸	公主			公主	everyday	unverified
+353	👳	包头巾的人/戴头巾的人	包头巾的人	包头巾的人	戴头巾的人	descriptive	unverified
+354	👳‍♂️	戴头巾的男人			戴头巾的男人	descriptive	unverified
+355	👳‍♀️	戴头巾的女人			戴头巾的女人	descriptive	unverified
+356	👲	戴瓜皮帽的人/瓜皮帽人物	瓜皮帽人物	瓜皮帽人物	戴瓜皮帽的人	descriptive	unverified
+357	🧕	包头巾的女性/戴头巾的女人	包头巾的女性	包头巾的女性	戴头巾的女人	descriptive	unverified
+358	🤵	穿燕尾服的人/穿礼服的人	穿礼服的人	穿礼服的人	穿燕尾服的人	descriptive	unverified
+359	🤵‍♂️	穿燕尾服的男人/穿礼服的男人	穿燕尾服的男人	穿燕尾服的男人	穿礼服的男人	descriptive	unverified
+360	🤵‍♀️	穿燕尾服的女人/穿礼服的女人	穿燕尾服的女人	穿燕尾服的女人	穿礼服的女人	descriptive	unverified
+361	👰	戴头纱的人			戴头纱的人	descriptive	unverified
+362	👰‍♂️	戴头纱的男人			戴头纱的男人	descriptive	unverified
+363	👰‍♀️	戴头纱的女人/新娘	新娘	新娘	戴头纱的女人	everyday	unverified
+364	🤰	孕妇/怀孕的女人			孕妇/怀孕的女人	everyday	unverified
+365	🫃	孕男/怀孕的男人	孕男	孕男	怀孕的男人	descriptive	unverified
+366	🫄	孕者/怀孕的人	孕者	孕者	怀孕的人	descriptive	unverified
+367	🤱	喂母乳/母乳喂养	喂母乳	喂母乳	母乳喂养	everyday	unverified
+368	👩‍🍼	女人喂奶/用奶瓶喂宝宝的女人	女人喂奶/用奶瓶喂宝宝的女人	女人喂奶/用奶瓶喂宝宝的女人		descriptive	unverified
+369	👨‍🍼	用奶瓶喂宝宝的男人/男人喂奶	用奶瓶喂宝宝的男人/男人喂奶	用奶瓶喂宝宝的男人/男人喂奶		descriptive	unverified
+370	🧑‍🍼	奶瓶喂养/用奶瓶喂宝宝的人	奶瓶喂养/用奶瓶喂宝宝的人	奶瓶喂养/用奶瓶喂宝宝的人		descriptive	unverified
+371	👼	天使宝宝/小天使	天使宝宝		天使宝宝/小天使	everyday	unverified
+372	🎅	圣诞老人			圣诞老人	everyday	unverified
+373	🤶	圣诞奶奶/圣诞婆婆	圣诞婆婆	圣诞婆婆	圣诞奶奶	everyday	unverified
+374	🧑‍🎄	圣诞装扮的人/戴圣诞帽的人	圣诞装扮的人/戴圣诞帽的人	圣诞装扮的人/戴圣诞帽的人		descriptive	unverified
+375	🦸	超级英雄			超级英雄	everyday	unverified
+376	🦸‍♂️	男性英雄/男超级英雄	男性英雄	男性英雄	男超级英雄	everyday	unverified
+377	🦸‍♀️	女英雄/女超级英雄	女英雄	女英雄	女超级英雄	everyday	unverified
+378	🦹	大反派/超级反派	超级反派	超级反派	大反派	everyday	unverified
+379	🦹‍♂️	男反派/男性超级反派	男反派/男性超级反派	男反派/男性超级反派		descriptive	unverified
+380	🦹‍♀️	女反派/女性超级反派	女反派/女性超级反派	女反派/女性超级反派		descriptive	unverified
+381	🧙	法师/魔法师	魔法师	魔法师	法师	everyday	unverified
+382	🧙‍♂️	男法师/男魔法师	男魔法师	男魔法师	男法师	everyday	unverified
+383	🧙‍♀️	女法师/女魔法师	女魔法师	女魔法师	女法师	everyday	unverified
+384	🧚	仙子/小仙子	小仙子		仙子/小仙子	everyday	unverified
+385	🧚‍♂️	男仙子/男性仙子	男仙子/男性仙子	男仙子/男性仙子		descriptive	unverified
+386	🧚‍♀️	仙女/女仙子	女仙子	女仙子	仙女	everyday	unverified
+387	🧛	吸血鬼			吸血鬼	everyday	unverified
+388	🧛‍♂️	男吸血鬼			男吸血鬼	everyday	unverified
+389	🧛‍♀️	女吸血鬼			女吸血鬼	everyday	unverified
+390	🧜	人鱼/美人鱼			人鱼/美人鱼	everyday	unverified
+391	🧜‍♂️	男人鱼/男性人鱼	男性人鱼	男性人鱼	男人鱼	everyday	unverified
+392	🧜‍♀️	女人鱼/美人鱼		美人鱼	女人鱼	everyday	unverified
+393	🧝	尖耳精灵/精灵	尖耳精灵		尖耳精灵/精灵	everyday	unverified
+394	🧝‍♂️	男性精灵/男精灵	男性精灵/男精灵	男性精灵/男精灵		everyday	unverified
+395	🧝‍♀️	女性精灵/女精灵	女性精灵/女精灵	女性精灵/女精灵		everyday	unverified
+396	🧞	灯神/神灯精灵	神灯精灵	神灯精灵	灯神	everyday	unverified
+397	🧞‍♂️	男性灯神/男灯神	男性灯神/男灯神	男性灯神/男灯神		descriptive	unverified
+398	🧞‍♀️	女性灯神/女灯神	女性灯神/女灯神	女性灯神/女灯神		descriptive	unverified
+399	🧟	丧尸/僵尸	丧尸	丧尸	僵尸	everyday	unverified
+400	🧟‍♂️	男丧尸/男僵尸	男丧尸	男丧尸	男僵尸	everyday	unverified
+401	🧟‍♀️	女丧尸/女僵尸	女丧尸	女丧尸	女僵尸	everyday	unverified
+402	🧌	巨魔/穴居巨怪	巨魔	巨魔	穴居巨怪	specialist	unverified
+403	💆	头部按摩/按摩	头部按摩		头部按摩/按摩	everyday	unverified
+404	💆‍♂️	男生按摩/给男人做头部按摩	给男人做头部按摩	给男人做头部按摩	男生按摩	descriptive	unverified
+405	💆‍♀️	女生按摩/给女人做头部按摩	给女人做头部按摩	给女人做头部按摩	女生按摩	descriptive	unverified
+406	💇	剪头发/理发	剪头发		剪头发/理发	everyday	unverified
+407	💇‍♂️	男人剪发/男生理发	男人剪发	男人剪发	男生理发	descriptive	unverified
+408	💇‍♀️	女人剪发/女生理发	女人剪发	女人剪发	女生理发	descriptive	unverified
+409	🚶	行人/走路			行人/走路	everyday	unverified
+410	🚶‍♂️	男行人/走路的男人	走路的男人	走路的男人	男行人	descriptive	unverified
+411	🚶‍♀️	女行人/走路的女人	走路的女人	走路的女人	女行人	descriptive	unverified
+412	🚶‍➡️	向右走的人/向右走路	向右走的人/向右走路	向右走的人/向右走路		descriptive	unverified
+413	🚶‍♀️‍➡️	向右走的女人/女生向右走	向右走的女人/女生向右走	向右走的女人/女生向右走		descriptive	unverified
+414	🚶‍♂️‍➡️	向右走的男人/男生向右走	向右走的男人/男生向右走	向右走的男人/男生向右走		descriptive	unverified
+415	🧍	站着的人/站立			站着的人/站立	everyday	unverified
+416	🧍‍♂️	男人站立/站着的男人	男人站立/站着的男人	男人站立/站着的男人		descriptive	unverified
+417	🧍‍♀️	女人站立/站着的女人	女人站立/站着的女人	女人站立/站着的女人		descriptive	unverified
+418	🧎	下跪/跪着的人	跪着的人	跪着的人	下跪	everyday	unverified
+419	🧎‍♂️	男人下跪/跪着的男人	男人下跪/跪着的男人	男人下跪/跪着的男人		descriptive	unverified
+420	🧎‍♀️	女人下跪/跪着的女人	女人下跪/跪着的女人	女人下跪/跪着的女人		descriptive	unverified
+421	🧎‍➡️	朝右跪着的人/面向右边下跪	朝右跪着的人/面向右边下跪	朝右跪着的人/面向右边下跪		descriptive	unverified
+422	🧎‍♀️‍➡️	朝右跪着的女人	朝右跪着的女人	朝右跪着的女人		descriptive	unverified
+423	🧎‍♂️‍➡️	朝右跪着的男人	朝右跪着的男人	朝右跪着的男人		descriptive	unverified
+424	🧑‍🦯	使用盲杖的人/拄盲杖的人	使用盲杖的人	使用盲杖的人	拄盲杖的人	descriptive	unverified
+425	🧑‍🦯‍➡️	向右走的拄盲杖者/朝右拄盲杖的人	向右走的拄盲杖者/朝右拄盲杖的人	向右走的拄盲杖者	朝右拄盲杖的人	descriptive	unverified
+426	👨‍🦯	拄盲杖的男人			拄盲杖的男人	descriptive	unverified
+427	👨‍🦯‍➡️	朝右拄盲杖的男人	朝右拄盲杖的男人		朝右拄盲杖的男人	descriptive	unverified
+428	👩‍🦯	拄盲杖的女人			拄盲杖的女人	descriptive	unverified
+429	👩‍🦯‍➡️	朝右拄盲杖的女人	朝右拄盲杖的女人		朝右拄盲杖的女人	descriptive	unverified
+430	🧑‍🦼	坐电动轮椅的人			坐电动轮椅的人	descriptive	unverified
+431	🧑‍🦼‍➡️	朝右坐电动轮椅的人	朝右坐电动轮椅的人		朝右坐电动轮椅的人	descriptive	unverified
+432	👨‍🦼	坐电动轮椅的男人			坐电动轮椅的男人	descriptive	unverified
+433	👨‍🦼‍➡️	朝右坐电动轮椅的男人	朝右坐电动轮椅的男人		朝右坐电动轮椅的男人	descriptive	unverified
+434	👩‍🦼	坐电动轮椅的女人			坐电动轮椅的女人	descriptive	unverified
+435	👩‍🦼‍➡️	朝右坐电动轮椅的女人	朝右坐电动轮椅的女人		朝右坐电动轮椅的女人	descriptive	unverified
+436	🧑‍🦽	坐手动轮椅的人/坐轮椅的人	坐轮椅的人	坐轮椅的人	坐手动轮椅的人	descriptive	unverified
+437	🧑‍🦽‍➡️	朝右坐手动轮椅的人	朝右坐手动轮椅的人		朝右坐手动轮椅的人	descriptive	unverified
+438	👨‍🦽	坐手动轮椅的男人/坐轮椅的男人	坐轮椅的男人	坐轮椅的男人	坐手动轮椅的男人	descriptive	unverified
+439	👨‍🦽‍➡️	朝右坐手动轮椅的男人	朝右坐手动轮椅的男人		朝右坐手动轮椅的男人	descriptive	unverified
+440	👩‍🦽	坐手动轮椅的女人/坐轮椅的女人	坐轮椅的女人	坐轮椅的女人	坐手动轮椅的女人	descriptive	unverified
+441	👩‍🦽‍➡️	朝右坐手动轮椅的女人	朝右坐手动轮椅的女人		朝右坐手动轮椅的女人	descriptive	unverified
+442	🏃	跑步/跑步的人	跑步的人		跑步/跑步的人	everyday	unverified
+443	🏃‍♂️	男生跑步/跑步的男人	跑步的男人	跑步的男人	男生跑步	descriptive	unverified
+444	🏃‍♀️	女生跑步/跑步的女人	跑步的女人	跑步的女人	女生跑步	descriptive	unverified
+445	🏃‍➡️	向右跑步/向右跑的人	向右跑步/向右跑的人	向右跑步/向右跑的人		descriptive	unverified
+446	🏃‍♀️‍➡️	向右跑的女人/女生向右跑	向右跑的女人/女生向右跑	向右跑的女人/女生向右跑		descriptive	unverified
+447	🏃‍♂️‍➡️	向右跑的男人/男生向右跑	向右跑的男人/男生向右跑	向右跑的男人/男生向右跑		descriptive	unverified
+448	💃	舞女/跳舞的女人	舞女	舞女	跳舞的女人	everyday	unverified
+449	🕺	男舞者/跳舞的男人			男舞者/跳舞的男人	everyday	unverified
+450	🕴️	悬浮西装男/穿西装悬空的人	穿西装悬空的人	穿西装悬空的人	悬浮西装男	descriptive	unverified
+451	👯	兔耳舞者/戴兔耳的人	兔耳舞者/戴兔耳的人	兔耳舞者/戴兔耳的人		descriptive	unverified
+452	👯‍♂️	戴兔耳的男人/男兔耳舞者	戴兔耳的男人/男兔耳舞者	戴兔耳的男人/男兔耳舞者		descriptive	unverified
+453	👯‍♀️	兔女郎/戴兔耳的女人	戴兔耳的女人	戴兔耳的女人	兔女郎	everyday	unverified
+454	🧖	桑拿的人/蒸桑拿	桑拿的人/蒸桑拿		桑拿的人/蒸桑拿	everyday	unverified
+455	🧖‍♂️	男人蒸桑拿/蒸桑拿的男人	男人蒸桑拿/蒸桑拿的男人	男人蒸桑拿/蒸桑拿的男人		descriptive	unverified
+456	🧖‍♀️	女人蒸桑拿/蒸桑拿的女人	女人蒸桑拿/蒸桑拿的女人	女人蒸桑拿/蒸桑拿的女人		descriptive	unverified
+457	🧗	攀岩/攀爬	攀爬	攀爬	攀岩	everyday	unverified
+458	🧗‍♂️	男人攀岩/男攀岩者	男人攀岩/男攀岩者	男人攀岩/男攀岩者		descriptive	unverified
+459	🧗‍♀️	女人攀岩/女攀岩者	女人攀岩/女攀岩者	女人攀岩/女攀岩者		descriptive	unverified
+460	🤺	击剑/击剑选手			击剑/击剑选手	everyday	unverified
+461	🏇	赛马/骑马比赛	骑马比赛		赛马/骑马比赛	everyday	unverified
+462	⛷️	双板滑雪/滑雪的人	双板滑雪		双板滑雪/滑雪的人	everyday	unverified
+463	🏂	单板滑雪/滑雪板			单板滑雪/滑雪板	everyday	unverified
+464	🏌️	打高尔夫/高尔夫球手	打高尔夫/高尔夫球手	打高尔夫/高尔夫球手		everyday	unverified
+465	🏌️‍♂️	男生打高尔夫			男生打高尔夫	descriptive	unverified
+466	🏌️‍♀️	女生打高尔夫			女生打高尔夫	descriptive	unverified
+467	🏄	冲浪/冲浪的人			冲浪/冲浪的人	everyday	unverified
+468	🏄‍♂️	男生冲浪			男生冲浪	descriptive	unverified
+469	🏄‍♀️	女生冲浪			女生冲浪	descriptive	unverified
+470	🚣	划船/划艇	划船		划船/划艇	everyday	unverified
+471	🚣‍♂️	男生划船			男生划船	descriptive	unverified
+472	🚣‍♀️	女生划船			女生划船	descriptive	unverified
+473	🏊	游泳			游泳	everyday	unverified
+474	🏊‍♂️	男生游泳			男生游泳	descriptive	unverified
+475	🏊‍♀️	女生游泳			女生游泳	descriptive	unverified
+476	⛹️	打篮球/拍篮球	拍篮球	拍篮球	打篮球	everyday	unverified
+477	⛹️‍♂️	男生打篮球/男生拍球	男生打篮球/男生拍球	男生打篮球/男生拍球		descriptive	unverified
+478	⛹️‍♀️	女生打篮球/女生拍球	女生拍球	女生拍球	女生打篮球	descriptive	unverified
+479	🏋️	举杠铃/举重	举杠铃	举杠铃	举重	everyday	unverified
+480	🏋️‍♂️	男生举重			男生举重	descriptive	unverified
+481	🏋️‍♀️	女生举重			女生举重	descriptive	unverified
+482	🚴	骑单车/骑自行车			骑单车/骑自行车	everyday	unverified
+483	🚴‍♂️	男生骑自行车			男生骑自行车	descriptive	unverified
+484	🚴‍♀️	女生骑自行车			女生骑自行车	descriptive	unverified
+485	🚵	山地骑行/骑山地车	山地骑行	山地骑行	骑山地车	everyday	unverified
+486	🚵‍♂️	男生骑山地车			男生骑山地车	descriptive	unverified
+487	🚵‍♀️	女生骑山地车			女生骑山地车	descriptive	unverified
+488	🤸	侧手翻/侧翻	侧翻	侧翻	侧手翻	everyday	unverified
+489	🤸‍♂️	男生侧手翻			男生侧手翻	descriptive	unverified
+490	🤸‍♀️	女生侧手翻			女生侧手翻	descriptive	unverified
+491	🤼	摔跤/摔跤选手			摔跤/摔跤选手	everyday	unverified
+492	🤼‍♂️	男子摔跤/男生摔跤			男子摔跤/男生摔跤	descriptive	unverified
+493	🤼‍♀️	女子摔跤/女生摔跤			女子摔跤/女生摔跤	descriptive	unverified
+494	🤽	打水球/水球运动	打水球/水球运动		打水球/水球运动	everyday	unverified
+495	🤽‍♂️	男生打水球	男生打水球	男生打水球		descriptive	unverified
+496	🤽‍♀️	女生打水球	女生打水球	女生打水球		descriptive	unverified
+497	🤾	手球运动/打手球	手球运动/打手球		手球运动/打手球	everyday	unverified
+498	🤾‍♂️	男生打手球	男生打手球	男生打手球		descriptive	unverified
+499	🤾‍♀️	女生打手球	女生打手球	女生打手球		descriptive	unverified
+500	🤹	抛球杂耍/杂耍	抛球杂耍		抛球杂耍/杂耍	everyday	unverified
+501	🤹‍♂️	男人抛球杂耍/男杂耍演员	男人抛球杂耍/男杂耍演员	男人抛球杂耍/男杂耍演员		descriptive	unverified
+502	🤹‍♀️	女人抛球杂耍/女杂耍演员	女人抛球杂耍/女杂耍演员	女人抛球杂耍/女杂耍演员		descriptive	unverified
+503	🧘	冥想/打坐/盘腿坐	打坐/盘腿坐	打坐/盘腿坐	冥想	everyday	unverified
+504	🧘‍♂️	男人打坐/盘腿的男人	男人打坐	男人打坐	盘腿的男人	descriptive	unverified
+505	🧘‍♀️	女人打坐/盘腿的女人	女人打坐	女人打坐	盘腿的女人	descriptive	unverified
+506	🛀	泡澡/洗澡			泡澡/洗澡	everyday	unverified
+507	🛌	睡觉的人/躺在床上	睡觉的人/躺在床上	睡觉的人/躺在床上		everyday	unverified
+508	🧑‍🤝‍🧑	两个人牵手/牵手	两个人牵手		两个人牵手/牵手	everyday	unverified
+509	👭	两个女人牵手/女生牵手	两个女人牵手/女生牵手	女生牵手	两个女人牵手	descriptive	unverified
+510	👫	一男一女牵手/男女牵手	一男一女牵手/男女牵手	一男一女牵手/男女牵手		everyday	unverified
+511	👬	两个男人牵手/男生牵手	两个男人牵手/男生牵手	男生牵手	两个男人牵手	descriptive	unverified
+512	💏	亲吻/接吻			亲吻/接吻	everyday	unverified
+513	👩‍❤️‍💋‍👨	一男一女亲吻/男女接吻	一男一女亲吻/男女接吻	一男一女亲吻/男女接吻		descriptive	unverified
+514	👨‍❤️‍💋‍👨	两个男人接吻/男性情侣接吻	两个男人接吻/男性情侣接吻	两个男人接吻/男性情侣接吻		descriptive	unverified
+515	👩‍❤️‍💋‍👩	两个女人接吻/女性情侣接吻	两个女人接吻/女性情侣接吻	两个女人接吻/女性情侣接吻		descriptive	unverified
+516	💑	恋人/情侣	恋人	恋人	情侣	everyday	unverified
+517	👩‍❤️‍👨	一男一女的情侣/男女情侣	一男一女的情侣/男女情侣	一男一女的情侣/男女情侣		descriptive	unverified
+518	👨‍❤️‍👨	男性情侣/男男情侣	男性情侣/男男情侣	男性情侣/男男情侣		descriptive	unverified
+519	👩‍❤️‍👩	女女情侣/女性情侣	女女情侣/女性情侣	女女情侣/女性情侣		descriptive	unverified
+520	👨‍👩‍👦	父母和男孩/爸爸妈妈和儿子	父母和男孩/爸爸妈妈和儿子	父母和男孩/爸爸妈妈和儿子		descriptive	unverified
+521	👨‍👩‍👧	父母和女孩/爸爸妈妈和女儿	父母和女孩/爸爸妈妈和女儿	父母和女孩/爸爸妈妈和女儿		descriptive	unverified
+522	👨‍👩‍👧‍👦	父母和两个孩子/爸爸妈妈和一儿一女	父母和两个孩子/爸爸妈妈和一儿一女	父母和两个孩子/爸爸妈妈和一儿一女		descriptive	unverified
+523	👨‍👩‍👦‍👦	爸爸妈妈和两个儿子	爸爸妈妈和两个儿子	爸爸妈妈和两个儿子		descriptive	unverified
+524	👨‍👩‍👧‍👧	爸爸妈妈和两个女儿	爸爸妈妈和两个女儿	爸爸妈妈和两个女儿		descriptive	unverified
+525	👨‍👨‍👦	两个爸爸和儿子	两个爸爸和儿子	两个爸爸和儿子		descriptive	unverified
+526	👨‍👨‍👧	两个爸爸和女儿	两个爸爸和女儿	两个爸爸和女儿		descriptive	unverified
+527	👨‍👨‍👧‍👦	两个爸爸和一儿一女	两个爸爸和一儿一女	两个爸爸和一儿一女		descriptive	unverified
+528	👨‍👨‍👦‍👦	两个爸爸和两个儿子	两个爸爸和两个儿子	两个爸爸和两个儿子		descriptive	unverified
+529	👨‍👨‍👧‍👧	两个爸爸和两个女儿	两个爸爸和两个女儿	两个爸爸和两个女儿		descriptive	unverified
+530	👩‍👩‍👦	两个妈妈和儿子	两个妈妈和儿子	两个妈妈和儿子		descriptive	unverified
+531	👩‍👩‍👧	两个妈妈和女儿	两个妈妈和女儿	两个妈妈和女儿		descriptive	unverified
+532	👩‍👩‍👧‍👦	两个妈妈和一儿一女	两个妈妈和一儿一女	两个妈妈和一儿一女		descriptive	unverified
+533	👩‍👩‍👦‍👦	两个妈妈和两个儿子	两个妈妈和两个儿子	两个妈妈和两个儿子		descriptive	unverified
+534	👩‍👩‍👧‍👧	两个妈妈和两个女儿	两个妈妈和两个女儿	两个妈妈和两个女儿		descriptive	unverified
+535	👨‍👦	父子/爸爸和儿子	父子/爸爸和儿子	父子/爸爸和儿子		everyday	unverified
+536	👨‍👦‍👦	爸爸和两个儿子	爸爸和两个儿子	爸爸和两个儿子		descriptive	unverified
+537	👨‍👧	父女/爸爸和女儿	父女/爸爸和女儿	父女/爸爸和女儿		everyday	unverified
+538	👨‍👧‍👦	爸爸和一儿一女	爸爸和一儿一女	爸爸和一儿一女		descriptive	unverified
+539	👨‍👧‍👧	爸爸和两个女儿	爸爸和两个女儿	爸爸和两个女儿		descriptive	unverified
+540	👩‍👦	妈妈和儿子/母子	妈妈和儿子/母子	妈妈和儿子/母子		everyday	unverified
+541	👩‍👦‍👦	妈妈和两个儿子	妈妈和两个儿子	妈妈和两个儿子		descriptive	unverified
+542	👩‍👧	妈妈和女儿/母女	妈妈和女儿/母女	妈妈和女儿/母女		everyday	unverified
+543	👩‍👧‍👦	妈妈和一儿一女	妈妈和一儿一女	妈妈和一儿一女		descriptive	unverified
+544	👩‍👧‍👧	妈妈和两个女儿	妈妈和两个女儿	妈妈和两个女儿		descriptive	unverified
+545	🗣️	说话/说话的人头	说话的人头		说话/说话的人头	everyday	unverified
+546	👤	人像/人物剪影	人物剪影		人像/人物剪影	everyday	unverified
+547	👥	两个人的剪影/双人像	两个人的剪影		两个人的剪影/双人像	everyday	unverified
+548	🫂	两个人拥抱/拥抱	两个人拥抱		两个人拥抱/拥抱	everyday	unverified
+549	👪	一家人/家庭			一家人/家庭	everyday	unverified
+550	🧑‍🧑‍🧒	一家三口/两个大人一个孩子	一家三口/两个大人一个孩子	一家三口/两个大人一个孩子		descriptive	unverified
+551	🧑‍🧑‍🧒‍🧒	一家四口/两个大人两个孩子	一家四口/两个大人两个孩子	一家四口/两个大人两个孩子		descriptive	unverified
+552	🧑‍🧒	一个大人一个孩子/单亲一孩家庭	一个大人一个孩子	一个大人一个孩子	单亲一孩家庭	descriptive	unverified
+553	🧑‍🧒‍🧒	一个大人两个孩子/单亲二孩家庭	一个大人两个孩子	一个大人两个孩子	单亲二孩家庭	descriptive	unverified
+554	👣	脚印			脚印	everyday	unverified
+555	🫆	指纹			指纹	everyday	unverified
+556	🐵	猴头/猴子脸	猴子脸		猴头/猴子脸	everyday	unverified
+557	🐒	猴子			猴子	everyday	unverified
+558	🦍	大猩猩			大猩猩	everyday	unverified
+559	🦧	猩猩/红毛猩猩			猩猩/红毛猩猩	everyday	unverified
+560	🐶	狗头/狗脸			狗头/狗脸	everyday	unverified
+561	🐕	狗/狗狗	狗狗		狗/狗狗	everyday	unverified
+562	🦮	导盲犬			导盲犬	everyday	unverified
+563	🐕‍🦺	工作犬/服务犬			工作犬/服务犬	everyday	unverified
+564	🐩	贵宾犬/贵宾狗	贵宾狗	贵宾狗	贵宾犬	everyday	unverified
+565	🐺	狼			狼	everyday	unverified
+566	🦊	狐狸			狐狸	everyday	unverified
+567	🦝	浣熊			浣熊	everyday	unverified
+568	🐱	猫头/猫脸	猫头	猫头	猫脸	everyday	unverified
+569	🐈	猫/猫咪	猫咪	猫咪	猫	everyday	unverified
+570	🐈‍⬛	黑猫			黑猫	everyday	unverified
+571	🦁	狮子			狮子	everyday	unverified
+572	🐯	老虎头/虎头	虎头	虎头	老虎头	everyday	unverified
+573	🐅	老虎			老虎	everyday	unverified
+574	🐆	豹/豹子			豹/豹子	everyday	unverified
+575	🐴	马头			马头	everyday	unverified
+576	🫎	驼鹿			驼鹿	everyday	unverified
+577	🫏	毛驴/驴	毛驴		毛驴/驴	everyday	unverified
+578	🐎	马/马儿	马儿		马/马儿	everyday	unverified
+579	🦄	独角兽			独角兽	everyday	unverified
+580	🦓	斑马			斑马	everyday	unverified
+581	🦌	小鹿/鹿	小鹿		小鹿/鹿	everyday	unverified
+582	🦬	美洲野牛/野牛	美洲野牛		美洲野牛/野牛	everyday	unverified
+583	🐮	奶牛头/牛头			奶牛头/牛头	everyday	unverified
+584	🐂	公牛/黄牛			公牛/黄牛	everyday	unverified
+585	🐃	水牛			水牛	everyday	unverified
+586	🐄	奶牛			奶牛	everyday	unverified
+587	🐷	猪头/猪脸	猪脸	猪脸	猪头	everyday	unverified
+588	🐖	小猪/猪	小猪		小猪/猪	everyday	unverified
+589	🐗	野猪			野猪	everyday	unverified
+590	🐽	猪鼻子			猪鼻子	everyday	unverified
+591	🐏	公羊			公羊	everyday	unverified
+592	🐑	母羊/绵羊			母羊/绵羊	everyday	unverified
+593	🐐	山羊			山羊	everyday	unverified
+594	🐪	单峰骆驼/骆驼	单峰骆驼	单峰骆驼	骆驼	everyday	unverified
+595	🐫	双峰骆驼/骆驼			双峰骆驼/骆驼	everyday	unverified
+596	🦙	大羊驼/美洲驼	大羊驼/美洲驼	美洲驼	大羊驼	specialist	unverified
+597	🦒	长颈鹿			长颈鹿	everyday	unverified
+598	🐘	大象			大象	everyday	unverified
+599	🦣	猛犸/猛犸象			猛犸/猛犸象	everyday	unverified
+600	🦏	犀牛			犀牛	everyday	unverified
+601	🦛	河马			河马	everyday	unverified
+602	🐭	老鼠头/老鼠脸	老鼠脸	老鼠脸	老鼠头	everyday	unverified
+603	🐁	小老鼠/老鼠			小老鼠/老鼠	everyday	unverified
+604	🐀	大老鼠/耗子	大老鼠	大老鼠	耗子	everyday	unverified
+605	🐹	仓鼠			仓鼠	everyday	unverified
+606	🐰	兔子头/兔脸	兔脸		兔子头/兔脸	everyday	unverified
+607	🐇	兔子/小兔子	小兔子	小兔子	兔子	everyday	unverified
+608	🐿️	松鼠/花栗鼠			松鼠/花栗鼠	everyday	unverified
+609	🦫	海狸			海狸	everyday	unverified
+610	🦔	刺猬			刺猬	everyday	unverified
+611	🦇	蝙蝠			蝙蝠	everyday	unverified
+612	🐻	熊/熊头			熊/熊头	everyday	unverified
+613	🐻‍❄️	北极熊/白熊	白熊	白熊	北极熊	everyday	unverified
+614	🐨	树袋熊/考拉			树袋熊/考拉	everyday	unverified
+615	🐼	大熊猫/熊猫			大熊猫/熊猫	everyday	unverified
+616	🦥	树懒			树懒	everyday	unverified
+617	🦦	水獭			水獭	everyday	unverified
+618	🦨	臭鼬			臭鼬	everyday	unverified
+619	🦘	袋鼠			袋鼠	everyday	unverified
+620	🦡	獾			獾	everyday	unverified
+621	🐾	动物脚印/爪印	动物脚印	动物脚印	爪印	everyday	unverified
+622	🦃	火鸡			火鸡	everyday	unverified
+623	🐔	母鸡/鸡	母鸡		母鸡/鸡	everyday	unverified
+624	🐓	公鸡			公鸡	everyday	unverified
+625	🐣	小鸡出壳/破壳小鸡	小鸡出壳/破壳小鸡		小鸡出壳/破壳小鸡	descriptive	unverified
+626	🐤	小鸡/鸡宝宝	鸡宝宝	鸡宝宝	小鸡	everyday	unverified
+627	🐥	正面小鸡/正面朝向的小鸡	正面小鸡	正面小鸡	正面朝向的小鸡	descriptive	unverified
+628	🐦	小鸟/鸟	小鸟		小鸟/鸟	everyday	unverified
+629	🐧	企鹅			企鹅	everyday	unverified
+630	🕊️	和平鸽/鸽子	和平鸽	和平鸽	鸽子	everyday	unverified
+631	🦅	老鹰/鹰			老鹰/鹰	everyday	unverified
+632	🦆	鸭/鸭子			鸭/鸭子	everyday	unverified
+633	🦢	天鹅			天鹅	everyday	unverified
+634	🦉	猫头鹰			猫头鹰	everyday	unverified
+635	🦤	渡渡鸟			渡渡鸟	everyday	unverified
+636	🪶	羽毛			羽毛	everyday	unverified
+637	🦩	火烈鸟			火烈鸟	everyday	unverified
+638	🦚	孔雀			孔雀	everyday	unverified
+639	🦜	鹦鹉			鹦鹉	everyday	unverified
+640	🪽	羽翼/翅膀	羽翼	羽翼	翅膀	everyday	unverified
+641	🐦‍⬛	黑色的鸟/黑鸟	黑鸟	黑鸟	黑色的鸟	everyday	unverified
+642	🪿	大鹅/鹅	大鹅		大鹅/鹅	everyday	unverified
+643	🐦‍🔥	凤凰/火凤凰	火凤凰	火凤凰	凤凰	everyday	unverified
+644	🐸	青蛙			青蛙	everyday	unverified
+645	🐊	鳄鱼			鳄鱼	everyday	unverified
+646	🐢	乌龟/龟			乌龟/龟	everyday	unverified
+647	🦎	蜥蜴			蜥蜴	everyday	unverified
+648	🐍	蛇			蛇	everyday	unverified
+649	🐲	龙头/龙脸	龙脸		龙头/龙脸	everyday	unverified
+650	🐉	中国龙/龙	中国龙		中国龙/龙	everyday	unverified
+651	🦕	恐龙/长颈恐龙	长颈恐龙		恐龙/长颈恐龙	everyday	unverified
+652	🦖	恐龙/霸王龙			恐龙/霸王龙	everyday	unverified
+653	🐳	喷水的鲸/喷水鲸鱼	喷水鲸鱼	喷水鲸鱼	喷水的鲸	descriptive	unverified
+654	🐋	鲸/鲸鱼	鲸	鲸	鲸鱼	everyday	unverified
+655	🐬	海豚			海豚	everyday	unverified
+656	🦭	海豹			海豹	everyday	unverified
+657	🐟	鱼/鱼儿	鱼儿		鱼/鱼儿	everyday	unverified
+658	🐠	热带鱼			热带鱼	everyday	unverified
+659	🐡	河豚			河豚	everyday	unverified
+660	🦈	鲨鱼			鲨鱼	everyday	unverified
+661	🐙	八爪鱼/章鱼	八爪鱼	八爪鱼	章鱼	everyday	unverified
+662	🐚	海螺/螺壳	螺壳		海螺/螺壳	everyday	unverified
+663	🪸	珊瑚			珊瑚	everyday	unverified
+664	🪼	水母			水母	everyday	unverified
+665	🦀	螃蟹/蟹			螃蟹/蟹	everyday	unverified
+666	🦞	龙虾			龙虾	everyday	unverified
+667	🦐	虾/虾仁			虾/虾仁	everyday	unverified
+668	🦑	乌贼/鱿鱼			乌贼/鱿鱼	everyday	unverified
+669	🦪	牡蛎/生蚝			牡蛎/生蚝	everyday	unverified
+670	🐌	蜗牛			蜗牛	everyday	unverified
+671	🦋	蝴蝶			蝴蝶	everyday	unverified
+672	🐛	毛毛虫			毛毛虫	everyday	unverified
+673	🐜	蚂蚁			蚂蚁	everyday	unverified
+674	🐝	蜜蜂			蜜蜂	everyday	unverified
+675	🪲	甲虫			甲虫	everyday	unverified
+676	🐞	瓢虫			瓢虫	everyday	unverified
+677	🦗	蛐蛐/蟋蟀			蛐蛐/蟋蟀	everyday	unverified
+678	🪳	蟑螂			蟑螂	everyday	unverified
+679	🕷️	蜘蛛			蜘蛛	everyday	unverified
+680	🕸️	蛛网/蜘蛛网			蛛网/蜘蛛网	everyday	unverified
+681	🦂	蝎子			蝎子	everyday	unverified
+682	🦟	蚊子			蚊子	everyday	unverified
+683	🪰	苍蝇			苍蝇	everyday	unverified
+684	🪱	虫子/蠕虫	虫子	虫子	蠕虫	everyday	unverified
+685	🦠	微生物/细菌	微生物	微生物	细菌	everyday	unverified
+686	💐	一束花/花束	一束花	一束花	花束	everyday	unverified
+687	🌸	樱花			樱花	everyday	unverified
+688	💮	白色花朵/白花图案	白色花朵/白花图案	白色花朵	白花图案	descriptive	unverified
+689	🪷	荷花/莲花	荷花	荷花	莲花	everyday	unverified
+690	🏵️	圆形花饰/花形徽章	花形徽章	花形徽章	圆形花饰	descriptive	unverified
+691	🌹	玫瑰/玫瑰花			玫瑰/玫瑰花	everyday	unverified
+692	🥀	凋谢的花/枯萎的花	凋谢的花		凋谢的花/枯萎的花	everyday	unverified
+693	🌺	扶桑花/芙蓉花	扶桑花/芙蓉花	扶桑花/芙蓉花		everyday	unverified
+694	🌻	向日葵/太阳花			向日葵/太阳花	everyday	unverified
+695	🌼	小花/花朵	小花	小花	花朵	everyday	unverified
+696	🌷	郁金香			郁金香	everyday	unverified
+697	🪻	风信子			风信子	everyday	unverified
+698	🌱	嫩芽/幼苗	嫩芽		嫩芽/幼苗	everyday	unverified
+699	🪴	盆栽/盆栽植物			盆栽/盆栽植物	everyday	unverified
+700	🌲	常青树/松树			常青树/松树	everyday	unverified
+701	🌳	大树/落叶树	大树	大树	落叶树	everyday	unverified
+702	🌴	棕榈树			棕榈树	everyday	unverified
+703	🌵	仙人掌			仙人掌	everyday	unverified
+704	🌾	稻子/稻穗	稻穗		稻子/稻穗	everyday	unverified
+705	🌿	草叶/药草/香草	草叶	草叶	药草/香草	everyday	unverified
+706	☘️	三叶草			三叶草	everyday	unverified
+707	🍀	四叶草/幸运草	幸运草	幸运草	四叶草	everyday	unverified
+708	🍁	枫叶			枫叶	everyday	unverified
+709	🍂	枯叶/落叶	枯叶		枯叶/落叶	everyday	unverified
+710	🍃	随风飘的叶子/风吹树叶	随风飘的叶子/风吹树叶	风吹树叶	随风飘的叶子	descriptive	unverified
+711	🪹	空巢/空鸟巢	空鸟巢		空巢/空鸟巢	everyday	unverified
+712	🪺	有蛋的鸟巢/鸟巢里的蛋	有蛋的鸟巢/鸟巢里的蛋		有蛋的鸟巢/鸟巢里的蛋	descriptive	unverified
+713	🍄	蘑菇			蘑菇	everyday	unverified
+714	🪾	光秃秃的树/无叶树	光秃秃的树	光秃秃的树	无叶树	everyday	unverified
+715	🍇	葡萄			葡萄	everyday	unverified
+716	🍈	甜瓜/蜜瓜			甜瓜/蜜瓜	everyday	unverified
+717	🍉	西瓜			西瓜	everyday	unverified
+718	🍊	桔子/橘子/橙子			桔子/橘子/橙子	everyday	unverified
+719	🍋	柠檬			柠檬	everyday	unverified
+720	🍋‍🟩	青柠/青柠檬	青柠檬		青柠/青柠檬	everyday	unverified
+721	🍌	香蕉			香蕉	everyday	unverified
+722	🍍	凤梨/菠萝	凤梨	凤梨	菠萝	everyday	unverified
+723	🥭	芒果			芒果	everyday	unverified
+724	🍎	红苹果/苹果			红苹果/苹果	everyday	unverified
+725	🍏	绿苹果/苹果/青苹果	绿苹果		绿苹果/苹果/青苹果	everyday	unverified
+726	🍐	梨/梨子	梨子		梨/梨子	everyday	unverified
+727	🍑	桃/桃子			桃/桃子	everyday	unverified
+728	🍒	樱桃			樱桃	everyday	unverified
+729	🍓	草莓			草莓	everyday	unverified
+730	🫐	蓝莓			蓝莓	everyday	unverified
+731	🥝	奇异果/猕猴桃			奇异果/猕猴桃	everyday	unverified
+732	🍅	番茄/西红柿			番茄/西红柿	everyday	unverified
+733	🫒	橄榄			橄榄	everyday	unverified
+734	🥥	椰子			椰子	everyday	unverified
+735	🥑	牛油果/鳄梨			牛油果/鳄梨	everyday	unverified
+736	🍆	茄子			茄子	everyday	unverified
+737	🥔	土豆/马铃薯			土豆/马铃薯	everyday	unverified
+738	🥕	胡萝卜			胡萝卜	everyday	unverified
+739	🌽	玉米/玉米棒	玉米棒	玉米棒	玉米	everyday	unverified
+740	🌶️	红辣椒/辣椒			红辣椒/辣椒	everyday	unverified
+741	🫑	彩椒/灯笼椒/甜椒	彩椒	彩椒	灯笼椒/甜椒	everyday	unverified
+742	🥒	黄瓜			黄瓜	everyday	unverified
+743	🥬	绿叶菜/青菜	绿叶菜/青菜	绿叶菜/青菜		everyday	unverified
+744	🥦	西兰花			西兰花	everyday	unverified
+745	🧄	大蒜/蒜			大蒜/蒜	everyday	unverified
+746	🧅	洋葱			洋葱	everyday	unverified
+747	🥜	花生			花生	everyday	unverified
+748	🫘	豆/豆子			豆/豆子	everyday	unverified
+749	🌰	板栗/栗子	板栗	板栗	栗子	everyday	unverified
+750	🫚	姜/生姜	生姜		姜/生姜	everyday	unverified
+751	🫛	豌豆/豌豆荚			豌豆/豌豆荚	everyday	unverified
+752	🍄‍🟫	棕色蘑菇/褐色蘑菇	棕色蘑菇	棕色蘑菇	褐色蘑菇	descriptive	unverified
+753	🫜	根菜/萝卜			根菜/萝卜	everyday	unverified
+754	🍞	吐司/面包	吐司	吐司	面包	everyday	unverified
+755	🥐	可颂/牛角包/羊角面包	可颂/牛角包	可颂/牛角包	羊角面包	everyday	unverified
+756	🥖	法棍/长棍面包	法棍/长棍面包	法棍/长棍面包		everyday	unverified
+757	🫓	扁面包/薄饼			扁面包/薄饼	everyday	unverified
+758	🥨	椒盐卷饼/碱水结	碱水结	碱水结	椒盐卷饼	everyday	unverified
+759	🥯	贝果/面包圈			贝果/面包圈	everyday	unverified
+760	🥞	松饼/煎饼	松饼	松饼	煎饼	everyday	unverified
+761	🧇	华夫饼/格子饼			华夫饼/格子饼	everyday	unverified
+762	🧀	奶酪/芝士			奶酪/芝士	everyday	unverified
+763	🍖	带骨肉/骨头肉	带骨肉/骨头肉	带骨肉/骨头肉		everyday	unverified
+764	🍗	禽腿/鸡腿	禽腿	禽腿	鸡腿	everyday	unverified
+765	🥩	牛排/肉块			牛排/肉块	everyday	unverified
+766	🥓	培根			培根	everyday	unverified
+767	🍔	汉堡/汉堡包			汉堡/汉堡包	everyday	unverified
+768	🍟	薯条			薯条	everyday	unverified
+769	🍕	披萨/比萨			披萨/比萨	everyday	unverified
+770	🌭	热狗			热狗	everyday	unverified
+771	🥪	三明治			三明治	everyday	unverified
+772	🌮	塔可/墨西哥卷饼	塔可	塔可	墨西哥卷饼	everyday	unverified
+773	🌯	墨西哥卷饼/墨西哥肉卷	墨西哥肉卷	墨西哥肉卷	墨西哥卷饼	everyday	unverified
+774	🫔	塔马利/墨西哥粽子	塔马利	塔马利	墨西哥粽子	everyday	unverified
+775	🥙	夹心饼/夹馅面饼	夹馅面饼	夹馅面饼	夹心饼	descriptive	unverified
+776	🧆	炸豆丸子			炸豆丸子	everyday	unverified
+777	🥚	蛋/鸡蛋			蛋/鸡蛋	everyday	unverified
+778	🍳	平底锅煎蛋/煎蛋	平底锅煎蛋		平底锅煎蛋/煎蛋	everyday	unverified
+779	🥘	平底锅里的食物/浅锅料理	平底锅里的食物/浅锅料理	平底锅里的食物/浅锅料理		descriptive	unverified
+780	🍲	一锅汤/一锅食物/炖锅	一锅汤/炖锅	炖锅	一锅汤/一锅食物	everyday	unverified
+781	🫕	奶酪火锅/芝士火锅	芝士火锅	芝士火锅	奶酪火锅	everyday	unverified
+782	🥣	带勺的碗/碗和勺子	带勺的碗/碗和勺子	带勺的碗/碗和勺子		descriptive	unverified
+783	🥗	沙拉/蔬菜沙拉	蔬菜沙拉		沙拉/蔬菜沙拉	everyday	unverified
+784	🍿	爆米花			爆米花	everyday	unverified
+785	🧈	黄油			黄油	everyday	unverified
+786	🧂	盐/盐瓶	盐瓶	盐瓶	盐	everyday	unverified
+787	🥫	罐头/罐头食品			罐头/罐头食品	everyday	unverified
+788	🍱	便当/盒饭			便当/盒饭	everyday	unverified
+789	🍘	仙贝/米饼	仙贝	仙贝	米饼	everyday	unverified
+790	🍙	饭团			饭团	everyday	unverified
+791	🍚	白米饭/米饭	白米饭	白米饭	米饭	everyday	unverified
+792	🍛	咖喱饭			咖喱饭	everyday	unverified
+793	🍜	拉面/汤面/面条	汤面	汤面	拉面/面条	everyday	unverified
+794	🍝	意大利面/意粉/意面			意大利面/意粉/意面	everyday	unverified
+795	🍠	烤地瓜/烤红薯			烤地瓜/烤红薯	everyday	unverified
+796	🍢	关东煮			关东煮	everyday	unverified
+797	🍣	寿司			寿司	everyday	unverified
+798	🍤	天妇罗虾/炸虾	天妇罗虾		天妇罗虾/炸虾	everyday	unverified
+799	🍥	鱼板/鸣门卷	鸣门卷	鸣门卷	鱼板	everyday	unverified
+800	🥮	月饼			月饼	everyday	unverified
+801	🍡	三色团子/团子	三色团子		三色团子/团子	everyday	unverified
+802	🥟	饺子			饺子	everyday	unverified
+803	🥠	幸运饼干/签语饼	签语饼	签语饼	幸运饼干	everyday	unverified
+804	🥡	外卖盒/打包盒	打包盒	打包盒	外卖盒	everyday	unverified
+805	🍦	圆筒冰淇淋/甜筒	甜筒	甜筒	圆筒冰淇淋	everyday	unverified
+806	🍧	刨冰			刨冰	everyday	unverified
+807	🍨	冰淇淋/冰激凌			冰淇淋/冰激凌	everyday	unverified
+808	🍩	甜甜圈			甜甜圈	everyday	unverified
+809	🍪	曲奇/饼干			曲奇/饼干	everyday	unverified
+810	🎂	生日蛋糕			生日蛋糕	everyday	unverified
+811	🍰	一块蛋糕/水果蛋糕/蛋糕切片	一块蛋糕/蛋糕切片		一块蛋糕/水果蛋糕/蛋糕切片	everyday	unverified
+812	🧁	杯子蛋糕/纸杯蛋糕	杯子蛋糕	杯子蛋糕	纸杯蛋糕	everyday	unverified
+813	🥧	派/馅饼			派/馅饼	everyday	unverified
+814	🍫	巧克力/巧克力板	巧克力板		巧克力/巧克力板	everyday	unverified
+815	🍬	糖/糖果			糖/糖果	everyday	unverified
+816	🍭	棒棒糖			棒棒糖	everyday	unverified
+817	🍮	布丁/焦糖布丁	布丁/焦糖布丁	布丁/焦糖布丁		everyday	unverified
+818	🍯	蜂蜜/蜂蜜罐	蜂蜜罐		蜂蜜/蜂蜜罐	everyday	unverified
+819	🍼	奶瓶			奶瓶	everyday	unverified
+820	🥛	一杯牛奶/牛奶	一杯牛奶		一杯牛奶/牛奶	everyday	unverified
+821	☕	咖啡/热饮			咖啡/热饮	everyday	unverified
+822	🫖	茶壶			茶壶	everyday	unverified
+823	🍵	热茶/茶/茶杯	茶	茶	热茶/茶杯	everyday	unverified
+824	🍶	清酒/清酒壶	清酒壶		清酒/清酒壶	everyday	unverified
+825	🍾	开香槟/香槟			开香槟/香槟	everyday	unverified
+826	🍷	红酒/葡萄酒	红酒	红酒	葡萄酒	everyday	unverified
+827	🍸	鸡尾酒/鸡尾酒杯			鸡尾酒/鸡尾酒杯	everyday	unverified
+828	🍹	水果饮料/热带饮料	水果饮料	水果饮料	热带饮料	everyday	unverified
+829	🍺	啤酒/啤酒杯			啤酒/啤酒杯	everyday	unverified
+830	🍻	啤酒碰杯/干杯	啤酒碰杯	啤酒碰杯	干杯	everyday	unverified
+831	🥂	碰杯/香槟碰杯	香槟碰杯		碰杯/香槟碰杯	everyday	unverified
+832	🥃	威士忌杯/平底酒杯	威士忌杯/平底酒杯	平底酒杯	威士忌杯	everyday	unverified
+833	🫗	倒水/倒饮料/倾倒液体	倒水/倒饮料	倒水/倒饮料	倾倒液体	everyday	unverified
+834	🥤	吸管杯/带吸管的杯子	吸管杯	吸管杯	带吸管的杯子	everyday	unverified
+835	🧋	奶茶/珍珠奶茶			奶茶/珍珠奶茶	everyday	unverified
+836	🧃	盒装饮料/饮料盒	盒装饮料	盒装饮料	饮料盒	everyday	unverified
+837	🧉	马黛茶			马黛茶	specialist	unverified
+838	🧊	冰/冰块			冰/冰块	everyday	unverified
+839	🥢	筷子			筷子	everyday	unverified
+840	🍽️	餐具/餐盘刀叉	餐盘刀叉	餐盘刀叉	餐具	everyday	unverified
+841	🍴	刀叉			刀叉	everyday	unverified
+842	🥄	勺子/汤匙			勺子/汤匙	everyday	unverified
+843	🔪	厨刀/菜刀	厨刀	厨刀	菜刀	everyday	unverified
+844	🫙	玻璃罐/罐子	玻璃罐		玻璃罐/罐子	everyday	unverified
+845	🏺	双耳瓶/双耳陶罐	双耳陶罐	双耳陶罐	双耳瓶	specialist	unverified
+846	🌍	显示欧洲和非洲的地球	显示欧洲和非洲的地球	显示欧洲和非洲的地球		descriptive	unverified
+847	🌎	显示美洲的地球	显示美洲的地球		显示美洲的地球	descriptive	unverified
+848	🌏	显示亚洲和澳洲的地球	显示亚洲和澳洲的地球	显示亚洲和澳洲的地球		descriptive	unverified
+849	🌐	经纬线地球/网格地球	经纬线地球/网格地球		经纬线地球/网格地球	descriptive	unverified
+850	🗺️	世界地图/地图			世界地图/地图	everyday	unverified
+851	🗾	日本地图			日本地图	proper_name	unverified
+852	🧭	指南针/罗盘			指南针/罗盘	everyday	unverified
+853	🏔️	雪山			雪山	everyday	unverified
+854	⛰️	山/高山	高山	高山	山	everyday	unverified
+855	🌋	火山			火山	everyday	unverified
+856	🗻	富士山			富士山	proper_name	unverified
+857	🏕️	营地/露营			营地/露营	everyday	unverified
+858	🏖️	沙滩/沙滩伞/海滩	沙滩伞	沙滩伞	沙滩/海滩	everyday	unverified
+859	🏜️	沙漠			沙漠	everyday	unverified
+860	🏝️	海岛/荒岛	海岛		海岛/荒岛	everyday	unverified
+861	🏞️	国家公园/山水公园	山水公园		国家公园/山水公园	everyday	unverified
+862	🏟️	体育场/体育馆			体育场/体育馆	everyday	unverified
+863	🏛️	古典建筑/柱廊建筑	柱廊建筑	柱廊建筑	古典建筑	descriptive	unverified
+864	🏗️	建筑工地/施工	建筑工地	建筑工地	施工	everyday	unverified
+865	🧱	砖/砖头			砖/砖头	everyday	unverified
+866	🪨	岩石/石头			岩石/石头	everyday	unverified
+867	🪵	木头/木材			木头/木材	everyday	unverified
+868	🛖	小屋/茅屋			小屋/茅屋	everyday	unverified
+869	🏘️	房屋/房屋群	房屋群		房屋/房屋群	everyday	unverified
+870	🏚️	废弃房屋/破房子	废弃房屋/破房子	废弃房屋/破房子		everyday	unverified
+871	🏠	房子/房屋			房子/房屋	everyday	unverified
+872	🏡	别墅/带花园的房子	带花园的房子	带花园的房子	别墅	everyday	unverified
+873	🏢	写字楼/办公楼			写字楼/办公楼	everyday	unverified
+874	🏣	日本邮局			日本邮局	descriptive	unverified
+875	🏤	邮局			邮局	everyday	unverified
+876	🏥	医院			医院	everyday	unverified
+877	🏦	银行			银行	everyday	unverified
+878	🏨	宾馆/酒店			宾馆/酒店	everyday	unverified
+879	🏩	情人酒店/情侣酒店			情人酒店/情侣酒店	everyday	unverified
+880	🏪	便利店			便利店	everyday	unverified
+881	🏫	学校			学校	everyday	unverified
+882	🏬	商场/百货商店			商场/百货商店	everyday	unverified
+883	🏭	工厂			工厂	everyday	unverified
+884	🏯	日式城堡/日本城堡	日式城堡		日式城堡/日本城堡	descriptive	unverified
+885	🏰	城堡/欧式城堡	欧式城堡		城堡/欧式城堡	everyday	unverified
+886	💒	婚礼/婚礼教堂	婚礼教堂		婚礼/婚礼教堂	everyday	unverified
+887	🗼	东京塔/东京铁塔	东京铁塔	东京铁塔	东京塔	proper_name	unverified
+888	🗽	自由女神/自由女神像	自由女神	自由女神	自由女神像	proper_name	unverified
+889	⛪	教堂			教堂	everyday	unverified
+890	🕌	清真寺			清真寺	everyday	unverified
+891	🛕	印度教寺庙	印度教寺庙	印度教寺庙		specialist	unverified
+892	🕍	犹太会堂/犹太教堂	犹太会堂	犹太会堂	犹太教堂	specialist	unverified
+893	⛩️	神社/鸟居	鸟居	鸟居	神社	specialist	unverified
+894	🕋	克尔白/天房			克尔白/天房	specialist	unverified
+895	⛲	喷泉			喷泉	everyday	unverified
+896	⛺	帐篷			帐篷	everyday	unverified
+897	🌁	大雾/雾景	大雾/雾景	大雾/雾景		everyday	unverified
+898	🌃	城市夜景/星空夜景	城市夜景/星空夜景	城市夜景/星空夜景		everyday	unverified
+899	🏙️	城市/城市风光			城市/城市风光	everyday	unverified
+900	🌄	山间日出/山顶日出	山间日出		山间日出/山顶日出	everyday	unverified
+901	🌅	日出/海上日出	海上日出		日出/海上日出	everyday	unverified
+902	🌆	城市黄昏/黄昏			城市黄昏/黄昏	everyday	unverified
+903	🌇	夕阳/日落			夕阳/日落	everyday	unverified
+904	🌉	夜晚的桥/桥梁夜景	夜晚的桥/桥梁夜景		夜晚的桥/桥梁夜景	everyday	unverified
+905	♨️	温泉/温泉标志	温泉标志		温泉/温泉标志	everyday	unverified
+906	🎠	旋转木马			旋转木马	everyday	unverified
+907	🛝	游乐场滑梯/滑梯			游乐场滑梯/滑梯	everyday	unverified
+908	🎡	摩天轮			摩天轮	everyday	unverified
+909	🎢	过山车			过山车	everyday	unverified
+910	💈	理发店标志/理发店灯柱	理发店标志/理发店灯柱	理发店标志/理发店灯柱		everyday	unverified
+911	🎪	马戏团/马戏帐篷	马戏帐篷	马戏帐篷	马戏团	everyday	unverified
+912	🚂	蒸汽机车/蒸汽火车	蒸汽机车	蒸汽机车	蒸汽火车	everyday	unverified
+913	🚃	火车车厢/铁路车厢	火车车厢/铁路车厢	火车车厢/铁路车厢		everyday	unverified
+914	🚄	高速列车/高铁			高速列车/高铁	everyday	unverified
+915	🚅	子弹头列车/子弹头高铁	子弹头列车/子弹头高铁	子弹头列车	子弹头高铁	everyday	unverified
+916	🚆	火车			火车	everyday	unverified
+917	🚇	地铁			地铁	everyday	unverified
+918	🚈	轻轨			轻轨	everyday	unverified
+919	🚉	火车站/车站			火车站/车站	everyday	unverified
+920	🚊	有轨电车/路面电车	有轨电车	有轨电车	路面电车	everyday	unverified
+921	🚝	单轨列车/单轨车	单轨列车/单轨车	单轨车	单轨列车	everyday	unverified
+922	🚞	山区火车/山地铁路	山区火车	山区火车	山地铁路	descriptive	unverified
+923	🚋	有轨电车/电车车厢	电车车厢	电车车厢	有轨电车	everyday	unverified
+924	🚌	公交车/公共汽车/巴士	巴士	巴士	公交车/公共汽车	everyday	unverified
+925	🚍	公交车正面/迎面公交车	公交车正面/迎面公交车		公交车正面/迎面公交车	descriptive	unverified
+926	🚎	无轨电车			无轨电车	everyday	unverified
+927	🚐	中巴/小巴	中巴	中巴	小巴	everyday	unverified
+928	🚑	救护车			救护车	everyday	unverified
+929	🚒	消防车			消防车	everyday	unverified
+930	🚓	警车			警车	everyday	unverified
+931	🚔	警车正面/迎面警车	警车正面/迎面警车		警车正面/迎面警车	descriptive	unverified
+932	🚕	出租车/的士			出租车/的士	everyday	unverified
+933	🚖	出租车正面/迎面的士	出租车正面/迎面的士		出租车正面/迎面的士	descriptive	unverified
+934	🚗	小汽车/汽车/轿车	小汽车	小汽车	汽车/轿车	everyday	unverified
+935	🚘	汽车正面/迎面汽车	汽车正面/迎面汽车	汽车正面/迎面汽车		descriptive	unverified
+936	🚙	越野车/运动型汽车	运动型汽车	运动型汽车	越野车	everyday	unverified
+937	🛻	皮卡/皮卡车	皮卡车	皮卡车	皮卡	everyday	unverified
+938	🚚	小货车/货车	小货车		小货车/货车	everyday	unverified
+939	🚛	半挂车/大货车	半挂车/大货车	半挂车	大货车	everyday	unverified
+940	🚜	拖拉机			拖拉机	everyday	unverified
+941	🏎️	赛车			赛车	everyday	unverified
+942	🏍️	摩托车			摩托车	everyday	unverified
+943	🛵	小摩托/踏板摩托	小摩托/踏板摩托	小摩托/踏板摩托		everyday	unverified
+944	🦽	手动轮椅/轮椅			手动轮椅/轮椅	everyday	unverified
+945	🦼	电动轮椅			电动轮椅	everyday	unverified
+946	🛺	三轮摩托/机动三轮车	三轮摩托/机动三轮车	三轮摩托/机动三轮车		everyday	unverified
+947	🚲	单车/自行车			单车/自行车	everyday	unverified
+948	🛴	滑板车			滑板车	everyday	unverified
+949	🛹	滑板			滑板	everyday	unverified
+950	🛼	旱冰鞋/轮滑鞋	旱冰鞋		旱冰鞋/轮滑鞋	everyday	unverified
+951	🚏	公交站/公交站牌	公交站牌		公交站/公交站牌	everyday	unverified
+952	🛣️	公路/高速公路			公路/高速公路	everyday	unverified
+953	🛤️	铁路/铁轨			铁路/铁轨	everyday	unverified
+954	🛢️	油桶/石油桶			油桶/石油桶	everyday	unverified
+955	⛽	加油机/加油站	加油机	加油机	加油站	everyday	unverified
+956	🛞	车轮/轮胎			车轮/轮胎	everyday	unverified
+957	🚨	警报灯/警灯	警报灯	警报灯	警灯	everyday	unverified
+958	🚥	横向红绿灯/横排红绿灯	横向红绿灯/横排红绿灯		横向红绿灯/横排红绿灯	descriptive	unverified
+959	🚦	竖向红绿灯/竖排红绿灯	竖向红绿灯/竖排红绿灯		竖向红绿灯/竖排红绿灯	descriptive	unverified
+960	🛑	停止标志/停车标志	停车标志	停车标志	停止标志	everyday	unverified
+961	🚧	施工路障/路障	施工路障		施工路障/路障	everyday	unverified
+962	⚓	船锚/锚			船锚/锚	everyday	unverified
+963	🛟	救生圈			救生圈	everyday	unverified
+964	⛵	帆船			帆船	everyday	unverified
+965	🛶	划艇/独木舟	划艇	划艇	独木舟	everyday	unverified
+966	🚤	快艇			快艇	everyday	unverified
+967	🛳️	客轮/游轮	游轮	游轮	客轮	everyday	unverified
+968	⛴️	渡船/渡轮			渡船/渡轮	everyday	unverified
+969	🛥️	摩托艇/机动艇	机动艇	机动艇	摩托艇	everyday	unverified
+970	🚢	船/轮船			船/轮船	everyday	unverified
+971	✈️	飞机			飞机	everyday	unverified
+972	🛩️	小型飞机/小飞机			小型飞机/小飞机	everyday	unverified
+973	🛫	起飞/飞机起飞			起飞/飞机起飞	everyday	unverified
+974	🛬	降落/飞机降落	飞机降落		降落/飞机降落	everyday	unverified
+975	🪂	跳伞/降落伞			跳伞/降落伞	everyday	unverified
+976	💺	座位/飞机座椅	飞机座椅	飞机座椅	座位	everyday	unverified
+977	🚁	直升机/直升飞机			直升机/直升飞机	everyday	unverified
+978	🚟	悬挂列车/空轨	悬挂列车	悬挂列车	空轨	everyday	unverified
+979	🚠	山间缆车/缆车	山间缆车		山间缆车/缆车	everyday	unverified
+980	🚡	空中缆车/索道缆车/缆车	空中缆车/索道缆车	空中缆车	索道缆车/缆车	everyday	unverified
+981	🛰️	人造卫星/卫星			人造卫星/卫星	everyday	unverified
+982	🚀	火箭			火箭	everyday	unverified
+983	🛸	不明飞行物/飞碟			不明飞行物/飞碟	everyday	unverified
+984	🛎️	前台铃/服务铃	前台铃		前台铃/服务铃	everyday	unverified
+985	🧳	旅行箱/行李箱	旅行箱	旅行箱	行李箱	everyday	unverified
+986	⌛	沙漏/漏完的沙漏	漏完的沙漏		沙漏/漏完的沙漏	everyday	unverified
+987	⏳	正在漏沙的沙漏/计时沙漏	正在漏沙的沙漏/计时沙漏	正在漏沙的沙漏/计时沙漏		descriptive	unverified
+988	⌚	手表			手表	everyday	unverified
+989	⏰	闹钟			闹钟	everyday	unverified
+990	⏱️	秒表			秒表	everyday	unverified
+991	⏲️	定时器/计时器	计时器	计时器	定时器	everyday	unverified
+992	🕰️	台钟/座钟			台钟/座钟	everyday	unverified
+993	🕛	十二点/十二点钟	十二点钟	十二点钟	十二点	everyday	unverified
+994	🕧	十二点半			十二点半	everyday	unverified
+995	🕐	一点/一点钟	一点钟	一点钟	一点	everyday	unverified
+996	🕜	一点半			一点半	everyday	unverified
+997	🕑	两点/两点钟	两点钟	两点钟	两点	everyday	unverified
+998	🕝	两点半			两点半	everyday	unverified
+999	🕒	三点/三点钟	三点钟	三点钟	三点	everyday	unverified
+1000	🕞	三点半			三点半	everyday	unverified
+1001	🕓	四点/四点钟	四点钟	四点钟	四点	everyday	unverified
+1002	🕟	四点半			四点半	everyday	unverified
+1003	🕔	五点/五点钟	五点钟	五点钟	五点	everyday	unverified
+1004	🕠	五点半			五点半	everyday	unverified
+1005	🕕	六点/六点钟	六点钟	六点钟	六点	everyday	unverified
+1006	🕡	六点半			六点半	everyday	unverified
+1007	🕖	七点/七点钟	七点钟	七点钟	七点	everyday	unverified
+1008	🕢	七点半			七点半	everyday	unverified
+1009	🕗	八点/八点钟	八点钟	八点钟	八点	everyday	unverified
+1010	🕣	八点半			八点半	everyday	unverified
+1011	🕘	九点/九点钟	九点钟	九点钟	九点	everyday	unverified
+1012	🕤	九点半			九点半	everyday	unverified
+1013	🕙	十点/十点钟	十点钟	十点钟	十点	everyday	unverified
+1014	🕥	十点半			十点半	everyday	unverified
+1015	🕚	十一点/十一点钟	十一点钟	十一点钟	十一点	everyday	unverified
+1016	🕦	十一点半			十一点半	everyday	unverified
+1017	🌑	新月/朔月			新月/朔月	specialist	unverified
+1018	🌒	娥眉月/渐盈月牙/蛾眉月	渐盈月牙	渐盈月牙	娥眉月/蛾眉月	specialist	unverified
+1019	🌓	上弦月			上弦月	specialist	unverified
+1020	🌔	盈凸月			盈凸月	specialist	unverified
+1021	🌕	圆月/满月	圆月	圆月	满月	everyday	unverified
+1022	🌖	亏凸月			亏凸月	specialist	unverified
+1023	🌗	下弦月			下弦月	specialist	unverified
+1024	🌘	月牙/残月	月牙	月牙	残月	everyday	unverified
+1025	🌙	弯月/月亮/月牙			弯月/月亮/月牙	everyday	unverified
+1026	🌚	新月笑脸/黑月亮脸	新月笑脸/黑月亮脸	新月笑脸/黑月亮脸		descriptive	unverified
+1027	🌛	上弦月笑脸/拟人上弦月	上弦月笑脸/拟人上弦月	上弦月笑脸	拟人上弦月	descriptive	unverified
+1028	🌜	下弦月笑脸/拟人下弦月	下弦月笑脸/拟人下弦月	下弦月笑脸	拟人下弦月	descriptive	unverified
+1029	🌡️	体温计/温度计	体温计	体温计	温度计	everyday	unverified
+1030	☀️	太阳			太阳	everyday	unverified
+1031	🌝	月亮笑脸/满月笑脸	月亮笑脸/满月笑脸	月亮笑脸/满月笑脸		everyday	unverified
+1032	🌞	太阳公公/太阳笑脸	太阳公公/太阳笑脸	太阳公公/太阳笑脸		everyday	unverified
+1033	🪐	土星/带环行星	带环行星		土星/带环行星	everyday	unverified
+1034	⭐	五角星/星星			五角星/星星	everyday	unverified
+1035	🌟	亮星/闪亮的星星	亮星	亮星	闪亮的星星	everyday	unverified
+1036	🌠	流星			流星	everyday	unverified
+1037	🌌	星河/银河	星河	星河	银河	everyday	unverified
+1038	☁️	云/云朵			云/云朵	everyday	unverified
+1039	⛅	多云/太阳被云遮住	太阳被云遮住	太阳被云遮住	多云	everyday	unverified
+1040	⛈️	雷阵雨/雷雨	雷雨	雷雨	雷阵雨	everyday	unverified
+1041	🌤️	少云/晴间多云	晴间多云	晴间多云	少云	everyday	unverified
+1042	🌥️	多云/太阳躲在云后	太阳躲在云后	太阳躲在云后	多云	everyday	unverified
+1043	🌦️	太阳雨/晴雨	太阳雨/晴雨	太阳雨/晴雨		everyday	unverified
+1044	🌧️	下雨/雨云	雨云	雨云	下雨	everyday	unverified
+1045	🌨️	下雪/雪云	雪云	雪云	下雪	everyday	unverified
+1046	🌩️	打雷/雷云	雷云	雷云	打雷	everyday	unverified
+1047	🌪️	龙卷风			龙卷风	everyday	unverified
+1048	🌫️	大雾/雾	大雾		大雾/雾	everyday	unverified
+1049	🌬️	吹风/大风			吹风/大风	everyday	unverified
+1050	🌀	台风/旋涡/气旋	旋涡	旋涡	台风/气旋	everyday	unverified
+1051	🌈	彩虹			彩虹	everyday	unverified
+1052	🌂	合上的伞/收起的伞	合上的伞	合上的伞	收起的伞	descriptive	unverified
+1053	☂️	伞/撑开的伞	撑开的伞		伞/撑开的伞	everyday	unverified
+1054	☔	带雨滴的伞/雨伞	带雨滴的伞	带雨滴的伞	雨伞	everyday	unverified
+1055	⛱️	沙滩伞/遮阳伞	遮阳伞	遮阳伞	沙滩伞	everyday	unverified
+1056	⚡	闪电/高压标志	高压标志	高压标志	闪电	everyday	unverified
+1057	❄️	雪花			雪花	everyday	unverified
+1058	☃️	下雪中的雪人/带雪花的雪人	下雪中的雪人/带雪花的雪人	下雪中的雪人/带雪花的雪人		descriptive	unverified
+1059	⛄	雪人			雪人	everyday	unverified
+1060	☄️	彗星			彗星	everyday	unverified
+1061	🔥	火/火焰			火/火焰	everyday	unverified
+1062	💧	水滴			水滴	everyday	unverified
+1063	🌊	浪花/海浪			浪花/海浪	everyday	unverified
+1064	🎃	万圣节南瓜/南瓜灯	万圣节南瓜	万圣节南瓜	南瓜灯	everyday	unverified
+1065	🎄	圣诞树			圣诞树	everyday	unverified
+1066	🎆	烟花/焰火			烟花/焰火	everyday	unverified
+1067	🎇	仙女棒/手持烟花	仙女棒/手持烟花	仙女棒	手持烟花	everyday	unverified
+1068	🧨	爆竹/鞭炮			爆竹/鞭炮	everyday	unverified
+1069	✨	星光/闪亮/闪光	星光	星光	闪亮/闪光	everyday	unverified
+1070	🎈	气球			气球	everyday	unverified
+1071	🎉	庆祝彩带/礼花筒	庆祝彩带/礼花筒	庆祝彩带/礼花筒		everyday	unverified
+1072	🎊	彩屑球/彩纸球	彩屑球/彩纸球	彩屑球/彩纸球		descriptive	unverified
+1073	🎋	七夕竹/七夕许愿树	七夕竹/七夕许愿树	七夕竹/七夕许愿树		specialist	unverified
+1074	🎍	新年门松/门松	新年门松		新年门松/门松	specialist	unverified
+1075	🎎	日本人偶/雏人偶	雏人偶		日本人偶/雏人偶	specialist	unverified
+1076	🎏	鲤鱼旗			鲤鱼旗	everyday	unverified
+1077	🎐	风铃			风铃	everyday	unverified
+1078	🎑	赏月供品/赏月摆设	赏月供品/赏月摆设	赏月供品/赏月摆设		specialist	unverified
+1079	🧧	红包			红包	everyday	unverified
+1080	🎀	蝴蝶结			蝴蝶结	everyday	unverified
+1081	🎁	礼品盒/礼物	礼品盒	礼品盒	礼物	everyday	unverified
+1082	🎗️	丝带/纪念丝带	纪念丝带		丝带/纪念丝带	everyday	unverified
+1083	🎟️	入场券/门票			入场券/门票	everyday	unverified
+1084	🎫	票/门票			票/门票	everyday	unverified
+1085	🎖️	军功章/勋章			军功章/勋章	everyday	unverified
+1086	🏆	奖杯			奖杯	everyday	unverified
+1087	🏅	奖牌			奖牌	everyday	unverified
+1088	🥇	第一名奖牌/金牌			第一名奖牌/金牌	everyday	unverified
+1089	🥈	第二名奖牌/银牌			第二名奖牌/银牌	everyday	unverified
+1090	🥉	第三名奖牌/铜牌			第三名奖牌/铜牌	everyday	unverified
+1091	⚽	足球			足球	everyday	unverified
+1092	⚾	棒球			棒球	everyday	unverified
+1093	🥎	垒球			垒球	everyday	unverified
+1094	🏀	篮球			篮球	everyday	unverified
+1095	🏐	排球			排球	everyday	unverified
+1096	🏈	橄榄球/美式橄榄球			橄榄球/美式橄榄球	everyday	unverified
+1097	🏉	橄榄球/英式橄榄球			橄榄球/英式橄榄球	everyday	unverified
+1098	🎾	网球			网球	everyday	unverified
+1099	🥏	飞盘			飞盘	everyday	unverified
+1100	🎳	保龄球			保龄球	everyday	unverified
+1101	🏏	板球/板球拍	板球拍		板球/板球拍	everyday	unverified
+1102	🏑	曲棍球/草地曲棍球	草地曲棍球		曲棍球/草地曲棍球	everyday	unverified
+1103	🏒	冰球/冰球杆			冰球/冰球杆	everyday	unverified
+1104	🥍	袋棍球/长曲棍球			袋棍球/长曲棍球	specialist	unverified
+1105	🏓	乒乓球			乒乓球	everyday	unverified
+1106	🏸	羽毛球			羽毛球	everyday	unverified
+1107	🥊	拳击手套			拳击手套	everyday	unverified
+1108	🥋	武术服/道服	武术服/道服	武术服/道服		everyday	unverified
+1109	🥅	球门/球门网	球门网		球门/球门网	everyday	unverified
+1110	⛳	球洞旗/高尔夫球洞	球洞旗	球洞旗	高尔夫球洞	everyday	unverified
+1111	⛸️	冰刀/冰鞋/滑冰鞋	冰鞋/滑冰鞋	冰鞋/滑冰鞋	冰刀	everyday	unverified
+1112	🎣	钓鱼/钓鱼竿/鱼竿	鱼竿	鱼竿	钓鱼/钓鱼竿	everyday	unverified
+1113	🤿	潜水镜/潜水面罩	潜水镜	潜水镜	潜水面罩	everyday	unverified
+1114	🎽	跑步背心/运动背心	跑步背心	跑步背心	运动背心	everyday	unverified
+1115	🎿	滑雪板			滑雪板	prior_review	unverified
+1116	🛷	雪橇			雪橇	everyday	unverified
+1117	🥌	冰壶			冰壶	everyday	unverified
+1118	🎯	正中靶心/靶心/飞镖	正中靶心		正中靶心/靶心/飞镖	everyday	unverified
+1119	🪀	悠悠球/溜溜球			悠悠球/溜溜球	everyday	unverified
+1120	🪁	风筝			风筝	everyday	unverified
+1121	🔫	水枪/玩具枪	玩具枪	玩具枪	水枪	everyday	unverified
+1122	🎱	八号球/台球	八号球	八号球	台球	everyday	unverified
+1123	🔮	水晶球			水晶球	everyday	unverified
+1124	🪄	魔杖/魔法棒			魔杖/魔法棒	everyday	unverified
+1125	🎮	手柄/游戏手柄			手柄/游戏手柄	everyday	unverified
+1126	🕹️	摇杆/游戏摇杆	摇杆/游戏摇杆	摇杆/游戏摇杆		everyday	unverified
+1127	🎰	老虎机			老虎机	everyday	unverified
+1128	🎲	色子/骰子			色子/骰子	everyday	unverified
+1129	🧩	拼图/拼图块	拼图块		拼图/拼图块	everyday	unverified
+1130	🧸	泰迪熊/玩具熊	玩具熊		泰迪熊/玩具熊	everyday	unverified
+1131	🪅	彩罐/皮纳塔			彩罐/皮纳塔	specialist	unverified
+1132	🪩	迪斯科球/镜面球	迪斯科球/镜面球	迪斯科球/镜面球		everyday	unverified
+1133	🪆	俄罗斯套娃/套娃			俄罗斯套娃/套娃	everyday	unverified
+1134	♠️	黑桃			黑桃	everyday	unverified
+1135	♥️	红心/红桃			红心/红桃	everyday	unverified
+1136	♦️	方块/方片	方块	方块	方片	everyday	unverified
+1137	♣️	梅花			梅花	everyday	unverified
+1138	♟️	兵卒/国际象棋兵	兵卒/国际象棋兵	兵卒	国际象棋兵	specialist	unverified
+1139	🃏	大小王/王牌/鬼牌	王牌	王牌	大小王/鬼牌	everyday	unverified
+1140	🀄	红中/麻将红中			红中/麻将红中	everyday	unverified
+1141	🎴	花札/花牌			花札/花牌	specialist	unverified
+1142	🎭	喜剧悲剧面具/戏剧面具	喜剧悲剧面具/戏剧面具	喜剧悲剧面具/戏剧面具		everyday	unverified
+1143	🖼️	相框画/装框的画	相框画/装框的画	相框画/装框的画		everyday	unverified
+1144	🎨	调色板/调色盘			调色板/调色盘	everyday	unverified
+1145	🧵	线轴/缝纫线	缝纫线	缝纫线	线轴	everyday	unverified
+1146	🪡	缝衣针/针线	针线	针线	缝衣针	everyday	unverified
+1147	🧶	毛线/毛线团	毛线团		毛线/毛线团	everyday	unverified
+1148	🪢	打结/绳结			打结/绳结	everyday	unverified
+1149	👓	眼镜			眼镜	everyday	unverified
+1150	🕶️	墨镜/太阳镜			墨镜/太阳镜	everyday	unverified
+1151	🥽	护目镜			护目镜	everyday	unverified
+1152	🥼	实验服/白大褂			实验服/白大褂	everyday	unverified
+1153	🦺	反光背心/安全背心	反光背心	反光背心	安全背心	everyday	unverified
+1154	👔	领带			领带	everyday	unverified
+1155	👕	T恤/恤衫/短袖	短袖	短袖	T恤/恤衫	everyday	unverified
+1156	👖	牛仔裤			牛仔裤	everyday	unverified
+1157	🧣	围巾			围巾	everyday	unverified
+1158	🧤	手套			手套	everyday	unverified
+1159	🧥	外套/大衣			外套/大衣	everyday	unverified
+1160	🧦	袜子			袜子	everyday	unverified
+1161	👗	裙子/连衣裙			裙子/连衣裙	everyday	unverified
+1162	👘	和服			和服	everyday	unverified
+1163	🥻	纱丽			纱丽	specialist	unverified
+1164	🩱	泳衣/连体泳衣			泳衣/连体泳衣	everyday	unverified
+1165	🩲	三角裤/内裤			三角裤/内裤	everyday	unverified
+1166	🩳	短裤			短裤	everyday	unverified
+1167	👙	两件式泳衣/比基尼	两件式泳衣	两件式泳衣	比基尼	everyday	unverified
+1168	👚	女式上衣/女装	女式上衣	女式上衣	女装	everyday	unverified
+1169	🪭	扇子/折扇			扇子/折扇	everyday	unverified
+1170	👛	钱包/零钱包	零钱包		钱包/零钱包	everyday	unverified
+1171	👜	手提包/手袋	手袋	手袋	手提包	everyday	unverified
+1172	👝	手包/手拿包	手包	手包	手拿包	everyday	unverified
+1173	🛍️	购物袋			购物袋	everyday	unverified
+1174	🎒	书包/双肩包/背包	背包	背包	书包/双肩包	everyday	unverified
+1175	🩴	人字拖/夹脚拖鞋	夹脚拖鞋	夹脚拖鞋	人字拖	everyday	unverified
+1176	👞	男鞋/皮鞋			男鞋/皮鞋	everyday	unverified
+1177	👟	跑鞋/运动鞋			跑鞋/运动鞋	everyday	unverified
+1178	🥾	登山靴/登山鞋	登山靴	登山靴	登山鞋	everyday	unverified
+1179	🥿	平底鞋			平底鞋	everyday	unverified
+1180	👠	高跟鞋			高跟鞋	everyday	unverified
+1181	👡	凉鞋/女式凉鞋			凉鞋/女式凉鞋	everyday	unverified
+1182	🩰	芭蕾舞鞋/芭蕾鞋	芭蕾鞋	芭蕾鞋	芭蕾舞鞋	everyday	unverified
+1183	👢	女靴/长靴/靴子	长靴	长靴	女靴/靴子	everyday	unverified
+1184	🪮	发梳/梳子	发梳	发梳	梳子	everyday	unverified
+1185	👑	王冠/皇冠			王冠/皇冠	everyday	unverified
+1186	👒	女帽/遮阳帽	遮阳帽	遮阳帽	女帽	everyday	unverified
+1187	🎩	礼帽/高顶礼帽	高顶礼帽		礼帽/高顶礼帽	everyday	unverified
+1188	🎓	学士帽/毕业帽	学士帽	学士帽	毕业帽	everyday	unverified
+1189	🧢	棒球帽/鸭舌帽			棒球帽/鸭舌帽	everyday	unverified
+1190	🪖	军用头盔/钢盔	钢盔	钢盔	军用头盔	everyday	unverified
+1191	⛑️	救援头盔/救援安全帽	救援头盔/救援安全帽		救援头盔/救援安全帽	everyday	unverified
+1192	📿	念珠/祈祷珠	祈祷珠	祈祷珠	念珠	everyday	unverified
+1193	💄	口红/唇膏			口红/唇膏	everyday	unverified
+1194	💍	戒指/钻戒			戒指/钻戒	everyday	unverified
+1195	💎	宝石/钻石			宝石/钻石	everyday	unverified
+1196	🔇	静音/静音喇叭	静音喇叭	静音喇叭	静音	everyday	unverified
+1197	🔈	低音量喇叭/小音量	低音量喇叭	低音量喇叭	小音量	everyday	unverified
+1198	🔉	中等音量/中音量喇叭	中音量喇叭		中等音量/中音量喇叭	everyday	unverified
+1199	🔊	大声喇叭/大音量	大声喇叭	大声喇叭	大音量	everyday	unverified
+1200	📢	喇叭/广播喇叭	广播喇叭		喇叭/广播喇叭	everyday	unverified
+1201	📣	喊话器/扩音器	喊话器	喊话器	扩音器	everyday	unverified
+1202	📯	邮号/邮政号角	邮政号角		邮号/邮政号角	specialist	unverified
+1203	🔔	铃/铃铛	铃	铃	铃铛	everyday	unverified
+1204	🔕	关闭铃声/静音铃铛	关闭铃声/静音铃铛	关闭铃声/静音铃铛		everyday	unverified
+1205	🎼	乐谱/五线谱			乐谱/五线谱	everyday	unverified
+1206	🎵	音符			音符	everyday	unverified
+1207	🎶	多个音符/音乐音符	音乐音符	音乐音符	多个音符	descriptive	unverified
+1208	🎙️	录音话筒/录音麦克风	录音话筒/录音麦克风	录音话筒	录音麦克风	everyday	unverified
+1209	🎚️	电平滑块/调音推子	调音推子	调音推子	电平滑块	specialist	unverified
+1210	🎛️	控制旋钮/调节旋钮	调节旋钮		控制旋钮/调节旋钮	everyday	unverified
+1211	🎤	话筒/麦克风	话筒	话筒	麦克风	everyday	unverified
+1212	🎧	头戴耳机/耳机	头戴耳机		头戴耳机/耳机	everyday	unverified
+1213	📻	收音机			收音机	everyday	unverified
+1214	🎷	萨克斯/萨克斯管	萨克斯	萨克斯	萨克斯管	everyday	unverified
+1215	🪗	手风琴			手风琴	everyday	unverified
+1216	🎸	吉他			吉他	everyday	unverified
+1217	🎹	琴键/钢琴键盘	琴键/钢琴键盘	琴键/钢琴键盘		everyday	unverified
+1218	🎺	喇叭/小号			喇叭/小号	everyday	unverified
+1219	🎻	小提琴			小提琴	everyday	unverified
+1220	🪕	班卓琴			班卓琴	specialist	unverified
+1221	🥁	小鼓/鼓	小鼓		小鼓/鼓	everyday	unverified
+1222	🪘	手鼓/长鼓	手鼓		手鼓/长鼓	everyday	unverified
+1223	🪇	沙球/沙锤	沙锤	沙锤	沙球	everyday	unverified
+1224	🪈	笛子/长笛			笛子/长笛	everyday	unverified
+1225	🪉	竖琴			竖琴	everyday	unverified
+1226	📱	手机			手机	everyday	unverified
+1227	📲	带箭头的手机/手机来电	带箭头的手机/手机来电	带箭头的手机/手机来电		descriptive	unverified
+1228	☎️	座机/电话			座机/电话	everyday	unverified
+1229	📞	听筒/电话听筒			听筒/电话听筒	everyday	unverified
+1230	📟	传呼机/寻呼机			传呼机/寻呼机	everyday	unverified
+1231	📠	传真机			传真机	everyday	unverified
+1232	🔋	电池			电池	everyday	unverified
+1233	🪫	低电量/没电/电量不足	低电量/没电	低电量/没电	电量不足	everyday	unverified
+1234	🔌	插头/电源插头			插头/电源插头	everyday	unverified
+1235	💻	电脑/笔记本电脑			电脑/笔记本电脑	everyday	unverified
+1236	🖥️	台式电脑/电脑显示器	电脑显示器		台式电脑/电脑显示器	everyday	unverified
+1237	🖨️	打印机			打印机	everyday	unverified
+1238	⌨️	键盘			键盘	everyday	unverified
+1239	🖱️	电脑鼠标/鼠标			电脑鼠标/鼠标	everyday	unverified
+1240	🖲️	轨迹球/轨迹球鼠标	轨迹球鼠标		轨迹球/轨迹球鼠标	specialist	unverified
+1241	💽	带盒光盘/迷你光盘	带盒光盘		带盒光盘/迷你光盘	descriptive	unverified
+1242	💾	软盘			软盘	everyday	unverified
+1243	💿	光盘/光碟	光碟	光碟	光盘	everyday	unverified
+1244	📀	DVD光盘/影碟	DVD光盘/影碟	DVD光盘/影碟		everyday	unverified
+1245	🧮	算盘			算盘	everyday	unverified
+1246	🎥	电影摄像机/电影摄影机	电影摄像机		电影摄像机/电影摄影机	everyday	unverified
+1247	🎞️	电影胶片/胶片			电影胶片/胶片	everyday	unverified
+1248	📽️	放映机/电影放映机			放映机/电影放映机	everyday	unverified
+1249	🎬	场记板/打板器	打板器	打板器	场记板	everyday	unverified
+1250	📺	电视/电视机			电视/电视机	everyday	unverified
+1251	📷	照相机/相机			照相机/相机	everyday	unverified
+1252	📸	开闪光灯的相机/闪光相机	闪光相机	闪光相机	开闪光灯的相机	descriptive	unverified
+1253	📹	录像机/摄像机			录像机/摄像机	everyday	unverified
+1254	📼	录像带			录像带	everyday	unverified
+1255	🔍	向左倾斜的放大镜/左斜放大镜	向左倾斜的放大镜/左斜放大镜		向左倾斜的放大镜/左斜放大镜	descriptive	unverified
+1256	🔎	右斜放大镜/向右倾斜的放大镜	右斜放大镜/向右倾斜的放大镜		右斜放大镜/向右倾斜的放大镜	descriptive	unverified
+1257	🕯️	蜡烛			蜡烛	everyday	unverified
+1258	💡	灯泡/电灯泡			灯泡/电灯泡	everyday	unverified
+1259	🔦	手电/手电筒			手电/手电筒	everyday	unverified
+1260	🏮	灯笼/红灯笼			灯笼/红灯笼	everyday	unverified
+1261	🪔	印度油灯/迪亚灯	迪亚灯		印度油灯/迪亚灯	specialist	unverified
+1262	📔	精装笔记本/花纹笔记本	花纹笔记本		精装笔记本/花纹笔记本	everyday	unverified
+1263	📕	合上的书/红色书本	合上的书/红色书本	合上的书	红色书本	everyday	unverified
+1264	📖	打开的书/翻开的书	打开的书/翻开的书	打开的书/翻开的书		everyday	unverified
+1265	📗	绿皮书/绿色书本			绿皮书/绿色书本	descriptive	unverified
+1266	📘	蓝皮书/蓝色书本			蓝皮书/蓝色书本	descriptive	unverified
+1267	📙	橙皮书/橙色书本	橙皮书	橙皮书	橙色书本	descriptive	unverified
+1268	📚	一摞书/书/书籍	一摞书		一摞书/书/书籍	everyday	unverified
+1269	📓	笔记本/记事本			笔记本/记事本	everyday	unverified
+1270	📒	账本/账簿			账本/账簿	everyday	unverified
+1271	📃	卷边文件/卷边纸	卷边文件/卷边纸	卷边纸	卷边文件	descriptive	unverified
+1272	📜	卷轴/纸卷			卷轴/纸卷	everyday	unverified
+1273	📄	文件/文档/纸张	纸张	纸张	文件/文档	everyday	unverified
+1274	📰	报纸			报纸	everyday	unverified
+1275	🗞️	卷起的报纸/报纸卷			卷起的报纸/报纸卷	everyday	unverified
+1276	📑	书签页/标签页	书签页		书签页/标签页	everyday	unverified
+1277	🔖	书签			书签	everyday	unverified
+1278	🏷️	吊牌/标签			吊牌/标签	everyday	unverified
+1279	💰	钱袋/钱袋子	钱袋子	钱袋子	钱袋	everyday	unverified
+1280	🪙	硬币/金币			硬币/金币	everyday	unverified
+1281	💴	日元/日元纸币	日元纸币		日元/日元纸币	everyday	unverified
+1282	💵	美元/美钞			美元/美钞	everyday	unverified
+1283	💶	欧元/欧元纸币	欧元纸币		欧元/欧元纸币	everyday	unverified
+1284	💷	英镑/英镑纸币	英镑纸币		英镑/英镑纸币	everyday	unverified
+1285	💸	钱飞了/长翅膀的钱	钱飞了	钱飞了	长翅膀的钱	everyday	unverified
+1286	💳	信用卡/银行卡			信用卡/银行卡	everyday	unverified
+1287	🧾	小票/收据	小票	小票	收据	everyday	unverified
+1288	💹	带日元符号的上涨图/日元上涨图	带日元符号的上涨图/日元上涨图	带日元符号的上涨图/日元上涨图		descriptive	unverified
+1289	✉️	信/信封	信	信	信封	everyday	unverified
+1290	📧	电子邮件/邮件			电子邮件/邮件	everyday	unverified
+1291	📨	收到信/来信	收到信	收到信	来信	everyday	unverified
+1292	📩	带箭头的信封/收邮件	带箭头的信封	带箭头的信封	收邮件	everyday	unverified
+1293	📤	发件箱/寄件箱	寄件箱	寄件箱	发件箱	everyday	unverified
+1294	📥	收件箱			收件箱	everyday	unverified
+1295	📦	包裹/快递箱	快递箱	快递箱	包裹	everyday	unverified
+1296	📫	关闭且旗子竖起的信箱/竖旗的关闭信箱	关闭且旗子竖起的信箱/竖旗的关闭信箱		关闭且旗子竖起的信箱/竖旗的关闭信箱	descriptive	unverified
+1297	📪	关闭且旗子放下的信箱/落旗的关闭信箱	关闭且旗子放下的信箱/落旗的关闭信箱	关闭且旗子放下的信箱/落旗的关闭信箱		descriptive	unverified
+1298	📬	打开且旗子竖起的信箱/竖旗的打开信箱	打开且旗子竖起的信箱/竖旗的打开信箱		打开且旗子竖起的信箱/竖旗的打开信箱	descriptive	unverified
+1299	📭	打开且旗子放下的信箱/落旗的打开信箱	打开且旗子放下的信箱/落旗的打开信箱	打开且旗子放下的信箱/落旗的打开信箱		descriptive	unverified
+1300	📮	邮政信箱/邮筒	邮政信箱	邮政信箱	邮筒	everyday	unverified
+1301	🗳️	投票/投票箱			投票/投票箱	everyday	unverified
+1302	✏️	铅笔			铅笔	everyday	unverified
+1303	✒️	笔尖/钢笔尖			笔尖/钢笔尖	everyday	unverified
+1304	🖋️	钢笔			钢笔	everyday	unverified
+1305	🖊️	圆珠笔/笔/签字笔	签字笔	签字笔	圆珠笔/笔	everyday	unverified
+1306	🖌️	毛笔/画笔			毛笔/画笔	everyday	unverified
+1307	🖍️	蜡笔			蜡笔	everyday	unverified
+1308	📝	写便条/备忘录	写便条		写便条/备忘录	everyday	unverified
+1309	💼	公文包			公文包	everyday	unverified
+1310	📁	文件夹			文件夹	everyday	unverified
+1311	📂	打开的文件夹			打开的文件夹	descriptive	unverified
+1312	🗂️	分类文件夹/索引分隔卡	分类文件夹/索引分隔卡	分类文件夹	索引分隔卡	descriptive	unverified
+1313	📅	日历			日历	everyday	unverified
+1314	📆	手撕日历/撕页日历	撕页日历		手撕日历/撕页日历	everyday	unverified
+1315	🗒️	线圈本/螺旋记事本	螺旋记事本	螺旋记事本	线圈本	everyday	unverified
+1316	🗓️	台历/线圈日历	台历	台历	线圈日历	everyday	unverified
+1317	📇	卡片索引/翻页名片架	翻页名片架	翻页名片架	卡片索引	specialist	unverified
+1318	📈	上升趋势图/上涨图	上升趋势图/上涨图	上升趋势图/上涨图		everyday	unverified
+1319	📉	下跌图/下降趋势图	下跌图/下降趋势图	下跌图/下降趋势图		everyday	unverified
+1320	📊	条形图/柱状图	柱状图	柱状图	条形图	everyday	unverified
+1321	📋	写字夹板/剪贴板			写字夹板/剪贴板	everyday	unverified
+1322	📌	图钉/大头钉	大头钉	大头钉	图钉	everyday	unverified
+1323	📍	圆头图钉/地图标记/定位图钉	圆头图钉/地图标记/定位图钉	地图标记	圆头图钉/定位图钉	everyday	unverified
+1324	📎	回形针/曲别针			回形针/曲别针	everyday	unverified
+1325	🖇️	连环回形针/连起来的回形针	连环回形针/连起来的回形针		连环回形针/连起来的回形针	descriptive	unverified
+1326	📏	尺子/直尺			尺子/直尺	everyday	unverified
+1327	📐	三角尺/三角板	三角板	三角板	三角尺	everyday	unverified
+1328	✂️	剪刀			剪刀	everyday	unverified
+1329	🗃️	卡片盒/资料盒	资料盒	资料盒	卡片盒	everyday	unverified
+1330	🗄️	文件柜/档案柜	档案柜	档案柜	文件柜	everyday	unverified
+1331	🗑️	垃圾桶/废纸篓			垃圾桶/废纸篓	everyday	unverified
+1332	🔒	上锁/锁/锁住	锁	锁	上锁/锁住	everyday	unverified
+1333	🔓	开锁/解锁			开锁/解锁	everyday	unverified
+1334	🔏	带笔的锁/钢笔和锁	带笔的锁/钢笔和锁	带笔的锁/钢笔和锁		descriptive	unverified
+1335	🔐	带钥匙的锁/钥匙和锁	带钥匙的锁	带钥匙的锁	钥匙和锁	descriptive	unverified
+1336	🔑	钥匙			钥匙	everyday	unverified
+1337	🗝️	旧钥匙/老式钥匙			旧钥匙/老式钥匙	everyday	unverified
+1338	🔨	榔头/锤子	榔头	榔头	锤子	everyday	unverified
+1339	🪓	斧头/斧子			斧头/斧子	everyday	unverified
+1340	⛏️	铁镐/镐	镐	镐	铁镐	everyday	unverified
+1341	⚒️	锤子和镐/锤镐	锤子和镐/锤镐	锤子和镐/锤镐		descriptive	unverified
+1342	🛠️	维修工具/锤子和扳手	维修工具/锤子和扳手	维修工具/锤子和扳手		descriptive	unverified
+1343	🗡️	匕首/短剑			匕首/短剑	everyday	unverified
+1344	⚔️	交叉双剑/双剑	交叉双剑		交叉双剑/双剑	everyday	unverified
+1345	💣	炸弹			炸弹	everyday	unverified
+1346	🪃	回力镖/回旋镖	回力镖	回力镖	回旋镖	everyday	unverified
+1347	🏹	弓和箭/弓箭			弓和箭/弓箭	everyday	unverified
+1348	🛡️	盾牌			盾牌	everyday	unverified
+1349	🪚	木工锯/锯子			木工锯/锯子	everyday	unverified
+1350	🔧	扳手			扳手	everyday	unverified
+1351	🪛	改锥/螺丝刀	改锥	改锥	螺丝刀	everyday	unverified
+1352	🔩	螺丝和螺母/螺栓螺母	螺丝和螺母/螺栓螺母		螺丝和螺母/螺栓螺母	everyday	unverified
+1353	⚙️	齿轮			齿轮	everyday	unverified
+1354	🗜️	夹具/夹钳			夹具/夹钳	everyday	unverified
+1355	⚖️	天平/天平秤	天平秤	天平秤	天平	everyday	unverified
+1356	🦯	导盲杖/盲杖	导盲杖		导盲杖/盲杖	everyday	unverified
+1357	🔗	链接/链环	链环	链环	链接	everyday	unverified
+1358	⛓️‍💥	断开的链条/断链			断开的链条/断链	everyday	unverified
+1359	⛓️	铁链/链条			铁链/链条	everyday	unverified
+1360	🪝	挂钩/钩子			挂钩/钩子	everyday	unverified
+1361	🧰	工具箱			工具箱	everyday	unverified
+1362	🧲	磁铁/马蹄形磁铁	马蹄形磁铁	马蹄形磁铁	磁铁	everyday	unverified
+1363	🪜	梯子			梯子	everyday	unverified
+1364	🪏	铁铲/铲子			铁铲/铲子	everyday	unverified
+1365	⚗️	蒸馏器			蒸馏器	specialist	unverified
+1366	🧪	试管			试管	everyday	unverified
+1367	🧫	培养皿/平皿	平皿	平皿	培养皿	specialist	unverified
+1368	🧬	DNA双螺旋/脱氧核糖核酸	DNA双螺旋/脱氧核糖核酸	DNA双螺旋/脱氧核糖核酸		specialist	unverified
+1369	🔬	显微镜			显微镜	everyday	unverified
+1370	🔭	天文望远镜/望远镜	天文望远镜		天文望远镜/望远镜	everyday	unverified
+1371	📡	卫星天线/卫星接收器	卫星接收器	卫星接收器	卫星天线	everyday	unverified
+1372	💉	注射器/针筒			注射器/针筒	everyday	unverified
+1373	🩸	一滴血/血滴	一滴血	一滴血	血滴	everyday	unverified
+1374	💊	胶囊/药丸	胶囊	胶囊	药丸	everyday	unverified
+1375	🩹	创可贴			创可贴	everyday	unverified
+1376	🩼	拐杖/腋拐	腋拐	腋拐	拐杖	everyday	unverified
+1377	🩺	听诊器			听诊器	everyday	unverified
+1378	🩻	X光片/X射线片	X射线片	X射线片	X光片	everyday	unverified
+1379	🚪	房门/门			房门/门	everyday	unverified
+1380	🛗	电梯			电梯	everyday	unverified
+1381	🪞	镜子			镜子	everyday	unverified
+1382	🪟	窗/窗户	窗	窗	窗户	everyday	unverified
+1383	🛏️	床/床铺			床/床铺	everyday	unverified
+1384	🛋️	沙发/沙发和灯			沙发/沙发和灯	everyday	unverified
+1385	🪑	椅子			椅子	everyday	unverified
+1386	🚽	坐便器/马桶	坐便器	坐便器	马桶	everyday	unverified
+1387	🪠	皮搋子/通厕器/马桶搋子	皮搋子/通厕器/马桶搋子	通厕器	皮搋子/马桶搋子	everyday	unverified
+1388	🚿	淋浴/花洒			淋浴/花洒	everyday	unverified
+1389	🛁	浴缸			浴缸	everyday	unverified
+1390	🪤	捕鼠器/老鼠夹			捕鼠器/老鼠夹	everyday	unverified
+1391	🪒	刮胡刀/剃须刀	刮胡刀	刮胡刀	剃须刀	everyday	unverified
+1392	🧴	乳液瓶/按压瓶	按压瓶	按压瓶	乳液瓶	everyday	unverified
+1393	🧷	别针/安全别针			别针/安全别针	everyday	unverified
+1394	🧹	扫帚/扫把	扫把	扫把	扫帚	everyday	unverified
+1395	🧺	筐/篮子			筐/篮子	everyday	unverified
+1396	🧻	卫生纸/卷纸			卫生纸/卷纸	everyday	unverified
+1397	🪣	桶/水桶			桶/水桶	everyday	unverified
+1398	🧼	肥皂/香皂	香皂	香皂	肥皂	everyday	unverified
+1399	🫧	气泡/泡泡			气泡/泡泡	everyday	unverified
+1400	🪥	牙刷			牙刷	everyday	unverified
+1401	🧽	海绵			海绵	everyday	unverified
+1402	🧯	灭火器			灭火器	everyday	unverified
+1403	🛒	购物车/超市推车	超市推车	超市推车	购物车	everyday	unverified
+1404	🚬	烟/香烟			烟/香烟	everyday	unverified
+1405	⚰️	棺材			棺材	everyday	unverified
+1406	🪦	墓碑			墓碑	everyday	unverified
+1407	⚱️	骨灰坛/骨灰罐	骨灰坛	骨灰坛	骨灰罐	everyday	unverified
+1408	🧿	纳扎尔护身符/蓝眼睛护符	蓝眼睛护符	蓝眼睛护符	纳扎尔护身符	specialist	unverified
+1409	🪬	手形护符/法蒂玛之手	手形护符	手形护符	法蒂玛之手	specialist	unverified
+1410	🗿	复活节岛石像/摩埃石像	摩埃石像		复活节岛石像/摩埃石像	proper_name	unverified
+1411	🪧	告示牌/标语牌	告示牌	告示牌	标语牌	everyday	unverified
+1412	🪪	身份卡/身份证	身份卡	身份卡	身份证	everyday	unverified
+1413	🏧	取款机标志/自动取款机	取款机标志/自动取款机		取款机标志/自动取款机	everyday	unverified
+1414	🚮	垃圾入桶/扔垃圾标志	垃圾入桶/扔垃圾标志	垃圾入桶/扔垃圾标志		everyday	unverified
+1415	🚰	饮水标志/饮用水	饮水标志	饮水标志	饮用水	everyday	unverified
+1416	♿	无障碍标志/轮椅标志	无障碍标志/轮椅标志	无障碍标志/轮椅标志		everyday	unverified
+1417	🚹	男卫生间/男厕	男卫生间	男卫生间	男厕	everyday	unverified
+1418	🚺	女卫生间/女厕	女卫生间	女卫生间	女厕	everyday	unverified
+1419	🚻	卫生间/洗手间			卫生间/洗手间	everyday	unverified
+1420	🚼	婴儿标志/母婴设施标志	婴儿标志/母婴设施标志	婴儿标志/母婴设施标志		descriptive	unverified
+1421	🚾	卫生间标志/厕所	卫生间标志		卫生间标志/厕所	everyday	unverified
+1422	🛂	护照检查/边检标志	边检标志	边检标志	护照检查	everyday	unverified
+1423	🛃	海关/海关标志	海关标志		海关/海关标志	everyday	unverified
+1424	🛄	取行李/行李提取	取行李/行李提取	取行李/行李提取		everyday	unverified
+1425	🛅	存包处/行李寄存	存包处/行李寄存	存包处/行李寄存		everyday	unverified
+1426	⚠️	警告/警告标志	警告标志	警告标志	警告	everyday	unverified
+1427	🚸	儿童过街/注意儿童	注意儿童	注意儿童	儿童过街	everyday	unverified
+1428	⛔	禁止进入/禁止通行	禁止进入	禁止进入	禁止通行	everyday	unverified
+1429	🚫	禁止标志/禁用	禁止标志/禁用	禁止标志/禁用		everyday	unverified
+1430	🚳	禁止自行车/禁止骑车	禁止骑车	禁止骑车	禁止自行车	everyday	unverified
+1431	🚭	禁止吸烟/禁烟			禁止吸烟/禁烟	everyday	unverified
+1432	🚯	禁止乱扔垃圾			禁止乱扔垃圾	everyday	unverified
+1433	🚱	不可饮用/非饮用水	不可饮用	不可饮用	非饮用水	everyday	unverified
+1434	🚷	禁止行人/行人禁行	禁止行人/行人禁行	禁止行人/行人禁行		everyday	unverified
+1435	📵	禁止使用手机/禁用手机	禁用手机	禁用手机	禁止使用手机	everyday	unverified
+1436	🔞	十八禁/未成年人禁止	十八禁/未成年人禁止	十八禁/未成年人禁止		everyday	unverified
+1437	☢️	放射性标志/辐射标志	放射性标志/辐射标志	放射性标志/辐射标志		everyday	unverified
+1438	☣️	生物危害/生物危害标志	生物危害标志		生物危害/生物危害标志	specialist	unverified
+1439	⬆️	上箭头/向上箭头			上箭头/向上箭头	everyday	unverified
+1440	↗️	右上箭头			右上箭头	everyday	unverified
+1441	➡️	右箭头/向右箭头			右箭头/向右箭头	everyday	unverified
+1442	↘️	右下箭头			右下箭头	everyday	unverified
+1443	⬇️	下箭头/向下箭头			下箭头/向下箭头	everyday	unverified
+1444	↙️	左下箭头			左下箭头	everyday	unverified
+1445	⬅️	向左箭头/左箭头			向左箭头/左箭头	everyday	unverified
+1446	↖️	左上箭头			左上箭头	everyday	unverified
+1447	↕️	上下箭头/纵向双箭头	纵向双箭头	纵向双箭头	上下箭头	everyday	unverified
+1448	↔️	左右箭头/横向双箭头	横向双箭头	横向双箭头	左右箭头	everyday	unverified
+1449	↩️	向左拐弯的箭头/左弯箭头	向左拐弯的箭头/左弯箭头	向左拐弯的箭头/左弯箭头		descriptive	unverified
+1450	↪️	右弯箭头/向右拐弯的箭头	右弯箭头/向右拐弯的箭头	右弯箭头/向右拐弯的箭头		descriptive	unverified
+1451	⤴️	右上弯箭头/向上拐弯的箭头	向上拐弯的箭头	向上拐弯的箭头	右上弯箭头	descriptive	unverified
+1452	⤵️	右下弯箭头/向下拐弯的箭头	向下拐弯的箭头	向下拐弯的箭头	右下弯箭头	descriptive	unverified
+1453	🔃	顺时针循环/顺时针箭头	顺时针循环	顺时针循环	顺时针箭头	everyday	unverified
+1454	🔄	刷新/逆时针箭头			刷新/逆时针箭头	everyday	unverified
+1455	🔙	返回/返回箭头			返回/返回箭头	everyday	unverified
+1456	🔚	结束标志/结束箭头	结束标志	结束标志	结束箭头	everyday	unverified
+1457	🔛	带ON的双向箭头	带ON的双向箭头		带ON的双向箭头	descriptive	unverified
+1458	🔜	写着SOON的箭头	写着SOON的箭头	写着SOON的箭头		descriptive	unverified
+1459	🔝	置顶/置顶箭头	置顶箭头	置顶箭头	置顶	everyday	unverified
+1460	🛐	宗教场所/礼拜场所	礼拜场所	礼拜场所	宗教场所	everyday	unverified
+1461	⚛️	原子图标/原子符号	原子图标		原子图标/原子符号	everyday	unverified
+1462	🕉️	唵字/奥姆符号	唵字/奥姆符号		唵字/奥姆符号	specialist	unverified
+1463	✡️	六芒星/大卫之星			六芒星/大卫之星	specialist	unverified
+1464	☸️	法轮/法轮符号	法轮符号		法轮/法轮符号	specialist	unverified
+1465	☯️	太极图/阴阳符号	太极图/阴阳符号	太极图	阴阳符号	everyday	unverified
+1466	✝️	十字架/拉丁十字架	拉丁十字架		十字架/拉丁十字架	everyday	unverified
+1467	☦️	东正教十字架			东正教十字架	specialist	unverified
+1468	☪️	星月/星月标志	星月标志		星月/星月标志	everyday	unverified
+1469	☮️	和平标志/和平符号	和平标志	和平标志	和平符号	everyday	unverified
+1470	🕎	光明节烛台/犹太烛台	光明节烛台/犹太烛台	光明节烛台/犹太烛台		specialist	unverified
+1471	🔯	中心有点的六角星/带点六芒星	中心有点的六角星/带点六芒星		中心有点的六角星/带点六芒星	descriptive	unverified
+1472	🪯	坎达符号/锡克教标志	坎达符号/锡克教标志	锡克教标志	坎达符号	specialist	unverified
+1473	♈	白羊座			白羊座	everyday	unverified
+1474	♉	金牛座			金牛座	everyday	unverified
+1475	♊	双子座			双子座	everyday	unverified
+1476	♋	巨蟹座			巨蟹座	everyday	unverified
+1477	♌	狮子座			狮子座	everyday	unverified
+1478	♍	处女座/室女座			处女座/室女座	everyday	unverified
+1479	♎	天秤座			天秤座	everyday	unverified
+1480	♏	天蝎座			天蝎座	everyday	unverified
+1481	♐	人马座/射手座			人马座/射手座	everyday	unverified
+1482	♑	摩羯座			摩羯座	everyday	unverified
+1483	♒	水瓶座			水瓶座	everyday	unverified
+1484	♓	双鱼座			双鱼座	everyday	unverified
+1485	⛎	蛇夫座			蛇夫座	specialist	unverified
+1486	🔀	随机播放/随机播放按钮	随机播放按钮		随机播放/随机播放按钮	everyday	unverified
+1487	🔁	循环播放/重复播放	重复播放	重复播放	循环播放	everyday	unverified
+1488	🔂	单曲循环/重复单曲	重复单曲	重复单曲	单曲循环	everyday	unverified
+1489	▶️	播放/播放按钮			播放/播放按钮	everyday	unverified
+1490	⏩	快进/快进按钮			快进/快进按钮	everyday	unverified
+1491	⏭️	下一曲/下一首			下一曲/下一首	everyday	unverified
+1492	⏯️	播放暂停/播放暂停按钮	播放暂停/播放暂停按钮	播放暂停/播放暂停按钮		everyday	unverified
+1493	◀️	倒放/反向播放	倒放/反向播放	倒放/反向播放		everyday	unverified
+1494	⏪	快退/快退按钮			快退/快退按钮	everyday	unverified
+1495	⏮️	上一曲/上一首			上一曲/上一首	everyday	unverified
+1496	🔼	上三角按钮/向上按钮	上三角按钮	上三角按钮	向上按钮	everyday	unverified
+1497	⏫	双上箭头/快速向上	双上箭头	双上箭头	快速向上	everyday	unverified
+1498	🔽	下三角按钮/向下按钮	下三角按钮	下三角按钮	向下按钮	everyday	unverified
+1499	⏬	双下箭头/快速向下	双下箭头	双下箭头	快速向下	everyday	unverified
+1500	⏸️	暂停			暂停	prior_review	unverified
+1501	⏹️	停止			停止	prior_review	unverified
+1502	⏺️	录制/录音按钮	录音按钮	录音按钮	录制	everyday	unverified
+1503	⏏️	弹出/弹出按钮	弹出按钮	弹出按钮	弹出	everyday	unverified
+1504	🎦	电影放映标志/电影院标志	电影放映标志/电影院标志	电影放映标志	电影院标志	everyday	unverified
+1505	🔅	低亮度/调暗	调暗	调暗	低亮度	everyday	unverified
+1506	🔆	调亮/高亮度	调亮	调亮	高亮度	everyday	unverified
+1507	📶	信号强度/信号格/手机信号	信号强度/信号格/手机信号	信号强度/信号格/手机信号		everyday	unverified
+1508	🛜	无线信号/无线网络	无线信号/无线网络	无线信号/无线网络		everyday	unverified
+1509	📳	手机振动/振动模式	手机振动	手机振动	振动模式	everyday	unverified
+1510	📴	关闭手机/手机关机			关闭手机/手机关机	everyday	unverified
+1511	♀️	女性符号/雌性符号	雌性符号	雌性符号	女性符号	everyday	unverified
+1512	♂️	男性符号/雄性符号	雄性符号	雄性符号	男性符号	everyday	unverified
+1513	⚧️	跨性别符号			跨性别符号	specialist	unverified
+1514	✖️	乘/乘号			乘/乘号	everyday	unverified
+1515	➕	加/加号			加/加号	everyday	unverified
+1516	➖	减/减号			减/减号	everyday	unverified
+1517	➗	除/除号			除/除号	everyday	unverified
+1518	🟰	等于号/等号	等于号	等于号	等号	everyday	unverified
+1519	♾️	无穷/无限大			无穷/无限大	prior_review	unverified
+1520	‼️	双叹号/双感叹号			双叹号/双感叹号	everyday	unverified
+1521	⁉️	叹号加问号/感叹问号/问叹号	感叹问号/问叹号	感叹问号/问叹号	叹号加问号	everyday	unverified
+1522	❓	红色问号/问号			红色问号/问号	everyday	unverified
+1523	❔	白色问号/空心问号			白色问号/空心问号	everyday	unverified
+1524	❕	白色感叹号/空心叹号			白色感叹号/空心叹号	everyday	unverified
+1525	❗	感叹号/红色感叹号			感叹号/红色感叹号	everyday	unverified
+1526	〰️	波浪号/波浪线	波浪号	波浪号	波浪线	everyday	unverified
+1527	💱	换汇/货币兑换			换汇/货币兑换	everyday	unverified
+1528	💲	美元标志/美元符号	美元标志		美元标志/美元符号	everyday	unverified
+1529	⚕️	医疗标志/蛇杖			医疗标志/蛇杖	specialist	unverified
+1530	♻️	回收标志/循环回收	循环回收		回收标志/循环回收	everyday	unverified
+1531	⚜️	百合纹章/百合花饰	百合纹章	百合纹章	百合花饰	specialist	unverified
+1532	🔱	三叉戟/三叉戟标志	三叉戟标志		三叉戟/三叉戟标志	everyday	unverified
+1533	📛	名牌/姓名牌			名牌/姓名牌	everyday	unverified
+1534	🔰	新手驾驶标志/日本新手标志	新手驾驶标志/日本新手标志	新手驾驶标志/日本新手标志		descriptive	unverified
+1535	⭕	圆圈/空心圆/空心圆圈/红圈/红色圆圈	红色圆圈	红色圆圈	圆圈/空心圆/空心圆圈/红圈	prior_review	unverified
+1536	✅	勾号按钮/打勾/绿色勾号	绿色勾号	打勾/绿色勾号	勾号按钮	everyday	unverified
+1537	☑️	勾选框/复选框			勾选框/复选框	everyday	unverified
+1538	✔️	勾号/对勾			勾号/对勾	everyday	unverified
+1539	❌	叉号/红叉	红叉	红叉	叉号	everyday	unverified
+1540	❎	叉号按钮/方框叉号	方框叉号	方框叉号	叉号按钮	descriptive	unverified
+1541	➰	单卷环/卷曲环	单卷环	单卷环	卷曲环	descriptive	unverified
+1542	➿	双卷环/双环	双卷环	双卷环	双环	descriptive	unverified
+1543	〽️	庵点/歌唱分段符号	歌唱分段符号	歌唱分段符号	庵点	specialist	unverified
+1544	✳️	八芒星号/八辐星号	八芒星号/八辐星号		八芒星号/八辐星号	descriptive	unverified
+1545	✴️	八芒星/八角星	八芒星	八芒星	八角星	everyday	unverified
+1546	❇️	火花/闪光符号	闪光符号	闪光符号	火花	everyday	unverified
+1547	©️	版权标志/版权符号	版权标志/版权符号	版权标志/版权符号		everyday	unverified
+1548	®️	注册商标符号/注册标记	注册商标符号	注册商标符号	注册标记	everyday	unverified
+1549	™️	商标标记/商标符号	商标标记/商标符号		商标标记/商标符号	everyday	unverified
+1550	🫟	泼溅/溅出的液体	溅出的液体	溅出的液体	泼溅	everyday	unverified
+1551	#️⃣	井号键/井字键	井号键/井字键	井号键/井字键		everyday	unverified
+1552	*️⃣	星号键/星键	星号键/星键	星号键/星键		everyday	unverified
+1553	0️⃣	数字零/零	数字零/零	数字零/零		everyday	unverified
+1554	1️⃣	一/数字一	数字一	数字一	一	everyday	unverified
+1555	2️⃣	二/数字二	数字二	数字二	二	everyday	unverified
+1556	3️⃣	三/数字三	数字三	数字三	三	everyday	unverified
+1557	4️⃣	四/数字四	数字四	数字四	四	everyday	unverified
+1558	5️⃣	五/数字五	数字五	数字五	五	everyday	unverified
+1559	6️⃣	六/数字六	数字六	数字六	六	everyday	unverified
+1560	7️⃣	七/数字七	数字七	数字七	七	everyday	unverified
+1561	8️⃣	八/数字八	数字八	数字八	八	everyday	unverified
+1562	9️⃣	九/数字九	数字九	数字九	九	everyday	unverified
+1563	🔟	十/数字十	十/数字十	十/数字十		everyday	unverified
+1564	🔠	大写字母/大写输入	大写输入	大写输入	大写字母	everyday	unverified
+1565	🔡	小写字母/小写输入	小写输入	小写输入	小写字母	everyday	unverified
+1566	🔢	数字输入/输入数字	数字输入		数字输入/输入数字	everyday	unverified
+1567	🔣	符号输入/输入符号	符号输入	符号输入	输入符号	everyday	unverified
+1568	🔤	字母输入/英文字母	字母输入/英文字母	英文字母	字母输入	everyday	unverified
+1569	🅰️	A型血/A型血按钮	A型血按钮	A型血按钮	A型血	everyday	unverified
+1570	🆎	AB型血/AB型血按钮	AB型血按钮	AB型血按钮	AB型血	everyday	unverified
+1571	🅱️	B型血/B型血按钮	B型血按钮	B型血按钮	B型血	everyday	unverified
+1572	🆑	CL按钮/清除按钮	清除按钮	清除按钮	CL按钮	descriptive	unverified
+1573	🆒	COOL按钮/酷按钮	COOL按钮/酷按钮	COOL按钮/酷按钮		descriptive	unverified
+1574	🆓	免费按钮/免费标志	免费标志	免费标志	免费按钮	everyday	unverified
+1575	ℹ️	信息图标/信息标志	信息图标/信息标志	信息图标/信息标志		everyday	unverified
+1576	🆔	ID按钮/身份标志	身份标志	身份标志	ID按钮	everyday	unverified
+1577	Ⓜ️	圆圈M/带圈的M	圆圈M/带圈的M	圆圈M/带圈的M		descriptive	unverified
+1578	🆕	NEW按钮/新款标志	NEW按钮/新款标志	NEW按钮/新款标志		everyday	unverified
+1579	🆖	NG按钮/不合格标志	不合格标志	不合格标志	NG按钮	descriptive	unverified
+1580	🅾️	O型血/O型血按钮	O型血按钮	O型血按钮	O型血	everyday	unverified
+1581	🆗	OK按钮/确认按钮	确认按钮	确认按钮	OK按钮	everyday	unverified
+1582	🅿️	停车场标志/停车标志	停车场标志/停车标志	停车场标志/停车标志		everyday	unverified
+1583	🆘	SOS按钮/求救信号	求救信号	求救信号	SOS按钮	everyday	unverified
+1584	🆙	UP按钮/向上标志	UP按钮/向上标志	UP按钮/向上标志		descriptive	unverified
+1585	🆚	VS按钮/对战标志	对战标志	对战标志	VS按钮	everyday	unverified
+1586	🈁	日文这里按钮/这里标志	日文这里按钮/这里标志	日文这里按钮/这里标志		descriptive	unverified
+1587	🈂️	日文服务标志/服务费标志	日文服务标志/服务费标志	日文服务标志	服务费标志	descriptive	unverified
+1588	🈷️	日文月费标志/月字标志	日文月费标志/月字标志	日文月费标志/月字标志		descriptive	unverified
+1589	🈶	收费标志/有字标志	收费标志/有字标志	收费标志/有字标志		descriptive	unverified
+1590	🈯	指字标志/预留标志	指字标志/预留标志	指字标志/预留标志		descriptive	unverified
+1591	🉐	优惠标志/得字标志	优惠标志/得字标志	优惠标志/得字标志		descriptive	unverified
+1592	🈹	割字标志/打折标志	割字标志/打折标志	割字标志/打折标志		descriptive	unverified
+1593	🈚	免费标志/无字标志	免费标志/无字标志	免费标志/无字标志		descriptive	unverified
+1594	🈲	禁字标志/禁止标志	禁字标志/禁止标志	禁字标志/禁止标志		descriptive	unverified
+1595	🉑	可字标志/许可标志	可字标志/许可标志	可字标志/许可标志		descriptive	unverified
+1596	🈸	申字标志/申请标志	申字标志/申请标志	申字标志/申请标志		descriptive	unverified
+1597	🈴	合字标志/合格标志	合字标志/合格标志	合字标志/合格标志		descriptive	unverified
+1598	🈳	有空位标志/空字标志	有空位标志/空字标志	空字标志	有空位标志	descriptive	unverified
+1599	㊗️	祝字标志/祝贺标志	祝字标志/祝贺标志	祝字标志/祝贺标志		everyday	unverified
+1600	㊙️	秘字标志/秘密标志	秘字标志/秘密标志	秘字标志/秘密标志		everyday	unverified
+1601	🈺	营业标志/营字标志	营业标志/营字标志	营业标志/营字标志		descriptive	unverified
+1602	🈵	满员标志/满字标志	满员标志/满字标志	满员标志/满字标志		descriptive	unverified
+1603	🔴	红色圆圈	红色圆圈		红色圆圈	prior_review	unverified
+1604	🟠	橙色圆/橙色圆点	橙色圆点		橙色圆/橙色圆点	everyday	unverified
+1605	🟡	黄色圆/黄色圆点	黄色圆点		黄色圆/黄色圆点	everyday	unverified
+1606	🟢	绿色圆/绿色圆点	绿色圆点		绿色圆/绿色圆点	everyday	unverified
+1607	🔵	蓝色圆/蓝色圆点	蓝色圆点		蓝色圆/蓝色圆点	everyday	unverified
+1608	🟣	紫色圆/紫色圆点	紫色圆点		紫色圆/紫色圆点	everyday	unverified
+1609	🟤	棕色圆/棕色圆点	棕色圆点		棕色圆/棕色圆点	everyday	unverified
+1610	⚫	黑圆/黑点/黑色圆	黑圆/黑点	黑圆/黑点	黑色圆	everyday	unverified
+1611	⚪	白圆/白点/白色圆	白圆/白点	白圆/白点	白色圆	everyday	unverified
+1612	🟥	红方块/红色方块	红方块	红方块	红色方块	everyday	unverified
+1613	🟧	橙方块/橙色方块	橙方块	橙方块	橙色方块	everyday	unverified
+1614	🟨	黄方块/黄色方块	黄方块	黄方块	黄色方块	everyday	unverified
+1615	🟩	绿方块/绿色方块	绿方块	绿方块	绿色方块	everyday	unverified
+1616	🟦	蓝方块/蓝色方块	蓝方块	蓝方块	蓝色方块	everyday	unverified
+1617	🟪	紫方块/紫色方块	紫方块	紫方块	紫色方块	everyday	unverified
+1618	🟫	棕方块/棕色方块	棕方块	棕方块	棕色方块	everyday	unverified
+1619	⬛	大黑方块/黑色大方块	大黑方块/黑色大方块	大黑方块/黑色大方块		descriptive	unverified
+1620	⬜	大白方块/白色大方块	大白方块/白色大方块	大白方块/白色大方块		descriptive	unverified
+1621	◼️	中号黑方块/黑色中方块	中号黑方块	中号黑方块	黑色中方块	descriptive	unverified
+1622	◻️	中号白方块/白色中方块	中号白方块	中号白方块	白色中方块	descriptive	unverified
+1623	◾	中小黑方块/黑色中小方块	中小黑方块	中小黑方块	黑色中小方块	descriptive	unverified
+1624	◽	中小白方块/白色中小方块	中小白方块	中小白方块	白色中小方块	descriptive	unverified
+1625	▪️	小黑方块/黑色小方块	小黑方块	小黑方块	黑色小方块	everyday	unverified
+1626	▫️	小白方块/白色小方块	小白方块	小白方块	白色小方块	everyday	unverified
+1627	🔶	大橙菱形/橙色大菱形	大橙菱形	大橙菱形	橙色大菱形	descriptive	unverified
+1628	🔷	大蓝菱形/蓝色大菱形	大蓝菱形		大蓝菱形/蓝色大菱形	descriptive	unverified
+1629	🔸	小橙菱形/橙色小菱形	小橙菱形	小橙菱形	橙色小菱形	descriptive	unverified
+1630	🔹	小蓝菱形/蓝色小菱形	小蓝菱形	小蓝菱形	蓝色小菱形	descriptive	unverified
+1631	🔺	红色三角/红色正三角	红色三角	红色三角	红色正三角	everyday	unverified
+1632	🔻	红色下三角/红色倒三角	红色下三角	红色下三角	红色倒三角	everyday	unverified
+1633	💠	中心有点的菱形/带点菱形	中心有点的菱形/带点菱形		中心有点的菱形/带点菱形	descriptive	unverified
+1634	🔘	单选按钮/单选框	单选框	单选框	单选按钮	everyday	unverified
+1635	🔳	白色方形按钮/白边方形按钮	白边方形按钮		白色方形按钮/白边方形按钮	descriptive	unverified
+1636	🔲	黑色方形按钮/黑边方形按钮	黑边方形按钮		黑色方形按钮/黑边方形按钮	descriptive	unverified
+1637	🏁	方格旗/赛车终点旗	方格旗/赛车终点旗	方格旗	赛车终点旗	everyday	unverified
+1638	🚩	三角旗/红色三角旗	红色三角旗		三角旗/红色三角旗	everyday	unverified
+1639	🎌	交叉旗帜/交叉日本旗	交叉旗帜/交叉日本旗	交叉日本旗	交叉旗帜	descriptive	unverified
+1640	🏴	黑旗			黑旗	everyday	unverified
+1641	🏳️	白旗			白旗	everyday	unverified
+1642	🏳️‍🌈	彩虹旗			彩虹旗	everyday	unverified
+1643	🏳️‍⚧️	跨性别旗/跨性别骄傲旗	跨性别骄傲旗	跨性别骄傲旗	跨性别旗	everyday	unverified
+1644	🏴‍☠️	海盗旗/骷髅旗	骷髅旗	骷髅旗	海盗旗	everyday	unverified
+1645	🇦🇨	阿森松岛/阿森松岛旗	阿森松岛旗		阿森松岛/阿森松岛旗	proper_name	unverified
+1646	🇦🇩	安道尔/安道尔旗	安道尔旗		安道尔/安道尔旗	proper_name	unverified
+1647	🇦🇪	阿拉伯联合酋长国/阿联酋/阿联酋国旗	阿联酋/阿联酋国旗	阿联酋/阿联酋国旗	阿拉伯联合酋长国	proper_name	unverified
+1648	🇦🇫	阿富汗/阿富汗旗	阿富汗旗		阿富汗/阿富汗旗	proper_name	unverified
+1649	🇦🇬	安提瓜和巴布达/安提瓜和巴布达旗	安提瓜和巴布达旗		安提瓜和巴布达/安提瓜和巴布达旗	proper_name	unverified
+1650	🇦🇮	安圭拉/安圭拉旗	安圭拉旗		安圭拉/安圭拉旗	proper_name	unverified
+1651	🇦🇱	阿尔巴尼亚/阿尔巴尼亚旗	阿尔巴尼亚旗		阿尔巴尼亚/阿尔巴尼亚旗	proper_name	unverified
+1652	🇦🇲	亚美尼亚/亚美尼亚旗	亚美尼亚旗		亚美尼亚/亚美尼亚旗	proper_name	unverified
+1653	🇦🇴	安哥拉/安哥拉旗	安哥拉旗		安哥拉/安哥拉旗	proper_name	unverified
+1654	🇦🇶	南极旗/南极洲	南极旗	南极旗	南极洲	proper_name	unverified
+1655	🇦🇷	阿根廷/阿根廷旗	阿根廷旗		阿根廷/阿根廷旗	proper_name	unverified
+1656	🇦🇸	美属萨摩亚/美属萨摩亚旗	美属萨摩亚旗		美属萨摩亚/美属萨摩亚旗	proper_name	unverified
+1657	🇦🇹	奥地利/奥地利旗	奥地利旗		奥地利/奥地利旗	proper_name	unverified
+1658	🇦🇺	澳大利亚/澳大利亚国旗/澳洲	澳洲	澳洲	澳大利亚/澳大利亚国旗	proper_name	unverified
+1659	🇦🇼	阿鲁巴/阿鲁巴旗	阿鲁巴旗		阿鲁巴/阿鲁巴旗	proper_name	unverified
+1660	🇦🇽	奥兰群岛/奥兰群岛旗	奥兰群岛旗		奥兰群岛/奥兰群岛旗	proper_name	unverified
+1661	🇦🇿	阿塞拜疆/阿塞拜疆旗	阿塞拜疆旗		阿塞拜疆/阿塞拜疆旗	proper_name	unverified
+1662	🇧🇦	波斯尼亚和黑塞哥维那/波黑/波黑国旗	波黑/波黑国旗	波黑/波黑国旗	波斯尼亚和黑塞哥维那	proper_name	unverified
+1663	🇧🇧	巴巴多斯/巴巴多斯旗	巴巴多斯旗		巴巴多斯/巴巴多斯旗	proper_name	unverified
+1664	🇧🇩	孟加拉/孟加拉国/孟加拉国旗	孟加拉/孟加拉国旗	孟加拉	孟加拉国/孟加拉国旗	proper_name	unverified
+1665	🇧🇪	比利时/比利时旗	比利时旗		比利时/比利时旗	proper_name	unverified
+1666	🇧🇫	布基纳法索/布基纳法索旗	布基纳法索旗		布基纳法索/布基纳法索旗	proper_name	unverified
+1667	🇧🇬	保加利亚/保加利亚旗	保加利亚旗		保加利亚/保加利亚旗	proper_name	unverified
+1668	🇧🇭	巴林/巴林旗	巴林旗		巴林/巴林旗	proper_name	unverified
+1669	🇧🇮	布隆迪/布隆迪旗	布隆迪旗		布隆迪/布隆迪旗	proper_name	unverified
+1670	🇧🇯	贝宁/贝宁旗	贝宁旗		贝宁/贝宁旗	proper_name	unverified
+1671	🇧🇱	圣巴泰勒米/圣巴泰勒米旗	圣巴泰勒米旗		圣巴泰勒米/圣巴泰勒米旗	proper_name	unverified
+1672	🇧🇲	百慕大/百慕大旗	百慕大旗		百慕大/百慕大旗	proper_name	unverified
+1673	🇧🇳	文莱/文莱旗	文莱旗		文莱/文莱旗	proper_name	unverified
+1674	🇧🇴	玻利维亚/玻利维亚旗	玻利维亚旗		玻利维亚/玻利维亚旗	proper_name	unverified
+1675	🇧🇶	荷属加勒比区/荷属加勒比区旗	荷属加勒比区旗		荷属加勒比区/荷属加勒比区旗	proper_name	unverified
+1676	🇧🇷	巴西/巴西旗	巴西旗		巴西/巴西旗	proper_name	unverified
+1677	🇧🇸	巴哈马/巴哈马旗	巴哈马旗		巴哈马/巴哈马旗	proper_name	unverified
+1678	🇧🇹	不丹/不丹旗	不丹旗		不丹/不丹旗	proper_name	unverified
+1679	🇧🇻	布韦岛/布韦岛旗	布韦岛旗		布韦岛/布韦岛旗	proper_name	unverified
+1680	🇧🇼	博茨瓦纳/博茨瓦纳旗	博茨瓦纳旗		博茨瓦纳/博茨瓦纳旗	proper_name	unverified
+1681	🇧🇾	白俄罗斯/白俄罗斯旗	白俄罗斯旗		白俄罗斯/白俄罗斯旗	proper_name	unverified
+1682	🇧🇿	伯利兹/伯利兹旗	伯利兹旗		伯利兹/伯利兹旗	proper_name	unverified
+1683	🇨🇦	加拿大/加拿大旗	加拿大旗		加拿大/加拿大旗	proper_name	unverified
+1684	🇨🇨	基林群岛/科科斯群岛/科科斯群岛旗	基林群岛/科科斯群岛/科科斯群岛旗	基林群岛/科科斯群岛/科科斯群岛旗		proper_name	unverified
+1685	🇨🇩	刚果民主共和国/刚果金/刚果金旗	刚果民主共和国/刚果金/刚果金旗	刚果民主共和国/刚果金/刚果金旗		proper_name	unverified
+1686	🇨🇫	中非共和国/中非国旗	中非国旗	中非国旗	中非共和国	proper_name	unverified
+1687	🇨🇬	刚果共和国/刚果布/刚果布旗	刚果共和国/刚果布/刚果布旗	刚果共和国/刚果布/刚果布旗		proper_name	unverified
+1688	🇨🇭	瑞士/瑞士旗	瑞士旗		瑞士/瑞士旗	proper_name	unverified
+1689	🇨🇮	科特迪瓦/科特迪瓦国旗/象牙海岸	象牙海岸	象牙海岸	科特迪瓦/科特迪瓦国旗	proper_name	unverified
+1690	🇨🇰	库克群岛/库克群岛旗	库克群岛旗		库克群岛/库克群岛旗	proper_name	unverified
+1691	🇨🇱	智利/智利旗	智利旗		智利/智利旗	proper_name	unverified
+1692	🇨🇲	喀麦隆/喀麦隆旗	喀麦隆旗		喀麦隆/喀麦隆旗	proper_name	unverified
+1693	🇨🇳	中国/中国国旗/五星红旗	五星红旗	五星红旗	中国/中国国旗	proper_name	unverified
+1694	🇨🇴	哥伦比亚/哥伦比亚旗	哥伦比亚旗		哥伦比亚/哥伦比亚旗	proper_name	unverified
+1695	🇨🇵	克利珀顿岛/克利珀顿岛旗	克利珀顿岛旗		克利珀顿岛/克利珀顿岛旗	proper_name	unverified
+1696	🇨🇶	萨克岛/萨克岛旗	萨克岛旗		萨克岛/萨克岛旗	proper_name	unverified
+1697	🇨🇷	哥斯达黎加/哥斯达黎加旗	哥斯达黎加旗		哥斯达黎加/哥斯达黎加旗	proper_name	unverified
+1698	🇨🇺	古巴/古巴旗	古巴旗		古巴/古巴旗	proper_name	unverified
+1699	🇨🇻	佛得角/佛得角旗	佛得角旗		佛得角/佛得角旗	proper_name	unverified
+1700	🇨🇼	库拉索/库拉索旗	库拉索旗		库拉索/库拉索旗	proper_name	unverified
+1701	🇨🇽	圣诞岛/圣诞岛旗	圣诞岛旗		圣诞岛/圣诞岛旗	proper_name	unverified
+1702	🇨🇾	塞浦路斯/塞浦路斯旗	塞浦路斯旗		塞浦路斯/塞浦路斯旗	proper_name	unverified
+1703	🇨🇿	捷克/捷克共和国/捷克国旗	捷克共和国	捷克共和国	捷克/捷克国旗	proper_name	unverified
+1704	🇩🇪	德国/德国旗	德国旗		德国/德国旗	proper_name	unverified
+1705	🇩🇬	迪戈加西亚岛/迪戈加西亚岛旗	迪戈加西亚岛旗		迪戈加西亚岛/迪戈加西亚岛旗	proper_name	unverified
+1706	🇩🇯	吉布提/吉布提旗	吉布提旗		吉布提/吉布提旗	proper_name	unverified
+1707	🇩🇰	丹麦/丹麦旗	丹麦旗		丹麦/丹麦旗	proper_name	unverified
+1708	🇩🇲	多米尼克/多米尼克旗	多米尼克旗		多米尼克/多米尼克旗	proper_name	unverified
+1709	🇩🇴	多米尼加/多米尼加共和国/多米尼加国旗	多米尼加/多米尼加国旗	多米尼加/多米尼加国旗	多米尼加共和国	proper_name	unverified
+1710	🇩🇿	阿尔及利亚/阿尔及利亚旗	阿尔及利亚旗		阿尔及利亚/阿尔及利亚旗	proper_name	unverified
+1711	🇪🇦	休达及梅利利亚/休达及梅利利亚旗	休达及梅利利亚旗		休达及梅利利亚/休达及梅利利亚旗	proper_name	unverified
+1712	🇪🇨	厄瓜多尔/厄瓜多尔旗	厄瓜多尔旗		厄瓜多尔/厄瓜多尔旗	proper_name	unverified
+1713	🇪🇪	爱沙尼亚/爱沙尼亚旗	爱沙尼亚旗		爱沙尼亚/爱沙尼亚旗	proper_name	unverified
+1714	🇪🇬	埃及/埃及旗	埃及旗		埃及/埃及旗	proper_name	unverified
+1715	🇪🇭	西撒哈拉/西撒哈拉旗	西撒哈拉旗		西撒哈拉/西撒哈拉旗	proper_name	unverified
+1716	🇪🇷	厄立特里亚/厄立特里亚旗	厄立特里亚旗		厄立特里亚/厄立特里亚旗	proper_name	unverified
+1717	🇪🇸	西班牙/西班牙旗	西班牙旗		西班牙/西班牙旗	proper_name	unverified
+1718	🇪🇹	埃塞/埃塞俄比亚/埃塞俄比亚国旗	埃塞	埃塞	埃塞俄比亚/埃塞俄比亚国旗	proper_name	unverified
+1719	🇪🇺	欧洲联盟/欧盟/欧盟旗	欧洲联盟/欧盟旗	欧洲联盟	欧盟/欧盟旗	proper_name	unverified
+1720	🇫🇮	芬兰/芬兰旗	芬兰旗		芬兰/芬兰旗	proper_name	unverified
+1721	🇫🇯	斐济/斐济旗	斐济旗		斐济/斐济旗	proper_name	unverified
+1722	🇫🇰	福克兰群岛/福克兰群岛旗	福克兰群岛旗		福克兰群岛/福克兰群岛旗	proper_name	unverified
+1723	🇫🇲	密克罗尼西亚/密克罗尼西亚旗	密克罗尼西亚旗		密克罗尼西亚/密克罗尼西亚旗	proper_name	unverified
+1724	🇫🇴	法罗群岛/法罗群岛旗	法罗群岛旗		法罗群岛/法罗群岛旗	proper_name	unverified
+1725	🇫🇷	法国/法国旗	法国旗		法国/法国旗	proper_name	unverified
+1726	🇬🇦	加蓬/加蓬旗	加蓬旗		加蓬/加蓬旗	proper_name	unverified
+1727	🇬🇧	联合王国/英国/英国国旗	联合王国	联合王国	英国/英国国旗	proper_name	unverified
+1728	🇬🇩	格林纳达/格林纳达旗	格林纳达旗		格林纳达/格林纳达旗	proper_name	unverified
+1729	🇬🇪	格鲁吉亚/格鲁吉亚旗	格鲁吉亚旗		格鲁吉亚/格鲁吉亚旗	proper_name	unverified
+1730	🇬🇫	法属圭亚那/法属圭亚那旗	法属圭亚那旗		法属圭亚那/法属圭亚那旗	proper_name	unverified
+1731	🇬🇬	根西岛/根西岛旗	根西岛旗		根西岛/根西岛旗	proper_name	unverified
+1732	🇬🇭	加纳/加纳旗	加纳旗		加纳/加纳旗	proper_name	unverified
+1733	🇬🇮	直布罗陀/直布罗陀旗	直布罗陀旗		直布罗陀/直布罗陀旗	proper_name	unverified
+1734	🇬🇱	格陵兰/格陵兰旗	格陵兰旗		格陵兰/格陵兰旗	proper_name	unverified
+1735	🇬🇲	冈比亚/冈比亚旗	冈比亚旗		冈比亚/冈比亚旗	proper_name	unverified
+1736	🇬🇳	几内亚/几内亚旗	几内亚旗		几内亚/几内亚旗	proper_name	unverified
+1737	🇬🇵	瓜德罗普/瓜德罗普旗	瓜德罗普旗		瓜德罗普/瓜德罗普旗	proper_name	unverified
+1738	🇬🇶	赤道几内亚/赤道几内亚旗	赤道几内亚旗		赤道几内亚/赤道几内亚旗	proper_name	unverified
+1739	🇬🇷	希腊/希腊旗	希腊旗		希腊/希腊旗	proper_name	unverified
+1740	🇬🇸	南乔治亚和南桑威奇群岛/南乔治亚和南桑威奇群岛旗	南乔治亚和南桑威奇群岛旗		南乔治亚和南桑威奇群岛/南乔治亚和南桑威奇群岛旗	proper_name	unverified
+1741	🇬🇹	危地马拉/危地马拉旗	危地马拉旗		危地马拉/危地马拉旗	proper_name	unverified
+1742	🇬🇺	关岛/关岛旗	关岛旗		关岛/关岛旗	proper_name	unverified
+1743	🇬🇼	几内亚比绍/几内亚比绍旗	几内亚比绍旗		几内亚比绍/几内亚比绍旗	proper_name	unverified
+1744	🇬🇾	圭亚那/圭亚那旗	圭亚那旗		圭亚那/圭亚那旗	proper_name	unverified
+1745	🇭🇰	中国香港/香港/香港区旗	中国香港/香港/香港区旗	中国香港/香港/香港区旗		proper_name	unverified
+1746	🇭🇲	赫德岛和麦克唐纳群岛/赫德岛和麦克唐纳群岛旗	赫德岛和麦克唐纳群岛旗		赫德岛和麦克唐纳群岛/赫德岛和麦克唐纳群岛旗	proper_name	unverified
+1747	🇭🇳	洪都拉斯/洪都拉斯旗	洪都拉斯旗		洪都拉斯/洪都拉斯旗	proper_name	unverified
+1748	🇭🇷	克罗地亚/克罗地亚旗	克罗地亚旗		克罗地亚/克罗地亚旗	proper_name	unverified
+1749	🇭🇹	海地/海地旗	海地旗		海地/海地旗	proper_name	unverified
+1750	🇭🇺	匈牙利/匈牙利旗	匈牙利旗		匈牙利/匈牙利旗	proper_name	unverified
+1751	🇮🇨	加纳利群岛/加纳利群岛旗	加纳利群岛旗		加纳利群岛/加纳利群岛旗	proper_name	unverified
+1752	🇮🇩	印尼/印尼国旗/印度尼西亚	印尼/印尼国旗	印尼/印尼国旗	印度尼西亚	proper_name	unverified
+1753	🇮🇪	爱尔兰/爱尔兰旗	爱尔兰旗		爱尔兰/爱尔兰旗	proper_name	unverified
+1754	🇮🇱	以色列/以色列旗	以色列旗		以色列/以色列旗	proper_name	unverified
+1755	🇮🇲	马恩岛/马恩岛旗	马恩岛旗		马恩岛/马恩岛旗	proper_name	unverified
+1756	🇮🇳	印度/印度旗	印度旗		印度/印度旗	proper_name	unverified
+1757	🇮🇴	英属印度洋领地/英属印度洋领地旗	英属印度洋领地旗		英属印度洋领地/英属印度洋领地旗	proper_name	unverified
+1758	🇮🇶	伊拉克/伊拉克旗	伊拉克旗		伊拉克/伊拉克旗	proper_name	unverified
+1759	🇮🇷	伊朗/伊朗旗	伊朗旗		伊朗/伊朗旗	proper_name	unverified
+1760	🇮🇸	冰岛/冰岛旗	冰岛旗		冰岛/冰岛旗	proper_name	unverified
+1761	🇮🇹	意大利/意大利旗	意大利旗		意大利/意大利旗	proper_name	unverified
+1762	🇯🇪	泽西岛/泽西岛旗	泽西岛旗		泽西岛/泽西岛旗	proper_name	unverified
+1763	🇯🇲	牙买加/牙买加旗	牙买加旗		牙买加/牙买加旗	proper_name	unverified
+1764	🇯🇴	约旦/约旦旗	约旦旗		约旦/约旦旗	proper_name	unverified
+1765	🇯🇵	日之丸/日本/日本国旗	日之丸	日之丸	日本/日本国旗	proper_name	unverified
+1766	🇰🇪	肯尼亚/肯尼亚旗	肯尼亚旗		肯尼亚/肯尼亚旗	proper_name	unverified
+1767	🇰🇬	吉尔吉斯斯坦/吉尔吉斯斯坦旗	吉尔吉斯斯坦旗		吉尔吉斯斯坦/吉尔吉斯斯坦旗	proper_name	unverified
+1768	🇰🇭	柬埔寨/柬埔寨旗	柬埔寨旗		柬埔寨/柬埔寨旗	proper_name	unverified
+1769	🇰🇮	基里巴斯/基里巴斯旗	基里巴斯旗		基里巴斯/基里巴斯旗	proper_name	unverified
+1770	🇰🇲	科摩罗/科摩罗旗	科摩罗旗		科摩罗/科摩罗旗	proper_name	unverified
+1771	🇰🇳	圣基茨和尼维斯/圣基茨和尼维斯旗	圣基茨和尼维斯旗		圣基茨和尼维斯/圣基茨和尼维斯旗	proper_name	unverified
+1772	🇰🇵	朝鲜/朝鲜国旗			朝鲜/朝鲜国旗	proper_name	unverified
+1773	🇰🇷	太极旗/韩国/韩国国旗	太极旗	太极旗	韩国/韩国国旗	proper_name	unverified
+1774	🇰🇼	科威特/科威特旗	科威特旗		科威特/科威特旗	proper_name	unverified
+1775	🇰🇾	开曼群岛/开曼群岛旗	开曼群岛旗		开曼群岛/开曼群岛旗	proper_name	unverified
+1776	🇰🇿	哈萨克斯坦/哈萨克斯坦旗	哈萨克斯坦旗		哈萨克斯坦/哈萨克斯坦旗	proper_name	unverified
+1777	🇱🇦	老挝/老挝旗	老挝旗		老挝/老挝旗	proper_name	unverified
+1778	🇱🇧	黎巴嫩/黎巴嫩旗	黎巴嫩旗		黎巴嫩/黎巴嫩旗	proper_name	unverified
+1779	🇱🇨	圣卢西亚/圣卢西亚旗	圣卢西亚旗		圣卢西亚/圣卢西亚旗	proper_name	unverified
+1780	🇱🇮	列支敦士登/列支敦士登旗	列支敦士登旗		列支敦士登/列支敦士登旗	proper_name	unverified
+1781	🇱🇰	斯里兰卡/斯里兰卡旗	斯里兰卡旗		斯里兰卡/斯里兰卡旗	proper_name	unverified
+1782	🇱🇷	利比里亚/利比里亚旗	利比里亚旗		利比里亚/利比里亚旗	proper_name	unverified
+1783	🇱🇸	莱索托/莱索托旗	莱索托旗		莱索托/莱索托旗	proper_name	unverified
+1784	🇱🇹	立陶宛/立陶宛旗	立陶宛旗		立陶宛/立陶宛旗	proper_name	unverified
+1785	🇱🇺	卢森堡/卢森堡旗	卢森堡旗		卢森堡/卢森堡旗	proper_name	unverified
+1786	🇱🇻	拉脱维亚/拉脱维亚旗	拉脱维亚旗		拉脱维亚/拉脱维亚旗	proper_name	unverified
+1787	🇱🇾	利比亚/利比亚旗	利比亚旗		利比亚/利比亚旗	proper_name	unverified
+1788	🇲🇦	摩洛哥/摩洛哥旗	摩洛哥旗		摩洛哥/摩洛哥旗	proper_name	unverified
+1789	🇲🇨	摩纳哥/摩纳哥旗	摩纳哥旗		摩纳哥/摩纳哥旗	proper_name	unverified
+1790	🇲🇩	摩尔多瓦/摩尔多瓦旗	摩尔多瓦旗		摩尔多瓦/摩尔多瓦旗	proper_name	unverified
+1791	🇲🇪	黑山/黑山旗	黑山旗		黑山/黑山旗	proper_name	unverified
+1792	🇲🇫	法属圣马丁/法属圣马丁旗	法属圣马丁旗		法属圣马丁/法属圣马丁旗	proper_name	unverified
+1793	🇲🇬	马达加斯加/马达加斯加旗	马达加斯加旗		马达加斯加/马达加斯加旗	proper_name	unverified
+1794	🇲🇭	马绍尔群岛/马绍尔群岛旗	马绍尔群岛旗		马绍尔群岛/马绍尔群岛旗	proper_name	unverified
+1795	🇲🇰	北马其顿/北马其顿旗	北马其顿旗		北马其顿/北马其顿旗	proper_name	unverified
+1796	🇲🇱	马里/马里旗	马里旗		马里/马里旗	proper_name	unverified
+1797	🇲🇲	缅甸/缅甸旗	缅甸旗		缅甸/缅甸旗	proper_name	unverified
+1798	🇲🇳	蒙古/蒙古国/蒙古国旗	蒙古国	蒙古国	蒙古/蒙古国旗	proper_name	unverified
+1799	🇲🇴	中国澳门/澳门/澳门区旗	中国澳门/澳门/澳门区旗	中国澳门/澳门/澳门区旗		proper_name	unverified
+1800	🇲🇵	北马里亚纳群岛/北马里亚纳群岛旗	北马里亚纳群岛旗		北马里亚纳群岛/北马里亚纳群岛旗	proper_name	unverified
+1801	🇲🇶	马提尼克/马提尼克旗	马提尼克旗		马提尼克/马提尼克旗	proper_name	unverified
+1802	🇲🇷	毛里塔尼亚/毛里塔尼亚旗	毛里塔尼亚旗		毛里塔尼亚/毛里塔尼亚旗	proper_name	unverified
+1803	🇲🇸	蒙特塞拉特/蒙特塞拉特旗	蒙特塞拉特旗		蒙特塞拉特/蒙特塞拉特旗	proper_name	unverified
+1804	🇲🇹	马耳他/马耳他旗	马耳他旗		马耳他/马耳他旗	proper_name	unverified
+1805	🇲🇺	毛里求斯/毛里求斯旗	毛里求斯旗		毛里求斯/毛里求斯旗	proper_name	unverified
+1806	🇲🇻	马尔代夫/马尔代夫旗	马尔代夫旗		马尔代夫/马尔代夫旗	proper_name	unverified
+1807	🇲🇼	马拉维/马拉维旗	马拉维旗		马拉维/马拉维旗	proper_name	unverified
+1808	🇲🇽	墨西哥/墨西哥旗	墨西哥旗		墨西哥/墨西哥旗	proper_name	unverified
+1809	🇲🇾	大马/马来西亚/马来西亚国旗	大马	大马	马来西亚/马来西亚国旗	proper_name	unverified
+1810	🇲🇿	莫桑比克/莫桑比克旗	莫桑比克旗		莫桑比克/莫桑比克旗	proper_name	unverified
+1811	🇳🇦	纳米比亚/纳米比亚旗	纳米比亚旗		纳米比亚/纳米比亚旗	proper_name	unverified
+1812	🇳🇨	新喀里多尼亚/新喀里多尼亚旗	新喀里多尼亚旗		新喀里多尼亚/新喀里多尼亚旗	proper_name	unverified
+1813	🇳🇪	尼日尔/尼日尔旗	尼日尔旗		尼日尔/尼日尔旗	proper_name	unverified
+1814	🇳🇫	诺福克岛/诺福克岛旗	诺福克岛旗		诺福克岛/诺福克岛旗	proper_name	unverified
+1815	🇳🇬	尼日利亚/尼日利亚旗	尼日利亚旗		尼日利亚/尼日利亚旗	proper_name	unverified
+1816	🇳🇮	尼加拉瓜/尼加拉瓜旗	尼加拉瓜旗		尼加拉瓜/尼加拉瓜旗	proper_name	unverified
+1817	🇳🇱	荷兰/荷兰旗	荷兰旗		荷兰/荷兰旗	proper_name	unverified
+1818	🇳🇴	挪威/挪威旗	挪威旗		挪威/挪威旗	proper_name	unverified
+1819	🇳🇵	尼泊尔/尼泊尔旗	尼泊尔旗		尼泊尔/尼泊尔旗	proper_name	unverified
+1820	🇳🇷	瑙鲁/瑙鲁旗	瑙鲁旗		瑙鲁/瑙鲁旗	proper_name	unverified
+1821	🇳🇺	纽埃/纽埃旗	纽埃旗		纽埃/纽埃旗	proper_name	unverified
+1822	🇳🇿	新西兰/新西兰旗	新西兰旗		新西兰/新西兰旗	proper_name	unverified
+1823	🇴🇲	阿曼/阿曼旗	阿曼旗		阿曼/阿曼旗	proper_name	unverified
+1824	🇵🇦	巴拿马/巴拿马旗	巴拿马旗		巴拿马/巴拿马旗	proper_name	unverified
+1825	🇵🇪	秘鲁/秘鲁旗	秘鲁旗		秘鲁/秘鲁旗	proper_name	unverified
+1826	🇵🇫	法属波利尼西亚/法属波利尼西亚旗	法属波利尼西亚旗		法属波利尼西亚/法属波利尼西亚旗	proper_name	unverified
+1827	🇵🇬	巴布亚新几内亚/巴新/巴新旗	巴新/巴新旗	巴新/巴新旗	巴布亚新几内亚	proper_name	unverified
+1828	🇵🇭	菲律宾/菲律宾旗	菲律宾旗		菲律宾/菲律宾旗	proper_name	unverified
+1829	🇵🇰	巴基斯坦/巴基斯坦旗	巴基斯坦旗		巴基斯坦/巴基斯坦旗	proper_name	unverified
+1830	🇵🇱	波兰/波兰旗	波兰旗		波兰/波兰旗	proper_name	unverified
+1831	🇵🇲	圣皮埃尔和密克隆群岛/圣皮埃尔和密克隆群岛旗	圣皮埃尔和密克隆群岛旗		圣皮埃尔和密克隆群岛/圣皮埃尔和密克隆群岛旗	proper_name	unverified
+1832	🇵🇳	皮特凯恩群岛/皮特凯恩群岛旗	皮特凯恩群岛旗		皮特凯恩群岛/皮特凯恩群岛旗	proper_name	unverified
+1833	🇵🇷	波多黎各/波多黎各旗	波多黎各旗		波多黎各/波多黎各旗	proper_name	unverified
+1834	🇵🇸	巴勒斯坦/巴勒斯坦旗/巴勒斯坦领土	巴勒斯坦/巴勒斯坦旗	巴勒斯坦/巴勒斯坦旗	巴勒斯坦领土	proper_name	unverified
+1835	🇵🇹	葡萄牙/葡萄牙旗	葡萄牙旗		葡萄牙/葡萄牙旗	proper_name	unverified
+1836	🇵🇼	帕劳/帕劳旗	帕劳旗		帕劳/帕劳旗	proper_name	unverified
+1837	🇵🇾	巴拉圭/巴拉圭旗	巴拉圭旗		巴拉圭/巴拉圭旗	proper_name	unverified
+1838	🇶🇦	卡塔尔/卡塔尔旗	卡塔尔旗		卡塔尔/卡塔尔旗	proper_name	unverified
+1839	🇷🇪	留尼汪/留尼汪旗	留尼汪旗		留尼汪/留尼汪旗	proper_name	unverified
+1840	🇷🇴	罗马尼亚/罗马尼亚旗	罗马尼亚旗		罗马尼亚/罗马尼亚旗	proper_name	unverified
+1841	🇷🇸	塞尔维亚/塞尔维亚旗	塞尔维亚旗		塞尔维亚/塞尔维亚旗	proper_name	unverified
+1842	🇷🇺	俄国/俄罗斯/俄罗斯国旗	俄国	俄国	俄罗斯/俄罗斯国旗	proper_name	unverified
+1843	🇷🇼	卢旺达/卢旺达旗	卢旺达旗		卢旺达/卢旺达旗	proper_name	unverified
+1844	🇸🇦	沙特/沙特国旗/沙特阿拉伯	沙特/沙特国旗	沙特/沙特国旗	沙特阿拉伯	proper_name	unverified
+1845	🇸🇧	所罗门群岛/所罗门群岛旗	所罗门群岛旗		所罗门群岛/所罗门群岛旗	proper_name	unverified
+1846	🇸🇨	塞舌尔/塞舌尔旗	塞舌尔旗		塞舌尔/塞舌尔旗	proper_name	unverified
+1847	🇸🇩	苏丹/苏丹旗	苏丹旗		苏丹/苏丹旗	proper_name	unverified
+1848	🇸🇪	瑞典/瑞典旗	瑞典旗		瑞典/瑞典旗	proper_name	unverified
+1849	🇸🇬	新加坡/新加坡国旗			新加坡/新加坡国旗	proper_name	unverified
+1850	🇸🇭	圣赫勒拿/圣赫勒拿旗	圣赫勒拿旗		圣赫勒拿/圣赫勒拿旗	proper_name	unverified
+1851	🇸🇮	斯洛文尼亚/斯洛文尼亚旗	斯洛文尼亚旗		斯洛文尼亚/斯洛文尼亚旗	proper_name	unverified
+1852	🇸🇯	斯瓦尔巴和扬马延/斯瓦尔巴和扬马延旗	斯瓦尔巴和扬马延旗		斯瓦尔巴和扬马延/斯瓦尔巴和扬马延旗	proper_name	unverified
+1853	🇸🇰	斯洛伐克/斯洛伐克旗	斯洛伐克旗		斯洛伐克/斯洛伐克旗	proper_name	unverified
+1854	🇸🇱	塞拉利昂/塞拉利昂旗	塞拉利昂旗		塞拉利昂/塞拉利昂旗	proper_name	unverified
+1855	🇸🇲	圣马力诺/圣马力诺旗	圣马力诺旗		圣马力诺/圣马力诺旗	proper_name	unverified
+1856	🇸🇳	塞内加尔/塞内加尔旗	塞内加尔旗		塞内加尔/塞内加尔旗	proper_name	unverified
+1857	🇸🇴	索马里/索马里旗	索马里旗		索马里/索马里旗	proper_name	unverified
+1858	🇸🇷	苏里南/苏里南旗	苏里南旗		苏里南/苏里南旗	proper_name	unverified
+1859	🇸🇸	南苏丹/南苏丹旗	南苏丹旗		南苏丹/南苏丹旗	proper_name	unverified
+1860	🇸🇹	圣多美和普林西比/圣多美和普林西比旗	圣多美和普林西比旗		圣多美和普林西比/圣多美和普林西比旗	proper_name	unverified
+1861	🇸🇻	萨尔瓦多/萨尔瓦多旗	萨尔瓦多旗		萨尔瓦多/萨尔瓦多旗	proper_name	unverified
+1862	🇸🇽	荷属圣马丁/荷属圣马丁旗	荷属圣马丁旗		荷属圣马丁/荷属圣马丁旗	proper_name	unverified
+1863	🇸🇾	叙利亚/叙利亚旗	叙利亚旗		叙利亚/叙利亚旗	proper_name	unverified
+1864	🇸🇿	斯威士兰/斯威士兰旗	斯威士兰旗		斯威士兰/斯威士兰旗	proper_name	unverified
+1865	🇹🇦	特里斯坦达库尼亚旗/特里斯坦达库尼亚群岛	特里斯坦达库尼亚旗/特里斯坦达库尼亚群岛	特里斯坦达库尼亚旗/特里斯坦达库尼亚群岛		proper_name	unverified
+1866	🇹🇨	特克斯和凯科斯群岛/特克斯和凯科斯群岛旗	特克斯和凯科斯群岛旗		特克斯和凯科斯群岛/特克斯和凯科斯群岛旗	proper_name	unverified
+1867	🇹🇩	乍得/乍得旗	乍得旗		乍得/乍得旗	proper_name	unverified
+1868	🇹🇫	法属南部领地/法属南部领地旗	法属南部领地旗		法属南部领地/法属南部领地旗	proper_name	unverified
+1869	🇹🇬	多哥/多哥旗	多哥旗		多哥/多哥旗	proper_name	unverified
+1870	🇹🇭	泰国/泰国旗	泰国旗		泰国/泰国旗	proper_name	unverified
+1871	🇹🇯	塔吉克斯坦/塔吉克斯坦旗	塔吉克斯坦旗		塔吉克斯坦/塔吉克斯坦旗	proper_name	unverified
+1872	🇹🇰	托克劳/托克劳旗	托克劳旗		托克劳/托克劳旗	proper_name	unverified
+1873	🇹🇱	东帝汶/东帝汶旗	东帝汶旗		东帝汶/东帝汶旗	proper_name	unverified
+1874	🇹🇲	土库曼斯坦/土库曼斯坦旗	土库曼斯坦旗		土库曼斯坦/土库曼斯坦旗	proper_name	unverified
+1875	🇹🇳	突尼斯/突尼斯旗	突尼斯旗		突尼斯/突尼斯旗	proper_name	unverified
+1876	🇹🇴	汤加/汤加旗	汤加旗		汤加/汤加旗	proper_name	unverified
+1877	🇹🇷	土耳其/土耳其国旗			土耳其/土耳其国旗	proper_name	unverified
+1878	🇹🇹	特立尼达和多巴哥/特立尼达和多巴哥旗	特立尼达和多巴哥旗		特立尼达和多巴哥/特立尼达和多巴哥旗	proper_name	unverified
+1879	🇹🇻	图瓦卢/图瓦卢旗	图瓦卢旗		图瓦卢/图瓦卢旗	proper_name	unverified
+1880	🇹🇼	台湾/台湾旗	台湾旗		台湾/台湾旗	proper_name	unverified
+1881	🇹🇿	坦桑尼亚/坦桑尼亚旗	坦桑尼亚旗		坦桑尼亚/坦桑尼亚旗	proper_name	unverified
+1882	🇺🇦	乌克兰/乌克兰旗	乌克兰旗		乌克兰/乌克兰旗	proper_name	unverified
+1883	🇺🇬	乌干达/乌干达旗	乌干达旗		乌干达/乌干达旗	proper_name	unverified
+1884	🇺🇲	美国本土外小岛屿/美国本土外小岛屿旗	美国本土外小岛屿旗		美国本土外小岛屿/美国本土外小岛屿旗	proper_name	unverified
+1885	🇺🇳	联合国/联合国旗	联合国旗		联合国/联合国旗	proper_name	unverified
+1886	🇺🇸	星条旗/美国/美国国旗	星条旗	星条旗	美国/美国国旗	proper_name	unverified
+1887	🇺🇾	乌拉圭/乌拉圭旗	乌拉圭旗		乌拉圭/乌拉圭旗	proper_name	unverified
+1888	🇺🇿	乌兹别克斯坦/乌兹别克斯坦旗	乌兹别克斯坦旗		乌兹别克斯坦/乌兹别克斯坦旗	proper_name	unverified
+1889	🇻🇦	梵蒂冈/梵蒂冈旗	梵蒂冈旗		梵蒂冈/梵蒂冈旗	proper_name	unverified
+1890	🇻🇨	圣文森特和格林纳丁斯/圣文森特和格林纳丁斯旗	圣文森特和格林纳丁斯旗		圣文森特和格林纳丁斯/圣文森特和格林纳丁斯旗	proper_name	unverified
+1891	🇻🇪	委内瑞拉/委内瑞拉旗	委内瑞拉旗		委内瑞拉/委内瑞拉旗	proper_name	unverified
+1892	🇻🇬	英属维尔京群岛/英属维尔京群岛旗	英属维尔京群岛旗		英属维尔京群岛/英属维尔京群岛旗	proper_name	unverified
+1893	🇻🇮	美属维尔京群岛/美属维尔京群岛旗	美属维尔京群岛旗		美属维尔京群岛/美属维尔京群岛旗	proper_name	unverified
+1894	🇻🇳	越南/越南旗	越南旗		越南/越南旗	proper_name	unverified
+1895	🇻🇺	瓦努阿图/瓦努阿图旗	瓦努阿图旗		瓦努阿图/瓦努阿图旗	proper_name	unverified
+1896	🇼🇫	瓦利斯和富图纳/瓦利斯和富图纳旗	瓦利斯和富图纳旗		瓦利斯和富图纳/瓦利斯和富图纳旗	proper_name	unverified
+1897	🇼🇸	萨摩亚/萨摩亚旗	萨摩亚旗		萨摩亚/萨摩亚旗	proper_name	unverified
+1898	🇽🇰	科索沃/科索沃旗	科索沃旗		科索沃/科索沃旗	proper_name	unverified
+1899	🇾🇪	也门/也门旗	也门旗		也门/也门旗	proper_name	unverified
+1900	🇾🇹	马约特/马约特旗	马约特旗		马约特/马约特旗	proper_name	unverified
+1901	🇿🇦	南非/南非国旗			南非/南非国旗	proper_name	unverified
+1902	🇿🇲	赞比亚/赞比亚旗	赞比亚旗		赞比亚/赞比亚旗	proper_name	unverified
+1903	🇿🇼	津巴布韦/津巴布韦旗	津巴布韦旗		津巴布韦/津巴布韦旗	proper_name	unverified
+1904	🏴󠁧󠁢󠁥󠁮󠁧󠁿	英格兰/英格兰旗	英格兰/英格兰旗	英格兰/英格兰旗		proper_name	unverified
+1905	🏴󠁧󠁢󠁳󠁣󠁴󠁿	苏格兰/苏格兰旗	苏格兰/苏格兰旗	苏格兰/苏格兰旗		proper_name	unverified
+1906	🏴󠁧󠁢󠁷󠁬󠁳󠁿	威尔士/威尔士旗	威尔士/威尔士旗	威尔士/威尔士旗		proper_name	unverified

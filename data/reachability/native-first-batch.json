@@ -1,0 +1,808 @@
+{
+  "scope": "Headless native librime + Squirrel Lua; isolated Wanxiang, strict tier, neutral gender, default skin, adult=false, Alt+0 emoji-only. This is C-API preview/commit, not a GUI/app insertion test.",
+  "page_limit": 5,
+  "runtime_sha256": "887328ae21013aa88f0b0cd836e40447dc72bfe6201ac7d4ccffedfc2fb223e3",
+  "reviews_sha256": "e4cd8dc44a305de7380fdabd4c9c6d78c66c909a0f9ccbbe733279f4107c3c56",
+  "schema_sha256": "8908ec68803b4e2efc9ce138ba51467ba45e2780708c6da47a16b2d628c73393",
+  "compiled_assets_sha256": {
+    "wanxiang.prism.bin": "435dfb85aa9ed7a2d4ae1b1098a55e3378f0250fa1493411f036f656d956a90b",
+    "wanxiang.reverse.bin": "4338291c06e0a0538598e24b115b9734f17d2e20f04b98771874158031f623f7",
+    "wanxiang.table.bin": "41110f30967d699625f40c89e005f7bdede24a8dd8710b1017b3e637f5019190",
+    "wanxiang_abbrev.prism.bin": "65b2d539c40d81fba72f51b5d97aca35e85438c47f53747a7cb7e8149ff0691a",
+    "wanxiang_abbrev.reverse.bin": "4a5d46a1242e4f95bfc04170f317b46d0e87b3ed9afb81e73876fd849403cc7f",
+    "wanxiang_abbrev.table.bin": "6549e23aa200656e6633c029fa132718b95b09f81c78eb4937b8a055bf7c3fe3",
+    "wanxiang_english.prism.bin": "f7802f86695aa7fd3d8f98a6e7444f8ac0f8a7e7a04d8d55fc8348596c64494d",
+    "wanxiang_english.reverse.bin": "6fc8202a379aa0fedd9b7f1dc98309d9c40b5526691ed3e688457303a29f279f",
+    "wanxiang_english.table.bin": "b0f9f8564d7a947792eff8d47a2f7158fc4ed7cdb454339b7bd52d2efd8e21fc",
+    "wanxiang_mixedcode.prism.bin": "f2733353434eb76a990009ea75071e8612de106a7f6c4bc77b23f15659ee2ce5",
+    "wanxiang_mixedcode.reverse.bin": "34c045dd79024795a0a7fbe937fd7d0133489d897c8614135538ff8a99cee845",
+    "wanxiang_mixedcode.table.bin": "dbe7910ab0984508cc22dc112b24e4784c6ea10a179749490592448f3587e742",
+    "wanxiang_phrase.prism.bin": "1e2271c1850175d643c590ee553b25656286f7ab466cc76afcdbde9022a4e13e",
+    "wanxiang_reverse.prism.bin": "557a40bc43c048a6d071ebb9bc3552608c1b0734be51bc0752c1f80e6bac0365",
+    "wanxiang_reverse.reverse.bin": "a84623e03da59ef7dbe2c012b02f02ef7eece41934064c0acf282e8a793760dd",
+    "wanxiang_reverse.table.bin": "3fc7b140e06db6a39e5cd1b19e5588322e4995345eb6fcf447386b08591b7996"
+  },
+  "entries": [
+    {
+      "term": "圆圈",
+      "targets": [
+        "⭕"
+      ],
+      "keys": "yuanquan",
+      "pinyin_candidate": {
+        "status": "found",
+        "page": 1,
+        "position": 1,
+        "keys": "yuanquan"
+      },
+      "selected_keys": "yuanquan",
+      "comment": " 〔0→⭕〕",
+      "suffix": "⭕",
+      "commit": "⭕",
+      "pages_observed": [
+        {
+          "page_no": 0,
+          "candidates": [
+            "圆圈",
+            "源泉",
+            "于安全",
+            "袁泉",
+            "原权",
+            "渊泉"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "红圈",
+      "targets": [
+        "⭕"
+      ],
+      "keys": "hongquan",
+      "pinyin_candidate": {
+        "status": "found",
+        "page": 1,
+        "position": 1,
+        "keys": "hongquan"
+      },
+      "selected_keys": "hongquan",
+      "comment": " 〔0→⭕〕",
+      "suffix": "⭕",
+      "commit": "⭕",
+      "pages_observed": [
+        {
+          "page_no": 0,
+          "candidates": [
+            "红圈",
+            "哄劝",
+            "洪拳",
+            "洪泉",
+            "红曲",
+            "红区"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "空心圆",
+      "targets": [
+        "⭕"
+      ],
+      "keys": "kongxinyuan",
+      "pinyin_candidate": {
+        "status": "found",
+        "page": 1,
+        "position": 1,
+        "keys": "kongxinyuan"
+      },
+      "selected_keys": "kongxinyuan",
+      "comment": " 〔0→⭕〕",
+      "suffix": "⭕",
+      "commit": "⭕",
+      "pages_observed": [
+        {
+          "page_no": 0,
+          "candidates": [
+            "空心圆",
+            "空心",
+            "空",
+            "控",
+            "恐",
+            "孔"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "空心圆圈",
+      "targets": [
+        "⭕"
+      ],
+      "keys": "kongxinyuanquan",
+      "pinyin_candidate": {
+        "status": "not_found_within_limit",
+        "pages": 5,
+        "keys": "kongxinyuanquan"
+      },
+      "comment": "",
+      "suffix": "",
+      "commit": "",
+      "pages_observed": [
+        {
+          "page_no": 0,
+          "candidates": [
+            "空心圆全",
+            "空心圆",
+            "空心",
+            "空",
+            "控",
+            "恐"
+          ]
+        },
+        {
+          "page_no": 1,
+          "candidates": [
+            "孔",
+            "崆",
+            "箜",
+            "倥",
+            "鵼",
+            "硿"
+          ]
+        },
+        {
+          "page_no": 2,
+          "candidates": [
+            "埪",
+            "矼",
+            "悾",
+            "鞚",
+            "㑋",
+            "㤟"
+          ]
+        },
+        {
+          "page_no": 3,
+          "candidates": [
+            "𡤿",
+            "𢙢",
+            "𢪬",
+            "𣏺",
+            "𤆺",
+            "𤤲"
+          ]
+        },
+        {
+          "page_no": 4,
+          "candidates": [
+            "𥥅",
+            "𦶐",
+            "𩲧",
+            "𪫠",
+            "涳",
+            "躻"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "红色圆圈",
+      "targets": [
+        "⭕",
+        "🔴"
+      ],
+      "keys": "hongseyuanquan",
+      "pinyin_candidate": {
+        "status": "found",
+        "page": 1,
+        "position": 1,
+        "keys": "hongseyuanquan"
+      },
+      "selected_keys": "hongseyuanquan",
+      "comment": " 〔0→🔴〕",
+      "suffix": "🔴",
+      "commit": "🔴",
+      "pages_observed": [
+        {
+          "page_no": 0,
+          "candidates": [
+            "红色圆圈",
+            "红色鱼",
+            "红色",
+            "虹色",
+            "红",
+            "洪"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "点头",
+      "targets": [
+        "🙂‍↕️"
+      ],
+      "keys": "diantou",
+      "pinyin_candidate": {
+        "status": "found",
+        "page": 1,
+        "position": 1,
+        "keys": "diantou"
+      },
+      "selected_keys": "diantou",
+      "comment": " 〔0→🙂‍↕️〕",
+      "suffix": "🙂‍↕️",
+      "commit": "🙂‍↕️",
+      "pages_observed": [
+        {
+          "page_no": 0,
+          "candidates": [
+            "点头",
+            "店头",
+            "电投",
+            "点透",
+            "电头",
+            "点"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "暂停",
+      "targets": [
+        "⏸️"
+      ],
+      "keys": "zanting",
+      "pinyin_candidate": {
+        "status": "found",
+        "page": 1,
+        "position": 1,
+        "keys": "zanting"
+      },
+      "selected_keys": "zanting",
+      "comment": " 〔0→⏸️〕",
+      "suffix": "⏸️",
+      "commit": "⏸️",
+      "pages_observed": [
+        {
+          "page_no": 0,
+          "candidates": [
+            "暂停",
+            "赞",
+            "暂",
+            "咱",
+            "攒",
+            "簪"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "停止",
+      "targets": [
+        "⏹️"
+      ],
+      "keys": "tingzhi",
+      "pinyin_candidate": {
+        "status": "found",
+        "page": 1,
+        "position": 1,
+        "keys": "tingzhi"
+      },
+      "selected_keys": "tingzhi",
+      "comment": " 〔0→⏹️〕",
+      "suffix": "⏹️",
+      "commit": "⏹️",
+      "pages_observed": [
+        {
+          "page_no": 0,
+          "candidates": [
+            "停止",
+            "停滞",
+            "挺直",
+            "停职",
+            "挺值",
+            "听之"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "无限大",
+      "targets": [
+        "♾️"
+      ],
+      "keys": "wuxianda",
+      "pinyin_candidate": {
+        "status": "found",
+        "page": 1,
+        "position": 1,
+        "keys": "wuxianda"
+      },
+      "selected_keys": "wuxianda",
+      "comment": " 〔0→♾️〕",
+      "suffix": "♾️",
+      "commit": "♾️",
+      "pages_observed": [
+        {
+          "page_no": 0,
+          "candidates": [
+            "无限大",
+            "无限打",
+            "无限",
+            "无线",
+            "诬陷",
+            "五险"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "无穷",
+      "targets": [
+        "♾️"
+      ],
+      "keys": "wuqiong",
+      "pinyin_candidate": {
+        "status": "found",
+        "page": 1,
+        "position": 1,
+        "keys": "wuqiong"
+      },
+      "selected_keys": "wuqiong",
+      "comment": " 〔0→♾️〕",
+      "suffix": "♾️",
+      "commit": "♾️",
+      "pages_observed": [
+        {
+          "page_no": 0,
+          "candidates": [
+            "无穷",
+            "无",
+            "五",
+            "伍",
+            "吴",
+            "武"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "爱心眼",
+      "targets": [
+        "😍"
+      ],
+      "keys": "aixinyan",
+      "pinyin_candidate": {
+        "status": "not_found_within_limit",
+        "pages": 5,
+        "keys": "aixinyan"
+      },
+      "comment": "",
+      "suffix": "",
+      "commit": "",
+      "pages_observed": [
+        {
+          "page_no": 0,
+          "candidates": [
+            "哎心眼",
+            "爱心",
+            "爱信",
+            "哎",
+            "唉",
+            "爱"
+          ]
+        },
+        {
+          "page_no": 1,
+          "candidates": [
+            "癌",
+            "挨",
+            "埃",
+            "艾",
+            "碍",
+            "哀"
+          ]
+        },
+        {
+          "page_no": 2,
+          "candidates": [
+            "矮",
+            "隘",
+            "蔼",
+            "暧",
+            "皑",
+            "霭"
+          ]
+        },
+        {
+          "page_no": 3,
+          "candidates": [
+            "嗳",
+            "嗌",
+            "砹",
+            "嫒",
+            "叆",
+            "乂"
+          ]
+        },
+        {
+          "page_no": 4,
+          "candidates": [
+            "瑷",
+            "毐",
+            "锿",
+            "愛",
+            "捱",
+            "娭"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "星星眼",
+      "targets": [
+        "🤩"
+      ],
+      "keys": "xingxingyan",
+      "pinyin_candidate": {
+        "status": "found",
+        "page": 1,
+        "position": 1,
+        "keys": "xingxingyan"
+      },
+      "selected_keys": "xingxingyan",
+      "comment": " 〔0→⭐ 🌟〕",
+      "suffix": "⭐ 🌟",
+      "commit": "⭐ 🌟",
+      "pages_observed": [
+        {
+          "page_no": 0,
+          "candidates": [
+            "星星眼",
+            "星星",
+            "猩猩",
+            "行星",
+            "醒醒",
+            "行行"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "比耶",
+      "targets": [
+        "✌️"
+      ],
+      "keys": "biye",
+      "pinyin_candidate": {
+        "status": "found",
+        "page": 1,
+        "position": 2,
+        "keys": "biye"
+      },
+      "selected_keys": "biye{Down}",
+      "comment": " 〔0→✌️〕",
+      "suffix": "✌️",
+      "commit": "✌️",
+      "pages_observed": [
+        {
+          "page_no": 0,
+          "candidates": [
+            "毕业",
+            "比耶",
+            "碧野",
+            "比",
+            "必",
+            "毕"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "粉心",
+      "targets": [
+        "🩷"
+      ],
+      "keys": "fenxin",
+      "pinyin_candidate": {
+        "status": "not_found_within_limit",
+        "pages": 5,
+        "keys": "fenxin"
+      },
+      "comment": "",
+      "suffix": "",
+      "commit": "",
+      "pages_observed": [
+        {
+          "page_no": 0,
+          "candidates": [
+            "分心",
+            "焚心",
+            "分",
+            "份",
+            "粉",
+            "纷"
+          ]
+        },
+        {
+          "page_no": 1,
+          "candidates": [
+            "奋",
+            "氛",
+            "焚",
+            "粪",
+            "芬",
+            "愤"
+          ]
+        },
+        {
+          "page_no": 2,
+          "candidates": [
+            "坟",
+            "吩",
+            "忿",
+            "酚",
+            "汾",
+            "棻"
+          ]
+        },
+        {
+          "page_no": 3,
+          "candidates": [
+            "鲼",
+            "偾",
+            "棼",
+            "鼢",
+            "瀵",
+            "翂"
+          ]
+        },
+        {
+          "page_no": 4,
+          "candidates": [
+            "豮",
+            "𣸣",
+            "坋",
+            "紛",
+            "奮",
+            "憤"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "浅蓝心",
+      "targets": [
+        "🩵"
+      ],
+      "keys": "qianlanxin",
+      "pinyin_candidate": {
+        "status": "not_found_within_limit",
+        "pages": 5,
+        "keys": "qianlanxin"
+      },
+      "comment": "",
+      "suffix": "",
+      "commit": "",
+      "pages_observed": [
+        {
+          "page_no": 0,
+          "candidates": [
+            "浅蓝新",
+            "浅蓝",
+            "前",
+            "千",
+            "仟",
+            "欠"
+          ]
+        },
+        {
+          "page_no": 1,
+          "candidates": [
+            "钱",
+            "签",
+            "嵌",
+            "铅",
+            "潜",
+            "迁"
+          ]
+        },
+        {
+          "page_no": 2,
+          "candidates": [
+            "歉",
+            "浅",
+            "牵",
+            "谦",
+            "乾",
+            "遣"
+          ]
+        },
+        {
+          "page_no": 3,
+          "candidates": [
+            "谴",
+            "黔",
+            "钳",
+            "纤",
+            "倩",
+            "茜"
+          ]
+        },
+        {
+          "page_no": 4,
+          "candidates": [
+            "虔",
+            "芡",
+            "佥",
+            "阡",
+            "芊",
+            "堑"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "灰色爱心",
+      "targets": [
+        "🩶"
+      ],
+      "keys": "huiseaixin",
+      "pinyin_candidate": {
+        "status": "found",
+        "page": 1,
+        "position": 1,
+        "keys": "huiseaixin"
+      },
+      "selected_keys": "huiseaixin",
+      "comment": " 〔0→🤍 🤎〕",
+      "suffix": "🤍 🤎",
+      "commit": "🤍 🤎",
+      "pages_observed": [
+        {
+          "page_no": 0,
+          "candidates": [
+            "灰色爱心",
+            "灰色",
+            "晦涩",
+            "回色",
+            "会",
+            "回"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "滑雪板",
+      "targets": [
+        "🎿"
+      ],
+      "keys": "huaxueban",
+      "pinyin_candidate": {
+        "status": "found",
+        "page": 1,
+        "position": 1,
+        "keys": "huaxueban"
+      },
+      "selected_keys": "huaxueban",
+      "comment": " 〔0→🎿〕",
+      "suffix": "🎿",
+      "commit": "🎿",
+      "pages_observed": [
+        {
+          "page_no": 0,
+          "candidates": [
+            "滑雪板",
+            "化学版",
+            "化学",
+            "滑雪",
+            "画学",
+            "化雪"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "尖叫猫",
+      "targets": [
+        "🙀"
+      ],
+      "keys": "jianjiaomao",
+      "pinyin_candidate": {
+        "status": "not_found_within_limit",
+        "pages": 5,
+        "keys": "jianjiaomao"
+      },
+      "comment": "",
+      "suffix": "",
+      "commit": "",
+      "pages_observed": [
+        {
+          "page_no": 0,
+          "candidates": [
+            "尖叫毛",
+            "尖叫",
+            "煎饺",
+            "建交",
+            "尖椒",
+            "尖角"
+          ]
+        },
+        {
+          "page_no": 1,
+          "candidates": [
+            "检校",
+            "键角",
+            "见教",
+            "剪角",
+            "监交",
+            "减缴"
+          ]
+        },
+        {
+          "page_no": 2,
+          "candidates": [
+            "建醮",
+            "减价",
+            "肩胛",
+            "肩甲",
+            "蒹葭",
+            "建家"
+          ]
+        },
+        {
+          "page_no": 3,
+          "candidates": [
+            "间架",
+            "贱价",
+            "坚甲",
+            "减甲",
+            "剪辑",
+            "碱基"
+          ]
+        },
+        {
+          "page_no": 4,
+          "candidates": [
+            "剑姬",
+            "建基",
+            "舰级",
+            "剑击",
+            "见机",
+            "减记"
+          ]
+        }
+      ]
+    },
+    {
+      "term": "女农民",
+      "targets": [
+        "👩‍🌾"
+      ],
+      "keys": "nvnongmin",
+      "pinyin_candidate": {
+        "status": "found",
+        "page": 1,
+        "position": 1,
+        "keys": "nvnongmin"
+      },
+      "selected_keys": "nvnongmin",
+      "comment": " 〔0→🧑‍🌾〕",
+      "suffix": "🧑‍🌾",
+      "commit": "🧑‍🌾",
+      "pages_observed": [
+        {
+          "page_no": 0,
+          "candidates": [
+            "女农民",
+            "女",
+            "钕",
+            "衄",
+            "恧",
+            "衂"
+          ]
+        }
+      ]
+    }
+  ]
+}

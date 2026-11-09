@@ -1,0 +1,185 @@
+{
+  "version": 1,
+  "scope": "Exact whole candidate only; additions do not authorize sentence substrings. Frequency priority is editorial judgment, not measured user frequency.",
+  "entries": [
+    {
+      "term": "圆圈",
+      "targets": [
+        "⭕"
+      ],
+      "pinyin": "yuanquan",
+      "rationale": "日常形状叫法，空心圈直接对应；保留已有彩色圆形解释。",
+      "runtime_action": "add"
+    },
+    {
+      "term": "红圈",
+      "targets": [
+        "⭕"
+      ],
+      "pinyin": "hongquan",
+      "rationale": "红色空心圈的简称；保留已有实心红圆🔴。",
+      "runtime_action": "add"
+    },
+    {
+      "term": "空心圆",
+      "targets": [
+        "⭕"
+      ],
+      "pinyin": "kongxinyuan",
+      "rationale": "直接描述空心圆形。",
+      "runtime_action": "add"
+    },
+    {
+      "term": "空心圆圈",
+      "targets": [
+        "⭕"
+      ],
+      "pinyin": "kongxinyuanquan",
+      "rationale": "直接描述空心圆圈。",
+      "runtime_action": "add"
+    },
+    {
+      "term": "红色圆圈",
+      "targets": [
+        "⭕",
+        "🔴"
+      ],
+      "pinyin": "hongseyuanquan",
+      "rationale": "未限定空心或实心，两种红圆均合理。",
+      "runtime_action": "deferred_boundary",
+      "defer_reason": "现有tiered索引会把新增完整词加入保护词，屏蔽句中已有子词输出；本轮不改变句中触发，暂缓导出。"
+    },
+    {
+      "term": "点头",
+      "targets": [
+        "🙂‍↕️"
+      ],
+      "pinyin": "diantou",
+      "rationale": "点头动作的自然简称，不要求输入上下点头。",
+      "runtime_action": "add"
+    },
+    {
+      "term": "暂停",
+      "targets": [
+        "⏸️"
+      ],
+      "pinyin": "zanting",
+      "rationale": "暂停按钮的常用功能名；保留原有推手示意暂停关系。",
+      "runtime_action": "add"
+    },
+    {
+      "term": "停止",
+      "targets": [
+        "⏹️"
+      ],
+      "pinyin": "tingzhi",
+      "rationale": "停止按钮的常用功能名；保留停车牌及推手关系。",
+      "runtime_action": "add"
+    },
+    {
+      "term": "无限大",
+      "targets": [
+        "♾️"
+      ],
+      "pinyin": "wuxianda",
+      "rationale": "无穷大符号的常见同义叫法。",
+      "runtime_action": "add"
+    },
+    {
+      "term": "无穷",
+      "targets": [
+        "♾️"
+      ],
+      "pinyin": "wuqiong",
+      "rationale": "数学无穷的简称，仅授权完整候选。",
+      "runtime_action": "add"
+    },
+    {
+      "term": "爱心眼",
+      "targets": [
+        "😍"
+      ],
+      "pinyin": "aixinyan",
+      "rationale": "双眼为爱心的脸，直接图形描述。",
+      "runtime_action": "deferred_boundary",
+      "defer_reason": "现有tiered索引会把新增完整词加入保护词，屏蔽句中已有子词输出；本轮不改变句中触发，暂缓导出。"
+    },
+    {
+      "term": "星星眼",
+      "targets": [
+        "🤩"
+      ],
+      "pinyin": "xingxingyan",
+      "rationale": "双眼为星形的脸，常用描述。",
+      "runtime_action": "deferred_boundary",
+      "defer_reason": "现有tiered索引会把新增完整词加入保护词，屏蔽句中已有子词输出；本轮不改变句中触发，暂缓导出。"
+    },
+    {
+      "term": "比耶",
+      "targets": [
+        "✌️"
+      ],
+      "pinyin": "biye",
+      "rationale": "伸出食指和中指的V字手势，常用口语。",
+      "runtime_action": "add"
+    },
+    {
+      "term": "粉心",
+      "targets": [
+        "🩷"
+      ],
+      "pinyin": "fenxin",
+      "rationale": "粉色爱心的简称。",
+      "runtime_action": "add"
+    },
+    {
+      "term": "浅蓝心",
+      "targets": [
+        "🩵"
+      ],
+      "pinyin": "qianlanxin",
+      "rationale": "浅蓝色爱心的简称。",
+      "runtime_action": "deferred_boundary",
+      "defer_reason": "现有tiered索引会把新增完整词加入保护词，屏蔽句中已有子词输出；本轮不改变句中触发，暂缓导出。"
+    },
+    {
+      "term": "灰色爱心",
+      "targets": [
+        "🩶"
+      ],
+      "pinyin": "huiseaixin",
+      "rationale": "明确颜色的图形名称；不把情绪词灰心强改成严格匹配。",
+      "runtime_action": "deferred_boundary",
+      "defer_reason": "现有tiered索引会把新增完整词加入保护词，屏蔽句中已有子词输出；本轮不改变句中触发，暂缓导出。"
+    },
+    {
+      "term": "滑雪板",
+      "targets": [
+        "🎿"
+      ],
+      "pinyin": "huaxueban",
+      "rationale": "滑雪双板的自然器材名；保留已有单板滑雪🏂解释，不以滑雪运动替代器材。",
+      "runtime_action": "add"
+    },
+    {
+      "term": "尖叫猫",
+      "targets": [
+        "🙀"
+      ],
+      "pinyin": "jianjiaomao",
+      "rationale": "双爪贴脸张嘴的猫表情，直接描述惊恐尖叫形象。",
+      "runtime_action": "deferred_boundary",
+      "defer_reason": "现有tiered索引会把新增完整词加入保护词，屏蔽句中已有子词输出；本轮不改变句中触发，暂缓导出。"
+    },
+    {
+      "term": "女农民",
+      "targets": [
+        "👩‍🌾"
+      ],
+      "pinyin": "nvnongmin",
+      "rationale": "明确女性的农民称呼，保留中性农民入口的原有策略。",
+      "runtime_action": "deferred_boundary",
+      "defer_reason": "现有tiered索引会把新增完整词加入保护词，屏蔽句中已有子词输出；本轮不改变句中触发，暂缓导出。"
+    }
+  ]
+}

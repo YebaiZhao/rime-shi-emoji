@@ -1,0 +1,42 @@
+{
+  "kind": "design_examples_not_runtime_fixtures",
+  "note": "规格正反例供后续验证。句中适用须有已验证的边界及语境条件。",
+  "examples": [
+    {
+      "id": "7e63b3f25ba17cdcb7c3",
+      "queue_index": 2526,
+      "expression": "日元",
+      "target": "💹",
+      "decision": "requires_disambiguation",
+      "positive": "日元对美元的汇率正在上扬。",
+      "negative": "我把一张日元纸币夹在本子里。",
+      "reason": "需验证日元汇率或行情语境，币种名不足以推出走势图。",
+      "expected_positive": "eligible_only_if_required_features_verified",
+      "expected_negative": "no_sentence_trigger"
+    },
+    {
+      "id": "6a14d6ef15afdfddcd32",
+      "queue_index": 2543,
+      "expression": "早餐",
+      "target": "🍳",
+      "decision": "whole_token",
+      "positive": "我给孩子准备了早餐。",
+      "negative": "她把「早餐」两个字写在练字纸上。",
+      "reason": "餐食事件可作线索，引用词面不触发该关联。",
+      "expected_positive": "eligible_after_verified_token_and_assertion",
+      "expected_negative": "no_sentence_trigger"
+    },
+    {
+      "id": "4486477734d138d574bc",
+      "queue_index": 2590,
+      "expression": "晚安",
+      "target": "🌙💤",
+      "decision": "whole_candidate_only",
+      "positive": "晚安",
+      "negative": "他每天在日记里抄写「晚安」。",
+      "reason": "独立问候与转述须区分。",
+      "expected_positive": "exact_candidate_only",
+      "expected_negative": "no_sentence_trigger"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "design_examples_not_runtime_fixtures",
+  "note": "规格正反例供后续验证。句中适用须有已验证的边界及语境条件。",
+  "examples": [
+    {
+      "id": "cf1b2146515a393ef50a",
+      "queue_index": 893,
+      "expression": "台风",
+      "target": "🌀",
+      "decision": "whole_token",
+      "positive": "台风今晚登陆。",
+      "negative": "这位演员的台风很稳。",
+      "reason": "需要辨认热带气旋义，舞台表现义排除。",
+      "expected_positive": "eligible_after_verified_token_and_assertion",
+      "expected_negative": "no_sentence_trigger"
+    },
+    {
+      "id": "5caa5eb6bc79fe84879f",
+      "queue_index": 1044,
+      "expression": "唱K",
+      "target": "🎤",
+      "decision": "whole_token",
+      "positive": "我们周六去唱K。",
+      "negative": "他拿着话筒，却说今天不唱K。",
+      "reason": "实际唱歌事件可作线索，外层否定须识别。",
+      "expected_positive": "eligible_after_verified_token_and_assertion",
+      "expected_negative": "no_sentence_trigger"
+    },
+    {
+      "id": "914114bccc00851cdf64",
+      "queue_index": 1105,
+      "expression": "回見",
+      "target": "👋",
+      "decision": "whole_candidate_only",
+      "positive": "回見",
+      "negative": "她在文稿中引用了「回見」。",
+      "reason": "独立告别用法与引用词面须区分。",
+      "expected_positive": "exact_candidate_only",
+      "expected_negative": "no_sentence_trigger"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "kind": "design_examples_not_runtime_fixtures",
+  "note": "规格正反例供后续验证。句中适用须有已验证的边界及语境条件。",
+  "examples": [
+    {
+      "id": "c64fbef35dc7fb122459",
+      "queue_index": 3438,
+      "expression": "王家",
+      "target": "🫅",
+      "decision": "requires_disambiguation",
+      "positive": "王家世代在宫廷掌权。",
+      "negative": "楼上住着姓王的王家。",
+      "reason": "须识别王室义，普通姓氏家庭不匹配。",
+      "expected_positive": "eligible_only_if_required_features_verified",
+      "expected_negative": "no_sentence_trigger"
+    },
+    {
+      "id": "c57cf2458dc986749bcc",
+      "queue_index": 3590,
+      "expression": "疟疾",
+      "target": "🦟",
+      "decision": "requires_disambiguation",
+      "positive": "疟疾防控项目正在清查传播媒介。",
+      "negative": "报告列出了今年的疟疾病例数。",
+      "reason": "媒介话题才提供关联线索，疾病名称本身不足。",
+      "expected_positive": "eligible_only_if_required_features_verified",
+      "expected_negative": "no_sentence_trigger"
+    },
+    {
+      "id": "3f62f26b9591cee3dc24",
+      "queue_index": 3720,
+      "expression": "看这里",
+      "target": "🙋",
+      "decision": "whole_candidate_only",
+      "positive": "看这里",
+      "negative": "培训材料里把「看这里」列为示例。",
+      "reason": "完整引导话语与引用须区分。",
+      "expected_positive": "exact_candidate_only",
+      "expected_negative": "no_sentence_trigger"
+    }
+  ]
+}

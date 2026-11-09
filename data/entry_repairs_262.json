@@ -1,0 +1,5260 @@
+{
+  "version": 1,
+  "baseline_report_sha256": "7937398f25ce9b75596409441b2d31789ec57f8cbf0a97c3b4b08a992cf9dd7e",
+  "target_emoji_count": 262,
+  "mapping_gap_emoji_count": 258,
+  "target_emoji": [
+    "🙂",
+    "😇",
+    "😍",
+    "🤩",
+    "😗",
+    "🤪",
+    "🤑",
+    "🤭",
+    "😶‍🌫️",
+    "🥵",
+    "🥴",
+    "😵",
+    "😵‍💫",
+    "🤯",
+    "🤠",
+    "🥸",
+    "🧐",
+    "🙁",
+    "😯",
+    "😳",
+    "😦",
+    "😥",
+    "😤",
+    "🤬",
+    "😈",
+    "☠️",
+    "👺",
+    "😺",
+    "😸",
+    "😹",
+    "😻",
+    "😼",
+    "🙀",
+    "😿",
+    "🙈",
+    "🙉",
+    "💝",
+    "💖",
+    "💗",
+    "💞",
+    "💟",
+    "❤️‍🔥",
+    "❤️‍🩹",
+    "🩵",
+    "🩶",
+    "💢",
+    "💫",
+    "💨",
+    "👁️‍🗨️",
+    "🗯️",
+    "💭",
+    "🫳",
+    "🫴",
+    "🤞",
+    "🫵",
+    "👎",
+    "🤲",
+    "🧔‍♂️",
+    "🧔‍♀️",
+    "👨‍🦰",
+    "👨‍🦱",
+    "👨‍🦳",
+    "👨‍🦲",
+    "👩‍🦰",
+    "🧑‍🦰",
+    "👩‍🦱",
+    "🧑‍🦱",
+    "👩‍🦳",
+    "🧑‍🦳",
+    "👩‍🦲",
+    "🧑‍🦲",
+    "👴",
+    "👵",
+    "🙍‍♂️",
+    "🙍‍♀️",
+    "🙎‍♂️",
+    "🙎‍♀️",
+    "🙅",
+    "🙅‍♂️",
+    "🙅‍♀️",
+    "🙆",
+    "🙆‍♂️",
+    "🙆‍♀️",
+    "💁",
+    "💁‍♂️",
+    "💁‍♀️",
+    "👩‍🌾",
+    "👩‍🍼",
+    "👨‍🍼",
+    "🧑‍🍼",
+    "🧑‍🎄",
+    "🦹‍♂️",
+    "🦹‍♀️",
+    "🧚‍♂️",
+    "🧝‍♂️",
+    "🧝‍♀️",
+    "🧞‍♂️",
+    "🧞‍♀️",
+    "🚶‍➡️",
+    "🚶‍♀️‍➡️",
+    "🚶‍♂️‍➡️",
+    "🧍‍♂️",
+    "🧍‍♀️",
+    "🧎‍♂️",
+    "🧎‍♀️",
+    "🧎‍➡️",
+    "🧎‍♀️‍➡️",
+    "🧎‍♂️‍➡️",
+    "🏃‍➡️",
+    "🏃‍♀️‍➡️",
+    "🏃‍♂️‍➡️",
+    "👯",
+    "👯‍♂️",
+    "🧖‍♂️",
+    "🧖‍♀️",
+    "🧗‍♂️",
+    "🧗‍♀️",
+    "🏌️",
+    "⛹️‍♂️",
+    "🤽‍♂️",
+    "🤽‍♀️",
+    "🤾‍♂️",
+    "🤾‍♀️",
+    "🤹‍♂️",
+    "🤹‍♀️",
+    "🛌",
+    "👫",
+    "👩‍❤️‍💋‍👨",
+    "👨‍❤️‍💋‍👨",
+    "👩‍❤️‍💋‍👩",
+    "👩‍❤️‍👨",
+    "👨‍❤️‍👨",
+    "👩‍❤️‍👩",
+    "👨‍👩‍👦",
+    "👨‍👩‍👧",
+    "👨‍👩‍👧‍👦",
+    "👨‍👩‍👦‍👦",
+    "👨‍👩‍👧‍👧",
+    "👨‍👨‍👦",
+    "👨‍👨‍👧",
+    "👨‍👨‍👧‍👦",
+    "👨‍👨‍👦‍👦",
+    "👨‍👨‍👧‍👧",
+    "👩‍👩‍👦",
+    "👩‍👩‍👧",
+    "👩‍👩‍👧‍👦",
+    "👩‍👩‍👦‍👦",
+    "👩‍👩‍👧‍👧",
+    "👨‍👦",
+    "👨‍👦‍👦",
+    "👨‍👧",
+    "👨‍👧‍👦",
+    "👨‍👧‍👧",
+    "👩‍👦",
+    "👩‍👦‍👦",
+    "👩‍👧",
+    "👩‍👧‍👦",
+    "👩‍👧‍👧",
+    "🧑‍🧑‍🧒",
+    "🧑‍🧑‍🧒‍🧒",
+    "🌺",
+    "🥬",
+    "🥖",
+    "🍖",
+    "🥘",
+    "🥣",
+    "🍮",
+    "🌍",
+    "🌏",
+    "🏚️",
+    "🛕",
+    "🌁",
+    "🌃",
+    "💈",
+    "🚃",
+    "🚘",
+    "🛵",
+    "🛺",
+    "⏳",
+    "🌚",
+    "🌝",
+    "🌞",
+    "🌦️",
+    "☃️",
+    "🎉",
+    "🎊",
+    "🎋",
+    "🎑",
+    "🥋",
+    "🕹️",
+    "🪩",
+    "🎭",
+    "🖼️",
+    "🔕",
+    "🎹",
+    "📲",
+    "📀",
+    "📖",
+    "💹",
+    "📪",
+    "📭",
+    "📈",
+    "📉",
+    "🔏",
+    "⚒️",
+    "🛠️",
+    "🧬",
+    "🚮",
+    "♿",
+    "🚼",
+    "🛄",
+    "🛅",
+    "🚫",
+    "🚷",
+    "🔞",
+    "☢️",
+    "↩️",
+    "↪️",
+    "🔜",
+    "🕎",
+    "⏯️",
+    "◀️",
+    "📶",
+    "🛜",
+    "🔰",
+    "©️",
+    "#️⃣",
+    "*️⃣",
+    "0️⃣",
+    "🔟",
+    "🆒",
+    "ℹ️",
+    "Ⓜ️",
+    "🆕",
+    "🅿️",
+    "🆙",
+    "🈁",
+    "🈷️",
+    "🈶",
+    "🈯",
+    "🉐",
+    "🈹",
+    "🈚",
+    "🈲",
+    "🉑",
+    "🈸",
+    "🈴",
+    "㊗️",
+    "㊙️",
+    "🈺",
+    "🈵",
+    "⬛",
+    "⬜",
+    "🇨🇨",
+    "🇨🇩",
+    "🇨🇬",
+    "🇭🇰",
+    "🇲🇴",
+    "🇹🇦",
+    "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
+  ],
+  "entries": [
+    {
+      "term": "COOL按钮",
+      "targets": [
+        "🆒"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "DNA双螺旋",
+      "targets": [
+        "🧬"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "DVD光盘",
+      "targets": [
+        "📀"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "NEW按钮",
+      "targets": [
+        "🆕"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "UP按钮",
+      "targets": [
+        "🆙"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "一家三口",
+      "targets": [
+        "🧑‍🧑‍🧒"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "一家四口",
+      "targets": [
+        "🧑‍🧑‍🧒‍🧒"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "一溜烟",
+      "targets": [
+        "💨"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "一男一女亲吻",
+      "targets": [
+        "👩‍❤️‍💋‍👨"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "一男一女牵手",
+      "targets": [
+        "👫"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "一男一女的情侣",
+      "targets": [
+        "👩‍❤️‍👨"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "七夕竹",
+      "targets": [
+        "🎋"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "七夕许愿树",
+      "targets": [
+        "🎋"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "三轮摩托",
+      "targets": [
+        "🛺"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "上升趋势图",
+      "targets": [
+        "📈"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "上涨图",
+      "targets": [
+        "📈"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "下跌图",
+      "targets": [
+        "📉"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "下降趋势图",
+      "targets": [
+        "📉"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "下雪中的雪人",
+      "targets": [
+        "☃️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "不听猴",
+      "targets": [
+        "🙉"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "不开心的脸",
+      "targets": [
+        "🙁"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "不看猴",
+      "targets": [
+        "🙈"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "两个大人一个孩子",
+      "targets": [
+        "🧑‍🧑‍🧒"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "两个大人两个孩子",
+      "targets": [
+        "🧑‍🧑‍🧒‍🧒"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "两个女人接吻",
+      "targets": [
+        "👩‍❤️‍💋‍👩"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "两个妈妈和一儿一女",
+      "targets": [
+        "👩‍👩‍👧‍👦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "两个妈妈和两个儿子",
+      "targets": [
+        "👩‍👩‍👦‍👦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "两个妈妈和两个女儿",
+      "targets": [
+        "👩‍👩‍👧‍👧"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "两个妈妈和儿子",
+      "targets": [
+        "👩‍👩‍👦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "两个妈妈和女儿",
+      "targets": [
+        "👩‍👩‍👧"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "两个爸爸和一儿一女",
+      "targets": [
+        "👨‍👨‍👧‍👦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "两个爸爸和两个儿子",
+      "targets": [
+        "👨‍👨‍👦‍👦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "两个爸爸和两个女儿",
+      "targets": [
+        "👨‍👨‍👧‍👧"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "两个爸爸和儿子",
+      "targets": [
+        "👨‍👨‍👦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "两个爸爸和女儿",
+      "targets": [
+        "👨‍👨‍👧"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "两个男人接吻",
+      "targets": [
+        "👨‍❤️‍💋‍👨"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "中国澳门",
+      "targets": [
+        "🇲🇴"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "中国香港",
+      "targets": [
+        "🇭🇰"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "云里的脸",
+      "targets": [
+        "😶‍🌫️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "云雾脸",
+      "targets": [
+        "😶‍🌫️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "井号键",
+      "targets": [
+        "#️⃣"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "井字键",
+      "targets": [
+        "#️⃣"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "交叉手指",
+      "targets": [
+        "🤞"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "亲亲",
+      "targets": [
+        "😗"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "亲吻",
+      "targets": [
+        "😗"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "优惠标志",
+      "targets": [
+        "🉐"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "伪装脸",
+      "targets": [
+        "🥸"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "信号强度",
+      "targets": [
+        "📶"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "信号格",
+      "targets": [
+        "📶"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "信息图标",
+      "targets": [
+        "ℹ️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "信息标志",
+      "targets": [
+        "ℹ️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "倒拇指",
+      "targets": [
+        "👎"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "倒放",
+      "targets": [
+        "◀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "假胡子眼镜脸",
+      "targets": [
+        "🥸"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "停车场标志",
+      "targets": [
+        "🅿️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "停车标志",
+      "targets": [
+        "🅿️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "光头女",
+      "targets": [
+        "👩‍🦲"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "光头女人",
+      "targets": [
+        "👩‍🦲"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "光头成人",
+      "targets": [
+        "🧑‍🦲"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "光头男",
+      "targets": [
+        "👨‍🦲"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "光头男人",
+      "targets": [
+        "👨‍🦲"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "光头的人",
+      "targets": [
+        "🧑‍🦲"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "光明节烛台",
+      "targets": [
+        "🕎"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "免费标志",
+      "targets": [
+        "🈚"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "兔耳舞者",
+      "targets": [
+        "👯"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "关闭且旗子放下的信箱",
+      "targets": [
+        "📪"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "关闭铃声",
+      "targets": [
+        "🔕"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "写着SOON的箭头",
+      "targets": [
+        "🔜"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "刚果共和国",
+      "targets": [
+        "🇨🇬"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "刚果布",
+      "targets": [
+        "🇨🇬"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "刚果布旗",
+      "targets": [
+        "🇨🇬"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "刚果民主共和国",
+      "targets": [
+        "🇨🇩"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "刚果金",
+      "targets": [
+        "🇨🇩"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "刚果金旗",
+      "targets": [
+        "🇨🇩"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "割字标志",
+      "targets": [
+        "🈹"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "包扎的心",
+      "targets": [
+        "❤️‍🩹"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "十",
+      "targets": [
+        "🔟"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "十八禁",
+      "targets": [
+        "🔞"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "单手托起的人",
+      "targets": [
+        "💁"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "单手摊开",
+      "targets": [
+        "💁"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "单片眼镜脸",
+      "targets": [
+        "🧐"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "印度教寺庙",
+      "targets": [
+        "🛕"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "卷发女",
+      "targets": [
+        "👩‍🦱"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "卷发女人",
+      "targets": [
+        "👩‍🦱"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "卷发成人",
+      "targets": [
+        "🧑‍🦱"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "卷发男",
+      "targets": [
+        "👨‍🦱"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "卷发男人",
+      "targets": [
+        "👨‍🦱"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "卷发的人",
+      "targets": [
+        "🧑‍🦱"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "叉眼脸",
+      "targets": [
+        "😵"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "双手举过头顶",
+      "targets": [
+        "🙆"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "双手捧起",
+      "targets": [
+        "🤲"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "双手掌心向上",
+      "targets": [
+        "🤲"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "双臂交叉",
+      "targets": [
+        "🙅"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "双臂画圆",
+      "targets": [
+        "🙆"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "反向播放",
+      "targets": [
+        "◀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "取行李",
+      "targets": [
+        "🛄"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "变大的爱心",
+      "targets": [
+        "💗"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "可字标志",
+      "targets": [
+        "🉑"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "右弯箭头",
+      "targets": [
+        "↪️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "吃惊的脸",
+      "targets": [
+        "😦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "合字标志",
+      "targets": [
+        "🈴"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "合格标志",
+      "targets": [
+        "🈴"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "向上标志",
+      "targets": [
+        "🆙"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "向右拐弯的箭头",
+      "targets": [
+        "↪️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "向右走的人",
+      "targets": [
+        "🚶‍➡️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "向右走的女人",
+      "targets": [
+        "🚶‍♀️‍➡️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "向右走的男人",
+      "targets": [
+        "🚶‍♂️‍➡️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "向右走路",
+      "targets": [
+        "🚶‍➡️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "向右跑步",
+      "targets": [
+        "🏃‍➡️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "向右跑的人",
+      "targets": [
+        "🏃‍➡️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "向右跑的女人",
+      "targets": [
+        "🏃‍♀️‍➡️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "向右跑的男人",
+      "targets": [
+        "🏃‍♂️‍➡️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "向左拐弯的箭头",
+      "targets": [
+        "↩️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "咧嘴笑的猫",
+      "targets": [
+        "😺"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "哭泣猫",
+      "targets": [
+        "😿"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "喜剧悲剧面具",
+      "targets": [
+        "🎭"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "圆圈M",
+      "targets": [
+        "Ⓜ️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "圣诞装扮的人",
+      "targets": [
+        "🧑‍🎄"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "坏笑恶魔",
+      "targets": [
+        "😈"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "坏笑猫",
+      "targets": [
+        "😼"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "垃圾入桶",
+      "targets": [
+        "🚮"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "城市夜景",
+      "targets": [
+        "🌃"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "基林群岛",
+      "targets": [
+        "🇨🇨"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "大白方块",
+      "targets": [
+        "⬜"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "大雾",
+      "targets": [
+        "🌁"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "大黑方块",
+      "targets": [
+        "⬛"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "天使笑脸",
+      "targets": [
+        "😇"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "天狗面具",
+      "targets": [
+        "👺"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "太阳公公",
+      "targets": [
+        "🌞"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "太阳笑脸",
+      "targets": [
+        "🌞"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "太阳雨",
+      "targets": [
+        "🌦️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "失望又松口气",
+      "targets": [
+        "😥"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女人下跪",
+      "targets": [
+        "🧎‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女人做拒绝手势",
+      "targets": [
+        "🙅‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女人喂奶",
+      "targets": [
+        "👩‍🍼"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女人抛球杂耍",
+      "targets": [
+        "🤹‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女人攀岩",
+      "targets": [
+        "🧗‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女人站立",
+      "targets": [
+        "🧍‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女人蒸桑拿",
+      "targets": [
+        "🧖‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女农民",
+      "targets": [
+        "👩‍🌾"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女反派",
+      "targets": [
+        "🦹‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女女情侣",
+      "targets": [
+        "👩‍❤️‍👩"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女性情侣",
+      "targets": [
+        "👩‍❤️‍👩"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女性情侣接吻",
+      "targets": [
+        "👩‍❤️‍💋‍👩"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女性灯神",
+      "targets": [
+        "🧞‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女性精灵",
+      "targets": [
+        "🧝‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女性超级反派",
+      "targets": [
+        "🦹‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女攀岩者",
+      "targets": [
+        "🧗‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女杂耍演员",
+      "targets": [
+        "🤹‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女灯神",
+      "targets": [
+        "🧞‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女生做同意手势",
+      "targets": [
+        "🙆‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女生双手举过头顶",
+      "targets": [
+        "🙆‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女生向右走",
+      "targets": [
+        "🚶‍♀️‍➡️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女生向右跑",
+      "targets": [
+        "🏃‍♀️‍➡️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女生打手球",
+      "targets": [
+        "🤾‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女生打水球",
+      "targets": [
+        "🤽‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女生托手",
+      "targets": [
+        "💁‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女生拒绝",
+      "targets": [
+        "🙅‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女生撅嘴",
+      "targets": [
+        "🙎‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女生皱眉",
+      "targets": [
+        "🙍‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "女精灵",
+      "targets": [
+        "🧝‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "奶瓶喂养",
+      "targets": [
+        "🧑‍🍼"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "奸笑猫",
+      "targets": [
+        "😼"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "妈妈和一儿一女",
+      "targets": [
+        "👩‍👧‍👦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "妈妈和两个儿子",
+      "targets": [
+        "👩‍👦‍👦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "妈妈和两个女儿",
+      "targets": [
+        "👩‍👧‍👧"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "妈妈和儿子",
+      "targets": [
+        "👩‍👦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "妈妈和女儿",
+      "targets": [
+        "👩‍👧"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "威尔士",
+      "targets": [
+        "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "威尔士旗",
+      "targets": [
+        "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "婴儿标志",
+      "targets": [
+        "🚼"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "存包处",
+      "targets": [
+        "🛅"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "小摩托",
+      "targets": [
+        "🛵"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "尖叫猫",
+      "targets": [
+        "🙀"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "左弯箭头",
+      "targets": [
+        "↩️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "差评",
+      "targets": [
+        "👎"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "布丁",
+      "targets": [
+        "🍮"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "带光环的笑脸",
+      "targets": [
+        "😇"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "带勺的碗",
+      "targets": [
+        "🥣"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "带圈的M",
+      "targets": [
+        "Ⓜ️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "带日元符号的上涨图",
+      "targets": [
+        "💹"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "带眼睛的对话框",
+      "targets": [
+        "👁️‍🗨️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "带笔的锁",
+      "targets": [
+        "🔏"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "带箭头的手机",
+      "targets": [
+        "📲"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "带雪花的雪人",
+      "targets": [
+        "☃️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "带骨肉",
+      "targets": [
+        "🍖"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "平底锅里的食物",
+      "targets": [
+        "🥘"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "庆祝彩带",
+      "targets": [
+        "🎉"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "废弃房屋",
+      "targets": [
+        "🏚️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "张嘴惊讶的脸",
+      "targets": [
+        "😯"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "张嘴皱眉",
+      "targets": [
+        "😦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "彩屑球",
+      "targets": [
+        "🎊"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "彩纸球",
+      "targets": [
+        "🎊"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "影碟",
+      "targets": [
+        "📀"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "得字标志",
+      "targets": [
+        "🉐"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "微微皱眉",
+      "targets": [
+        "🙁"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "微笑",
+      "targets": [
+        "🙂"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "微笑猫",
+      "targets": [
+        "😸"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "微笑脸",
+      "targets": [
+        "🙂"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "心形图案",
+      "targets": [
+        "💟"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "怒气",
+      "targets": [
+        "💢"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "思考气泡",
+      "targets": [
+        "💭"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "恶魔笑脸",
+      "targets": [
+        "😈"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "惊讶张嘴",
+      "targets": [
+        "😯"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "想法气泡",
+      "targets": [
+        "💭"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "戏剧面具",
+      "targets": [
+        "🎭"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "戴兔耳的人",
+      "targets": [
+        "👯"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "戴兔耳的男人",
+      "targets": [
+        "👯‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "戴单片眼镜的脸",
+      "targets": [
+        "🧐"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "戴圣诞帽的人",
+      "targets": [
+        "🧑‍🎄"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "戴牛仔帽的脸",
+      "targets": [
+        "🤠"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "手心向上",
+      "targets": [
+        "🫴"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "手心向下",
+      "targets": [
+        "🫳"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "手指交叉",
+      "targets": [
+        "🤞"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "手机信号",
+      "targets": [
+        "📶"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "手机来电",
+      "targets": [
+        "📲"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "打开且旗子放下的信箱",
+      "targets": [
+        "📭"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "打开的书",
+      "targets": [
+        "📖"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "打折标志",
+      "targets": [
+        "🈹"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "打高尔夫",
+      "targets": [
+        "🏌️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "扔垃圾标志",
+      "targets": [
+        "🚮"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "托手的女人",
+      "targets": [
+        "💁‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "托手的男人",
+      "targets": [
+        "💁‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "扶桑花",
+      "targets": [
+        "🌺"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "拒绝手势",
+      "targets": [
+        "🙅"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "指向你",
+      "targets": [
+        "🫵"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "指字标志",
+      "targets": [
+        "🈯"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "指着你",
+      "targets": [
+        "🫵"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "捂嘴",
+      "targets": [
+        "🤭"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "捂嘴笑",
+      "targets": [
+        "🤭"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "捂眼猴",
+      "targets": [
+        "🙈"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "捂耳猴",
+      "targets": [
+        "🙉"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "掌心向上",
+      "targets": [
+        "🫴"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "掌心向下",
+      "targets": [
+        "🫳"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "搞怪脸",
+      "targets": [
+        "🤪"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "摇杆",
+      "targets": [
+        "🕹️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "撅嘴的女人",
+      "targets": [
+        "🙎‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "撅嘴的男人",
+      "targets": [
+        "🙎‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "播放暂停",
+      "targets": [
+        "⏯️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "播放暂停按钮",
+      "targets": [
+        "⏯️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "收费标志",
+      "targets": [
+        "🈶"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "放大的心",
+      "targets": [
+        "💗"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "放射性标志",
+      "targets": [
+        "☢️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "数字十",
+      "targets": [
+        "🔟"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "数字零",
+      "targets": [
+        "0️⃣"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "新手驾驶标志",
+      "targets": [
+        "🔰"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "新月笑脸",
+      "targets": [
+        "🌚"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "新款标志",
+      "targets": [
+        "🆕"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "旋转爱心",
+      "targets": [
+        "💞"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "无字标志",
+      "targets": [
+        "🈚"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "无线信号",
+      "targets": [
+        "🛜"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "无线网络",
+      "targets": [
+        "🛜"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "无障碍标志",
+      "targets": [
+        "♿"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "日元上涨图",
+      "targets": [
+        "💹"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "日文月费标志",
+      "targets": [
+        "🈷️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "日文这里按钮",
+      "targets": [
+        "🈁"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "日本新手标志",
+      "targets": [
+        "🔰"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "星号键",
+      "targets": [
+        "*️⃣"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "星星眼",
+      "targets": [
+        "🤩"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "星空夜景",
+      "targets": [
+        "🌃"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "星键",
+      "targets": [
+        "*️⃣"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "显示亚洲和澳洲的地球",
+      "targets": [
+        "🌏"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "显示欧洲和非洲的地球",
+      "targets": [
+        "🌍"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "晕乎乎",
+      "targets": [
+        "🥴"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "晕倒脸",
+      "targets": [
+        "😵"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "晴雨",
+      "targets": [
+        "🌦️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "月亮笑脸",
+      "targets": [
+        "🌝"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "月字标志",
+      "targets": [
+        "🈷️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "有字标志",
+      "targets": [
+        "🈶"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "有胡子的女人",
+      "targets": [
+        "🧔‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "有胡子的男人",
+      "targets": [
+        "🧔‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "朝右跪着的人",
+      "targets": [
+        "🧎‍➡️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "朝右跪着的女人",
+      "targets": [
+        "🧎‍♀️‍➡️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "朝右跪着的男人",
+      "targets": [
+        "🧎‍♂️‍➡️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "未成年人禁止",
+      "targets": [
+        "🔞"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "机动三轮车",
+      "targets": [
+        "🛺"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "正在漏沙的沙漏",
+      "targets": [
+        "⏳"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "武术服",
+      "targets": [
+        "🥋"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "母女",
+      "targets": [
+        "👩‍👧"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "母婴设施标志",
+      "targets": [
+        "🚼"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "母子",
+      "targets": [
+        "👩‍👦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "气哼哼",
+      "targets": [
+        "😤"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "汽车正面",
+      "targets": [
+        "🚘"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "法棍",
+      "targets": [
+        "🥖"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "流汗的难过脸",
+      "targets": [
+        "😥"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "流泪猫",
+      "targets": [
+        "😿"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "浅蓝心",
+      "targets": [
+        "🩵"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "浅锅料理",
+      "targets": [
+        "🥘"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "游戏摇杆",
+      "targets": [
+        "🕹️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "滑稽脸",
+      "targets": [
+        "🤪"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "满员标志",
+      "targets": [
+        "🈵"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "满字标志",
+      "targets": [
+        "🈵"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "满月笑脸",
+      "targets": [
+        "🌝"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "澳门",
+      "targets": [
+        "🇲🇴"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "澳门区旗",
+      "targets": [
+        "🇲🇴"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "火焰爱心",
+      "targets": [
+        "❤️‍🔥"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "火车车厢",
+      "targets": [
+        "🚃"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "灰色爱心",
+      "targets": [
+        "🩶"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "烟尘",
+      "targets": [
+        "💨"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "热死了",
+      "targets": [
+        "🥵"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "热脸",
+      "targets": [
+        "🥵"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "焦糖布丁",
+      "targets": [
+        "🍮"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "燃烧的心",
+      "targets": [
+        "❤️‍🔥"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "爆头脸",
+      "targets": [
+        "🤯"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "爆粗口",
+      "targets": [
+        "🤬"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "爱心眼",
+      "targets": [
+        "😍"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "爱心眼猫",
+      "targets": [
+        "😻"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "爱心装饰",
+      "targets": [
+        "💟"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "父女",
+      "targets": [
+        "👨‍👧"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "父子",
+      "targets": [
+        "👨‍👦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "父母和两个孩子",
+      "targets": [
+        "👨‍👩‍👧‍👦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "父母和女孩",
+      "targets": [
+        "👨‍👩‍👧"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "父母和男孩",
+      "targets": [
+        "👨‍👩‍👦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "爸爸和一儿一女",
+      "targets": [
+        "👨‍👧‍👦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "爸爸和两个儿子",
+      "targets": [
+        "👨‍👦‍👦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "爸爸和两个女儿",
+      "targets": [
+        "👨‍👧‍👧"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "爸爸和儿子",
+      "targets": [
+        "👨‍👦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "爸爸和女儿",
+      "targets": [
+        "👨‍👧"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "爸爸妈妈和一儿一女",
+      "targets": [
+        "👨‍👩‍👧‍👦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "爸爸妈妈和两个儿子",
+      "targets": [
+        "👨‍👩‍👦‍👦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "爸爸妈妈和两个女儿",
+      "targets": [
+        "👨‍👩‍👧‍👧"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "爸爸妈妈和儿子",
+      "targets": [
+        "👨‍👩‍👦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "爸爸妈妈和女儿",
+      "targets": [
+        "👨‍👩‍👧"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "版权标志",
+      "targets": [
+        "©️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "版权符号",
+      "targets": [
+        "©️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "牛仔帽笑脸",
+      "targets": [
+        "🤠"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "特里斯坦达库尼亚旗",
+      "targets": [
+        "🇹🇦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "特里斯坦达库尼亚群岛",
+      "targets": [
+        "🇹🇦"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "犹太烛台",
+      "targets": [
+        "🕎"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "环绕的心",
+      "targets": [
+        "💞"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "理发店标志",
+      "targets": [
+        "💈"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "理发店灯柱",
+      "targets": [
+        "💈"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "琴键",
+      "targets": [
+        "🎹"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "生气气泡",
+      "targets": [
+        "🗯️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "生气符号",
+      "targets": [
+        "💢"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "用奶瓶喂宝宝的人",
+      "targets": [
+        "🧑‍🍼"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "用奶瓶喂宝宝的女人",
+      "targets": [
+        "👩‍🍼"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "用奶瓶喂宝宝的男人",
+      "targets": [
+        "👨‍🍼"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "申字标志",
+      "targets": [
+        "🈸"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "申请标志",
+      "targets": [
+        "🈸"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男人下跪",
+      "targets": [
+        "🧎‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男人做拒绝手势",
+      "targets": [
+        "🙅‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男人喂奶",
+      "targets": [
+        "👨‍🍼"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男人抛球杂耍",
+      "targets": [
+        "🤹‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男人攀岩",
+      "targets": [
+        "🧗‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男人站立",
+      "targets": [
+        "🧍‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男人蒸桑拿",
+      "targets": [
+        "🧖‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男仙子",
+      "targets": [
+        "🧚‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男兔耳舞者",
+      "targets": [
+        "👯‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男反派",
+      "targets": [
+        "🦹‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男女情侣",
+      "targets": [
+        "👩‍❤️‍👨"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男女接吻",
+      "targets": [
+        "👩‍❤️‍💋‍👨"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男女牵手",
+      "targets": [
+        "👫"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男性仙子",
+      "targets": [
+        "🧚‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男性情侣",
+      "targets": [
+        "👨‍❤️‍👨"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男性情侣接吻",
+      "targets": [
+        "👨‍❤️‍💋‍👨"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男性灯神",
+      "targets": [
+        "🧞‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男性精灵",
+      "targets": [
+        "🧝‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男性超级反派",
+      "targets": [
+        "🦹‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男攀岩者",
+      "targets": [
+        "🧗‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男杂耍演员",
+      "targets": [
+        "🤹‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男灯神",
+      "targets": [
+        "🧞‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男生做同意手势",
+      "targets": [
+        "🙆‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男生双手举过头顶",
+      "targets": [
+        "🙆‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男生向右走",
+      "targets": [
+        "🚶‍♂️‍➡️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男生向右跑",
+      "targets": [
+        "🏃‍♂️‍➡️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男生打手球",
+      "targets": [
+        "🤾‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男生打水球",
+      "targets": [
+        "🤽‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男生打篮球",
+      "targets": [
+        "⛹️‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男生托手",
+      "targets": [
+        "💁‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男生拍球",
+      "targets": [
+        "⛹️‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男生拒绝",
+      "targets": [
+        "🙅‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男生撅嘴",
+      "targets": [
+        "🙎‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男生皱眉",
+      "targets": [
+        "🙍‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男男情侣",
+      "targets": [
+        "👨‍❤️‍👨"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "男精灵",
+      "targets": [
+        "🧝‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "白发女",
+      "targets": [
+        "👩‍🦳"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "白发女人",
+      "targets": [
+        "👩‍🦳"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "白发成人",
+      "targets": [
+        "🧑‍🦳"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "白发男",
+      "targets": [
+        "👨‍🦳"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "白发男人",
+      "targets": [
+        "👨‍🦳"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "白发的人",
+      "targets": [
+        "🧑‍🦳"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "白色大方块",
+      "targets": [
+        "⬜"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "皱眉的女人",
+      "targets": [
+        "🙍‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "皱眉的男人",
+      "targets": [
+        "🙍‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "相框画",
+      "targets": [
+        "🖼️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "眩晕星星",
+      "targets": [
+        "💫"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "眯眼笑的猫",
+      "targets": [
+        "😸"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "眼冒金星",
+      "targets": [
+        "😵‍💫"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "眼睛对话气泡",
+      "targets": [
+        "👁️‍🗨️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "睡觉的人",
+      "targets": [
+        "🛌"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "破房子",
+      "targets": [
+        "🏚️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "碗和勺子",
+      "targets": [
+        "🥣"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "礼物爱心",
+      "targets": [
+        "💝"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "礼花筒",
+      "targets": [
+        "🎉"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "祝字标志",
+      "targets": [
+        "㊗️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "祝贺标志",
+      "targets": [
+        "㊗️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "禁字标志",
+      "targets": [
+        "🈲"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "禁止标志",
+      "targets": [
+        "🚫",
+        "🈲"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "禁止行人",
+      "targets": [
+        "🚷"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "禁用",
+      "targets": [
+        "🚫"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "科科斯群岛",
+      "targets": [
+        "🇨🇨"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "科科斯群岛旗",
+      "targets": [
+        "🇨🇨"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "秘字标志",
+      "targets": [
+        "㊙️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "秘密标志",
+      "targets": [
+        "㊙️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "站着的女人",
+      "targets": [
+        "🧍‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "站着的男人",
+      "targets": [
+        "🧍‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "笑哭猫",
+      "targets": [
+        "😹"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "笑哭的猫",
+      "targets": [
+        "😹"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "笑脸猫",
+      "targets": [
+        "😺"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "系丝带的心",
+      "targets": [
+        "💝"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "红发女",
+      "targets": [
+        "👩‍🦰"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "红发女人",
+      "targets": [
+        "👩‍🦰"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "红发成人",
+      "targets": [
+        "🧑‍🦰"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "红发男",
+      "targets": [
+        "👨‍🦰"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "红发男人",
+      "targets": [
+        "👨‍🦰"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "红发的人",
+      "targets": [
+        "🧑‍🦰"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "红脸",
+      "targets": [
+        "😳"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "维修工具",
+      "targets": [
+        "🛠️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "绷带爱心",
+      "targets": [
+        "❤️‍🩹"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "绿叶菜",
+      "targets": [
+        "🥬"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "翻开的书",
+      "targets": [
+        "📖"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "老太太",
+      "targets": [
+        "👵"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "老头",
+      "targets": [
+        "👴"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "老奶奶",
+      "targets": [
+        "👵"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "老爷爷",
+      "targets": [
+        "👴"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "胡子女",
+      "targets": [
+        "🧔‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "胡子男",
+      "targets": [
+        "🧔‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "脑袋爆炸",
+      "targets": [
+        "🤯"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "脱氧核糖核酸",
+      "targets": [
+        "🧬"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "脸红",
+      "targets": [
+        "😳"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "芙蓉花",
+      "targets": [
+        "🌺"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "花痴猫",
+      "targets": [
+        "😻"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "苏格兰",
+      "targets": [
+        "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "苏格兰旗",
+      "targets": [
+        "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "英格兰",
+      "targets": [
+        "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "英格兰旗",
+      "targets": [
+        "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "营业标志",
+      "targets": [
+        "🈺"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "营字标志",
+      "targets": [
+        "🈺"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "落旗的关闭信箱",
+      "targets": [
+        "📪"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "落旗的打开信箱",
+      "targets": [
+        "📭"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "蒸桑拿的女人",
+      "targets": [
+        "🧖‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "蒸桑拿的男人",
+      "targets": [
+        "🧖‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "螺旋眼",
+      "targets": [
+        "😵‍💫"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "行人禁行",
+      "targets": [
+        "🚷"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "行李寄存",
+      "targets": [
+        "🛅"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "行李提取",
+      "targets": [
+        "🛄"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "装框的画",
+      "targets": [
+        "🖼️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "计时沙漏",
+      "targets": [
+        "⏳"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "许可标志",
+      "targets": [
+        "🉑"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "财迷脸",
+      "targets": [
+        "🤑"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "赏月供品",
+      "targets": [
+        "🎑"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "赏月摆设",
+      "targets": [
+        "🎑"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "跪着的女人",
+      "targets": [
+        "🧎‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "跪着的男人",
+      "targets": [
+        "🧎‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "踏板摩托",
+      "targets": [
+        "🛵"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "躺在床上",
+      "targets": [
+        "🛌"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "转圈星星",
+      "targets": [
+        "💫"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "轮椅标志",
+      "targets": [
+        "♿"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "辐射标志",
+      "targets": [
+        "☢️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "迎面汽车",
+      "targets": [
+        "🚘"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "这里标志",
+      "targets": [
+        "🈁"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "迪斯科球",
+      "targets": [
+        "🪩"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "道服",
+      "targets": [
+        "🥋"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "酷按钮",
+      "targets": [
+        "🆒"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "醉脸",
+      "targets": [
+        "🥴"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "金钱脸",
+      "targets": [
+        "🤑"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "钢琴键盘",
+      "targets": [
+        "🎹"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "钢笔和锁",
+      "targets": [
+        "🔏"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "铁路车厢",
+      "targets": [
+        "🚃"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "锤子和扳手",
+      "targets": [
+        "🛠️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "锤子和镐",
+      "targets": [
+        "⚒️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "锤镐",
+      "targets": [
+        "⚒️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "锯齿对话框",
+      "targets": [
+        "🗯️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "镜面球",
+      "targets": [
+        "🪩"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "长棍面包",
+      "targets": [
+        "🥖"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "长鼻子鬼面",
+      "targets": [
+        "👺"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "闪亮爱心",
+      "targets": [
+        "💖"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "闪闪的心",
+      "targets": [
+        "💖"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "零",
+      "targets": [
+        "0️⃣"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "雾景",
+      "targets": [
+        "🌁"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "青菜",
+      "targets": [
+        "🥬"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "静音铃铛",
+      "targets": [
+        "🔕"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "面向右边下跪",
+      "targets": [
+        "🧎‍➡️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "预留标志",
+      "targets": [
+        "🈯"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "香港",
+      "targets": [
+        "🇭🇰"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "香港区旗",
+      "targets": [
+        "🇭🇰"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "骂人",
+      "targets": [
+        "🤬"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "骨头肉",
+      "targets": [
+        "🍖"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "骷髅交叉骨",
+      "targets": [
+        "☠️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "骷髅标志",
+      "targets": [
+        "☠️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "高尔夫球手",
+      "targets": [
+        "🏌️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "黑月亮脸",
+      "targets": [
+        "🌚"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "黑色大方块",
+      "targets": [
+        "⬛"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    },
+    {
+      "term": "鼻孔喷气",
+      "targets": [
+        "😤"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然名称，仅补完整候选入口；不授予句中触发。",
+      "preserve_existing_alternatives": true
+    }
+  ],
+  "ranking": {
+    "亲亲": [
+      "😗",
+      "😘",
+      "💋"
+    ],
+    "亲吻": [
+      "😗",
+      "💏",
+      "💋"
+    ],
+    "脸红": [
+      "😳",
+      "☺️",
+      "🫣"
+    ]
+  },
+  "explicit_gender_terms": [
+    "老头",
+    "老爷爷",
+    "爷爷",
+    "老奶奶",
+    "奶奶",
+    "老太太"
+  ],
+  "preservation_entries": [
+    {
+      "term": "害羞的笑脸",
+      "targets": [
+        "😊"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "微笑优先输出新增🙂后，为保留😊的自然名称可达性，补通其已审定的区别性名称。",
+      "preserve_existing_alternatives": true
+    }
+  ]
+}

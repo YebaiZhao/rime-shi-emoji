@@ -1,0 +1,140 @@
+{
+  "baseline": "Snapshot of the working runtime immediately before the 262 repairs; not Git HEAD or alpha.4.",
+  "baseline_runtime_sha256": {
+    "adult.lua": "10079b10a0adbc7f9de1a15270bd8b3c3942918a9bf7af59e9dcd485c2c5721a",
+    "compose.lua": "41744a96b28b097bfd17526a3db331fdfe0cd0dc56bbd72d618ccb1624f88ee4",
+    "data.lua": "22a6e92ef6d5e3bfd07f41dcb175db5a01b1e1be2d61ed215b1513b71ad43ce3",
+    "filter.lua": "67305ecd4c0600c4af65f18196437cafc44ae8e11c2c35c98763da4c67cae0f7",
+    "matcher.lua": "ced4f8ba5875bde05b03e82ae1ecf993e446d0daef40bdb74a8accaf8eacd9c5",
+    "processor.lua": "5592f12ffa94d1efaaed380f4ea11293a4b84508e90aad5849d871936591f785",
+    "settings.lua": "f407fc00cdd04504c187789c6fcbeb1012a505aa9f1bbc6dd80f9cbce1896acf",
+    "tier_data.lua": "887328ae21013aa88f0b0cd836e40447dc72bfe6201ac7d4ccffedfc2fb223e3",
+    "variant_data.lua": "2d8bba0484ce314e468f4f93baad88c9f2bbb9e08f19d90c1672849964553fc2",
+    "variants.lua": "b67ff214b93058f423bc207362953646303db603da64c9bbd0eea436ab758320"
+  },
+  "after_runtime_sha256": {
+    "adult.lua": "10079b10a0adbc7f9de1a15270bd8b3c3942918a9bf7af59e9dcd485c2c5721a",
+    "compose.lua": "41744a96b28b097bfd17526a3db331fdfe0cd0dc56bbd72d618ccb1624f88ee4",
+    "data.lua": "22a6e92ef6d5e3bfd07f41dcb175db5a01b1e1be2d61ed215b1513b71ad43ce3",
+    "entry_data.lua": "b4409e7ebda926d595dbcebc5ed3cda7257d1841e2ee81888818cf36add4c5c4",
+    "filter.lua": "ad46043f12a3abaa85729788bef3705c3f94bd48fcc1644b3afde6cf1a9f22b7",
+    "matcher.lua": "ced4f8ba5875bde05b03e82ae1ecf993e446d0daef40bdb74a8accaf8eacd9c5",
+    "processor.lua": "5592f12ffa94d1efaaed380f4ea11293a4b84508e90aad5849d871936591f785",
+    "settings.lua": "f407fc00cdd04504c187789c6fcbeb1012a505aa9f1bbc6dd80f9cbce1896acf",
+    "tier_data.lua": "887328ae21013aa88f0b0cd836e40447dc72bfe6201ac7d4ccffedfc2fb223e3",
+    "variant_data.lua": "2d8bba0484ce314e468f4f93baad88c9f2bbb9e08f19d90c1672849964553fc2",
+    "variants.lua": "024c130220ff7707e6ae02abc92dc43ca4e39025e0ce8dae767a863cbe205a2d"
+  },
+  "target_emoji": 262,
+  "mapping_gap_emoji": 258,
+  "ranking_repairs": [
+    "😗",
+    "😳"
+  ],
+  "gender_repairs": [
+    "👴",
+    "👵"
+  ],
+  "repair_terms": 495,
+  "repair_term_target_pairs": 496,
+  "preservation_terms": 1,
+  "preservation_target": "😊",
+  "total_overlay_terms": 496,
+  "total_overlay_target_pairs": 497,
+  "before": {
+    "base_emoji": 1906,
+    "skin_variants_excluded": 1875,
+    "unique_terms_executed": 14002,
+    "term_target_pairs": 20980,
+    "lua_calls": 42006,
+    "natural_name_reviewed_emoji": 1906,
+    "native_pinyin_checked_terms": 0,
+    "reviewed_terms": 19,
+    "added_terms": 12,
+    "deferred_boundary_terms": 7,
+    "frontend_ui_preview_verified_emoji": 0,
+    "application_insertion_verified_emoji": 0,
+    "pinyin_candidate_found_terms": 0,
+    "added_terms_native_commit_passed": 0,
+    "zero_strict_entry": 63,
+    "zero_reviewed_name_strict_entry": 318,
+    "zero_general_entry": 5,
+    "zero_reviewed_name_general_entry": 262,
+    "zero_divergent_entry": 5,
+    "zero_reviewed_name_divergent_entry": 262,
+    "reviewed_name_target_pairs": 3468,
+    "zero_reviewed_name_tier_mapping": 335,
+    "pinyin_candidate_passed_emoji": 0,
+    "native_preview_passed_emoji": 0,
+    "native_commit_passed_emoji": 0
+  },
+  "after": {
+    "base_emoji": 1906,
+    "skin_variants_excluded": 1875,
+    "unique_terms_executed": 14002,
+    "term_target_pairs": 20980,
+    "lua_calls": 42006,
+    "natural_name_reviewed_emoji": 1906,
+    "native_pinyin_checked_terms": 0,
+    "reviewed_terms": 19,
+    "added_terms": 12,
+    "deferred_boundary_terms": 7,
+    "frontend_ui_preview_verified_emoji": 0,
+    "application_insertion_verified_emoji": 0,
+    "pinyin_candidate_found_terms": 0,
+    "added_terms_native_commit_passed": 0,
+    "zero_strict_entry": 62,
+    "zero_reviewed_name_strict_entry": 315,
+    "zero_general_entry": 0,
+    "zero_reviewed_name_general_entry": 0,
+    "zero_divergent_entry": 0,
+    "zero_reviewed_name_divergent_entry": 0,
+    "reviewed_name_target_pairs": 3468,
+    "zero_reviewed_name_tier_mapping": 77,
+    "pinyin_candidate_passed_emoji": 0,
+    "native_preview_passed_emoji": 0,
+    "native_commit_passed_emoji": 0
+  },
+  "all_discovery_queries_compared": 14002,
+  "all_tiers_compared": 3,
+  "changed_queries": 498,
+  "unchanged_queries": 13504,
+  "changed_queries_outside_overlay": [
+    "奶奶",
+    "爷爷"
+  ],
+  "baseline_sentence_template": "请查看{term}的说明",
+  "baseline_sentences_compared": 496,
+  "baseline_sentence_changes": [
+    {
+      "term": "老头",
+      "before": "🧓",
+      "after": "👴"
+    },
+    {
+      "term": "老奶奶",
+      "before": "🧓",
+      "after": "👵"
+    }
+  ],
+  "trie_table_unchanged": true,
+  "matcher_unchanged": true,
+  "composer_unchanged": true,
+  "tests": {
+    "command": "PYTHONPATH=src:tests RIME_PROBE_USER=/private/tmp/shi-emoji-262-regression-profile .venv/bin/python -m unittest discover -s tests -v",
+    "run": 145,
+    "passed": 145,
+    "skipped": 0,
+    "failed": 0
+  },
+  "native": {
+    "terms": 496,
+    "found": 322,
+    "not_found_within_limit": 174,
+    "preview_passed": 322,
+    "commit_passed": 322,
+    "repaired_target_emoji_native_passed": 210,
+    "repaired_target_emoji_without_native_entry_in_this_search": 52,
+    "polyphonic_retries": 3
+  }
+}

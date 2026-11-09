@@ -1,0 +1,42 @@
+{
+  "kind": "design_examples_not_runtime_fixtures",
+  "note": "规格正反例供后续验证。句中适用须有已验证的边界及语境条件。",
+  "examples": [
+    {
+      "id": "a32586bfa67d39aec2bc",
+      "queue_index": 1713,
+      "expression": "开发",
+      "target": "🧑‍💻",
+      "decision": "requires_disambiguation",
+      "positive": "团队正在开发这款手机软件。",
+      "negative": "他们计划开发新的矿区。",
+      "reason": "需要识别软件开发义和开发对象。",
+      "expected_positive": "eligible_only_if_required_features_verified",
+      "expected_negative": "no_sentence_trigger"
+    },
+    {
+      "id": "95145ab497be5b5dd17b",
+      "queue_index": 1733,
+      "expression": "开车",
+      "target": "🔞🚗",
+      "decision": "requires_disambiguation",
+      "positive": "他们用成人笑话在群里开车。",
+      "negative": "她每天开车通勤。",
+      "reason": "成人隐语义须有明确语境及独立内容门控，驾驶义排除。",
+      "expected_positive": "eligible_only_if_required_features_verified",
+      "expected_negative": "no_sentence_trigger"
+    },
+    {
+      "id": "c852ff8b7ccfddb5b843",
+      "queue_index": 1758,
+      "expression": "当心感染",
+      "target": "☣",
+      "decision": "whole_candidate_only",
+      "positive": "当心感染",
+      "negative": "海报上印着「当心感染」。",
+      "reason": "独立警示与正文转述须区分。",
+      "expected_positive": "exact_candidate_only",
+      "expected_negative": "no_sentence_trigger"
+    }
+  ]
+}

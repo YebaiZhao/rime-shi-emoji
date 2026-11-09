@@ -1,0 +1,20 @@
+{
+  "source_sha256": "4724854ce0b68879ff1cf93c0150739b4ad8987d624046c35b1ab73179c0468f",
+  "source_queue_size": 5388,
+  "reviewed": 5388,
+  "remaining": 0,
+  "next_queue_index": null,
+  "decisions": {
+    "whole_token": 2590,
+    "requires_disambiguation": 2250,
+    "whole_candidate_only": 548
+  },
+  "context_families": {
+    "word": 2590,
+    "sense": 2142,
+    "utterance": 548,
+    "operator": 108
+  },
+  "runtime_validation": "not_run",
+  "sentence_authorized": 0
+}

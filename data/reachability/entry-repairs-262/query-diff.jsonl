@@ -1,0 +1,498 @@
+{"term": "COOL按钮", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🆒", "divergent": "🆒"}}
+{"term": "DNA双螺旋", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🧬", "divergent": "🧬"}}
+{"term": "DVD光盘", "before": {"strict": "💿 💽", "general": "💿 💽", "divergent": "💿 💽"}, "after": {"strict": "💿 💽", "general": "📀", "divergent": "📀"}}
+{"term": "NEW按钮", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🆕", "divergent": "🆕"}}
+{"term": "UP按钮", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🆙", "divergent": "🆙"}}
+{"term": "一家三口", "before": {"strict": "👄", "general": "👄", "divergent": "👄"}, "after": {"strict": "👄", "general": "🧑‍🧑‍🧒", "divergent": "🧑‍🧑‍🧒"}}
+{"term": "一家四口", "before": {"strict": "👄", "general": "👄", "divergent": "👄"}, "after": {"strict": "👄", "general": "🧑‍🧑‍🧒‍🧒", "divergent": "🧑‍🧑‍🧒‍🧒"}}
+{"term": "一溜烟", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "💨", "divergent": "💨"}}
+{"term": "一男一女亲吻", "before": {"strict": "💏 💋", "general": "💏 💋", "divergent": "💏 💋"}, "after": {"strict": "💏 💋", "general": "👩‍❤️‍💋‍👨", "divergent": "👩‍❤️‍💋‍👨"}}
+{"term": "一男一女牵手", "before": {"strict": "🧑‍🤝‍🧑", "general": "🧑‍🤝‍🧑", "divergent": "🧑‍🤝‍🧑"}, "after": {"strict": "🧑‍🤝‍🧑", "general": "👫", "divergent": "👫"}}
+{"term": "一男一女的情侣", "before": {"strict": "💑", "general": "💑", "divergent": "💑"}, "after": {"strict": "💑", "general": "👩‍❤️‍👨", "divergent": "👩‍❤️‍👨"}}
+{"term": "七夕竹", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🎋", "divergent": "🎋"}}
+{"term": "七夕许愿树", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🎋", "divergent": "🎋"}}
+{"term": "三轮摩托", "before": {"strict": "🏍", "general": "🏍", "divergent": "🏍"}, "after": {"strict": "🏍", "general": "🛺", "divergent": "🛺"}}
+{"term": "上升趋势图", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "📈", "divergent": "📈"}}
+{"term": "上涨图", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "📈", "divergent": "📈"}}
+{"term": "下跌图", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "📉", "divergent": "📉"}}
+{"term": "下降趋势图", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "📉", "divergent": "📉"}}
+{"term": "下雪中的雪人", "before": {"strict": "🌨️ ⛄", "general": "🌨️ ⛄", "divergent": "🌨️ ⛄"}, "after": {"strict": "🌨️ ⛄", "general": "☃️", "divergent": "☃️"}}
+{"term": "不听猴", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🙉", "divergent": "🙉"}}
+{"term": "不开心的脸", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🙁", "divergent": "🙁"}}
+{"term": "不看猴", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🙈", "divergent": "🙈"}}
+{"term": "两个大人一个孩子", "before": {"strict": "🧒 👶", "general": "🧒 👶", "divergent": "🧒 👶"}, "after": {"strict": "🧒 👶", "general": "🧑‍🧑‍🧒", "divergent": "🧑‍🧑‍🧒"}}
+{"term": "两个大人两个孩子", "before": {"strict": "🧒 👶", "general": "🧒 👶", "divergent": "🧒 👶"}, "after": {"strict": "🧒 👶", "general": "🧑‍🧑‍🧒‍🧒", "divergent": "🧑‍🧑‍🧒‍🧒"}}
+{"term": "两个女人接吻", "before": {"strict": "👩 💏", "general": "👭 💏", "divergent": "👭 💏"}, "after": {"strict": "👩 💏", "general": "👩‍❤️‍💋‍👩", "divergent": "👩‍❤️‍💋‍👩"}}
+{"term": "两个妈妈和一儿一女", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👩‍👩‍👧‍👦", "divergent": "👩‍👩‍👧‍👦"}}
+{"term": "两个妈妈和两个儿子", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👩‍👩‍👦‍👦", "divergent": "👩‍👩‍👦‍👦"}}
+{"term": "两个妈妈和两个女儿", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👩‍👩‍👧‍👧", "divergent": "👩‍👩‍👧‍👧"}}
+{"term": "两个妈妈和儿子", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👩‍👩‍👦", "divergent": "👩‍👩‍👦"}}
+{"term": "两个妈妈和女儿", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👩‍👩‍👧", "divergent": "👩‍👩‍👧"}}
+{"term": "两个爸爸和一儿一女", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👨‍👨‍👧‍👦", "divergent": "👨‍👨‍👧‍👦"}}
+{"term": "两个爸爸和两个儿子", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👨‍👨‍👦‍👦", "divergent": "👨‍👨‍👦‍👦"}}
+{"term": "两个爸爸和两个女儿", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👨‍👨‍👧‍👧", "divergent": "👨‍👨‍👧‍👧"}}
+{"term": "两个爸爸和儿子", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👨‍👨‍👦", "divergent": "👨‍👨‍👦"}}
+{"term": "两个爸爸和女儿", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👨‍👨‍👧", "divergent": "👨‍👨‍👧"}}
+{"term": "两个男人接吻", "before": {"strict": "👨 💏", "general": "👬 💏", "divergent": "👬 💏"}, "after": {"strict": "👨 💏", "general": "👨‍❤️‍💋‍👨", "divergent": "👨‍❤️‍💋‍👨"}}
+{"term": "中国澳门", "before": {"strict": "🇨🇳 🚪", "general": "🇨🇳 🚪", "divergent": "🇨🇳 🚪"}, "after": {"strict": "🇨🇳 🚪", "general": "🇲🇴", "divergent": "🇲🇴"}}
+{"term": "中国香港", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🇭🇰", "divergent": "🇭🇰"}}
+{"term": "云里的脸", "before": {"strict": "☁️", "general": "☁️", "divergent": "☁️"}, "after": {"strict": "☁️", "general": "😶‍🌫️", "divergent": "😶‍🌫️"}}
+{"term": "云雾脸", "before": {"strict": "☁️ 🌫️", "general": "☁️ 🌫️", "divergent": "☁️ 🌫️"}, "after": {"strict": "☁️ 🌫️", "general": "😶‍🌫️", "divergent": "😶‍🌫️"}}
+{"term": "井号键", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "#️⃣", "divergent": "#️⃣"}}
+{"term": "井字键", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "#️⃣", "divergent": "#️⃣"}}
+{"term": "交叉手指", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🤞", "divergent": "🤞"}}
+{"term": "亲亲", "before": {"strict": "", "general": "😘 💋", "divergent": "😘 💋"}, "after": {"strict": "", "general": "😗 😘", "divergent": "😗 😘"}}
+{"term": "亲吻", "before": {"strict": "💏 💋", "general": "💏 💋", "divergent": "💏 💋"}, "after": {"strict": "😗 💏", "general": "😗 💏", "divergent": "😗 💏"}}
+{"term": "优惠标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🉐", "divergent": "🉐"}}
+{"term": "伪装脸", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🥸", "divergent": "🥸"}}
+{"term": "信号强度", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "📶", "divergent": "📶"}}
+{"term": "信号格", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "📶", "divergent": "📶"}}
+{"term": "信息图标", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "ℹ️", "divergent": "ℹ️"}}
+{"term": "信息标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "ℹ️", "divergent": "ℹ️"}}
+{"term": "倒拇指", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👎", "divergent": "👎"}}
+{"term": "倒放", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "◀️", "divergent": "◀️"}}
+{"term": "假胡子眼镜脸", "before": {"strict": "👓", "general": "👓", "divergent": "👓"}, "after": {"strict": "👓", "general": "🥸", "divergent": "🥸"}}
+{"term": "停车场标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🅿️", "divergent": "🅿️"}}
+{"term": "停车标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🅿️", "divergent": "🅿️"}}
+{"term": "光头女", "before": {"strict": "🦲", "general": "🦲", "divergent": "🦲"}, "after": {"strict": "🦲", "general": "👩‍🦲", "divergent": "👩‍🦲"}}
+{"term": "光头女人", "before": {"strict": "🦲 👩", "general": "🦲 👩", "divergent": "🦲 👩"}, "after": {"strict": "🦲 👩", "general": "👩‍🦲", "divergent": "👩‍🦲"}}
+{"term": "光头成人", "before": {"strict": "🦲", "general": "🦲", "divergent": "🦲"}, "after": {"strict": "🦲", "general": "🧑‍🦲", "divergent": "🧑‍🦲"}}
+{"term": "光头男", "before": {"strict": "🦲", "general": "🦲", "divergent": "🦲"}, "after": {"strict": "🦲", "general": "👨‍🦲", "divergent": "👨‍🦲"}}
+{"term": "光头男人", "before": {"strict": "🦲 👨", "general": "🦲 👨", "divergent": "🦲 👨"}, "after": {"strict": "🦲 👨", "general": "👨‍🦲", "divergent": "👨‍🦲"}}
+{"term": "光头的人", "before": {"strict": "🦲", "general": "🦲", "divergent": "🦲"}, "after": {"strict": "🦲", "general": "🧑‍🦲", "divergent": "🧑‍🦲"}}
+{"term": "光明节烛台", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🕎", "divergent": "🕎"}}
+{"term": "免费标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈚", "divergent": "🈚"}}
+{"term": "兔耳舞者", "before": {"strict": "🐇 💃", "general": "🐇 💃", "divergent": "🐇 💃"}, "after": {"strict": "🐇 💃", "general": "👯", "divergent": "👯"}}
+{"term": "关闭且旗子放下的信箱", "before": {"strict": "📫 📬", "general": "📫 📬", "divergent": "📫 📬"}, "after": {"strict": "📫 📬", "general": "📪", "divergent": "📪"}}
+{"term": "关闭铃声", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🔕", "divergent": "🔕"}}
+{"term": "写着SOON的箭头", "before": {"strict": "✍️ 🔛", "general": "✍️ 🔛", "divergent": "✍️ 🔛"}, "after": {"strict": "✍️ 🔛", "general": "🔜", "divergent": "🔜"}}
+{"term": "刚果共和国", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🇨🇬", "divergent": "🇨🇬"}}
+{"term": "刚果布", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🇨🇬", "divergent": "🇨🇬"}}
+{"term": "刚果布旗", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🇨🇬", "divergent": "🇨🇬"}}
+{"term": "刚果民主共和国", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🇨🇩", "divergent": "🇨🇩"}}
+{"term": "刚果金", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🇨🇩", "divergent": "🇨🇩"}}
+{"term": "刚果金旗", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🇨🇩", "divergent": "🇨🇩"}}
+{"term": "割字标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈹", "divergent": "🈹"}}
+{"term": "包扎的心", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "❤️‍🩹", "divergent": "❤️‍🩹"}}
+{"term": "十", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🔟", "divergent": "🔟"}}
+{"term": "十八禁", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🔞", "divergent": "🔞"}}
+{"term": "单手托起的人", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "💁", "divergent": "💁"}}
+{"term": "单手摊开", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "💁", "divergent": "💁"}}
+{"term": "单片眼镜脸", "before": {"strict": "👓", "general": "👓", "divergent": "👓"}, "after": {"strict": "👓", "general": "🧐", "divergent": "🧐"}}
+{"term": "印度教寺庙", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🛕", "divergent": "🛕"}}
+{"term": "卷发女", "before": {"strict": "🦱", "general": "🦱", "divergent": "🦱"}, "after": {"strict": "🦱", "general": "👩‍🦱", "divergent": "👩‍🦱"}}
+{"term": "卷发女人", "before": {"strict": "🦱 👩", "general": "🦱 👩", "divergent": "🦱 👩"}, "after": {"strict": "🦱 👩", "general": "👩‍🦱", "divergent": "👩‍🦱"}}
+{"term": "卷发成人", "before": {"strict": "🦱", "general": "🦱", "divergent": "🦱"}, "after": {"strict": "🦱", "general": "🧑‍🦱", "divergent": "🧑‍🦱"}}
+{"term": "卷发男", "before": {"strict": "🦱", "general": "🦱", "divergent": "🦱"}, "after": {"strict": "🦱", "general": "👨‍🦱", "divergent": "👨‍🦱"}}
+{"term": "卷发男人", "before": {"strict": "🦱 👨", "general": "🦱 👨", "divergent": "🦱 👨"}, "after": {"strict": "🦱 👨", "general": "👨‍🦱", "divergent": "👨‍🦱"}}
+{"term": "卷发的人", "before": {"strict": "🦱", "general": "🦱", "divergent": "🦱"}, "after": {"strict": "🦱", "general": "🧑‍🦱", "divergent": "🧑‍🦱"}}
+{"term": "叉眼脸", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "😵", "divergent": "😵"}}
+{"term": "双手举过头顶", "before": {"strict": "👐 🙌", "general": "👐 🙌", "divergent": "👐 🙌"}, "after": {"strict": "👐 🙌", "general": "🙆", "divergent": "🙆"}}
+{"term": "双手捧起", "before": {"strict": "👐 🙌", "general": "👐 🙌", "divergent": "👐 🙌"}, "after": {"strict": "👐 🙌", "general": "🤲", "divergent": "🤲"}}
+{"term": "双手掌心向上", "before": {"strict": "👐 🙌", "general": "👐 🙌", "divergent": "👐 🙌"}, "after": {"strict": "👐 🙌", "general": "🤲", "divergent": "🤲"}}
+{"term": "双臂交叉", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🙅", "divergent": "🙅"}}
+{"term": "双臂画圆", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🙆", "divergent": "🙆"}}
+{"term": "反向播放", "before": {"strict": "▶️", "general": "▶️", "divergent": "▶️"}, "after": {"strict": "▶️", "general": "◀️", "divergent": "◀️"}}
+{"term": "取行李", "before": {"strict": "🧳", "general": "🧳", "divergent": "🧳"}, "after": {"strict": "🧳", "general": "🛄", "divergent": "🛄"}}
+{"term": "变大的爱心", "before": {"strict": "🤍 🤎", "general": "🤍 🤎", "divergent": "🤍 🤎"}, "after": {"strict": "🤍 🤎", "general": "💗", "divergent": "💗"}}
+{"term": "可字标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🉑", "divergent": "🉑"}}
+{"term": "右弯箭头", "before": {"strict": "🔛 ➡", "general": "🔛 ➡", "divergent": "🔛 ➡"}, "after": {"strict": "🔛 ➡", "general": "↪️", "divergent": "↪️"}}
+{"term": "吃惊的脸", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "😦", "divergent": "😦"}}
+{"term": "合字标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈴", "divergent": "🈴"}}
+{"term": "合格标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈴", "divergent": "🈴"}}
+{"term": "向上标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🆙", "divergent": "🆙"}}
+{"term": "向右拐弯的箭头", "before": {"strict": "🔛 ➡", "general": "🔛 ➡", "divergent": "🔛 ➡"}, "after": {"strict": "🔛 ➡", "general": "↪️", "divergent": "↪️"}}
+{"term": "向右走的人", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🚶‍➡️", "divergent": "🚶‍➡️"}}
+{"term": "向右走的女人", "before": {"strict": "👩", "general": "👩", "divergent": "👩"}, "after": {"strict": "👩", "general": "🚶‍♀️‍➡️", "divergent": "🚶‍♀️‍➡️"}}
+{"term": "向右走的男人", "before": {"strict": "👨", "general": "👨", "divergent": "👨"}, "after": {"strict": "👨", "general": "🚶‍♂️‍➡️", "divergent": "🚶‍♂️‍➡️"}}
+{"term": "向右走路", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🚶‍➡️", "divergent": "🚶‍➡️"}}
+{"term": "向右跑步", "before": {"strict": "🏃", "general": "🏃", "divergent": "🏃"}, "after": {"strict": "🏃", "general": "🏃‍➡️", "divergent": "🏃‍➡️"}}
+{"term": "向右跑的人", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🏃‍➡️", "divergent": "🏃‍➡️"}}
+{"term": "向右跑的女人", "before": {"strict": "👩", "general": "👩", "divergent": "👩"}, "after": {"strict": "👩", "general": "🏃‍♀️‍➡️", "divergent": "🏃‍♀️‍➡️"}}
+{"term": "向右跑的男人", "before": {"strict": "👨", "general": "👨", "divergent": "👨"}, "after": {"strict": "👨", "general": "🏃‍♂️‍➡️", "divergent": "🏃‍♂️‍➡️"}}
+{"term": "向左拐弯的箭头", "before": {"strict": "🔛 ➡", "general": "🔛 ➡", "divergent": "🔛 ➡"}, "after": {"strict": "🔛 ➡", "general": "↩️", "divergent": "↩️"}}
+{"term": "咧嘴笑的猫", "before": {"strict": "😆 🐈", "general": "😆 🐈", "divergent": "😆 🐈"}, "after": {"strict": "😆 🐈", "general": "😺", "divergent": "😺"}}
+{"term": "哭泣猫", "before": {"strict": "🐈", "general": "🐈", "divergent": "🐈"}, "after": {"strict": "🐈", "general": "😿", "divergent": "😿"}}
+{"term": "喜剧悲剧面具", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🎭", "divergent": "🎭"}}
+{"term": "圆圈M", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "Ⓜ️", "divergent": "Ⓜ️"}}
+{"term": "圣诞装扮的人", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🧑‍🎄", "divergent": "🧑‍🎄"}}
+{"term": "坏笑恶魔", "before": {"strict": "👿", "general": "👿", "divergent": "👿"}, "after": {"strict": "👿", "general": "😈", "divergent": "😈"}}
+{"term": "坏笑猫", "before": {"strict": "🐈", "general": "🐈", "divergent": "🐈"}, "after": {"strict": "🐈", "general": "😼", "divergent": "😼"}}
+{"term": "垃圾入桶", "before": {"strict": "🪣", "general": "🪣", "divergent": "🪣"}, "after": {"strict": "🪣", "general": "🚮", "divergent": "🚮"}}
+{"term": "城市夜景", "before": {"strict": "🏙 🌆", "general": "🏙 🌆", "divergent": "🏙 🌆"}, "after": {"strict": "🏙 🌆", "general": "🌃", "divergent": "🌃"}}
+{"term": "基林群岛", "before": {"strict": "🏝️", "general": "🏝️", "divergent": "🏝️"}, "after": {"strict": "🏝️", "general": "🇨🇨", "divergent": "🇨🇨"}}
+{"term": "大白方块", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "⬜", "divergent": "⬜"}}
+{"term": "大雾", "before": {"strict": "🌫️", "general": "🌫️", "divergent": "🌫️"}, "after": {"strict": "🌫️", "general": "🌁", "divergent": "🌁"}}
+{"term": "大黑方块", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "⬛", "divergent": "⬛"}}
+{"term": "天使笑脸", "before": {"strict": "👼 😀", "general": "👼 😀", "divergent": "👼 😀"}, "after": {"strict": "👼 😀", "general": "😇", "divergent": "😇"}}
+{"term": "天狗面具", "before": {"strict": "🐕", "general": "🐕", "divergent": "🐕"}, "after": {"strict": "🐕", "general": "👺", "divergent": "👺"}}
+{"term": "太阳公公", "before": {"strict": "☀️", "general": "☀️", "divergent": "☀️"}, "after": {"strict": "☀️", "general": "🌞", "divergent": "🌞"}}
+{"term": "太阳笑脸", "before": {"strict": "☀️ 😀", "general": "☀️ 😀", "divergent": "☀️ 😀"}, "after": {"strict": "☀️ 😀", "general": "🌞", "divergent": "🌞"}}
+{"term": "太阳雨", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🌦️", "divergent": "🌦️"}}
+{"term": "失望又松口气", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "😥", "divergent": "😥"}}
+{"term": "女人下跪", "before": {"strict": "👩 🧎", "general": "👩 🧎", "divergent": "👩 🧎"}, "after": {"strict": "👩 🧎", "general": "🧎‍♀️", "divergent": "🧎‍♀️"}}
+{"term": "女人做拒绝手势", "before": {"strict": "👩", "general": "👩", "divergent": "👩"}, "after": {"strict": "👩", "general": "🙅‍♀️", "divergent": "🙅‍♀️"}}
+{"term": "女人喂奶", "before": {"strict": "👩 🤱", "general": "👩 🤱", "divergent": "👩 🤱"}, "after": {"strict": "👩 🤱", "general": "👩‍🍼", "divergent": "👩‍🍼"}}
+{"term": "女人抛球杂耍", "before": {"strict": "👩 🤹", "general": "👩 🤹", "divergent": "👩 🤹"}, "after": {"strict": "👩 🤹", "general": "🤹‍♀️", "divergent": "🤹‍♀️"}}
+{"term": "女人攀岩", "before": {"strict": "👩 🧗", "general": "👩 🧗", "divergent": "👩 🧗"}, "after": {"strict": "👩 🧗", "general": "🧗‍♀️", "divergent": "🧗‍♀️"}}
+{"term": "女人站立", "before": {"strict": "👩 🧍", "general": "👩 🧍", "divergent": "👩 🧍"}, "after": {"strict": "👩 🧍", "general": "🧍‍♀️", "divergent": "🧍‍♀️"}}
+{"term": "女人蒸桑拿", "before": {"strict": "👩 🧖", "general": "👩 🧖", "divergent": "👩 🧖"}, "after": {"strict": "👩 🧖", "general": "🧖‍♀️", "divergent": "🧖‍♀️"}}
+{"term": "女农民", "before": {"strict": "🧑‍🌾", "general": "🧑‍🌾", "divergent": "🧑‍🌾"}, "after": {"strict": "🧑‍🌾", "general": "👩‍🌾", "divergent": "👩‍🌾"}}
+{"term": "女反派", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🦹‍♀️", "divergent": "🦹‍♀️"}}
+{"term": "女女情侣", "before": {"strict": "💑", "general": "💑", "divergent": "💑"}, "after": {"strict": "💑", "general": "👩‍❤️‍👩", "divergent": "👩‍❤️‍👩"}}
+{"term": "女性情侣", "before": {"strict": "👩 💑", "general": "👩 💑", "divergent": "👩 💑"}, "after": {"strict": "👩 💑", "general": "👩‍❤️‍👩", "divergent": "👩‍❤️‍👩"}}
+{"term": "女性情侣接吻", "before": {"strict": "👩 💑 💏", "general": "👩 💑 💏", "divergent": "👩 💑 💏"}, "after": {"strict": "👩 💑 💏", "general": "👩‍❤️‍💋‍👩", "divergent": "👩‍❤️‍💋‍👩"}}
+{"term": "女性灯神", "before": {"strict": "👩 🧞", "general": "👩 🧞", "divergent": "👩 🧞"}, "after": {"strict": "👩 🧞", "general": "🧞‍♀️", "divergent": "🧞‍♀️"}}
+{"term": "女性精灵", "before": {"strict": "👩 🧚", "general": "👩 🧚", "divergent": "👩 🧚"}, "after": {"strict": "👩 🧚", "general": "🧝‍♀️", "divergent": "🧝‍♀️"}}
+{"term": "女性超级反派", "before": {"strict": "👩", "general": "👩", "divergent": "👩"}, "after": {"strict": "👩", "general": "🦹‍♀️", "divergent": "🦹‍♀️"}}
+{"term": "女攀岩者", "before": {"strict": "🧗", "general": "🧗", "divergent": "🧗"}, "after": {"strict": "🧗", "general": "🧗‍♀️", "divergent": "🧗‍♀️"}}
+{"term": "女杂耍演员", "before": {"strict": "🤹", "general": "🤹", "divergent": "🤹"}, "after": {"strict": "🤹", "general": "🤹‍♀️", "divergent": "🤹‍♀️"}}
+{"term": "女灯神", "before": {"strict": "🧞", "general": "🧞", "divergent": "🧞"}, "after": {"strict": "🧞", "general": "🧞‍♀️", "divergent": "🧞‍♀️"}}
+{"term": "女生做同意手势", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🙆‍♀️", "divergent": "🙆‍♀️"}}
+{"term": "女生双手举过头顶", "before": {"strict": "👐 🙌", "general": "👐 🙌", "divergent": "👐 🙌"}, "after": {"strict": "👐 🙌", "general": "🙆‍♀️", "divergent": "🙆‍♀️"}}
+{"term": "女生向右走", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🚶‍♀️‍➡️", "divergent": "🚶‍♀️‍➡️"}}
+{"term": "女生向右跑", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🏃‍♀️‍➡️", "divergent": "🏃‍♀️‍➡️"}}
+{"term": "女生打手球", "before": {"strict": "🤾", "general": "🤾", "divergent": "🤾"}, "after": {"strict": "🤾", "general": "🤾‍♀️", "divergent": "🤾‍♀️"}}
+{"term": "女生打水球", "before": {"strict": "🤽", "general": "🤽", "divergent": "🤽"}, "after": {"strict": "🤽", "general": "🤽‍♀️", "divergent": "🤽‍♀️"}}
+{"term": "女生托手", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "💁‍♀️", "divergent": "💁‍♀️"}}
+{"term": "女生拒绝", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🙅‍♀️", "divergent": "🙅‍♀️"}}
+{"term": "女生撅嘴", "before": {"strict": "🙎", "general": "🙎", "divergent": "🙎"}, "after": {"strict": "🙎", "general": "🙎‍♀️", "divergent": "🙎‍♀️"}}
+{"term": "女生皱眉", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🙍‍♀️", "divergent": "🙍‍♀️"}}
+{"term": "女精灵", "before": {"strict": "🧚‍♀️", "general": "🧚‍♀️", "divergent": "🧚‍♀️"}, "after": {"strict": "🧚‍♀️", "general": "🧝‍♀️ 🧚‍♀️", "divergent": "🧝‍♀️ 🧚‍♀️"}}
+{"term": "奶奶", "before": {"strict": "", "general": "🧓", "divergent": "🧓"}, "after": {"strict": "", "general": "👵", "divergent": "👵"}}
+{"term": "奶瓶喂养", "before": {"strict": "🍼", "general": "🍼", "divergent": "🍼"}, "after": {"strict": "🍼", "general": "🧑‍🍼", "divergent": "🧑‍🍼"}}
+{"term": "奸笑猫", "before": {"strict": "🐈", "general": "🐈", "divergent": "🐈"}, "after": {"strict": "🐈", "general": "😼", "divergent": "😼"}}
+{"term": "妈妈和一儿一女", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👩‍👧‍👦", "divergent": "👩‍👧‍👦"}}
+{"term": "妈妈和两个儿子", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👩‍👦‍👦", "divergent": "👩‍👦‍👦"}}
+{"term": "妈妈和两个女儿", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👩‍👧‍👧", "divergent": "👩‍👧‍👧"}}
+{"term": "妈妈和儿子", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👩‍👦", "divergent": "👩‍👦"}}
+{"term": "妈妈和女儿", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👩‍👧", "divergent": "👩‍👧"}}
+{"term": "威尔士", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🏴󠁧󠁢󠁷󠁬󠁳󠁿", "divergent": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"}}
+{"term": "威尔士旗", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🏴󠁧󠁢󠁷󠁬󠁳󠁿", "divergent": "🏴󠁧󠁢󠁷󠁬󠁳󠁿"}}
+{"term": "婴儿标志", "before": {"strict": "👶", "general": "👶", "divergent": "👶"}, "after": {"strict": "👶", "general": "🚼", "divergent": "🚼"}}
+{"term": "存包处", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🛅", "divergent": "🛅"}}
+{"term": "害羞的笑脸", "before": {"strict": "😀 😃", "general": "😀 😃", "divergent": "😀 😃"}, "after": {"strict": "😀 😃", "general": "😊", "divergent": "😊"}}
+{"term": "小摩托", "before": {"strict": "🏍", "general": "🏍", "divergent": "🏍"}, "after": {"strict": "🏍", "general": "🛵", "divergent": "🛵"}}
+{"term": "尖叫猫", "before": {"strict": "😱 🐈", "general": "😱 🐈", "divergent": "😱 🐈"}, "after": {"strict": "😱 🐈", "general": "🙀", "divergent": "🙀"}}
+{"term": "左弯箭头", "before": {"strict": "🔛 ➡", "general": "🔛 ➡", "divergent": "🔛 ➡"}, "after": {"strict": "🔛 ➡", "general": "↩️", "divergent": "↩️"}}
+{"term": "差评", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👎", "divergent": "👎"}}
+{"term": "布丁", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🍮", "divergent": "🍮"}}
+{"term": "带光环的笑脸", "before": {"strict": "😀 😃", "general": "😀 😃", "divergent": "😀 😃"}, "after": {"strict": "😀 😃", "general": "😇", "divergent": "😇"}}
+{"term": "带勺的碗", "before": {"strict": "🥄", "general": "🥄", "divergent": "🥄"}, "after": {"strict": "🥄", "general": "🥣", "divergent": "🥣"}}
+{"term": "带圈的M", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "Ⓜ️", "divergent": "Ⓜ️"}}
+{"term": "带日元符号的上涨图", "before": {"strict": "💴", "general": "💴", "divergent": "💴"}, "after": {"strict": "💴", "general": "💹", "divergent": "💹"}}
+{"term": "带眼睛的对话框", "before": {"strict": "👁️ 🗨", "general": "👁️ 🗨", "divergent": "👁️ 🗨"}, "after": {"strict": "👁️ 🗨", "general": "👁️‍🗨️", "divergent": "👁️‍🗨️"}}
+{"term": "带笔的锁", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🔏", "divergent": "🔏"}}
+{"term": "带箭头的手机", "before": {"strict": "🔛 📱", "general": "🔛 📱", "divergent": "🔛 📱"}, "after": {"strict": "🔛 📱", "general": "📲", "divergent": "📲"}}
+{"term": "带雪花的雪人", "before": {"strict": "❄️ ⛄", "general": "❄️ ⛄", "divergent": "❄️ ⛄"}, "after": {"strict": "❄️ ⛄", "general": "☃️", "divergent": "☃️"}}
+{"term": "带骨肉", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🍖", "divergent": "🍖"}}
+{"term": "平底锅里的食物", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🥘", "divergent": "🥘"}}
+{"term": "庆祝彩带", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🎉", "divergent": "🎉"}}
+{"term": "废弃房屋", "before": {"strict": "🏠 🏘️", "general": "🏠 🏘️", "divergent": "🏠 🏘️"}, "after": {"strict": "🏠 🏘️", "general": "🏚️", "divergent": "🏚️"}}
+{"term": "张嘴惊讶的脸", "before": {"strict": "👄 😲", "general": "👄 😲", "divergent": "👄 😲"}, "after": {"strict": "👄 😲", "general": "😯", "divergent": "😯"}}
+{"term": "张嘴皱眉", "before": {"strict": "👄", "general": "👄", "divergent": "👄"}, "after": {"strict": "👄", "general": "😦", "divergent": "😦"}}
+{"term": "彩屑球", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🎊", "divergent": "🎊"}}
+{"term": "彩纸球", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🎊", "divergent": "🎊"}}
+{"term": "影碟", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "📀", "divergent": "📀"}}
+{"term": "得字标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🉐", "divergent": "🉐"}}
+{"term": "微微皱眉", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🙁", "divergent": "🙁"}}
+{"term": "微笑", "before": {"strict": "☺️ 😊", "general": "☺️ 😊", "divergent": "☺️ 😊"}, "after": {"strict": "☺️ 😊", "general": "🙂 ☺️", "divergent": "🙂 ☺️"}}
+{"term": "微笑猫", "before": {"strict": "🐈", "general": "🐈", "divergent": "🐈"}, "after": {"strict": "🐈", "general": "😸", "divergent": "😸"}}
+{"term": "微笑脸", "before": {"strict": "😀 😃", "general": "😀 😃", "divergent": "😀 😃"}, "after": {"strict": "😀 😃", "general": "🙂", "divergent": "🙂"}}
+{"term": "心形图案", "before": {"strict": "🤍 🤎", "general": "🤍 🤎", "divergent": "🤍 🤎"}, "after": {"strict": "🤍 🤎", "general": "💟", "divergent": "💟"}}
+{"term": "怒气", "before": {"strict": "", "general": "😠 🗯", "divergent": "😠 🗯"}, "after": {"strict": "", "general": "💢 😠", "divergent": "💢 😠"}}
+{"term": "思考气泡", "before": {"strict": "🫧", "general": "🫧", "divergent": "🫧"}, "after": {"strict": "🫧", "general": "💭", "divergent": "💭"}}
+{"term": "恶魔笑脸", "before": {"strict": "👿 😀", "general": "👿 😀", "divergent": "👿 😀"}, "after": {"strict": "👿 😀", "general": "😈", "divergent": "😈"}}
+{"term": "惊讶张嘴", "before": {"strict": "👄", "general": "👄", "divergent": "👄"}, "after": {"strict": "👄", "general": "😯", "divergent": "😯"}}
+{"term": "想法气泡", "before": {"strict": "🫧", "general": "🫧", "divergent": "🫧"}, "after": {"strict": "🫧", "general": "💭", "divergent": "💭"}}
+{"term": "戏剧面具", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🎭", "divergent": "🎭"}}
+{"term": "戴兔耳的人", "before": {"strict": "🐇 🐰", "general": "🐇 🐰", "divergent": "🐇 🐰"}, "after": {"strict": "🐇 🐰", "general": "👯", "divergent": "👯"}}
+{"term": "戴兔耳的男人", "before": {"strict": "🐇 👨", "general": "🐇 👨", "divergent": "🐇 👨"}, "after": {"strict": "🐇 👨", "general": "👯‍♂️", "divergent": "👯‍♂️"}}
+{"term": "戴单片眼镜的脸", "before": {"strict": "👓", "general": "👓", "divergent": "👓"}, "after": {"strict": "👓", "general": "🧐", "divergent": "🧐"}}
+{"term": "戴圣诞帽的人", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🧑‍🎄", "divergent": "🧑‍🎄"}}
+{"term": "戴牛仔帽的脸", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🤠", "divergent": "🤠"}}
+{"term": "手心向上", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🫴", "divergent": "🫴"}}
+{"term": "手心向下", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🫳", "divergent": "🫳"}}
+{"term": "手指交叉", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🤞", "divergent": "🤞"}}
+{"term": "手机信号", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "📶", "divergent": "📶"}}
+{"term": "手机来电", "before": {"strict": "📱", "general": "📱", "divergent": "📱"}, "after": {"strict": "📱", "general": "📲", "divergent": "📲"}}
+{"term": "打开且旗子放下的信箱", "before": {"strict": "📫 📬", "general": "📫 📬", "divergent": "📫 📬"}, "after": {"strict": "📫 📬", "general": "📭", "divergent": "📭"}}
+{"term": "打开的书", "before": {"strict": "📚", "general": "📚", "divergent": "📚"}, "after": {"strict": "📚", "general": "📖", "divergent": "📖"}}
+{"term": "打折标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈹", "divergent": "🈹"}}
+{"term": "打高尔夫", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🏌️", "divergent": "🏌️"}}
+{"term": "扔垃圾标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🚮", "divergent": "🚮"}}
+{"term": "托手的女人", "before": {"strict": "👩", "general": "👩", "divergent": "👩"}, "after": {"strict": "👩", "general": "💁‍♀️", "divergent": "💁‍♀️"}}
+{"term": "托手的男人", "before": {"strict": "👨", "general": "👨", "divergent": "👨"}, "after": {"strict": "👨", "general": "💁‍♂️", "divergent": "💁‍♂️"}}
+{"term": "扶桑花", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🌺", "divergent": "🌺"}}
+{"term": "拒绝手势", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🙅", "divergent": "🙅"}}
+{"term": "指向你", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🫵", "divergent": "🫵"}}
+{"term": "指字标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈯", "divergent": "🈯"}}
+{"term": "指着你", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🫵", "divergent": "🫵"}}
+{"term": "捂嘴", "before": {"strict": "🙊", "general": "🙊", "divergent": "🙊"}, "after": {"strict": "🙊", "general": "🤭 🙊", "divergent": "🤭 🙊"}}
+{"term": "捂嘴笑", "before": {"strict": "🙊", "general": "🙊", "divergent": "🙊"}, "after": {"strict": "🙊", "general": "🤭", "divergent": "🤭"}}
+{"term": "捂眼猴", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🙈", "divergent": "🙈"}}
+{"term": "捂耳猴", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🙉", "divergent": "🙉"}}
+{"term": "掌心向上", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🫴", "divergent": "🫴"}}
+{"term": "掌心向下", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🫳", "divergent": "🫳"}}
+{"term": "搞怪脸", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🤪", "divergent": "🤪"}}
+{"term": "摇杆", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🕹️", "divergent": "🕹️"}}
+{"term": "撅嘴的女人", "before": {"strict": "🙎 👩", "general": "🙎 👩", "divergent": "🙎 👩"}, "after": {"strict": "🙎 👩", "general": "🙎‍♀️", "divergent": "🙎‍♀️"}}
+{"term": "撅嘴的男人", "before": {"strict": "🙎 👨", "general": "🙎 👨", "divergent": "🙎 👨"}, "after": {"strict": "🙎 👨", "general": "🙎‍♂️", "divergent": "🙎‍♂️"}}
+{"term": "播放暂停", "before": {"strict": "▶️", "general": "▶️", "divergent": "▶️"}, "after": {"strict": "▶️", "general": "⏯️", "divergent": "⏯️"}}
+{"term": "播放暂停按钮", "before": {"strict": "▶️ ⏸️", "general": "▶️ ⏸️", "divergent": "▶️ ⏸️"}, "after": {"strict": "▶️ ⏸️", "general": "⏯️", "divergent": "⏯️"}}
+{"term": "收费标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈶", "divergent": "🈶"}}
+{"term": "放大的心", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "💗", "divergent": "💗"}}
+{"term": "放射性标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "☢️", "divergent": "☢️"}}
+{"term": "数字十", "before": {"strict": "🔢", "general": "🔢", "divergent": "🔢"}, "after": {"strict": "🔢", "general": "🔟", "divergent": "🔟"}}
+{"term": "数字零", "before": {"strict": "🔢", "general": "🔢", "divergent": "🔢"}, "after": {"strict": "🔢", "general": "0️⃣", "divergent": "0️⃣"}}
+{"term": "新手驾驶标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🔰", "divergent": "🔰"}}
+{"term": "新月笑脸", "before": {"strict": "🌑 😀", "general": "🌑 😀", "divergent": "🌑 😀"}, "after": {"strict": "🌑 😀", "general": "🌚", "divergent": "🌚"}}
+{"term": "新款标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🆕", "divergent": "🆕"}}
+{"term": "旋转爱心", "before": {"strict": "🤍 🤎", "general": "🤍 🤎", "divergent": "🤍 🤎"}, "after": {"strict": "🤍 🤎", "general": "💞", "divergent": "💞"}}
+{"term": "无字标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈚", "divergent": "🈚"}}
+{"term": "无线信号", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🛜", "divergent": "🛜"}}
+{"term": "无线网络", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🛜", "divergent": "🛜"}}
+{"term": "无障碍标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "♿", "divergent": "♿"}}
+{"term": "日元上涨图", "before": {"strict": "💴", "general": "💴", "divergent": "💴"}, "after": {"strict": "💴", "general": "💹", "divergent": "💹"}}
+{"term": "日文月费标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈷️", "divergent": "🈷️"}}
+{"term": "日文这里按钮", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈁", "divergent": "🈁"}}
+{"term": "日本新手标志", "before": {"strict": "🇯🇵", "general": "🇯🇵", "divergent": "🇯🇵"}, "after": {"strict": "🇯🇵", "general": "🔰", "divergent": "🔰"}}
+{"term": "星号键", "before": {"strict": "✳", "general": "✳", "divergent": "✳"}, "after": {"strict": "✳", "general": "*️⃣", "divergent": "*️⃣"}}
+{"term": "星星眼", "before": {"strict": "⭐ 🌟", "general": "⭐ 🌟", "divergent": "⭐ 🌟"}, "after": {"strict": "⭐ 🌟", "general": "🤩", "divergent": "🤩"}}
+{"term": "星空夜景", "before": {"strict": "🌌", "general": "🌌", "divergent": "🌌"}, "after": {"strict": "🌌", "general": "🌃", "divergent": "🌃"}}
+{"term": "星键", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "*️⃣", "divergent": "*️⃣"}}
+{"term": "显示亚洲和澳洲的地球", "before": {"strict": "🌐 🌎", "general": "🌐 🌎", "divergent": "🌐 🌎"}, "after": {"strict": "🌐 🌎", "general": "🌏", "divergent": "🌏"}}
+{"term": "显示欧洲和非洲的地球", "before": {"strict": "🌐 🌎", "general": "🌐 🌎", "divergent": "🌐 🌎"}, "after": {"strict": "🌐 🌎", "general": "🌍", "divergent": "🌍"}}
+{"term": "晕乎乎", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🥴", "divergent": "🥴"}}
+{"term": "晕倒脸", "before": {"strict": "🙃", "general": "🙃", "divergent": "🙃"}, "after": {"strict": "🙃", "general": "😵", "divergent": "😵"}}
+{"term": "晴雨", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🌦️", "divergent": "🌦️"}}
+{"term": "月亮笑脸", "before": {"strict": "🌙 😀", "general": "🌙 😀", "divergent": "🌙 😀"}, "after": {"strict": "🌙 😀", "general": "🌝", "divergent": "🌝"}}
+{"term": "月字标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈷️", "divergent": "🈷️"}}
+{"term": "有字标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈶", "divergent": "🈶"}}
+{"term": "有胡子的女人", "before": {"strict": "👩", "general": "👩", "divergent": "👩"}, "after": {"strict": "👩", "general": "🧔‍♀️", "divergent": "🧔‍♀️"}}
+{"term": "有胡子的男人", "before": {"strict": "👨", "general": "👨", "divergent": "👨"}, "after": {"strict": "👨", "general": "🧔‍♂️", "divergent": "🧔‍♂️"}}
+{"term": "朝右跪着的人", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🧎‍➡️", "divergent": "🧎‍➡️"}}
+{"term": "朝右跪着的女人", "before": {"strict": "👩", "general": "👩", "divergent": "👩"}, "after": {"strict": "👩", "general": "🧎‍♀️‍➡️", "divergent": "🧎‍♀️‍➡️"}}
+{"term": "朝右跪着的男人", "before": {"strict": "👨", "general": "👨", "divergent": "👨"}, "after": {"strict": "👨", "general": "🧎‍♂️‍➡️", "divergent": "🧎‍♂️‍➡️"}}
+{"term": "未成年人禁止", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🔞", "divergent": "🔞"}}
+{"term": "机动三轮车", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🛺", "divergent": "🛺"}}
+{"term": "正在漏沙的沙漏", "before": {"strict": "⌛", "general": "⌛", "divergent": "⌛"}, "after": {"strict": "⌛", "general": "⏳", "divergent": "⏳"}}
+{"term": "武术服", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🥋", "divergent": "🥋"}}
+{"term": "母女", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👩‍👧", "divergent": "👩‍👧"}}
+{"term": "母婴设施标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🚼", "divergent": "🚼"}}
+{"term": "母子", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👩‍👦", "divergent": "👩‍👦"}}
+{"term": "气哼哼", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "😤", "divergent": "😤"}}
+{"term": "汽车正面", "before": {"strict": "🚗 🏎", "general": "🚗 🏎", "divergent": "🚗 🏎"}, "after": {"strict": "🚗 🏎", "general": "🚘", "divergent": "🚘"}}
+{"term": "法棍", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🥖", "divergent": "🥖"}}
+{"term": "流汗的难过脸", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "😥", "divergent": "😥"}}
+{"term": "流泪猫", "before": {"strict": "🐈", "general": "🐈", "divergent": "🐈"}, "after": {"strict": "🐈", "general": "😿", "divergent": "😿"}}
+{"term": "浅蓝心", "before": {"strict": "💙", "general": "💙", "divergent": "💙"}, "after": {"strict": "💙", "general": "🩵", "divergent": "🩵"}}
+{"term": "浅锅料理", "before": {"strict": "🍲 🫕", "general": "🍲 🫕", "divergent": "🍲 🫕"}, "after": {"strict": "🍲 🫕", "general": "🥘", "divergent": "🥘"}}
+{"term": "游戏摇杆", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🕹️", "divergent": "🕹️"}}
+{"term": "滑稽脸", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🤪", "divergent": "🤪"}}
+{"term": "满员标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈵", "divergent": "🈵"}}
+{"term": "满字标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈵", "divergent": "🈵"}}
+{"term": "满月笑脸", "before": {"strict": "🌕 😀", "general": "🌕 😀", "divergent": "🌕 😀"}, "after": {"strict": "🌕 😀", "general": "🌝", "divergent": "🌝"}}
+{"term": "澳门", "before": {"strict": "🚪", "general": "🚪", "divergent": "🚪"}, "after": {"strict": "🚪", "general": "🇲🇴", "divergent": "🇲🇴"}}
+{"term": "澳门区旗", "before": {"strict": "🚪", "general": "🚪", "divergent": "🚪"}, "after": {"strict": "🚪", "general": "🇲🇴", "divergent": "🇲🇴"}}
+{"term": "火焰爱心", "before": {"strict": "🔥 🤍", "general": "🔥 🤍", "divergent": "🔥 🤍"}, "after": {"strict": "🔥 🤍", "general": "❤️‍🔥", "divergent": "❤️‍🔥"}}
+{"term": "火车车厢", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🚃", "divergent": "🚃"}}
+{"term": "灰色爱心", "before": {"strict": "🤍 🤎", "general": "🤍 🤎", "divergent": "🤍 🤎"}, "after": {"strict": "🤍 🤎", "general": "🩶", "divergent": "🩶"}}
+{"term": "烟尘", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "💨", "divergent": "💨"}}
+{"term": "热死了", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🥵", "divergent": "🥵"}}
+{"term": "热脸", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🥵", "divergent": "🥵"}}
+{"term": "焦糖布丁", "before": {"strict": "🍬 🍭", "general": "🍬 🍭", "divergent": "🍬 🍭"}, "after": {"strict": "🍬 🍭", "general": "🍮", "divergent": "🍮"}}
+{"term": "燃烧的心", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "❤️‍🔥", "divergent": "❤️‍🔥"}}
+{"term": "爆头脸", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🤯", "divergent": "🤯"}}
+{"term": "爆粗口", "before": {"strict": "👄", "general": "👄", "divergent": "👄"}, "after": {"strict": "👄", "general": "🤬", "divergent": "🤬"}}
+{"term": "爱心眼", "before": {"strict": "🤍 🤎", "general": "🤍 🤎", "divergent": "🤍 🤎"}, "after": {"strict": "🤍 🤎", "general": "😍", "divergent": "😍"}}
+{"term": "爱心眼猫", "before": {"strict": "🤍 🐈", "general": "🤍 🐈", "divergent": "🤍 🐈"}, "after": {"strict": "🤍 🐈", "general": "😻", "divergent": "😻"}}
+{"term": "爱心装饰", "before": {"strict": "🤍 🤎", "general": "🤍 🤎", "divergent": "🤍 🤎"}, "after": {"strict": "🤍 🤎", "general": "💟", "divergent": "💟"}}
+{"term": "父女", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👨‍👧", "divergent": "👨‍👧"}}
+{"term": "父子", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👨‍👦", "divergent": "👨‍👦"}}
+{"term": "父母和两个孩子", "before": {"strict": "🧒 👶", "general": "🧒 👶", "divergent": "🧒 👶"}, "after": {"strict": "🧒 👶", "general": "👨‍👩‍👧‍👦", "divergent": "👨‍👩‍👧‍👦"}}
+{"term": "父母和女孩", "before": {"strict": "👧", "general": "👧", "divergent": "👧"}, "after": {"strict": "👧", "general": "👨‍👩‍👧", "divergent": "👨‍👩‍👧"}}
+{"term": "父母和男孩", "before": {"strict": "👦", "general": "👦", "divergent": "👦"}, "after": {"strict": "👦", "general": "👨‍👩‍👦", "divergent": "👨‍👩‍👦"}}
+{"term": "爷爷", "before": {"strict": "", "general": "🧓", "divergent": "🧓"}, "after": {"strict": "", "general": "👴", "divergent": "👴"}}
+{"term": "爸爸和一儿一女", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👨‍👧‍👦", "divergent": "👨‍👧‍👦"}}
+{"term": "爸爸和两个儿子", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👨‍👦‍👦", "divergent": "👨‍👦‍👦"}}
+{"term": "爸爸和两个女儿", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👨‍👧‍👧", "divergent": "👨‍👧‍👧"}}
+{"term": "爸爸和儿子", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👨‍👦", "divergent": "👨‍👦"}}
+{"term": "爸爸和女儿", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👨‍👧", "divergent": "👨‍👧"}}
+{"term": "爸爸妈妈和一儿一女", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👨‍👩‍👧‍👦", "divergent": "👨‍👩‍👧‍👦"}}
+{"term": "爸爸妈妈和两个儿子", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👨‍👩‍👦‍👦", "divergent": "👨‍👩‍👦‍👦"}}
+{"term": "爸爸妈妈和两个女儿", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👨‍👩‍👧‍👧", "divergent": "👨‍👩‍👧‍👧"}}
+{"term": "爸爸妈妈和儿子", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👨‍👩‍👦", "divergent": "👨‍👩‍👦"}}
+{"term": "爸爸妈妈和女儿", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👨‍👩‍👧", "divergent": "👨‍👩‍👧"}}
+{"term": "版权标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "©️", "divergent": "©️"}}
+{"term": "版权符号", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "©️", "divergent": "©️"}}
+{"term": "牛仔帽笑脸", "before": {"strict": "😀 😃", "general": "😀 😃", "divergent": "😀 😃"}, "after": {"strict": "😀 😃", "general": "🤠", "divergent": "🤠"}}
+{"term": "特里斯坦达库尼亚旗", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🇹🇦", "divergent": "🇹🇦"}}
+{"term": "特里斯坦达库尼亚群岛", "before": {"strict": "🏝️", "general": "🏝️", "divergent": "🏝️"}, "after": {"strict": "🏝️", "general": "🇹🇦", "divergent": "🇹🇦"}}
+{"term": "犹太烛台", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🕎", "divergent": "🕎"}}
+{"term": "环绕的心", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "💞", "divergent": "💞"}}
+{"term": "理发店标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "💈", "divergent": "💈"}}
+{"term": "理发店灯柱", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "💈", "divergent": "💈"}}
+{"term": "琴键", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🎹", "divergent": "🎹"}}
+{"term": "生气气泡", "before": {"strict": "🫧", "general": "🫧", "divergent": "🫧"}, "after": {"strict": "🫧", "general": "🗯️", "divergent": "🗯️"}}
+{"term": "生气符号", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "💢", "divergent": "💢"}}
+{"term": "用奶瓶喂宝宝的人", "before": {"strict": "🍼 👶", "general": "🍼 👶", "divergent": "🍼 👶"}, "after": {"strict": "🍼 👶", "general": "🧑‍🍼", "divergent": "🧑‍🍼"}}
+{"term": "用奶瓶喂宝宝的女人", "before": {"strict": "🍼 👶 👩", "general": "🍼 👶 👩", "divergent": "🍼 👶 👩"}, "after": {"strict": "🍼 👶 👩", "general": "👩‍🍼", "divergent": "👩‍🍼"}}
+{"term": "用奶瓶喂宝宝的男人", "before": {"strict": "🍼 👶 👨", "general": "🍼 👶 👨", "divergent": "🍼 👶 👨"}, "after": {"strict": "🍼 👶 👨", "general": "👨‍🍼", "divergent": "👨‍🍼"}}
+{"term": "申字标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈸", "divergent": "🈸"}}
+{"term": "申请标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈸", "divergent": "🈸"}}
+{"term": "男人下跪", "before": {"strict": "👨 🧎", "general": "👨 🧎", "divergent": "👨 🧎"}, "after": {"strict": "👨 🧎", "general": "🧎‍♂️", "divergent": "🧎‍♂️"}}
+{"term": "男人做拒绝手势", "before": {"strict": "👨", "general": "👨", "divergent": "👨"}, "after": {"strict": "👨", "general": "🙅‍♂️", "divergent": "🙅‍♂️"}}
+{"term": "男人喂奶", "before": {"strict": "👨 🤱", "general": "👨 🤱", "divergent": "👨 🤱"}, "after": {"strict": "👨 🤱", "general": "👨‍🍼", "divergent": "👨‍🍼"}}
+{"term": "男人抛球杂耍", "before": {"strict": "👨 🤹", "general": "👨 🤹", "divergent": "👨 🤹"}, "after": {"strict": "👨 🤹", "general": "🤹‍♂️", "divergent": "🤹‍♂️"}}
+{"term": "男人攀岩", "before": {"strict": "👨 🧗", "general": "👨 🧗", "divergent": "👨 🧗"}, "after": {"strict": "👨 🧗", "general": "🧗‍♂️", "divergent": "🧗‍♂️"}}
+{"term": "男人站立", "before": {"strict": "👨 🧍", "general": "👨 🧍", "divergent": "👨 🧍"}, "after": {"strict": "👨 🧍", "general": "🧍‍♂️", "divergent": "🧍‍♂️"}}
+{"term": "男人蒸桑拿", "before": {"strict": "👨 🧖", "general": "👨 🧖", "divergent": "👨 🧖"}, "after": {"strict": "👨 🧖", "general": "🧖‍♂️", "divergent": "🧖‍♂️"}}
+{"term": "男仙子", "before": {"strict": "🧚", "general": "🧚", "divergent": "🧚"}, "after": {"strict": "🧚", "general": "🧚‍♂️", "divergent": "🧚‍♂️"}}
+{"term": "男兔耳舞者", "before": {"strict": "🐇 💃", "general": "🐇 💃", "divergent": "🐇 💃"}, "after": {"strict": "🐇 💃", "general": "👯‍♂️", "divergent": "👯‍♂️"}}
+{"term": "男反派", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🦹‍♂️", "divergent": "🦹‍♂️"}}
+{"term": "男女情侣", "before": {"strict": "💑", "general": "💑", "divergent": "💑"}, "after": {"strict": "💑", "general": "👩‍❤️‍👨", "divergent": "👩‍❤️‍👨"}}
+{"term": "男女接吻", "before": {"strict": "💏", "general": "💏", "divergent": "💏"}, "after": {"strict": "💏", "general": "👩‍❤️‍💋‍👨", "divergent": "👩‍❤️‍💋‍👨"}}
+{"term": "男女牵手", "before": {"strict": "🧑‍🤝‍🧑", "general": "🧑‍🤝‍🧑", "divergent": "🧑‍🤝‍🧑"}, "after": {"strict": "🧑‍🤝‍🧑", "general": "👫", "divergent": "👫"}}
+{"term": "男性仙子", "before": {"strict": "🧚", "general": "🧚", "divergent": "🧚"}, "after": {"strict": "🧚", "general": "🧚‍♂️", "divergent": "🧚‍♂️"}}
+{"term": "男性情侣", "before": {"strict": "💑", "general": "💑", "divergent": "💑"}, "after": {"strict": "💑", "general": "👨‍❤️‍👨", "divergent": "👨‍❤️‍👨"}}
+{"term": "男性情侣接吻", "before": {"strict": "💑 💏", "general": "💑 💏", "divergent": "💑 💏"}, "after": {"strict": "💑 💏", "general": "👨‍❤️‍💋‍👨", "divergent": "👨‍❤️‍💋‍👨"}}
+{"term": "男性灯神", "before": {"strict": "🧞", "general": "🧞", "divergent": "🧞"}, "after": {"strict": "🧞", "general": "🧞‍♂️", "divergent": "🧞‍♂️"}}
+{"term": "男性精灵", "before": {"strict": "🧚 🧝", "general": "🧚 🧝", "divergent": "🧚 🧝"}, "after": {"strict": "🧚 🧝", "general": "🧝‍♂️", "divergent": "🧝‍♂️"}}
+{"term": "男性超级反派", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🦹‍♂️", "divergent": "🦹‍♂️"}}
+{"term": "男攀岩者", "before": {"strict": "🧗", "general": "🧗", "divergent": "🧗"}, "after": {"strict": "🧗", "general": "🧗‍♂️", "divergent": "🧗‍♂️"}}
+{"term": "男杂耍演员", "before": {"strict": "🤹", "general": "🤹", "divergent": "🤹"}, "after": {"strict": "🤹", "general": "🤹‍♂️", "divergent": "🤹‍♂️"}}
+{"term": "男灯神", "before": {"strict": "🧞", "general": "🧞", "divergent": "🧞"}, "after": {"strict": "🧞", "general": "🧞‍♂️", "divergent": "🧞‍♂️"}}
+{"term": "男生做同意手势", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🙆‍♂️", "divergent": "🙆‍♂️"}}
+{"term": "男生双手举过头顶", "before": {"strict": "👐 🙌", "general": "👐 🙌", "divergent": "👐 🙌"}, "after": {"strict": "👐 🙌", "general": "🙆‍♂️", "divergent": "🙆‍♂️"}}
+{"term": "男生向右走", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🚶‍♂️‍➡️", "divergent": "🚶‍♂️‍➡️"}}
+{"term": "男生向右跑", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🏃‍♂️‍➡️", "divergent": "🏃‍♂️‍➡️"}}
+{"term": "男生打手球", "before": {"strict": "🤾", "general": "🤾", "divergent": "🤾"}, "after": {"strict": "🤾", "general": "🤾‍♂️", "divergent": "🤾‍♂️"}}
+{"term": "男生打水球", "before": {"strict": "🤽", "general": "🤽", "divergent": "🤽"}, "after": {"strict": "🤽", "general": "🤽‍♂️", "divergent": "🤽‍♂️"}}
+{"term": "男生打篮球", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "⛹️‍♂️", "divergent": "⛹️‍♂️"}}
+{"term": "男生托手", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "💁‍♂️", "divergent": "💁‍♂️"}}
+{"term": "男生拍球", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "⛹️‍♂️", "divergent": "⛹️‍♂️"}}
+{"term": "男生拒绝", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🙅‍♂️", "divergent": "🙅‍♂️"}}
+{"term": "男生撅嘴", "before": {"strict": "🙎", "general": "🙎", "divergent": "🙎"}, "after": {"strict": "🙎", "general": "🙎‍♂️", "divergent": "🙎‍♂️"}}
+{"term": "男生皱眉", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🙍‍♂️", "divergent": "🙍‍♂️"}}
+{"term": "男男情侣", "before": {"strict": "💑", "general": "💑", "divergent": "💑"}, "after": {"strict": "💑", "general": "👨‍❤️‍👨", "divergent": "👨‍❤️‍👨"}}
+{"term": "男精灵", "before": {"strict": "🧚‍♂️", "general": "🧚‍♂️", "divergent": "🧚‍♂️"}, "after": {"strict": "🧚‍♂️", "general": "🧝‍♂️ 🧚‍♂️", "divergent": "🧝‍♂️ 🧚‍♂️"}}
+{"term": "白发女", "before": {"strict": "🦳", "general": "🦳", "divergent": "🦳"}, "after": {"strict": "🦳", "general": "👩‍🦳", "divergent": "👩‍🦳"}}
+{"term": "白发女人", "before": {"strict": "🦳 👩", "general": "🦳 👩", "divergent": "🦳 👩"}, "after": {"strict": "🦳 👩", "general": "👩‍🦳", "divergent": "👩‍🦳"}}
+{"term": "白发成人", "before": {"strict": "🦳", "general": "🦳", "divergent": "🦳"}, "after": {"strict": "🦳", "general": "🧑‍🦳", "divergent": "🧑‍🦳"}}
+{"term": "白发男", "before": {"strict": "🦳", "general": "🦳", "divergent": "🦳"}, "after": {"strict": "🦳", "general": "👨‍🦳", "divergent": "👨‍🦳"}}
+{"term": "白发男人", "before": {"strict": "🦳 👨", "general": "🦳 👨", "divergent": "🦳 👨"}, "after": {"strict": "🦳 👨", "general": "👨‍🦳", "divergent": "👨‍🦳"}}
+{"term": "白发的人", "before": {"strict": "🦳", "general": "🦳", "divergent": "🦳"}, "after": {"strict": "🦳", "general": "🧑‍🦳", "divergent": "🧑‍🦳"}}
+{"term": "白色大方块", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "⬜", "divergent": "⬜"}}
+{"term": "皱眉的女人", "before": {"strict": "👩", "general": "👩", "divergent": "👩"}, "after": {"strict": "👩", "general": "🙍‍♀️", "divergent": "🙍‍♀️"}}
+{"term": "皱眉的男人", "before": {"strict": "👨", "general": "👨", "divergent": "👨"}, "after": {"strict": "👨", "general": "🙍‍♂️", "divergent": "🙍‍♂️"}}
+{"term": "相框画", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🖼️", "divergent": "🖼️"}}
+{"term": "眩晕星星", "before": {"strict": "⭐ 🌟", "general": "⭐ 🌟", "divergent": "⭐ 🌟"}, "after": {"strict": "⭐ 🌟", "general": "💫", "divergent": "💫"}}
+{"term": "眯眼笑的猫", "before": {"strict": "🐈", "general": "🐈", "divergent": "🐈"}, "after": {"strict": "🐈", "general": "😸", "divergent": "😸"}}
+{"term": "眼冒金星", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "😵‍💫", "divergent": "😵‍💫"}}
+{"term": "眼睛对话气泡", "before": {"strict": "👁️ 💬", "general": "👁️ 💬", "divergent": "👁️ 💬"}, "after": {"strict": "👁️ 💬", "general": "👁️‍🗨️", "divergent": "👁️‍🗨️"}}
+{"term": "睡觉的人", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🛌", "divergent": "🛌"}}
+{"term": "破房子", "before": {"strict": "🏠 🏘", "general": "🏠 🏘", "divergent": "🏠 🏘"}, "after": {"strict": "🏠 🏘", "general": "🏚️", "divergent": "🏚️"}}
+{"term": "碗和勺子", "before": {"strict": "🥄", "general": "🥄", "divergent": "🥄"}, "after": {"strict": "🥄", "general": "🥣", "divergent": "🥣"}}
+{"term": "礼物爱心", "before": {"strict": "🎁 🤍", "general": "🎁 🤍", "divergent": "🎁 🤍"}, "after": {"strict": "🎁 🤍", "general": "💝", "divergent": "💝"}}
+{"term": "礼花筒", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🎉", "divergent": "🎉"}}
+{"term": "祝字标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "㊗️", "divergent": "㊗️"}}
+{"term": "祝贺标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "㊗️", "divergent": "㊗️"}}
+{"term": "禁字标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈲", "divergent": "🈲"}}
+{"term": "禁止标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🚫 🈲", "divergent": "🚫 🈲"}}
+{"term": "禁止行人", "before": {"strict": "🚶", "general": "🚶", "divergent": "🚶"}, "after": {"strict": "🚶", "general": "🚷", "divergent": "🚷"}}
+{"term": "禁用", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🚫", "divergent": "🚫"}}
+{"term": "科科斯群岛", "before": {"strict": "🏝️", "general": "🏝️", "divergent": "🏝️"}, "after": {"strict": "🏝️", "general": "🇨🇨", "divergent": "🇨🇨"}}
+{"term": "科科斯群岛旗", "before": {"strict": "🏝️", "general": "🏝️", "divergent": "🏝️"}, "after": {"strict": "🏝️", "general": "🇨🇨", "divergent": "🇨🇨"}}
+{"term": "秘字标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "㊙️", "divergent": "㊙️"}}
+{"term": "秘密标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "㊙️", "divergent": "㊙️"}}
+{"term": "站着的女人", "before": {"strict": "🧍 👩", "general": "🧍 👩", "divergent": "🧍 👩"}, "after": {"strict": "🧍 👩", "general": "🧍‍♀️", "divergent": "🧍‍♀️"}}
+{"term": "站着的男人", "before": {"strict": "🧍 👨", "general": "🧍 👨", "divergent": "🧍 👨"}, "after": {"strict": "🧍 👨", "general": "🧍‍♂️", "divergent": "🧍‍♂️"}}
+{"term": "笑哭猫", "before": {"strict": "😂 🐈", "general": "😂 🐈", "divergent": "😂 🐈"}, "after": {"strict": "😂 🐈", "general": "😹", "divergent": "😹"}}
+{"term": "笑哭的猫", "before": {"strict": "😂 🐈", "general": "😂 🐈", "divergent": "😂 🐈"}, "after": {"strict": "😂 🐈", "general": "😹", "divergent": "😹"}}
+{"term": "笑脸猫", "before": {"strict": "😀 🐈", "general": "😀 🐈", "divergent": "😀 🐈"}, "after": {"strict": "😀 🐈", "general": "😺", "divergent": "😺"}}
+{"term": "系丝带的心", "before": {"strict": "🎀 🎗️", "general": "🎀 🎗️", "divergent": "🎀 🎗️"}, "after": {"strict": "🎀 🎗️", "general": "💝", "divergent": "💝"}}
+{"term": "红发女", "before": {"strict": "🦰", "general": "🦰", "divergent": "🦰"}, "after": {"strict": "🦰", "general": "👩‍🦰", "divergent": "👩‍🦰"}}
+{"term": "红发女人", "before": {"strict": "🦰 👩", "general": "🦰 👩", "divergent": "🦰 👩"}, "after": {"strict": "🦰 👩", "general": "👩‍🦰", "divergent": "👩‍🦰"}}
+{"term": "红发成人", "before": {"strict": "🦰", "general": "🦰", "divergent": "🦰"}, "after": {"strict": "🦰", "general": "🧑‍🦰", "divergent": "🧑‍🦰"}}
+{"term": "红发男", "before": {"strict": "🦰", "general": "🦰", "divergent": "🦰"}, "after": {"strict": "🦰", "general": "👨‍🦰", "divergent": "👨‍🦰"}}
+{"term": "红发男人", "before": {"strict": "🦰 👨", "general": "🦰 👨", "divergent": "🦰 👨"}, "after": {"strict": "🦰 👨", "general": "👨‍🦰", "divergent": "👨‍🦰"}}
+{"term": "红发的人", "before": {"strict": "🦰", "general": "🦰", "divergent": "🦰"}, "after": {"strict": "🦰", "general": "🧑‍🦰", "divergent": "🧑‍🦰"}}
+{"term": "红脸", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "😳", "divergent": "😳"}}
+{"term": "维修工具", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🛠️", "divergent": "🛠️"}}
+{"term": "绷带爱心", "before": {"strict": "🤍 🤎", "general": "🤍 🤎", "divergent": "🤍 🤎"}, "after": {"strict": "🤍 🤎", "general": "❤️‍🩹", "divergent": "❤️‍🩹"}}
+{"term": "绿叶菜", "before": {"strict": "🍂", "general": "🍂", "divergent": "🍂"}, "after": {"strict": "🍂", "general": "🥬", "divergent": "🥬"}}
+{"term": "翻开的书", "before": {"strict": "📚", "general": "📚", "divergent": "📚"}, "after": {"strict": "📚", "general": "📖", "divergent": "📖"}}
+{"term": "老太太", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "👵", "divergent": "👵"}}
+{"term": "老头", "before": {"strict": "🧓", "general": "🧓", "divergent": "🧓"}, "after": {"strict": "👴", "general": "👴 🧓", "divergent": "👴 🧓"}}
+{"term": "老奶奶", "before": {"strict": "🧓", "general": "🧓", "divergent": "🧓"}, "after": {"strict": "👵", "general": "👵", "divergent": "👵"}}
+{"term": "老爷爷", "before": {"strict": "", "general": "🧓", "divergent": "🧓"}, "after": {"strict": "", "general": "👴", "divergent": "👴"}}
+{"term": "胡子女", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🧔‍♀️", "divergent": "🧔‍♀️"}}
+{"term": "胡子男", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🧔‍♂️", "divergent": "🧔‍♂️"}}
+{"term": "脑袋爆炸", "before": {"strict": "🛍️ 💥", "general": "🛍️ 💥", "divergent": "🛍️ 💥"}, "after": {"strict": "🛍️ 💥", "general": "🤯", "divergent": "🤯"}}
+{"term": "脱氧核糖核酸", "before": {"strict": "🍬 🍭", "general": "🍬 🍭", "divergent": "🍬 🍭"}, "after": {"strict": "🍬 🍭", "general": "🧬", "divergent": "🧬"}}
+{"term": "脸红", "before": {"strict": "", "general": "☺️ 🫣", "divergent": "☺️ 🫣"}, "after": {"strict": "", "general": "😳 ☺️", "divergent": "😳 ☺️"}}
+{"term": "芙蓉花", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🌺", "divergent": "🌺"}}
+{"term": "花痴猫", "before": {"strict": "🐈", "general": "🐈", "divergent": "🐈"}, "after": {"strict": "🐈", "general": "😻", "divergent": "😻"}}
+{"term": "苏格兰", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "divergent": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"}}
+{"term": "苏格兰旗", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🏴󠁧󠁢󠁳󠁣󠁴󠁿", "divergent": "🏴󠁧󠁢󠁳󠁣󠁴󠁿"}}
+{"term": "英格兰", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "divergent": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"}}
+{"term": "英格兰旗", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🏴󠁧󠁢󠁥󠁮󠁧󠁿", "divergent": "🏴󠁧󠁢󠁥󠁮󠁧󠁿"}}
+{"term": "营业标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈺", "divergent": "🈺"}}
+{"term": "营字标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈺", "divergent": "🈺"}}
+{"term": "落旗的关闭信箱", "before": {"strict": "📫 📬", "general": "📫 📬", "divergent": "📫 📬"}, "after": {"strict": "📫 📬", "general": "📪", "divergent": "📪"}}
+{"term": "落旗的打开信箱", "before": {"strict": "📫 📬", "general": "📫 📬", "divergent": "📫 📬"}, "after": {"strict": "📫 📬", "general": "📭", "divergent": "📭"}}
+{"term": "蒸桑拿的女人", "before": {"strict": "🧖 👩", "general": "🧖 👩", "divergent": "🧖 👩"}, "after": {"strict": "🧖 👩", "general": "🧖‍♀️", "divergent": "🧖‍♀️"}}
+{"term": "蒸桑拿的男人", "before": {"strict": "🧖 👨", "general": "🧖 👨", "divergent": "🧖 👨"}, "after": {"strict": "🧖 👨", "general": "🧖‍♂️", "divergent": "🧖‍♂️"}}
+{"term": "螺旋眼", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "😵‍💫", "divergent": "😵‍💫"}}
+{"term": "行人禁行", "before": {"strict": "🚶 ⛔", "general": "🚶 ⛔", "divergent": "🚶 ⛔"}, "after": {"strict": "🚶 ⛔", "general": "🚷", "divergent": "🚷"}}
+{"term": "行李寄存", "before": {"strict": "🧳", "general": "🧳", "divergent": "🧳"}, "after": {"strict": "🧳", "general": "🛅", "divergent": "🛅"}}
+{"term": "行李提取", "before": {"strict": "🧳", "general": "🧳", "divergent": "🧳"}, "after": {"strict": "🧳", "general": "🛄", "divergent": "🛄"}}
+{"term": "装框的画", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🖼️", "divergent": "🖼️"}}
+{"term": "计时沙漏", "before": {"strict": "⌛", "general": "⌛", "divergent": "⌛"}, "after": {"strict": "⌛", "general": "⏳", "divergent": "⏳"}}
+{"term": "许可标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🉑", "divergent": "🉑"}}
+{"term": "财迷脸", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🤑", "divergent": "🤑"}}
+{"term": "赏月供品", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🎑", "divergent": "🎑"}}
+{"term": "赏月摆设", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🎑", "divergent": "🎑"}}
+{"term": "跪着的女人", "before": {"strict": "👩", "general": "👩", "divergent": "👩"}, "after": {"strict": "👩", "general": "🧎‍♀️", "divergent": "🧎‍♀️"}}
+{"term": "跪着的男人", "before": {"strict": "👨", "general": "👨", "divergent": "👨"}, "after": {"strict": "👨", "general": "🧎‍♂️", "divergent": "🧎‍♂️"}}
+{"term": "踏板摩托", "before": {"strict": "🏍", "general": "🏍", "divergent": "🏍"}, "after": {"strict": "🏍", "general": "🛵", "divergent": "🛵"}}
+{"term": "躺在床上", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🛌", "divergent": "🛌"}}
+{"term": "转圈星星", "before": {"strict": "⭐ 🌟", "general": "⭐ 🌟", "divergent": "⭐ 🌟"}, "after": {"strict": "⭐ 🌟", "general": "💫", "divergent": "💫"}}
+{"term": "轮椅标志", "before": {"strict": "🦽 🦼", "general": "🦽 🦼", "divergent": "🦽 🦼"}, "after": {"strict": "🦽 🦼", "general": "♿", "divergent": "♿"}}
+{"term": "辐射标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "☢️", "divergent": "☢️"}}
+{"term": "迎面汽车", "before": {"strict": "🚗 🏎", "general": "🚗 🏎", "divergent": "🚗 🏎"}, "after": {"strict": "🚗 🏎", "general": "🚘", "divergent": "🚘"}}
+{"term": "这里标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈁", "divergent": "🈁"}}
+{"term": "迪斯科球", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🪩", "divergent": "🪩"}}
+{"term": "道服", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🥋", "divergent": "🥋"}}
+{"term": "酷按钮", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🆒", "divergent": "🆒"}}
+{"term": "醉脸", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🥴", "divergent": "🥴"}}
+{"term": "金钱脸", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🤑", "divergent": "🤑"}}
+{"term": "钢琴键盘", "before": {"strict": "⌨️", "general": "⌨️", "divergent": "⌨️"}, "after": {"strict": "⌨️", "general": "🎹", "divergent": "🎹"}}
+{"term": "钢笔和锁", "before": {"strict": "🖋️", "general": "🖋️", "divergent": "🖋️"}, "after": {"strict": "🖋️", "general": "🔏", "divergent": "🔏"}}
+{"term": "铁路车厢", "before": {"strict": "🛤", "general": "🛤", "divergent": "🛤"}, "after": {"strict": "🛤", "general": "🚃", "divergent": "🚃"}}
+{"term": "锤子和扳手", "before": {"strict": "🔨 🔧", "general": "🔨 🔧", "divergent": "🔨 🔧"}, "after": {"strict": "🔨 🔧", "general": "🛠️", "divergent": "🛠️"}}
+{"term": "锤子和镐", "before": {"strict": "🔨", "general": "🔨", "divergent": "🔨"}, "after": {"strict": "🔨", "general": "⚒️", "divergent": "⚒️"}}
+{"term": "锤镐", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "⚒️", "divergent": "⚒️"}}
+{"term": "锯齿对话框", "before": {"strict": "🪚 🗨", "general": "🪚 🗨", "divergent": "🪚 🗨"}, "after": {"strict": "🪚 🗨", "general": "🗯️", "divergent": "🗯️"}}
+{"term": "镜面球", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🪩", "divergent": "🪩"}}
+{"term": "长棍面包", "before": {"strict": "🍞 🥐", "general": "🍞 🥐", "divergent": "🍞 🥐"}, "after": {"strict": "🍞 🥐", "general": "🥖", "divergent": "🥖"}}
+{"term": "长鼻子鬼面", "before": {"strict": "🤥 👻", "general": "🤥 👻", "divergent": "🤥 👻"}, "after": {"strict": "🤥 👻", "general": "👺", "divergent": "👺"}}
+{"term": "闪亮爱心", "before": {"strict": "🤍 🤎", "general": "🤍 🤎", "divergent": "🤍 🤎"}, "after": {"strict": "🤍 🤎", "general": "💖", "divergent": "💖"}}
+{"term": "闪闪的心", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "💖", "divergent": "💖"}}
+{"term": "零", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "0️⃣", "divergent": "0️⃣"}}
+{"term": "雾景", "before": {"strict": "🌫️", "general": "🌫️", "divergent": "🌫️"}, "after": {"strict": "🌫️", "general": "🌁", "divergent": "🌁"}}
+{"term": "青菜", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🥬", "divergent": "🥬"}}
+{"term": "静音铃铛", "before": {"strict": "🔔", "general": "🔔", "divergent": "🔔"}, "after": {"strict": "🔔", "general": "🔕", "divergent": "🔕"}}
+{"term": "面向右边下跪", "before": {"strict": "🧎", "general": "🧎", "divergent": "🧎"}, "after": {"strict": "🧎", "general": "🧎‍➡️", "divergent": "🧎‍➡️"}}
+{"term": "预留标志", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🈯", "divergent": "🈯"}}
+{"term": "香港", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🇭🇰", "divergent": "🇭🇰"}}
+{"term": "香港区旗", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🇭🇰", "divergent": "🇭🇰"}}
+{"term": "骂人", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🤬", "divergent": "🤬"}}
+{"term": "骨头肉", "before": {"strict": "🦴", "general": "🦴", "divergent": "🦴"}, "after": {"strict": "🦴", "general": "🍖", "divergent": "🍖"}}
+{"term": "骷髅交叉骨", "before": {"strict": "💀", "general": "💀", "divergent": "💀"}, "after": {"strict": "💀", "general": "☠️", "divergent": "☠️"}}
+{"term": "骷髅标志", "before": {"strict": "💀", "general": "💀", "divergent": "💀"}, "after": {"strict": "💀", "general": "☠️", "divergent": "☠️"}}
+{"term": "高尔夫球手", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "🏌️", "divergent": "🏌️"}}
+{"term": "黑月亮脸", "before": {"strict": "🌙 🌕", "general": "🌙 🌕", "divergent": "🌙 🌕"}, "after": {"strict": "🌙 🌕", "general": "🌚", "divergent": "🌚"}}
+{"term": "黑色大方块", "before": {"strict": "", "general": "", "divergent": ""}, "after": {"strict": "", "general": "⬛", "divergent": "⬛"}}
+{"term": "鼻孔喷气", "before": {"strict": "👃", "general": "👃", "divergent": "👃"}, "after": {"strict": "👃", "general": "😤", "divergent": "😤"}}

@@ -1,0 +1,42 @@
+{
+  "kind": "design_examples_not_runtime_fixtures",
+  "note": "规格正反例供后续验证。句中适用须有已验证的边界及语境条件。",
+  "examples": [
+    {
+      "id": "489167401aa52b49a678",
+      "queue_index": 4929,
+      "expression": "重新载入",
+      "target": "🔃",
+      "decision": "requires_disambiguation",
+      "positive": "请重新载入当前网页。",
+      "negative": "仓库要求重新载入卸下的货物。",
+      "reason": "需验证活动界面与重新载入内容的操作义。",
+      "expected_positive": "eligible_only_if_required_features_verified",
+      "expected_negative": "no_sentence_trigger"
+    },
+    {
+      "id": "e4fda1c90b6a4a4de341",
+      "queue_index": 5230,
+      "expression": "餓了",
+      "target": "🍚🥢",
+      "decision": "whole_candidate_only",
+      "positive": "餓了",
+      "negative": "她在字典裡查到「餓了」的例句。",
+      "reason": "完整食欲表达与引用须区分。",
+      "expected_positive": "exact_candidate_only",
+      "expected_negative": "no_sentence_trigger"
+    },
+    {
+      "id": "82da1d91e545956e0e68",
+      "queue_index": 5356,
+      "expression": "麻将",
+      "target": "🀄",
+      "decision": "whole_token",
+      "positive": "他们下午打麻将。",
+      "negative": "他明确说今天不打麻将。",
+      "reason": "实际活动可作线索，明确否定不触发该活动关系。",
+      "expected_positive": "eligible_after_verified_token_and_assertion",
+      "expected_negative": "no_sentence_trigger"
+    }
+  ]
+}

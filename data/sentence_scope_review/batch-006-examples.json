@@ -1,0 +1,54 @@
+{
+  "kind": "design_examples_not_runtime_fixtures",
+  "note": "规格正反例供后续验证。句中适用须有已验证的边界及语境条件。",
+  "examples": [
+    {
+      "id": "9774296e0b4fff65380c",
+      "queue_index": 4043,
+      "expression": "红圈",
+      "target": "🔴",
+      "decision": "requires_disambiguation",
+      "positive": "图例用实心红圈标出出口。",
+      "negative": "请用空心红圈标出错字。",
+      "reason": "🔴 需要允许实心圆点义，空心环不能替代。",
+      "expected_positive": "eligible_only_if_required_features_verified",
+      "expected_negative": "no_sentence_trigger"
+    },
+    {
+      "id": "3916f120d59bee0eb01a",
+      "queue_index": 4427,
+      "expression": "蝦仁",
+      "target": "🍤",
+      "decision": "whole_token",
+      "positive": "今天的午餐有蝦仁。",
+      "negative": "她說這道菜不放蝦仁。",
+      "reason": "实际食材与明确排除该食材的用法须区分。",
+      "expected_positive": "eligible_after_verified_token_and_assertion",
+      "expected_negative": "no_sentence_trigger"
+    },
+    {
+      "id": "87c160a74ec686f812d8",
+      "queue_index": 4485,
+      "expression": "西",
+      "target": "⬅️",
+      "decision": "requires_disambiguation",
+      "positive": "这张上北地图的西在左侧。",
+      "negative": "他面朝南方，右手边是西。",
+      "reason": "方向词需要参考系和正确映射。",
+      "expected_positive": "eligible_only_if_required_features_verified",
+      "expected_negative": "no_sentence_trigger"
+    },
+    {
+      "id": "6e5c601608ffd234d1f2",
+      "queue_index": 4562,
+      "expression": "该走了",
+      "target": "👋",
+      "decision": "whole_candidate_only",
+      "positive": "该走了",
+      "negative": "他反复排练「该走了」这句台词。",
+      "reason": "完整离别用法与引用须区分。",
+      "expected_positive": "exact_candidate_only",
+      "expected_negative": "no_sentence_trigger"
+    }
+  ]
+}

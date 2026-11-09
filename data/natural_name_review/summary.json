@@ -1,0 +1,23 @@
+{
+  "base_emoji": 1906,
+  "previous_reviewed": 15,
+  "newly_reviewed": 1891,
+  "reviewed": 1906,
+  "pending": 0,
+  "name_target_pairs": 3468,
+  "unique_names": 3433,
+  "emoji_by_usage": {
+    "descriptive": 332,
+    "everyday": 1245,
+    "prior_review": 15,
+    "proper_name": 267,
+    "specialist": 47
+  },
+  "new_reviews_with_review_only_scope": 1891,
+  "source_sha256": {
+    "data/emoji_inventory.json": "754fd45cbe8f39d8a5ecdaed66c8d243dabe76c3ba668ec5aa77101b4e3965fc",
+    "data/common_entry_reviews.json": "e4cd8dc44a305de7380fdabd4c9c6d78c66c909a0f9ccbbe733279f4107c3c56",
+    "data/natural_name_review/decisions.psv": "e66c0a1806cddfdec37935eb30c9e5ada570cd43537c101c4511aacebdf35a68",
+    "data/natural_name_review/policy.json": "abef2f0cd7030885d9a260db7d2c19647cbf4c962e965192b3e4dbb967b6c48d"
+  }
+}

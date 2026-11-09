@@ -1,0 +1,13 @@
+{
+  "version": 1,
+  "date": "2026-11-06",
+  "inventory_sha256": "754fd45cbe8f39d8a5ecdaed66c8d243dabe76c3ba668ec5aa77101b4e3965fc",
+  "previous_review_sha256": "e4cd8dc44a305de7380fdabd4c9c6d78c66c909a0f9ccbbe733279f4107c3c56",
+  "reviewer": "Codex",
+  "method": "Each of the 1891 remaining inventory rows was read and assigned an explicit decision. No sampling or wildcard default. Fifteen previously reviewed targets are carried forward without rewriting their decisions.",
+  "scope": "Natural Chinese entry names only. No runtime additions, tier changes, sentence authorization, frequency measurement, or native input claims.",
+  "notation": {
+    "=": "Explicitly accept the already-read inventory name.",
+    "@": "Explicitly accept the already-read flag proper name; expand 旗: name into name and name旗. This does not assert nationhood."
+  }
+}
