@@ -6,7 +6,7 @@ import tempfile
 import unittest
 
 from shi_emoji.reachability import contains, lua_suffixes
-from shi_emoji.tier_export import compile_rules, runtime_source
+from shi_emoji.tier_export import compile_rules, match_metadata_source, runtime_source
 from tests.test_lua_filter import LUA_LIBRARY
 
 
@@ -55,7 +55,9 @@ class CommonEntryTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as directory:
             runtime = Path(directory)/'lua'
             shutil.copytree('rime/lua', runtime)
-            (runtime/'shi_emoji/tier_data.lua').write_text(runtime_source(compile_rules('data', include_common=False)))
+            rules = compile_rules('data', include_common=False)
+            (runtime/'shi_emoji/tier_data.lua').write_text(runtime_source(rules))
+            (runtime/'shi_emoji/match_metadata.lua').write_text(match_metadata_source('data', rules))
             self.assertEqual(lua_suffixes(sentences, runtime), current)
 
         # Exhaustive structural check: no newly introduced guard may contain

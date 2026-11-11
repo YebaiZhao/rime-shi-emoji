@@ -1,6 +1,6 @@
 -- MIT. Match Chinese candidate text; no shell, network, or model calls.
 local M = {}
-local function new(data, guard_root)
+local function new(data, guard_root, guard_index)
   local root = {}
   for _, rule in ipairs(data.rules) do
     for _, phrase in ipairs(rule.phrases) do
@@ -13,7 +13,7 @@ local function new(data, guard_root)
       node.rule = rule
     end
   end
-  if not guard_root then
+  if not guard_root and not guard_index then
     guard_root = {}
     for _, word in ipairs(data.word_guards or {}) do
       local node = guard_root
@@ -25,7 +25,7 @@ local function new(data, guard_root)
       node.terminal = true
     end
   end
-  return {root = root, data = data, guard_root = guard_root}
+  return {root = root, data = data, guard_root = guard_root, guard_index = guard_index}
 end
 
 function M.new(data)
@@ -35,19 +35,20 @@ end
 local function tiered(data, entries, shared)
   local rules = {}
   local guards = {}
-  if not shared then
+  local guard_index = shared and shared.guard_index or data.guard_index
+  if not shared and not guard_index then
     for _, word in ipairs(data.word_guards or {}) do guards[#guards + 1] = word end
   end
   for phrase, relations in pairs(entries) do
     rules[#rules + 1] = {id = phrase, phrases = {phrase}, relations = relations}
-    if not shared then
+    if not shared and not guard_index then
       local sentence = false
       for _, relation in ipairs(relations) do sentence = sentence or relation[3] == true end
       if not sentence then guards[#guards + 1] = phrase end
     end
   end
   return new({rules = rules, word_guards = guards,
-              boundaries = data.boundaries, negators = data.negators}, shared and shared.guard_root)
+              boundaries = data.boundaries, negators = data.negators}, shared and shared.guard_root, guard_index)
 end
 
 function M.tiered(data, entries)
@@ -75,19 +76,50 @@ local function tier_rule(rule, tier, exact, eligible, start, finish)
   if found.level then return found end
 end
 
-function M.search(index, text, limit, tier)
-  local result, scores, position, groups = {}, {}, 1, {}
-  local text_length = utf8.len(text)
+local function packed_step(index, node, label)
+  local first, last = string.unpack("<I3I3", index.offsets, node * 3 + 1)
+  local low, high = first & 0x7fffff, (last & 0x7fffff) - 1
+  while low <= high do
+    local mid = (low + high) // 2
+    local edge = string.unpack("<I5", index.edges, mid * 5 + 1)
+    local code = edge & 0x1fffff
+    if code == label then return edge >> 21 end
+    if code < label then low = mid + 1 else high = mid - 1 end
+  end
+end
+
+local function guard_spans(index, text)
   local guards, start = {}, 1
+  local packed = index.guard_index
   while start <= #text do
-    local node, finish = index.guard_root, start
-    while finish <= #text and node[text:sub(finish, finish)] do
-      node = node[text:sub(finish, finish)]
-      finish = finish + 1
-      if node.terminal then guards[#guards + 1] = {start, finish} end
+    if packed then
+      local node = 0
+      local finish = start
+      while finish <= #text do
+        node = packed_step(packed, node, utf8.codepoint(text, finish))
+        if not node then break end
+        finish = utf8.offset(text, 2, finish) or (#text + 1)
+        if packed.offsets:byte(node * 3 + 3) >= 128 then
+          guards[#guards + 1] = {start, finish}
+        end
+      end
+    else
+      local node, finish = index.guard_root, start
+      while finish <= #text and node[text:sub(finish, finish)] do
+        node = node[text:sub(finish, finish)]
+        finish = finish + 1
+        if node.terminal then guards[#guards + 1] = {start, finish} end
+      end
     end
     start = utf8.offset(text, 2, start) or (#text + 1)
   end
+  return guards
+end
+
+function M.search(index, text, limit, tier)
+  local result, scores, position, groups = {}, {}, 1, {}
+  local text_length = utf8.len(text)
+  local guards = guard_spans(index, text)
   local function protected(a, b)
     for _, span in ipairs(guards) do
       if span[1] <= a and b <= span[2] and (span[1] ~= a or b ~= span[2]) then return true end

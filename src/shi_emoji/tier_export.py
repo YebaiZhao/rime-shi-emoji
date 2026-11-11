@@ -150,10 +150,48 @@ def entry_runtime_source(rules):
     return '-- Reviewed whole-candidate names; never used as sentence substrings.\nreturn ' + lua_value(rules) + '\n'
 
 
-def match_metadata_source(directory):
+def guard_index(words):
+    """Pack node offsets (23 bits + terminal flag) and Unicode-labelled edges."""
+    children = [{}]
+    terminal = set()
+    for word in sorted(set(words)):
+        node = 0
+        for char in word:
+            label = ord(char)
+            edges = children[node]
+            if label not in edges:
+                edges[label] = len(children)
+                children.append({})
+            node = edges[label]
+        terminal.add(node)
+
+    offsets, edges = bytearray(), bytearray()
+    for node, outgoing in enumerate(children):
+        offsets.extend((len(edges) // 5 | (0x800000 if node in terminal else 0)).to_bytes(3, "little"))
+        for label, child in sorted(outgoing.items()):
+            edges.extend((child << 21 | label).to_bytes(5, "little"))
+    offsets.extend((len(edges) // 5).to_bytes(3, "little"))
+    return offsets, edges
+
+
+def lua_bytes(payload):
+    return '"' + ''.join(chr(b) if 32 <= b < 127 and b not in (34, 92)
+                         else f'\\{b:03d}' for b in payload) + '"'
+
+
+def match_metadata_source(directory, rules=None):
     data = merged_data(Path(directory) / "phrases.json")
-    metadata = {key: data[key] for key in ("word_guards", "boundaries", "negators")}
-    return "-- Shared matching metadata without legacy mappings. See THIRD_PARTY_NOTICES.md.\nreturn " + lua_value(metadata) + "\n"
+    if rules is None:
+        rules = compile_rules(directory)
+    guards = data["word_guards"] + [
+        phrase for phrase, relations in rules.items()
+        if not any(relation[2] is True for relation in relations)
+    ]
+    offsets, edges = guard_index(guards)
+    metadata = {key: data[key] for key in ("boundaries", "negators")}
+    return ("-- Shared matching metadata and packed guard index. See THIRD_PARTY_NOTICES.md.\n"
+            "return {guard_index={offsets=" + lua_bytes(offsets) + ",edges=" + lua_bytes(edges)
+            + "}," + lua_value(metadata)[1:] + "\n")
 
 
 if __name__ == "__main__":
@@ -166,4 +204,4 @@ if __name__ == "__main__":
     entries = compile_entry_rules('data')
     Path('rime/lua/shi_emoji/entry_data.lua').write_text(entry_runtime_source(entries), encoding='utf-8')
     print(f'Exported {len(entries)} exact candidate entries')
-    Path("rime/lua/shi_emoji/match_metadata.lua").write_text(match_metadata_source("data"), encoding="utf-8")
+    Path("rime/lua/shi_emoji/match_metadata.lua").write_text(match_metadata_source("data", rules), encoding="utf-8")
