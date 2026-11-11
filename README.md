@@ -4,7 +4,7 @@
 
 诗Emoji 是 Rime 输入法的插件。它在高亮候选旁显示 Emoji 联想，想用再按键上屏，不用切换输入法。支持简繁中文，全程本地运行。
 
-[下载 alpha.4](https://github.com/YebaiZhao/rime-shi-emoji/releases/tag/v0.1.0-alpha.4) · [安装指南](INSTALL.md) · [English](README.en.md)
+[下载 v0.1.0](https://github.com/YebaiZhao/rime-shi-emoji/releases/tag/v0.1.0) · [安装指南](INSTALL.md) · [English](README.en.md)
 
 ## 为什么试试它
 
@@ -15,9 +15,9 @@
 
 ## 安装并试一次
 
-**v0.1.0-alpha.4** 是预发行版，主要在 macOS 鼠须管＋万象全拼验证。朙月拼音可按[方案接入指南](docs/manual-integration.md)安装；其他前端需要支持 librime-lua，实际键位以该前端为准。
+**v0.1.0** 主要在 macOS 鼠须管＋万象全拼验证。朙月拼音可按[方案接入指南](docs/manual-integration.md)安装；其他前端需要支持 librime-lua，实际键位以该前端为准。
 
-1. 下载 [`rime-shi-emoji-runtime.zip`](https://github.com/YebaiZhao/rime-shi-emoji/releases/download/v0.1.0-alpha.4/rime-shi-emoji-runtime.zip)，解压后把 `lua/shi_emoji` 放入 Rime 用户目录的 `lua`。不用下载源码，也不用装 Python。
+1. 下载 [`rime-shi-emoji-runtime.zip`](https://github.com/YebaiZhao/rime-shi-emoji/releases/download/v0.1.0/rime-shi-emoji-runtime.zip)，解压后把 `lua/shi_emoji` 放入 Rime 用户目录的 `lua`。不用下载源码，也不用装 Python。
 2. 按[安装指南](INSTALL.md)合并包内两份 YAML 示例：方案设置放进当前中文方案的 `*.custom.yaml`，保存选项放进 `default.custom.yaml`。不要覆盖原有设置。
 3. 重新部署。在中文模式按 **Ctrl + 反引号**，打开「诗Emoji」，选「诗Emoji一般」。
 4. 输入 `xiaren`，把高亮移到「虾仁」。看到 🦐 🍤 后，按 **⌥+回车**上屏「虾仁 🦐 🍤」。空格仍只提交文字。
@@ -43,7 +43,7 @@
 - **诗Emoji一般／严格／发散**：直接选想用的档位，默认一般。
 - **原文＋Emoji／仅Emoji**：启用 `0` 键后才出现。选中这一项切换输出方式，不影响联想档位。
 
-肤色、性别和重口联想在[方案配置](docs/preferences.md)中调整。alpha.4 的 `〔重口 …〕` 是独立提示，用 `⌃⌥↩` 上屏，不走 `0`。下一版会将这部分并入发散档，统一使用普通上屏键；尚未发布。
+肤色、性别和重口联想在[方案配置](docs/preferences.md)中调整。发散档默认包含重口联想，使用相同的候选提示和上屏键。
 
 ## 反馈和贡献
 

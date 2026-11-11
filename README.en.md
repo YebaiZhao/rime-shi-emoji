@@ -4,7 +4,7 @@
 
 Shi Emoji is a local Rime plugin. It shows emoji beside the highlighted Chinese candidate without changing candidate order. It supports Simplified and Traditional Chinese and runs without a network connection or a model.
 
-[Download alpha.4](https://github.com/YebaiZhao/rime-shi-emoji/releases/tag/v0.1.0-alpha.4) · [Installation](INSTALL.md) · [中文](README.md)
+[Download v0.1.0](https://github.com/YebaiZhao/rime-shi-emoji/releases/tag/v0.1.0) · [Installation](INSTALL.md) · [中文](README.md)
 
 ## Why try it?
 
@@ -15,9 +15,9 @@ Shi Emoji is a local Rime plugin. It shows emoji beside the highlighted Chinese 
 
 ## Install and try it
 
-**v0.1.0-alpha.4** is a prerelease, tested primarily on macOS Squirrel with Wanxiang Pinyin. See the [manual integration guide](docs/manual-integration.md) for Luna Pinyin. Other frontends need librime-lua and may handle shortcuts differently.
+**v0.1.0** was tested primarily on macOS Squirrel with Wanxiang Pinyin. See the [manual integration guide](docs/manual-integration.md) for Luna Pinyin. Other frontends need librime-lua and may handle shortcuts differently.
 
-1. Download [`rime-shi-emoji-runtime.zip`](https://github.com/YebaiZhao/rime-shi-emoji/releases/download/v0.1.0-alpha.4/rime-shi-emoji-runtime.zip). Extract it and copy `lua/shi_emoji` into the `lua` folder in your Rime user directory. No source checkout or Python installation is needed.
+1. Download [`rime-shi-emoji-runtime.zip`](https://github.com/YebaiZhao/rime-shi-emoji/releases/download/v0.1.0/rime-shi-emoji-runtime.zip). Extract it and copy `lua/shi_emoji` into the `lua` folder in your Rime user directory. No source checkout or Python installation is needed.
 2. Merge the two YAML examples into your schema's `*.custom.yaml` and `default.custom.yaml` as shown in [INSTALL.md](INSTALL.md). Keep your existing settings.
 3. Redeploy. In Chinese mode, open the menu with **Ctrl + grave**, turn on **诗Emoji开**, and select **诗Emoji一般** (General).
 4. Type `xiaren`, highlight 虾仁, and press **Option+Return** once 🦐 🍤 appears. Space still commits plain text.
@@ -37,7 +37,7 @@ Without the `0→` hint, your schema handles `0` as usual. With these shortcuts 
 
 In the **Ctrl + grave** menu, expand settings if folded. Select **诗Emoji一般 / 诗Emoji严格 / 诗Emoji发散** for General, Strict, or Creative. Selecting the on/off or output-mode row toggles its current value.
 
-Skin tone, gender, and edgy associations are set in your [schema configuration](docs/preferences.md). In alpha.4, the separate `〔重口 …〕` hint uses Control+Option+Return, not `0`. Unreleased changes merge these associations into Creative and use the regular commit keys.
+Skin tone, gender, and edgy associations are set in your [schema configuration](docs/preferences.md). Creative includes edgy associations by default, using the same preview and commit keys.
 
 ## Feedback and contributing
 
