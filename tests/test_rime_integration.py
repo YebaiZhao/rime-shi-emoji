@@ -69,7 +69,7 @@ class RimeIntegrationTests(unittest.TestCase):
     def test_selected_homophone_uses_its_own_preview(self):
         rows = self.probe("xiaren")["candidates"]
         self.assertEqual(rows[0]["text"], "吓人")
-        self.assertEqual(rows[0]["comment"], "")
+        self.assertIn("🧟 👹", rows[0]["comment"])
         self.assertEqual(rows[2]["text"], "虾仁")
         self.assertEqual(rows[2]["comment"], "")
         selected = self.probe("xiaren{Down}{Down}")["candidates"]
@@ -95,7 +95,7 @@ class RimeIntegrationTests(unittest.TestCase):
 
             rows = probe("xiaren")["candidates"]
             self.assertEqual([row["text"] for row in rows[:3]], ["吓人", "下人", "虾仁"])
-            self.assertEqual(rows[6]["text"], "吓人")
+            self.assertEqual(rows[6]["text"], "🧟 👹")
             selected = probe("xiaren{Down}{Down}")
             self.assertEqual(selected["highlighted"], 2)
             self.assertEqual(selected["candidates"][6]["text"], "🦐 🍤")
@@ -118,23 +118,23 @@ class RimeIntegrationTests(unittest.TestCase):
 
             rows = probe("xiaren")["candidates"]
             self.assertEqual(len(rows), 6)
-            self.assertEqual(rows[0]["comment"], "")
+            self.assertIn("0→🧟 👹", rows[0]["comment"])
             selected = probe("xiaren{Down}{Down}")
             self.assertIn("0→🦐 🍤", selected["candidates"][2]["comment"])
             self.assertEqual(probe("xiaren{Down}{Down}0")["commit"], "虾仁 🦐 🍤")
             self.assertEqual(probe("xiaren{Down}{Down}{Alt+0}")["commit"], "🦐 🍤")
             self.assertEqual(probe("xiaren{Down}{Down}{Alt+Return}")["commit"], "🦐 🍤")
             self.assertEqual(probe("xiaren{space}")["commit"], "吓人")
-            self.assertEqual(probe("hao")["candidates"][0]["comment"], "")
-            self.assertEqual(probe("haoren")["candidates"][0]["comment"], "")
+            self.assertIn("0→👍", probe("hao")["candidates"][0]["comment"])
+            self.assertIn("0→🦸", probe("haoren")["candidates"][0]["comment"])
             ice = probe("bing{Down}{Down}")
             self.assertEqual(ice["candidates"][2]["text"], "冰")
             self.assertIn("0→🧊", ice["candidates"][2]["comment"])
             self.assertEqual(probe("bing{Down}{Down}0")["commit"], "冰 🧊")
             longer = probe("nizhenshiyigehaoren")
             self.assertEqual(longer["candidates"][0]["text"], "你真是一个好人")
-            self.assertIn("0→🫵 🦸", longer["candidates"][0]["comment"])
-            self.assertEqual(probe("nizhenshiyigehaoren0")["commit"], "你真是一个好人 🫵 🦸")
+            self.assertEqual(longer["candidates"][0]["comment"], "")
+            self.assertEqual(probe("nizhenshiyigehaoren{space}")["commit"], "你真是一个好人")
             self.assertEqual(probe("en0")["preedit"], "en⁴")
             self.assertEqual(probe("en{Alt+0}")["commit"], "")
             self.assertEqual(probe("xiaren7")["commit"], "")
@@ -203,7 +203,7 @@ class RimeIntegrationTests(unittest.TestCase):
     def test_simple_negative_emotion_is_not_positive_recommendation(self):
         result = self.probe("wobukaixin")
         self.assertEqual(result["candidates"][0]["text"], "我不开心")
-        self.assertIn("🙅 😄", result["candidates"][0]["comment"])
+        self.assertEqual(result["candidates"][0]["comment"], "")
 
     def test_disabled_preserves_chinese(self):
         result = self.probe("wanshua", state="off")
@@ -211,13 +211,15 @@ class RimeIntegrationTests(unittest.TestCase):
         self.assertEqual(result["candidates"][0]["text"], "玩耍")
         self.assertNotIn("诗Emoji", str(result["candidates"]))
 
-    def test_combo_candidate(self):
+    def test_general_candidate_excludes_divergent_wordplay(self):
         result = self.probe("niubi")
-        self.assertIn("🐂🍺", result["candidates"][0]["comment"])
-        self.assertEqual(self.probe("niubi{Alt+Return}")["commit"], "牛逼 🐂🍺")
+        self.assertIn("🤯 👏", result["candidates"][0]["comment"])
+        self.assertEqual(self.probe("niubi{Alt+Return}")["commit"], "牛逼 🤯 👏")
 
-    def test_daily_work_phrase(self):
-        self.assertEqual(self.probe("jintianyouyaojiaban{Alt+Return}")["commit"], "今天又要加班 💻☕")
+    def test_daily_work_relation_stays_at_exact_candidate(self):
+        self.assertEqual(self.probe("jiaban{Alt+Return}")["commit"], "加班 🫠")
+        candidate = self.probe("jintianyouyaojiaban")["candidates"][0]
+        self.assertEqual(candidate, {"text": "今天又要加班", "comment": ""})
 
     def test_reviewed_short_terms_show_in_highlighted_candidate(self):
         for keys, term, emoji in [("shangban", "上班", "💼"),
@@ -240,6 +242,24 @@ class RimeIntegrationTests(unittest.TestCase):
 
     def test_basic_punch_action_in_sentence(self):
         self.assertEqual(self.probe('wanshengjiebaodaxiaopengyou{Alt+Return}')['commit'], '万圣节暴打小朋友 🎃 👊 🧒')
+
+    def test_sentence_scope_in_native_candidate_preview_and_commit(self):
+        cases = [
+            ("menweibangmangshoukuaidi", "门卫帮忙收快递", "📦", True),
+            ("laizizaixiaoxueshengdefankui", "来自在校学生的反馈", "😌", False),
+            ("xunhangtianshukeyiyanchang", "巡航天数可以延长", "🧑‍🚀", False),
+            ("tingbudong", "听不懂", "🤔", True),
+            ("xueshengtingbudongzhegewenti", "学生听不懂这个问题", "🤔", False),
+        ]
+        for keys, text, emoji, expected in cases:
+            with self.subTest(text=text):
+                candidate = self.probe(keys)["candidates"][0]
+                self.assertEqual(candidate["text"], text)
+                self.assertEqual(emoji in candidate["comment"], expected)
+                commit = self.probe(keys + "{Alt+Return}")["commit"]
+                self.assertEqual(emoji in commit, expected)
+                if expected:
+                    self.assertTrue(commit.startswith(text + " "), commit)
 
     def test_electric_vehicle_is_not_train(self):
         self.assertEqual(self.probe("diandongche{Alt+Return}")["commit"], "电动车 🛵 🔋")

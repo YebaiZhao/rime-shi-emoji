@@ -25,6 +25,9 @@ def main():
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--pages', type=int, default=5)
     parser.add_argument('--terms', nargs='+', help='Retry only these exact reviewed names')
+    parser.add_argument('--input', type=Path, help='Reviewed queries: {entries: [{term, targets, pinyin}]}')
+    parser.add_argument('--both-modes', action='store_true', help='Also replay and check 0 text-plus-emoji commit')
+    parser.add_argument('--tier', choices=('strict', 'general'), default='general')
     args = parser.parse_args()
     if not (args.profile / '.shi-emoji-probe').is_file() or args.pages < 1:
         parser.error('Requires a marked disposable profile and positive page limit')
@@ -69,33 +72,39 @@ def main():
             fn('free_commit', C.c_int, C.POINTER(Commit))(C.byref(value))
         return text
 
-    manifest = json.loads((ROOT/'data/entry_repairs_262.json').read_text())
-    rows = manifest['entries'] + manifest['preservation_entries']
+    input_path = args.input or ROOT/'data/entry_repairs_262.json'
+    manifest = json.loads(input_path.read_text())
+    rows = manifest['entries'] + manifest.get('preservation_entries', [])
+    runtime = args.profile/'lua/shi_emoji'
+    sources = {p.name:hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(runtime.glob('*.lua'))}
     if args.terms:
         assert set(args.terms) <= {row['term'] for row in rows}, 'Unknown reviewed name'
         rows = [row for row in rows if row['term'] in args.terms]
     results = []
     try:
         assert fn('select_schema', C.c_int, C.c_size_t, C.c_char_p)(session, b'wanxiang')
-        for name, value in {'ascii_mode':False, 'shi_emoji':True, 'shi_emoji_general':True,
-                            'shi_emoji_strict':False, 'shi_emoji_divergent':False,
+        for name, value in {'ascii_mode':False, 'shi_emoji':True, 'shi_emoji_general':args.tier == 'general',
+                            'shi_emoji_strict':args.tier == 'strict', 'shi_emoji_divergent':False,
                             'shi_emoji_emoji_only':False}.items():
             option(session, name.encode(), value)
         for index, row in enumerate(rows, 1):
             clear(session)
             commit()
-            keys = PINYIN_OVERRIDES.get(row['term'], ''.join(lazy_pinyin(row['term'])).lower())
+            keys = row.get('pinyin') or PINYIN_OVERRIDES.get(row['term'], ''.join(lazy_pinyin(row['term'])).lower())
             result = {'term': row['term'], 'targets': row['targets'], 'keys': keys,
                       'pinyin_candidate': {'status':'not_found_within_limit'},
                       'comment':'', 'suffix':'', 'commit':'', 'pages_observed':[]}
             simulate(session, keys.encode())
+            selected_keys = keys
             for _ in range(args.pages):
                 observed = menu()
                 result['pages_observed'].append(observed)
                 found = next((i for i, c in enumerate(observed['candidates']) if c['text']==row['term']), None)
                 if found is not None:
                     delta = found - observed['highlighted']
-                    simulate(session, (('{Down}' if delta >= 0 else '{Up}') * abs(delta)).encode())
+                    movement = ('{Down}' if delta >= 0 else '{Up}') * abs(delta)
+                    selected_keys += movement
+                    simulate(session, movement.encode())
                     selected = menu()
                     candidate = selected['candidates'][selected['highlighted']]
                     assert candidate['text'] == row['term'], (row, selected)
@@ -103,31 +112,41 @@ def main():
                     simulate(session, b'{Alt+0}')
                     result.update(pinyin_candidate={'status':'found', 'page':observed['page_no']+1,
                                                     'position':found+1}, comment=candidate['comment'],
-                                  suffix=suffix.group(1) if suffix else '', commit=commit())
+                                  suffix=suffix.group(1) if suffix else '', commit=commit(), selected_keys=selected_keys)
+                    if args.both_modes:
+                        clear(session)
+                        simulate(session, selected_keys.encode())
+                        repeated = menu()
+                        assert repeated['candidates'][repeated['highlighted']]['text'] == row['term']
+                        simulate(session, b'0')
+                        result['text_commit'] = commit()
+                        result['text_commit_passed'] = result['text_commit'] == row['term']+' '+result['suffix']
                     break
                 if observed['last_page']:
                     break
                 simulate(session, b'{Page_Down}')
+                selected_keys += '{Page_Down}'
             result['preview_passed'] = all(contains(result['suffix'], t) for t in row['targets'])
             result['commit_passed'] = all(contains(result['commit'], t) for t in row['targets'])
             results.append(result)
-            if index % 50 == 0:
+            if index % 25 == 0:
                 print(f'{index} names checked', flush=True)
     finally:
         fn('destroy_session', C.c_int, C.c_size_t)(session)
         fn('finalize', None)()
-    paths = list(sorted((ROOT/'rime/lua/shi_emoji').glob('*.lua'))) + [ROOT/'data/entry_repairs_262.json']
-    result = {'scope':'Headless native librime + Squirrel Lua; disposable Wanxiang, general, neutral gender, default skin, adult=false. Alt+0 emoji-only. No GUI/application insertion claim.',
+    result = {'scope':f'Headless native librime + Squirrel Lua; disposable Wanxiang, {args.tier}, neutral gender, default skin, adult=false. Alt+0 emoji-only. No GUI/application insertion claim.',
               'page_limit':args.pages, 'pinyin_method':'pypinyin.lazy_pinyin; lowercase full pinyin with explicit polyphonic corrections',
               'pinyin_overrides':PINYIN_OVERRIDES,
-              'sources_sha256':{str(p.relative_to(ROOT)):hashlib.sha256(p.read_bytes()).hexdigest() for p in paths},
+              'runtime_sha256':sources, 'input_sha256':hashlib.sha256(input_path.read_bytes()).hexdigest(),
+              'both_modes':args.both_modes,
               'schema_sha256':hashlib.sha256((args.profile/'build/wanxiang.schema.yaml').read_bytes()).hexdigest(),
               'compiled_assets_sha256':{p.name:hashlib.sha256(p.read_bytes()).hexdigest()
                                        for p in sorted((args.profile/'build').glob('wanxiang*.bin'))},
               'summary':{'terms':len(results),
                          'found':sum(r['pinyin_candidate']['status']=='found' for r in results),
                          'preview_passed':sum(r['preview_passed'] for r in results),
-                         'commit_passed':sum(r['commit_passed'] for r in results)},
+                         'commit_passed':sum(r['commit_passed'] for r in results),
+                         'text_commit_passed':sum(r.get('text_commit_passed',False) for r in results)},
               'entries':results}
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(result, ensure_ascii=False, indent=2)+'\n')

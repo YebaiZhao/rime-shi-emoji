@@ -107,11 +107,9 @@ function M.suffix(text, settings, tier)
   end
   if tier == 3 and settings.adult then
     if not adult_index then
-      local adult = require("shi_emoji.adult")
-      adult_index = matcher.with_guard({rules = adult.rules,
-                                       boundaries = adult.boundaries, negators = adult.negators}, index)
+      adult_index = matcher.tiered_extension(index, require("shi_emoji.adult"))
     end
-    local _, extra = matcher.search(adult_index, text, 6)
+    local _, extra = matcher.search(adult_index, text, 6, tier)
     local function whole(group)
       return group.start == 1 and group.finish == #text + 1
     end

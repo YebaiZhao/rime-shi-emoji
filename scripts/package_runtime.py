@@ -6,7 +6,7 @@ import zipfile
 
 USER_DOCS = ('adult-addon.md','architecture.md','coverage.md','evaluation.md','reverse-audit.md','basic-keywords-116.md','first-run.md',
              'experimental-candidate-slot.md','experimental-zero-key.md','mapping-resolution.md','model-review-sample.md','model-supervision.md','naming.md',
-             'manual-integration.md','phrase-mode.md','phrase-results.md','preferences.md','release-engineering.md','word-boundaries.md')
+             'manual-integration.md','phrase-mode.md','phrase-results.md','preferences.md','release-engineering.md','word-boundaries.md','pinyin-entry-repairs.md')
 
 
 def package(root, output):
@@ -18,13 +18,13 @@ def package(root, output):
         files[root/name] = name
     for name in USER_DOCS:
         files[root/'docs'/name] = 'docs/'+name
-    for name in ("compose.lua", "tier_data.lua", "entry_data.lua", "match_metadata.lua", "filter.lua", "matcher.lua", "processor.lua", "settings.lua", "variants.lua", "variant_data.lua", "adult.lua"):
+    for name in ("compose.lua", "tier_data.lua", "entry_data.lua", "match_metadata.lua", "filter.lua", "matcher.lua", "processor.lua", "settings.lua", "variants.lua", "variant_data.lua", "adult.lua", "pinyin.lua", "pinyin_data.lua", "word_boundary.lua", "boundary_data.lua"):
         path = root / "rime/lua/shi_emoji" / name
         files[path] = "lua/shi_emoji/" + path.name
     for name in ("Unicode-3.0.txt", "jieba-MIT.txt", "OpenCC-Apache-2.0.txt"):
         path = root / "licenses" / name
         files[path] = "licenses/" + path.name
-    for name in ("shi_emoji_phrase.custom.yaml.example", "shi_emoji.default.custom.yaml.example"):
+    for name in ("shi_emoji_phrase.custom.yaml.example", "shi_emoji.default.custom.yaml.example", "shi_emoji_pinyin.custom.yaml.example"):
         files[root / "rime" / name] = name
     payloads = {name: path.read_bytes() for path, name in files.items()}
     return write_archive(payloads, output)

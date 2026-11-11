@@ -11,17 +11,22 @@ class TierExportTests(unittest.TestCase):
                          match_metadata_source("data"))
 
     def test_core_relations_and_generated_artifact(self):
-        rules = compile_rules("data")
         rows = [json.loads(line) for line in Path("data/relation_reviews.jsonl").read_text().splitlines()]
-        entries = {(phrase, e[0].replace("\ufe0f", "")): e[1:]
-                   for phrase, targets in rules.items() for e in targets}
+        decisions = {review["id"]: review["decision"]
+                     for batch in Path("data/sentence_scope_review").glob("batch-[0-9][0-9][0-9].jsonl")
+                     for line in batch.read_text().splitlines()
+                     for review in [json.loads(line)]}
+        entries = {}
+        for gate, filename in (("normal", "tier_data.lua"), ("adult", "adult.lua")):
+            rules = compile_rules("data", content_gate=gate)
+            entries.update({(gate, phrase, e[0].replace("\ufe0f", "")): e[1:]
+                            for phrase, targets in rules.items() for e in targets})
+            self.assertEqual(Path("rime/lua/shi_emoji", filename).read_text(), runtime_source(rules))
         for row in rows:
-            if row["content_gate"] != "normal":
-                continue
-            key = row["expression"], row["target"].replace("\ufe0f", "")
+            key = row["content_gate"], row["expression"], row["target"].replace("\ufe0f", "")
             if row["status"] != "approved":
                 self.assertNotIn(key, entries)
                 continue
-            self.assertEqual(entries[key], [LEVEL[row["min_tier"]],
-                row["scope_review"]["code"] == "W", row["target_spec"]["kind"] == "fixed_sequence"])
-        self.assertEqual(Path("rime/lua/shi_emoji/tier_data.lua").read_text(), runtime_source(rules))
+            scope = "token" if decisions.get(row["id"]) == "whole_token" else row["scope_review"]["code"] == "W"
+            self.assertEqual(entries[key], [LEVEL[row["min_tier"]], scope,
+                                            row["target_spec"]["kind"] == "fixed_sequence"], key)

@@ -18,6 +18,7 @@ def main():
     p.add_argument("--skin", choices=("default", "light", "medium_light", "medium", "medium_dark", "dark"))
     p.add_argument("--gender", choices=("neutral", "female", "male"))
     p.add_argument("--no-adult", action="store_true", help="Disable the default-on 重口联想 preference")
+    p.add_argument("--pinyin-entries", action="store_true", help="Enable optional reviewed Chinese-name supplement")
     args = p.parse_args()
     if args.candidate_slot and args.zero_key:
         p.error("Choose either --candidate-slot or --zero-key")
@@ -50,6 +51,10 @@ def main():
     patch = yaml.safe_load((root/'rime/shi_emoji_phrase.custom.yaml.example').read_text())['patch']
     schema["engine"]["processors"].insert(0, "lua_processor@*shi_emoji.processor")
     schema["engine"]["filters"].append("lua_filter@*shi_emoji.filter")
+    schema['engine']['translators'] = [item for item in schema['engine']['translators']
+                                      if item != 'lua_translator@*shi_emoji.pinyin']
+    if args.pinyin_entries:
+        schema['engine']['translators'].append('lua_translator@*shi_emoji.pinyin')
     schema["switches"].extend(patch['switches/+'])
     schema["shi_emoji"] = {key.removeprefix('shi_emoji/'): value for key, value in patch.items()
                            if key.startswith('shi_emoji/')}

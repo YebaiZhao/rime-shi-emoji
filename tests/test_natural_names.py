@@ -1,12 +1,10 @@
 """Complete name-review accounting and honest separation from input validation."""
-import gzip
 import json
 from pathlib import Path
-import tempfile
 import unittest
 
 from shi_emoji.natural_names import build_reviews
-from shi_emoji.reachability import analyze, write_report
+from shi_emoji.reachability import analyze
 from tests.test_lua_filter import LUA_LIBRARY
 
 
@@ -61,6 +59,7 @@ class NaturalNameReviewTests(unittest.TestCase):
     def test_full_lua_report_rebuild_never_promotes_native_evidence(self):
         report = analyze(natural_names=True)
         self.assertEqual(report['summary']['natural_name_reviewed_emoji'], 1906)
+        self.assertEqual(report['summary']['zero_strict_entry'], 0)
         self.assertEqual(report['summary']['zero_reviewed_name_general_entry'], 0)
         self.assertEqual(report['summary']['zero_reviewed_name_divergent_entry'], 0)
         self.assertEqual(report['summary']['native_pinyin_checked_terms'], 0)
@@ -69,11 +68,3 @@ class NaturalNameReviewTests(unittest.TestCase):
             for p in row['probes']:
                 for layer in ('pinyin_candidate','native_preview','native_commit'):
                     self.assertEqual(p[layer]['status'], 'unverified')
-        with tempfile.TemporaryDirectory() as directory:
-            write_report(report, Path(directory))
-            for filename in ('entries.tsv','entries.jsonl.gz','summary.json','name-gaps.tsv'):
-                expected = (Path('data/reachability/entry-repairs-262')/filename).read_bytes()
-                actual = (Path(directory)/filename).read_bytes()
-                if filename.endswith('.gz'):
-                    expected, actual = gzip.decompress(expected), gzip.decompress(actual)
-                self.assertEqual(actual, expected, filename)

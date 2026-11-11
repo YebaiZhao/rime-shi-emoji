@@ -1,0 +1,539 @@
+{
+  "baseline_sha256": "66390cfe088766232623f10bda092d1ee5be1ab20dcf8c290cafca0f3506be1a",
+  "scope": "Optional exact whole-candidate Chinese names, emitted only while shi_emoji is enabled; no user dictionary writes.",
+  "entries": [
+    {
+      "term": "酷标志",
+      "targets": [
+        "🆒"
+      ],
+      "pinyin": "kubiaozhi",
+      "syllables": [
+        "ku",
+        "biao",
+        "zhi"
+      ]
+    },
+    {
+      "term": "男女牵手",
+      "targets": [
+        "👫"
+      ],
+      "pinyin": "nannvqianshou",
+      "syllables": [
+        "nan",
+        "nv",
+        "qian",
+        "shou"
+      ]
+    },
+    {
+      "term": "七夕许愿树",
+      "targets": [
+        "🎋"
+      ],
+      "pinyin": "qixixuyuanshu",
+      "syllables": [
+        "qi",
+        "xi",
+        "xu",
+        "yuan",
+        "shu"
+      ]
+    },
+    {
+      "term": "两个妈妈和一儿一女",
+      "targets": [
+        "👩‍👩‍👧‍👦"
+      ],
+      "pinyin": "lianggemamaheyieryinv",
+      "syllables": [
+        "liang",
+        "ge",
+        "ma",
+        "ma",
+        "he",
+        "yi",
+        "er",
+        "yi",
+        "nv"
+      ]
+    },
+    {
+      "term": "两个妈妈和两个儿子",
+      "targets": [
+        "👩‍👩‍👦‍👦"
+      ],
+      "pinyin": "lianggemamahelianggeerzi",
+      "syllables": [
+        "liang",
+        "ge",
+        "ma",
+        "ma",
+        "he",
+        "liang",
+        "ge",
+        "er",
+        "zi"
+      ]
+    },
+    {
+      "term": "两个妈妈和两个女儿",
+      "targets": [
+        "👩‍👩‍👧‍👧"
+      ],
+      "pinyin": "lianggemamahelianggenver",
+      "syllables": [
+        "liang",
+        "ge",
+        "ma",
+        "ma",
+        "he",
+        "liang",
+        "ge",
+        "nv",
+        "er"
+      ]
+    },
+    {
+      "term": "两个爸爸和一儿一女",
+      "targets": [
+        "👨‍👨‍👧‍👦"
+      ],
+      "pinyin": "lianggebabaheyieryinv",
+      "syllables": [
+        "liang",
+        "ge",
+        "ba",
+        "ba",
+        "he",
+        "yi",
+        "er",
+        "yi",
+        "nv"
+      ]
+    },
+    {
+      "term": "两个爸爸和两个儿子",
+      "targets": [
+        "👨‍👨‍👦‍👦"
+      ],
+      "pinyin": "lianggebabahelianggeerzi",
+      "syllables": [
+        "liang",
+        "ge",
+        "ba",
+        "ba",
+        "he",
+        "liang",
+        "ge",
+        "er",
+        "zi"
+      ]
+    },
+    {
+      "term": "两个爸爸和两个女儿",
+      "targets": [
+        "👨‍👨‍👧‍👧"
+      ],
+      "pinyin": "lianggebabahelianggenver",
+      "syllables": [
+        "liang",
+        "ge",
+        "ba",
+        "ba",
+        "he",
+        "liang",
+        "ge",
+        "nv",
+        "er"
+      ]
+    },
+    {
+      "term": "云里的脸",
+      "targets": [
+        "😶‍🌫️"
+      ],
+      "pinyin": "yunlidelian",
+      "syllables": [
+        "yun",
+        "li",
+        "de",
+        "lian"
+      ]
+    },
+    {
+      "term": "光明节烛台",
+      "targets": [
+        "🕎"
+      ],
+      "pinyin": "guangmingjiezhutai",
+      "syllables": [
+        "guang",
+        "ming",
+        "jie",
+        "zhu",
+        "tai"
+      ]
+    },
+    {
+      "term": "戴兔耳的人",
+      "targets": [
+        "👯"
+      ],
+      "pinyin": "daituerderen",
+      "syllables": [
+        "dai",
+        "tu",
+        "er",
+        "de",
+        "ren"
+      ]
+    },
+    {
+      "term": "关闭且旗子放下的信箱",
+      "targets": [
+        "📪"
+      ],
+      "pinyin": "guanbiqieqizifangxiadexinxiang",
+      "syllables": [
+        "guan",
+        "bi",
+        "qie",
+        "qi",
+        "zi",
+        "fang",
+        "xia",
+        "de",
+        "xin",
+        "xiang"
+      ]
+    },
+    {
+      "term": "戴单片眼镜的脸",
+      "targets": [
+        "🧐"
+      ],
+      "pinyin": "daidanpianyanjingdelian",
+      "syllables": [
+        "dai",
+        "dan",
+        "pian",
+        "yan",
+        "jing",
+        "de",
+        "lian"
+      ]
+    },
+    {
+      "term": "拒绝手势",
+      "targets": [
+        "🙅"
+      ],
+      "pinyin": "jujueshoushi",
+      "syllables": [
+        "ju",
+        "jue",
+        "shou",
+        "shi"
+      ]
+    },
+    {
+      "term": "右弯箭头",
+      "targets": [
+        "↪️"
+      ],
+      "pinyin": "youwanjiantou",
+      "syllables": [
+        "you",
+        "wan",
+        "jian",
+        "tou"
+      ]
+    },
+    {
+      "term": "左弯箭头",
+      "targets": [
+        "↩️"
+      ],
+      "pinyin": "zuowanjiantou",
+      "syllables": [
+        "zuo",
+        "wan",
+        "jian",
+        "tou"
+      ]
+    },
+    {
+      "term": "大笑的猫",
+      "targets": [
+        "😺"
+      ],
+      "pinyin": "daxiaodemao",
+      "syllables": [
+        "da",
+        "xiao",
+        "de",
+        "mao"
+      ]
+    },
+    {
+      "term": "圆圈M",
+      "targets": [
+        "Ⓜ️"
+      ],
+      "pinyin": "yuanquanm",
+      "syllables": [
+        "yuan",
+        "quan",
+        "M"
+      ]
+    },
+    {
+      "term": "奸笑的猫",
+      "targets": [
+        "😼"
+      ],
+      "pinyin": "jianxiaodemao",
+      "syllables": [
+        "jian",
+        "xiao",
+        "de",
+        "mao"
+      ]
+    },
+    {
+      "term": "天狗面具",
+      "targets": [
+        "👺"
+      ],
+      "pinyin": "tiangoumianju",
+      "syllables": [
+        "tian",
+        "gou",
+        "mian",
+        "ju"
+      ]
+    },
+    {
+      "term": "妈妈和一儿一女",
+      "targets": [
+        "👩‍👧‍👦"
+      ],
+      "pinyin": "mamaheyieryinv",
+      "syllables": [
+        "ma",
+        "ma",
+        "he",
+        "yi",
+        "er",
+        "yi",
+        "nv"
+      ]
+    },
+    {
+      "term": "妈妈和两个儿子",
+      "targets": [
+        "👩‍👦‍👦"
+      ],
+      "pinyin": "mamahelianggeerzi",
+      "syllables": [
+        "ma",
+        "ma",
+        "he",
+        "liang",
+        "ge",
+        "er",
+        "zi"
+      ]
+    },
+    {
+      "term": "妈妈和两个女儿",
+      "targets": [
+        "👩‍👧‍👧"
+      ],
+      "pinyin": "mamahelianggenver",
+      "syllables": [
+        "ma",
+        "ma",
+        "he",
+        "liang",
+        "ge",
+        "nv",
+        "er"
+      ]
+    },
+    {
+      "term": "尖叫的猫",
+      "targets": [
+        "🙀"
+      ],
+      "pinyin": "jianjiaodemao",
+      "syllables": [
+        "jian",
+        "jiao",
+        "de",
+        "mao"
+      ]
+    },
+    {
+      "term": "碗和勺子",
+      "targets": [
+        "🥣"
+      ],
+      "pinyin": "wanheshaozi",
+      "syllables": [
+        "wan",
+        "he",
+        "shao",
+        "zi"
+      ]
+    },
+    {
+      "term": "钢笔和锁",
+      "targets": [
+        "🔏"
+      ],
+      "pinyin": "gangbihesuo",
+      "syllables": [
+        "gang",
+        "bi",
+        "he",
+        "suo"
+      ]
+    },
+    {
+      "term": "戴兔耳的男人",
+      "targets": [
+        "👯‍♂️"
+      ],
+      "pinyin": "daituerdenanren",
+      "syllables": [
+        "dai",
+        "tu",
+        "er",
+        "de",
+        "nan",
+        "ren"
+      ]
+    },
+    {
+      "term": "打开且旗子放下的信箱",
+      "targets": [
+        "📭"
+      ],
+      "pinyin": "dakaiqieqizifangxiadexinxiang",
+      "syllables": [
+        "da",
+        "kai",
+        "qie",
+        "qi",
+        "zi",
+        "fang",
+        "xia",
+        "de",
+        "xin",
+        "xiang"
+      ]
+    },
+    {
+      "term": "朝右跪着的女人",
+      "targets": [
+        "🧎‍♀️‍➡️"
+      ],
+      "pinyin": "chaoyouguizhedenvren",
+      "syllables": [
+        "chao",
+        "you",
+        "gui",
+        "zhe",
+        "de",
+        "nv",
+        "ren"
+      ]
+    },
+    {
+      "term": "朝右跪着的男人",
+      "targets": [
+        "🧎‍♂️‍➡️"
+      ],
+      "pinyin": "chaoyouguizhedenanren",
+      "syllables": [
+        "chao",
+        "you",
+        "gui",
+        "zhe",
+        "de",
+        "nan",
+        "ren"
+      ]
+    },
+    {
+      "term": "浅蓝色的心",
+      "targets": [
+        "🩵"
+      ],
+      "pinyin": "qianlansedexin",
+      "syllables": [
+        "qian",
+        "lan",
+        "se",
+        "de",
+        "xin"
+      ]
+    },
+    {
+      "term": "满员标志",
+      "targets": [
+        "🈵"
+      ],
+      "pinyin": "manyuanbiaozhi",
+      "syllables": [
+        "man",
+        "yuan",
+        "biao",
+        "zhi"
+      ]
+    },
+    {
+      "term": "笑哭的猫",
+      "targets": [
+        "😹"
+      ],
+      "pinyin": "xiaokudemao",
+      "syllables": [
+        "xiao",
+        "ku",
+        "de",
+        "mao"
+      ]
+    },
+    {
+      "term": "赏月供品",
+      "targets": [
+        "🎑"
+      ],
+      "pinyin": "shangyuegongpin",
+      "syllables": [
+        "shang",
+        "yue",
+        "gong",
+        "pin"
+      ]
+    },
+    {
+      "term": "害羞的笑脸",
+      "targets": [
+        "😊"
+      ],
+      "pinyin": "haixiudexiaolian",
+      "syllables": [
+        "hai",
+        "xiu",
+        "de",
+        "xiao",
+        "lian"
+      ]
+    }
+  ]
+}

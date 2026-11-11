@@ -1,0 +1,3084 @@
+{
+  "baseline_sha256": "1bcc2e10997a2dc884a477554c6fc1000fecf06539942d395cd0740c2304ca75",
+  "reviews": [
+    {
+      "index": 1,
+      "original_term": "COOL按钮",
+      "targets": [
+        "🆒"
+      ],
+      "original_keys": "coolanniu",
+      "selected_term": "酷标志",
+      "rationale": "把英文标签译成可直接全拼输入的中文名称，保留 COOL 原名。",
+      "syllables": [
+        "ku",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "kubiaozhi"
+    },
+    {
+      "index": 2,
+      "original_term": "DNA双螺旋",
+      "targets": [
+        "🧬"
+      ],
+      "original_keys": "dnashuangluoxuan",
+      "selected_term": "脱氧核糖核酸",
+      "rationale": "使用同一目标已验证的中文全称，避免 DNA 被当成拼音。",
+      "syllables": [
+        "tuo",
+        "yang",
+        "he",
+        "tang",
+        "he",
+        "suan"
+      ],
+      "pinyin": "tuoyanghetanghesuan"
+    },
+    {
+      "index": 3,
+      "original_term": "DVD光盘",
+      "targets": [
+        "📀"
+      ],
+      "original_keys": "dvdguangpan",
+      "selected_term": "影碟",
+      "rationale": "使用 DVD 的自然中文叫法，避免混排字母拆分。",
+      "syllables": [
+        "ying",
+        "die"
+      ],
+      "pinyin": "yingdie"
+    },
+    {
+      "index": 4,
+      "original_term": "NEW按钮",
+      "targets": [
+        "🆕"
+      ],
+      "original_keys": "newanniu",
+      "selected_term": "新品标志",
+      "rationale": "用自然中文描述 NEW 标签，不把英文读成拼音。",
+      "syllables": [
+        "xin",
+        "pin",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "xinpinbiaozhi"
+    },
+    {
+      "index": 5,
+      "original_term": "UP按钮",
+      "targets": [
+        "🆙"
+      ],
+      "original_keys": "upanniu",
+      "selected_term": "向上标志",
+      "rationale": "复用已验证的中文入口，避开 u 开头的宿主特殊编码。",
+      "syllables": [
+        "xiang",
+        "shang",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "xiangshangbiaozhi"
+    },
+    {
+      "index": 6,
+      "original_term": "一男一女牵手",
+      "targets": [
+        "👫"
+      ],
+      "original_keys": "yinanyinvqianshou",
+      "selected_term": "男女牵手",
+      "rationale": "保留男女及牵手含义，使用较短的完整叫法。",
+      "syllables": [
+        "nan",
+        "nv",
+        "qian",
+        "shou"
+      ],
+      "pinyin": "nannvqianshou"
+    },
+    {
+      "index": 7,
+      "original_term": "七夕竹",
+      "targets": [
+        "🎋"
+      ],
+      "original_keys": "qixizhu",
+      "selected_term": "七夕许愿树",
+      "rationale": "选择能说明用途的既有名称，不把一般竹子混同为该装饰。",
+      "syllables": [
+        "qi",
+        "xi",
+        "xu",
+        "yuan",
+        "shu"
+      ],
+      "pinyin": "qixixuyuanshu"
+    },
+    {
+      "index": 8,
+      "original_term": "七夕许愿树",
+      "targets": [
+        "🎋"
+      ],
+      "original_keys": "qixixuyuanshu",
+      "selected_term": "七夕许愿树",
+      "rationale": "保留明确的节日装饰名称，补整词候选。",
+      "syllables": [
+        "qi",
+        "xi",
+        "xu",
+        "yuan",
+        "shu"
+      ],
+      "pinyin": "qixixuyuanshu"
+    },
+    {
+      "index": 9,
+      "original_term": "不听猴",
+      "targets": [
+        "🙉"
+      ],
+      "original_keys": "butinghou",
+      "selected_term": "非礼勿听",
+      "rationale": "采用该猴表情已有的自然中文成语入口。",
+      "syllables": [
+        "fei",
+        "li",
+        "wu",
+        "ting"
+      ],
+      "pinyin": "feiliwuting"
+    },
+    {
+      "index": 10,
+      "original_term": "不开心的脸",
+      "targets": [
+        "🙁"
+      ],
+      "original_keys": "bukaixindelian",
+      "selected_term": "微微皱眉",
+      "rationale": "复用同一表情已验证的动作描述。",
+      "syllables": [
+        "wei",
+        "wei",
+        "zhou",
+        "mei"
+      ],
+      "pinyin": "weiweizhoumei"
+    },
+    {
+      "index": 11,
+      "original_term": "不看猴",
+      "targets": [
+        "🙈"
+      ],
+      "original_keys": "bukanhou",
+      "selected_term": "非礼勿视",
+      "rationale": "采用该猴表情已有的自然中文成语入口。",
+      "syllables": [
+        "fei",
+        "li",
+        "wu",
+        "shi"
+      ],
+      "pinyin": "feiliwushi"
+    },
+    {
+      "index": 12,
+      "original_term": "两个妈妈和一儿一女",
+      "targets": [
+        "👩‍👩‍👧‍👦"
+      ],
+      "original_keys": "lianggemamaheyieryinv",
+      "selected_term": "两个妈妈和一儿一女",
+      "rationale": "保留成人性别、人数和孩子构成，不改为泛称家庭。",
+      "syllables": [
+        "liang",
+        "ge",
+        "ma",
+        "ma",
+        "he",
+        "yi",
+        "er",
+        "yi",
+        "nv"
+      ],
+      "pinyin": "lianggemamaheyieryinv"
+    },
+    {
+      "index": 13,
+      "original_term": "两个妈妈和两个儿子",
+      "targets": [
+        "👩‍👩‍👦‍👦"
+      ],
+      "original_keys": "lianggemamahelianggeerzi",
+      "selected_term": "两个妈妈和两个儿子",
+      "rationale": "保留两位母亲和两名男孩的明确构成。",
+      "syllables": [
+        "liang",
+        "ge",
+        "ma",
+        "ma",
+        "he",
+        "liang",
+        "ge",
+        "er",
+        "zi"
+      ],
+      "pinyin": "lianggemamahelianggeerzi"
+    },
+    {
+      "index": 14,
+      "original_term": "两个妈妈和两个女儿",
+      "targets": [
+        "👩‍👩‍👧‍👧"
+      ],
+      "original_keys": "lianggemamahelianggenver",
+      "selected_term": "两个妈妈和两个女儿",
+      "rationale": "保留两位母亲和两名女孩的明确构成。",
+      "syllables": [
+        "liang",
+        "ge",
+        "ma",
+        "ma",
+        "he",
+        "liang",
+        "ge",
+        "nv",
+        "er"
+      ],
+      "pinyin": "lianggemamahelianggenver"
+    },
+    {
+      "index": 15,
+      "original_term": "两个爸爸和一儿一女",
+      "targets": [
+        "👨‍👨‍👧‍👦"
+      ],
+      "original_keys": "lianggebabaheyieryinv",
+      "selected_term": "两个爸爸和一儿一女",
+      "rationale": "保留两位父亲及一男一女两名孩子。",
+      "syllables": [
+        "liang",
+        "ge",
+        "ba",
+        "ba",
+        "he",
+        "yi",
+        "er",
+        "yi",
+        "nv"
+      ],
+      "pinyin": "lianggebabaheyieryinv"
+    },
+    {
+      "index": 16,
+      "original_term": "两个爸爸和两个儿子",
+      "targets": [
+        "👨‍👨‍👦‍👦"
+      ],
+      "original_keys": "lianggebabahelianggeerzi",
+      "selected_term": "两个爸爸和两个儿子",
+      "rationale": "保留两位父亲和两名男孩的明确构成。",
+      "syllables": [
+        "liang",
+        "ge",
+        "ba",
+        "ba",
+        "he",
+        "liang",
+        "ge",
+        "er",
+        "zi"
+      ],
+      "pinyin": "lianggebabahelianggeerzi"
+    },
+    {
+      "index": 17,
+      "original_term": "两个爸爸和两个女儿",
+      "targets": [
+        "👨‍👨‍👧‍👧"
+      ],
+      "original_keys": "lianggebabahelianggenver",
+      "selected_term": "两个爸爸和两个女儿",
+      "rationale": "保留两位父亲和两名女孩的明确构成。",
+      "syllables": [
+        "liang",
+        "ge",
+        "ba",
+        "ba",
+        "he",
+        "liang",
+        "ge",
+        "nv",
+        "er"
+      ],
+      "pinyin": "lianggebabahelianggenver"
+    },
+    {
+      "index": 18,
+      "original_term": "云里的脸",
+      "targets": [
+        "😶‍🌫️"
+      ],
+      "original_keys": "yunlidelian",
+      "selected_term": "云里的脸",
+      "rationale": "保留可理解的画面描述，不用泛称迷茫替代视觉差别。",
+      "syllables": [
+        "yun",
+        "li",
+        "de",
+        "lian"
+      ],
+      "pinyin": "yunlidelian"
+    },
+    {
+      "index": 19,
+      "original_term": "云雾脸",
+      "targets": [
+        "😶‍🌫️"
+      ],
+      "original_keys": "yunwulian",
+      "selected_term": "云里的脸",
+      "rationale": "采用更完整的描述，避免云雾脸的压缩表达。",
+      "syllables": [
+        "yun",
+        "li",
+        "de",
+        "lian"
+      ],
+      "pinyin": "yunlidelian"
+    },
+    {
+      "index": 20,
+      "original_term": "井字键",
+      "targets": [
+        "#️⃣"
+      ],
+      "original_keys": "jingzijian",
+      "selected_term": "井号键",
+      "rationale": "复用已验证的常用键名。",
+      "syllables": [
+        "jing",
+        "hao",
+        "jian"
+      ],
+      "pinyin": "jinghaojian"
+    },
+    {
+      "index": 21,
+      "original_term": "伪装脸",
+      "targets": [
+        "🥸"
+      ],
+      "original_keys": "weizhuanglian",
+      "selected_term": "伪装",
+      "rationale": "采用该表情已有的自然动作叫法，保留伪装脸旧名。",
+      "syllables": [
+        "wei",
+        "zhuang"
+      ],
+      "pinyin": "weizhuang"
+    },
+    {
+      "index": 22,
+      "original_term": "倒拇指",
+      "targets": [
+        "👎"
+      ],
+      "original_keys": "daomuzhi",
+      "selected_term": "差评",
+      "rationale": "复用已验证的竖拇指向下的常用含义。",
+      "syllables": [
+        "cha",
+        "ping"
+      ],
+      "pinyin": "chaping"
+    },
+    {
+      "index": 23,
+      "original_term": "假胡子眼镜脸",
+      "targets": [
+        "🥸"
+      ],
+      "original_keys": "jiahuziyanjinglian",
+      "selected_term": "伪装",
+      "rationale": "归并到该表情的自然用途名称，不把胡子眼镜硬拼成短词。",
+      "syllables": [
+        "wei",
+        "zhuang"
+      ],
+      "pinyin": "weizhuang"
+    },
+    {
+      "index": 24,
+      "original_term": "光头成人",
+      "targets": [
+        "🧑‍🦲"
+      ],
+      "original_keys": "guangtouchengren",
+      "selected_term": "光头的人",
+      "rationale": "复用已验证的中性人物描述，不指定性别。",
+      "syllables": [
+        "guang",
+        "tou",
+        "de",
+        "ren"
+      ],
+      "pinyin": "guangtouderen"
+    },
+    {
+      "index": 25,
+      "original_term": "光明节烛台",
+      "targets": [
+        "🕎"
+      ],
+      "original_keys": "guangmingjiezhutai",
+      "selected_term": "光明节烛台",
+      "rationale": "保留明确器物名称，不泛化成任意烛台。",
+      "syllables": [
+        "guang",
+        "ming",
+        "jie",
+        "zhu",
+        "tai"
+      ],
+      "pinyin": "guangmingjiezhutai"
+    },
+    {
+      "index": 26,
+      "original_term": "兔耳舞者",
+      "targets": [
+        "👯"
+      ],
+      "original_keys": "tuerwuzhe",
+      "selected_term": "戴兔耳的人",
+      "rationale": "用直白的人物装扮描述，保留中性性别。",
+      "syllables": [
+        "dai",
+        "tu",
+        "er",
+        "de",
+        "ren"
+      ],
+      "pinyin": "daituerderen"
+    },
+    {
+      "index": 27,
+      "original_term": "关闭且旗子放下的信箱",
+      "targets": [
+        "📪"
+      ],
+      "original_keys": "guanbiqieqizifangxiadexinxiang",
+      "selected_term": "关闭且旗子放下的信箱",
+      "rationale": "保留箱门和旗子两个状态，接受必要的长描述。",
+      "syllables": [
+        "guan",
+        "bi",
+        "qie",
+        "qi",
+        "zi",
+        "fang",
+        "xia",
+        "de",
+        "xin",
+        "xiang"
+      ],
+      "pinyin": "guanbiqieqizifangxiadexinxiang"
+    },
+    {
+      "index": 28,
+      "original_term": "写着SOON的箭头",
+      "targets": [
+        "🔜"
+      ],
+      "original_keys": "xiezhesoondejiantou",
+      "selected_term": "即将到来标志",
+      "rationale": "译出 SOON 含义，避免把英文逐字母混入拼音。",
+      "syllables": [
+        "ji",
+        "jiang",
+        "dao",
+        "lai",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "jijiangdaolaibiaozhi"
+    },
+    {
+      "index": 29,
+      "original_term": "刚果布旗",
+      "targets": [
+        "🇨🇬"
+      ],
+      "original_keys": "gangguobuqi",
+      "selected_term": "刚果共和国",
+      "rationale": "采用已验证的完整专名，保持与刚果民主共和国区别。",
+      "syllables": [
+        "gang",
+        "guo",
+        "gong",
+        "he",
+        "guo"
+      ],
+      "pinyin": "gangguogongheguo"
+    },
+    {
+      "index": 30,
+      "original_term": "刚果金旗",
+      "targets": [
+        "🇨🇩"
+      ],
+      "original_keys": "gangguojinqi",
+      "selected_term": "刚果民主共和国",
+      "rationale": "采用已验证的完整专名，保持与刚果共和国区别。",
+      "syllables": [
+        "gang",
+        "guo",
+        "min",
+        "zhu",
+        "gong",
+        "he",
+        "guo"
+      ],
+      "pinyin": "gangguominzhugongheguo"
+    },
+    {
+      "index": 31,
+      "original_term": "割字标志",
+      "targets": [
+        "🈹"
+      ],
+      "original_keys": "gezibiaozhi",
+      "selected_term": "打折标志",
+      "rationale": "使用已验证的含义名称，不要求输入日文字面标签。",
+      "syllables": [
+        "da",
+        "zhe",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "dazhebiaozhi"
+    },
+    {
+      "index": 32,
+      "original_term": "单手托起的人",
+      "targets": [
+        "💁"
+      ],
+      "original_keys": "danshoutuoqideren",
+      "selected_term": "单手摊开",
+      "rationale": "复用已验证的动作描述，避免托起被误选为唾弃。",
+      "syllables": [
+        "dan",
+        "shou",
+        "tan",
+        "kai"
+      ],
+      "pinyin": "danshoutankai"
+    },
+    {
+      "index": 33,
+      "original_term": "单片眼镜脸",
+      "targets": [
+        "🧐"
+      ],
+      "original_keys": "danpianyanjinglian",
+      "selected_term": "戴单片眼镜的脸",
+      "rationale": "保留单片眼镜这一辨识特征，采用完整描述。",
+      "syllables": [
+        "dai",
+        "dan",
+        "pian",
+        "yan",
+        "jing",
+        "de",
+        "lian"
+      ],
+      "pinyin": "daidanpianyanjingdelian"
+    },
+    {
+      "index": 34,
+      "original_term": "卷发成人",
+      "targets": [
+        "🧑‍🦱"
+      ],
+      "original_keys": "juanfachengren",
+      "selected_term": "卷发的人",
+      "rationale": "复用已验证的中性发型描述。",
+      "syllables": [
+        "juan",
+        "fa",
+        "de",
+        "ren"
+      ],
+      "pinyin": "juanfaderen"
+    },
+    {
+      "index": 35,
+      "original_term": "卷发男",
+      "targets": [
+        "👨‍🦱"
+      ],
+      "original_keys": "juanfanan",
+      "selected_term": "卷发男人",
+      "rationale": "复用已验证的明确男性叫法。",
+      "syllables": [
+        "juan",
+        "fa",
+        "nan",
+        "ren"
+      ],
+      "pinyin": "juanfananren"
+    },
+    {
+      "index": 36,
+      "original_term": "叉眼脸",
+      "targets": [
+        "😵"
+      ],
+      "original_keys": "chayanlian",
+      "selected_term": "头晕眼花",
+      "rationale": "采用该表情既有的自然状态名称，不用叉眼脸这种压缩词。",
+      "syllables": [
+        "tou",
+        "yun",
+        "yan",
+        "hua"
+      ],
+      "pinyin": "touyunyanhua"
+    },
+    {
+      "index": 37,
+      "original_term": "双手捧起",
+      "targets": [
+        "🤲"
+      ],
+      "original_keys": "shuangshoupengqi",
+      "selected_term": "双手掌心向上",
+      "rationale": "复用已验证且明确手掌朝向的描述。",
+      "syllables": [
+        "shuang",
+        "shou",
+        "zhang",
+        "xin",
+        "xiang",
+        "shang"
+      ],
+      "pinyin": "shuangshouzhangxinxiangshang"
+    },
+    {
+      "index": 38,
+      "original_term": "双臂交叉",
+      "targets": [
+        "🙅"
+      ],
+      "original_keys": "shuangbijiaocha",
+      "selected_term": "拒绝手势",
+      "rationale": "以动作含义命名，不把任意双臂交叉都当作该表情。",
+      "syllables": [
+        "ju",
+        "jue",
+        "shou",
+        "shi"
+      ],
+      "pinyin": "jujueshoushi"
+    },
+    {
+      "index": 39,
+      "original_term": "双臂画圆",
+      "targets": [
+        "🙆"
+      ],
+      "original_keys": "shuangbihuayuan",
+      "selected_term": "双手举过头顶",
+      "rationale": "复用已验证的动作描述。",
+      "syllables": [
+        "shuang",
+        "shou",
+        "ju",
+        "guo",
+        "tou",
+        "ding"
+      ],
+      "pinyin": "shuangshoujuguotouding"
+    },
+    {
+      "index": 40,
+      "original_term": "可字标志",
+      "targets": [
+        "🉑"
+      ],
+      "original_keys": "kezibiaozhi",
+      "selected_term": "许可标志",
+      "rationale": "采用已验证的含义名称。",
+      "syllables": [
+        "xu",
+        "ke",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "xukebiaozhi"
+    },
+    {
+      "index": 41,
+      "original_term": "右弯箭头",
+      "targets": [
+        "↪️"
+      ],
+      "original_keys": "youwanjiantou",
+      "selected_term": "右弯箭头",
+      "rationale": "保留转弯方向，补整词候选。",
+      "syllables": [
+        "you",
+        "wan",
+        "jian",
+        "tou"
+      ],
+      "pinyin": "youwanjiantou"
+    },
+    {
+      "index": 42,
+      "original_term": "吃惊的脸",
+      "targets": [
+        "😦"
+      ],
+      "original_keys": "chijingdelian",
+      "selected_term": "张嘴皱眉",
+      "rationale": "复用已验证的表情特征描述。",
+      "syllables": [
+        "zhang",
+        "zui",
+        "zhou",
+        "mei"
+      ],
+      "pinyin": "zhangzuizhoumei"
+    },
+    {
+      "index": 43,
+      "original_term": "合字标志",
+      "targets": [
+        "🈴"
+      ],
+      "original_keys": "hezibiaozhi",
+      "selected_term": "合格标志",
+      "rationale": "采用已验证的含义名称。",
+      "syllables": [
+        "he",
+        "ge",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "hegebiaozhi"
+    },
+    {
+      "index": 44,
+      "original_term": "向右拐弯的箭头",
+      "targets": [
+        "↪️"
+      ],
+      "original_keys": "xiangyouguaiwandejiantou",
+      "selected_term": "右弯箭头",
+      "rationale": "将长描述归并为含义相同的短名称。",
+      "syllables": [
+        "you",
+        "wan",
+        "jian",
+        "tou"
+      ],
+      "pinyin": "youwanjiantou"
+    },
+    {
+      "index": 45,
+      "original_term": "向右走路",
+      "targets": [
+        "🚶‍➡️"
+      ],
+      "original_keys": "xiangyouzoulu",
+      "selected_term": "向右走的人",
+      "rationale": "保留人物、动作和向右方向，复用已验证入口。",
+      "syllables": [
+        "xiang",
+        "you",
+        "zou",
+        "de",
+        "ren"
+      ],
+      "pinyin": "xiangyouzouderen"
+    },
+    {
+      "index": 46,
+      "original_term": "向右跑步",
+      "targets": [
+        "🏃‍➡️"
+      ],
+      "original_keys": "xiangyoupaobu",
+      "selected_term": "向右跑的人",
+      "rationale": "保留人物、动作和向右方向，复用已验证入口。",
+      "syllables": [
+        "xiang",
+        "you",
+        "pao",
+        "de",
+        "ren"
+      ],
+      "pinyin": "xiangyoupaoderen"
+    },
+    {
+      "index": 47,
+      "original_term": "向左拐弯的箭头",
+      "targets": [
+        "↩️"
+      ],
+      "original_keys": "xiangzuoguaiwandejiantou",
+      "selected_term": "左弯箭头",
+      "rationale": "将长描述归并为含义相同的短名称。",
+      "syllables": [
+        "zuo",
+        "wan",
+        "jian",
+        "tou"
+      ],
+      "pinyin": "zuowanjiantou"
+    },
+    {
+      "index": 48,
+      "original_term": "咧嘴笑的猫",
+      "targets": [
+        "😺"
+      ],
+      "original_keys": "liezuixiaodemao",
+      "selected_term": "大笑的猫",
+      "rationale": "使用既有的完整描述，保留猫与人脸区别。",
+      "syllables": [
+        "da",
+        "xiao",
+        "de",
+        "mao"
+      ],
+      "pinyin": "daxiaodemao"
+    },
+    {
+      "index": 49,
+      "original_term": "圆圈M",
+      "targets": [
+        "Ⓜ️"
+      ],
+      "original_keys": "yuanquanm",
+      "selected_term": "圆圈M",
+      "rationale": "保留字母 M，明确使用中文全拼加字母 m 的混合输入。",
+      "syllables": [
+        "yuan",
+        "quan",
+        "M"
+      ],
+      "pinyin": "yuanquanm"
+    },
+    {
+      "index": 50,
+      "original_term": "圣诞装扮的人",
+      "targets": [
+        "🧑‍🎄"
+      ],
+      "original_keys": "shengdanzhuangbanderen",
+      "selected_term": "圣诞老人",
+      "rationale": "采用自然通称，具体性别继续遵循现有偏好。",
+      "syllables": [
+        "sheng",
+        "dan",
+        "lao",
+        "ren"
+      ],
+      "pinyin": "shengdanlaoren"
+    },
+    {
+      "index": 51,
+      "original_term": "坏笑恶魔",
+      "targets": [
+        "😈"
+      ],
+      "original_keys": "huaixiaoemo",
+      "selected_term": "恶魔笑脸",
+      "rationale": "复用已验证的自然词序。",
+      "syllables": [
+        "e",
+        "mo",
+        "xiao",
+        "lian"
+      ],
+      "pinyin": "emoxiaolian"
+    },
+    {
+      "index": 52,
+      "original_term": "坏笑猫",
+      "targets": [
+        "😼"
+      ],
+      "original_keys": "huaixiaomao",
+      "selected_term": "奸笑的猫",
+      "rationale": "保留猫和笑容特点，采用既有完整描述。",
+      "syllables": [
+        "jian",
+        "xiao",
+        "de",
+        "mao"
+      ],
+      "pinyin": "jianxiaodemao"
+    },
+    {
+      "index": 53,
+      "original_term": "垃圾入桶",
+      "targets": [
+        "🚮"
+      ],
+      "original_keys": "lajirutong",
+      "selected_term": "扔垃圾标志",
+      "rationale": "复用已验证的用途名称。",
+      "syllables": [
+        "reng",
+        "la",
+        "ji",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "renglajibiaozhi"
+    },
+    {
+      "index": 54,
+      "original_term": "大黑方块",
+      "targets": [
+        "⬛"
+      ],
+      "original_keys": "daheifangkuai",
+      "selected_term": "黑色大方块",
+      "rationale": "复用已验证的颜色和尺寸描述。",
+      "syllables": [
+        "hei",
+        "se",
+        "da",
+        "fang",
+        "kuai"
+      ],
+      "pinyin": "heisedafangkuai"
+    },
+    {
+      "index": 55,
+      "original_term": "天狗面具",
+      "targets": [
+        "👺"
+      ],
+      "original_keys": "tiangoumianju",
+      "selected_term": "天狗面具",
+      "rationale": "保留具体面具名称，不借泛称鬼怪增加命中。",
+      "syllables": [
+        "tian",
+        "gou",
+        "mian",
+        "ju"
+      ],
+      "pinyin": "tiangoumianju"
+    },
+    {
+      "index": 56,
+      "original_term": "失望又松口气",
+      "targets": [
+        "😥"
+      ],
+      "original_keys": "shiwangyousongkouqi",
+      "selected_term": "冒冷汗",
+      "rationale": "采用该表情已有的自然情绪入口，保留旧描述。",
+      "syllables": [
+        "mao",
+        "leng",
+        "han"
+      ],
+      "pinyin": "maolenghan"
+    },
+    {
+      "index": 57,
+      "original_term": "女人做拒绝手势",
+      "targets": [
+        "🙅‍♀️"
+      ],
+      "original_keys": "nvrenzuojujueshoushi",
+      "selected_term": "女生拒绝",
+      "rationale": "复用已验证且明确性别的动作叫法。",
+      "syllables": [
+        "nv",
+        "sheng",
+        "ju",
+        "jue"
+      ],
+      "pinyin": "nvshengjujue"
+    },
+    {
+      "index": 58,
+      "original_term": "女人喂奶",
+      "targets": [
+        "👩‍🍼"
+      ],
+      "original_keys": "nvrenweinai",
+      "selected_term": "用奶瓶喂宝宝的女人",
+      "rationale": "明确奶瓶喂养，避免与母乳喂养混同。",
+      "syllables": [
+        "yong",
+        "nai",
+        "ping",
+        "wei",
+        "bao",
+        "bao",
+        "de",
+        "nv",
+        "ren"
+      ],
+      "pinyin": "yongnaipingweibaobaodenvren"
+    },
+    {
+      "index": 59,
+      "original_term": "女性情侣接吻",
+      "targets": [
+        "👩‍❤️‍💋‍👩"
+      ],
+      "original_keys": "nvxingqinglvjiewen",
+      "selected_term": "两个女人接吻",
+      "rationale": "复用已验证的具体人物和动作描述。",
+      "syllables": [
+        "liang",
+        "ge",
+        "nv",
+        "ren",
+        "jie",
+        "wen"
+      ],
+      "pinyin": "lianggenvrenjiewen"
+    },
+    {
+      "index": 60,
+      "original_term": "女生做同意手势",
+      "targets": [
+        "🙆‍♀️"
+      ],
+      "original_keys": "nvshengzuotongyishoushi",
+      "selected_term": "女生双手举过头顶",
+      "rationale": "复用已验证且明确性别的动作描述。",
+      "syllables": [
+        "nv",
+        "sheng",
+        "shuang",
+        "shou",
+        "ju",
+        "guo",
+        "tou",
+        "ding"
+      ],
+      "pinyin": "nvshengshuangshoujuguotouding"
+    },
+    {
+      "index": 61,
+      "original_term": "女生托手",
+      "targets": [
+        "💁‍♀️"
+      ],
+      "original_keys": "nvshengtuoshou",
+      "selected_term": "女生单手摊开",
+      "rationale": "沿用中性入口单手摊开的说法，补足明确女性。",
+      "syllables": [
+        "nv",
+        "sheng",
+        "dan",
+        "shou",
+        "tan",
+        "kai"
+      ],
+      "pinyin": "nvshengdanshoutankai"
+    },
+    {
+      "index": 62,
+      "original_term": "女生撅嘴",
+      "targets": [
+        "🙎‍♀️"
+      ],
+      "original_keys": "nvshengjuezui",
+      "selected_term": "女生噘嘴",
+      "rationale": "接受宿主使用的噘嘴字形，保留撅嘴旧写法。",
+      "syllables": [
+        "nv",
+        "sheng",
+        "jue",
+        "zui"
+      ],
+      "pinyin": "nvshengjuezui"
+    },
+    {
+      "index": 63,
+      "original_term": "女生皱眉",
+      "targets": [
+        "🙍‍♀️"
+      ],
+      "original_keys": "nvshengzhoumei",
+      "selected_term": "皱眉的女人",
+      "rationale": "复用已验证的自然词序和明确性别。",
+      "syllables": [
+        "zhou",
+        "mei",
+        "de",
+        "nv",
+        "ren"
+      ],
+      "pinyin": "zhoumeidenvren"
+    },
+    {
+      "index": 64,
+      "original_term": "奶瓶喂养",
+      "targets": [
+        "🧑‍🍼"
+      ],
+      "original_keys": "naipingweiyang",
+      "selected_term": "用奶瓶喂宝宝的人",
+      "rationale": "复用已验证的中性人物动作描述。",
+      "syllables": [
+        "yong",
+        "nai",
+        "ping",
+        "wei",
+        "bao",
+        "bao",
+        "de",
+        "ren"
+      ],
+      "pinyin": "yongnaipingweibaobaoderen"
+    },
+    {
+      "index": 65,
+      "original_term": "奸笑猫",
+      "targets": [
+        "😼"
+      ],
+      "original_keys": "jianxiaomao",
+      "selected_term": "奸笑的猫",
+      "rationale": "补出结构助词，保留猫脸特征。",
+      "syllables": [
+        "jian",
+        "xiao",
+        "de",
+        "mao"
+      ],
+      "pinyin": "jianxiaodemao"
+    },
+    {
+      "index": 66,
+      "original_term": "妈妈和一儿一女",
+      "targets": [
+        "👩‍👧‍👦"
+      ],
+      "original_keys": "mamaheyieryinv",
+      "selected_term": "妈妈和一儿一女",
+      "rationale": "保留一位母亲及两个孩子的具体构成。",
+      "syllables": [
+        "ma",
+        "ma",
+        "he",
+        "yi",
+        "er",
+        "yi",
+        "nv"
+      ],
+      "pinyin": "mamaheyieryinv"
+    },
+    {
+      "index": 67,
+      "original_term": "妈妈和两个儿子",
+      "targets": [
+        "👩‍👦‍👦"
+      ],
+      "original_keys": "mamahelianggeerzi",
+      "selected_term": "妈妈和两个儿子",
+      "rationale": "保留一位母亲及两名男孩的具体构成。",
+      "syllables": [
+        "ma",
+        "ma",
+        "he",
+        "liang",
+        "ge",
+        "er",
+        "zi"
+      ],
+      "pinyin": "mamahelianggeerzi"
+    },
+    {
+      "index": 68,
+      "original_term": "妈妈和两个女儿",
+      "targets": [
+        "👩‍👧‍👧"
+      ],
+      "original_keys": "mamahelianggenver",
+      "selected_term": "妈妈和两个女儿",
+      "rationale": "保留一位母亲及两名女孩的具体构成。",
+      "syllables": [
+        "ma",
+        "ma",
+        "he",
+        "liang",
+        "ge",
+        "nv",
+        "er"
+      ],
+      "pinyin": "mamahelianggenver"
+    },
+    {
+      "index": 69,
+      "original_term": "威尔士旗",
+      "targets": [
+        "🏴󠁧󠁢󠁷󠁬󠁳󠁿"
+      ],
+      "original_keys": "weiershiqi",
+      "selected_term": "威尔士",
+      "rationale": "复用已验证专名，保持完整地区旗帜序列。",
+      "syllables": [
+        "wei",
+        "er",
+        "shi"
+      ],
+      "pinyin": "weiershi"
+    },
+    {
+      "index": 70,
+      "original_term": "尖叫猫",
+      "targets": [
+        "🙀"
+      ],
+      "original_keys": "jianjiaomao",
+      "selected_term": "尖叫的猫",
+      "rationale": "补出结构助词，明确是猫而非人脸。",
+      "syllables": [
+        "jian",
+        "jiao",
+        "de",
+        "mao"
+      ],
+      "pinyin": "jianjiaodemao"
+    },
+    {
+      "index": 71,
+      "original_term": "左弯箭头",
+      "targets": [
+        "↩️"
+      ],
+      "original_keys": "zuowanjiantou",
+      "selected_term": "左弯箭头",
+      "rationale": "保留转弯方向，补整词候选。",
+      "syllables": [
+        "zuo",
+        "wan",
+        "jian",
+        "tou"
+      ],
+      "pinyin": "zuowanjiantou"
+    },
+    {
+      "index": 72,
+      "original_term": "带勺的碗",
+      "targets": [
+        "🥣"
+      ],
+      "original_keys": "daishaodewan",
+      "selected_term": "碗和勺子",
+      "rationale": "使用直白器物组合名称，不泛化为早餐。",
+      "syllables": [
+        "wan",
+        "he",
+        "shao",
+        "zi"
+      ],
+      "pinyin": "wanheshaozi"
+    },
+    {
+      "index": 73,
+      "original_term": "带圈的M",
+      "targets": [
+        "Ⓜ️"
+      ],
+      "original_keys": "daiquandem",
+      "selected_term": "圆圈M",
+      "rationale": "归并到相同图形名称，保留字母 M。",
+      "syllables": [
+        "yuan",
+        "quan",
+        "M"
+      ],
+      "pinyin": "yuanquanm"
+    },
+    {
+      "index": 74,
+      "original_term": "带眼睛的对话框",
+      "targets": [
+        "👁️‍🗨️"
+      ],
+      "original_keys": "daiyanjingdeduihuakuang",
+      "selected_term": "眼睛对话气泡",
+      "rationale": "复用已验证的图形组合名称。",
+      "syllables": [
+        "yan",
+        "jing",
+        "dui",
+        "hua",
+        "qi",
+        "pao"
+      ],
+      "pinyin": "yanjingduihuaqipao"
+    },
+    {
+      "index": 75,
+      "original_term": "带笔的锁",
+      "targets": [
+        "🔏"
+      ],
+      "original_keys": "daibidesuo",
+      "selected_term": "钢笔和锁",
+      "rationale": "使用直白器物组合名称，保留与普通锁的区别。",
+      "syllables": [
+        "gang",
+        "bi",
+        "he",
+        "suo"
+      ],
+      "pinyin": "gangbihesuo"
+    },
+    {
+      "index": 76,
+      "original_term": "带箭头的手机",
+      "targets": [
+        "📲"
+      ],
+      "original_keys": "daijiantoudeshouji",
+      "selected_term": "手机来电",
+      "rationale": "复用已验证的手机动作含义。",
+      "syllables": [
+        "shou",
+        "ji",
+        "lai",
+        "dian"
+      ],
+      "pinyin": "shoujilaidian"
+    },
+    {
+      "index": 77,
+      "original_term": "张嘴惊讶的脸",
+      "targets": [
+        "😯"
+      ],
+      "original_keys": "zhangzuijingyadelian",
+      "selected_term": "惊讶张嘴",
+      "rationale": "复用已验证的表情动作叫法。",
+      "syllables": [
+        "jing",
+        "ya",
+        "zhang",
+        "zui"
+      ],
+      "pinyin": "jingyazhangzui"
+    },
+    {
+      "index": 78,
+      "original_term": "彩屑球",
+      "targets": [
+        "🎊"
+      ],
+      "original_keys": "caixieqiu",
+      "selected_term": "五彩纸屑球",
+      "rationale": "使用既有完整器物名，避免彩屑这种不常用缩略。",
+      "syllables": [
+        "wu",
+        "cai",
+        "zhi",
+        "xie",
+        "qiu"
+      ],
+      "pinyin": "wucaizhixieqiu"
+    },
+    {
+      "index": 79,
+      "original_term": "彩纸球",
+      "targets": [
+        "🎊"
+      ],
+      "original_keys": "caizhiqiu",
+      "selected_term": "五彩纸屑球",
+      "rationale": "说明纸屑礼花球的材质和形态。",
+      "syllables": [
+        "wu",
+        "cai",
+        "zhi",
+        "xie",
+        "qiu"
+      ],
+      "pinyin": "wucaizhixieqiu"
+    },
+    {
+      "index": 80,
+      "original_term": "得字标志",
+      "targets": [
+        "🉐"
+      ],
+      "original_keys": "dezibiaozhi",
+      "selected_term": "优惠标志",
+      "rationale": "采用已验证的含义名称。",
+      "syllables": [
+        "you",
+        "hui",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "youhuibiaozhi"
+    },
+    {
+      "index": 81,
+      "original_term": "戏剧面具",
+      "targets": [
+        "🎭"
+      ],
+      "original_keys": "xijumianju",
+      "selected_term": "喜剧悲剧面具",
+      "rationale": "复用已验证且保留一喜一悲的名称。",
+      "syllables": [
+        "xi",
+        "ju",
+        "bei",
+        "ju",
+        "mian",
+        "ju"
+      ],
+      "pinyin": "xijubeijumianju"
+    },
+    {
+      "index": 82,
+      "original_term": "戴兔耳的人",
+      "targets": [
+        "👯"
+      ],
+      "original_keys": "daituerderen",
+      "selected_term": "戴兔耳的人",
+      "rationale": "保留中性人物装扮描述。",
+      "syllables": [
+        "dai",
+        "tu",
+        "er",
+        "de",
+        "ren"
+      ],
+      "pinyin": "daituerderen"
+    },
+    {
+      "index": 83,
+      "original_term": "戴兔耳的男人",
+      "targets": [
+        "👯‍♂️"
+      ],
+      "original_keys": "daituerdenanren",
+      "selected_term": "戴兔耳的男人",
+      "rationale": "保留男性人物装扮描述。",
+      "syllables": [
+        "dai",
+        "tu",
+        "er",
+        "de",
+        "nan",
+        "ren"
+      ],
+      "pinyin": "daituerdenanren"
+    },
+    {
+      "index": 84,
+      "original_term": "戴单片眼镜的脸",
+      "targets": [
+        "🧐"
+      ],
+      "original_keys": "daidanpianyanjingdelian",
+      "selected_term": "戴单片眼镜的脸",
+      "rationale": "保留明确视觉特征，补整词候选。",
+      "syllables": [
+        "dai",
+        "dan",
+        "pian",
+        "yan",
+        "jing",
+        "de",
+        "lian"
+      ],
+      "pinyin": "daidanpianyanjingdelian"
+    },
+    {
+      "index": 85,
+      "original_term": "戴圣诞帽的人",
+      "targets": [
+        "🧑‍🎄"
+      ],
+      "original_keys": "daishengdanmaoderen",
+      "selected_term": "圣诞老人",
+      "rationale": "采用自然通称，具体性别继续遵循现有偏好。",
+      "syllables": [
+        "sheng",
+        "dan",
+        "lao",
+        "ren"
+      ],
+      "pinyin": "shengdanlaoren"
+    },
+    {
+      "index": 86,
+      "original_term": "戴牛仔帽的脸",
+      "targets": [
+        "🤠"
+      ],
+      "original_keys": "dainiuzaimaodelian",
+      "selected_term": "牛仔帽笑脸",
+      "rationale": "复用已验证的完整图形名称。",
+      "syllables": [
+        "niu",
+        "zai",
+        "mao",
+        "xiao",
+        "lian"
+      ],
+      "pinyin": "niuzaimaoxiaolian"
+    },
+    {
+      "index": 87,
+      "original_term": "打开且旗子放下的信箱",
+      "targets": [
+        "📭"
+      ],
+      "original_keys": "dakaiqieqizifangxiadexinxiang",
+      "selected_term": "打开且旗子放下的信箱",
+      "rationale": "保留箱门和旗子两个状态，不与关闭信箱混同。",
+      "syllables": [
+        "da",
+        "kai",
+        "qie",
+        "qi",
+        "zi",
+        "fang",
+        "xia",
+        "de",
+        "xin",
+        "xiang"
+      ],
+      "pinyin": "dakaiqieqizifangxiadexinxiang"
+    },
+    {
+      "index": 88,
+      "original_term": "托手的女人",
+      "targets": [
+        "💁‍♀️"
+      ],
+      "original_keys": "tuoshoudenvren",
+      "selected_term": "女生单手摊开",
+      "rationale": "明确性别和动作，避免托手的生硬简称。",
+      "syllables": [
+        "nv",
+        "sheng",
+        "dan",
+        "shou",
+        "tan",
+        "kai"
+      ],
+      "pinyin": "nvshengdanshoutankai"
+    },
+    {
+      "index": 89,
+      "original_term": "托手的男人",
+      "targets": [
+        "💁‍♂️"
+      ],
+      "original_keys": "tuoshoudenanren",
+      "selected_term": "男生单手摊开",
+      "rationale": "明确性别和动作，避免托手的生硬简称。",
+      "syllables": [
+        "nan",
+        "sheng",
+        "dan",
+        "shou",
+        "tan",
+        "kai"
+      ],
+      "pinyin": "nanshengdanshoutankai"
+    },
+    {
+      "index": 90,
+      "original_term": "拒绝手势",
+      "targets": [
+        "🙅"
+      ],
+      "original_keys": "jujueshoushi",
+      "selected_term": "拒绝手势",
+      "rationale": "保留准确动作含义，补整词候选。",
+      "syllables": [
+        "ju",
+        "jue",
+        "shou",
+        "shi"
+      ],
+      "pinyin": "jujueshoushi"
+    },
+    {
+      "index": 91,
+      "original_term": "指字标志",
+      "targets": [
+        "🈯"
+      ],
+      "original_keys": "zhizibiaozhi",
+      "selected_term": "预留标志",
+      "rationale": "采用已验证的含义名称。",
+      "syllables": [
+        "yu",
+        "liu",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "yuliubiaozhi"
+    },
+    {
+      "index": 92,
+      "original_term": "捂眼猴",
+      "targets": [
+        "🙈"
+      ],
+      "original_keys": "wuyanhou",
+      "selected_term": "非礼勿视",
+      "rationale": "采用该猴表情既有的自然成语入口。",
+      "syllables": [
+        "fei",
+        "li",
+        "wu",
+        "shi"
+      ],
+      "pinyin": "feiliwushi"
+    },
+    {
+      "index": 93,
+      "original_term": "捂耳猴",
+      "targets": [
+        "🙉"
+      ],
+      "original_keys": "wuerhou",
+      "selected_term": "非礼勿听",
+      "rationale": "采用该猴表情既有的自然成语入口。",
+      "syllables": [
+        "fei",
+        "li",
+        "wu",
+        "ting"
+      ],
+      "pinyin": "feiliwuting"
+    },
+    {
+      "index": 94,
+      "original_term": "搞怪脸",
+      "targets": [
+        "🤪"
+      ],
+      "original_keys": "gaoguailian",
+      "selected_term": "滑稽脸",
+      "rationale": "复用已验证的同一表情名称。",
+      "syllables": [
+        "hua",
+        "ji",
+        "lian"
+      ],
+      "pinyin": "huajilian"
+    },
+    {
+      "index": 95,
+      "original_term": "撅嘴的女人",
+      "targets": [
+        "🙎‍♀️"
+      ],
+      "original_keys": "juezuidenvren",
+      "selected_term": "女生噘嘴",
+      "rationale": "接受噘嘴字形并保留女性，原撅嘴写法不删除。",
+      "syllables": [
+        "nv",
+        "sheng",
+        "jue",
+        "zui"
+      ],
+      "pinyin": "nvshengjuezui"
+    },
+    {
+      "index": 96,
+      "original_term": "撅嘴的男人",
+      "targets": [
+        "🙎‍♂️"
+      ],
+      "original_keys": "juezuidenanren",
+      "selected_term": "男生噘嘴",
+      "rationale": "接受噘嘴字形并保留男性，原撅嘴写法不删除。",
+      "syllables": [
+        "nan",
+        "sheng",
+        "jue",
+        "zui"
+      ],
+      "pinyin": "nanshengjuezui"
+    },
+    {
+      "index": 97,
+      "original_term": "放大的心",
+      "targets": [
+        "💗"
+      ],
+      "original_keys": "fangdadexin",
+      "selected_term": "变大的爱心",
+      "rationale": "复用已验证的动态形态描述。",
+      "syllables": [
+        "bian",
+        "da",
+        "de",
+        "ai",
+        "xin"
+      ],
+      "pinyin": "biandadeaixin"
+    },
+    {
+      "index": 98,
+      "original_term": "数字十",
+      "targets": [
+        "🔟"
+      ],
+      "original_keys": "shuzishi",
+      "selected_term": "十",
+      "rationale": "复用已验证的数字名称，保留完整键帽序列。",
+      "syllables": [
+        "shi"
+      ],
+      "pinyin": "shi"
+    },
+    {
+      "index": 99,
+      "original_term": "数字零",
+      "targets": [
+        "0️⃣"
+      ],
+      "original_keys": "shuziling",
+      "selected_term": "零",
+      "rationale": "复用已验证的数字名称，保留完整键帽序列。",
+      "syllables": [
+        "ling"
+      ],
+      "pinyin": "ling"
+    },
+    {
+      "index": 100,
+      "original_term": "新款标志",
+      "targets": [
+        "🆕"
+      ],
+      "original_keys": "xinkuanbiaozhi",
+      "selected_term": "新品标志",
+      "rationale": "用自然中文描述 NEW 标签。",
+      "syllables": [
+        "xin",
+        "pin",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "xinpinbiaozhi"
+    },
+    {
+      "index": 101,
+      "original_term": "无字标志",
+      "targets": [
+        "🈚"
+      ],
+      "original_keys": "wuzibiaozhi",
+      "selected_term": "免费标志",
+      "rationale": "采用已验证的含义名称。",
+      "syllables": [
+        "mian",
+        "fei",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "mianfeibiaozhi"
+    },
+    {
+      "index": 102,
+      "original_term": "星键",
+      "targets": [
+        "*️⃣"
+      ],
+      "original_keys": "xingjian",
+      "selected_term": "星号键",
+      "rationale": "复用已验证的常用键名。",
+      "syllables": [
+        "xing",
+        "hao",
+        "jian"
+      ],
+      "pinyin": "xinghaojian"
+    },
+    {
+      "index": 103,
+      "original_term": "晕倒脸",
+      "targets": [
+        "😵"
+      ],
+      "original_keys": "yundaolian",
+      "selected_term": "头晕眼花",
+      "rationale": "使用该表情已有的自然状态名称。",
+      "syllables": [
+        "tou",
+        "yun",
+        "yan",
+        "hua"
+      ],
+      "pinyin": "touyunyanhua"
+    },
+    {
+      "index": 104,
+      "original_term": "月字标志",
+      "targets": [
+        "🈷️"
+      ],
+      "original_keys": "yuezibiaozhi",
+      "selected_term": "日文月费标志",
+      "rationale": "复用已验证且不混同月亮的含义名称。",
+      "syllables": [
+        "ri",
+        "wen",
+        "yue",
+        "fei",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "riwenyuefeibiaozhi"
+    },
+    {
+      "index": 105,
+      "original_term": "有字标志",
+      "targets": [
+        "🈶"
+      ],
+      "original_keys": "youzibiaozhi",
+      "selected_term": "收费标志",
+      "rationale": "采用已验证的含义名称。",
+      "syllables": [
+        "shou",
+        "fei",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "shoufeibiaozhi"
+    },
+    {
+      "index": 106,
+      "original_term": "朝右跪着的人",
+      "targets": [
+        "🧎‍➡️"
+      ],
+      "original_keys": "chaoyouguizhederen",
+      "selected_term": "面向右边下跪",
+      "rationale": "复用已验证的中性人物动作描述。",
+      "syllables": [
+        "mian",
+        "xiang",
+        "you",
+        "bian",
+        "xia",
+        "gui"
+      ],
+      "pinyin": "mianxiangyoubianxiagui"
+    },
+    {
+      "index": 107,
+      "original_term": "朝右跪着的女人",
+      "targets": [
+        "🧎‍♀️‍➡️"
+      ],
+      "original_keys": "chaoyouguizhedenvren",
+      "selected_term": "朝右跪着的女人",
+      "rationale": "保留女性、下跪和朝向三个特征。",
+      "syllables": [
+        "chao",
+        "you",
+        "gui",
+        "zhe",
+        "de",
+        "nv",
+        "ren"
+      ],
+      "pinyin": "chaoyouguizhedenvren"
+    },
+    {
+      "index": 108,
+      "original_term": "朝右跪着的男人",
+      "targets": [
+        "🧎‍♂️‍➡️"
+      ],
+      "original_keys": "chaoyouguizhedenanren",
+      "selected_term": "朝右跪着的男人",
+      "rationale": "保留男性、下跪和朝向三个特征。",
+      "syllables": [
+        "chao",
+        "you",
+        "gui",
+        "zhe",
+        "de",
+        "nan",
+        "ren"
+      ],
+      "pinyin": "chaoyouguizhedenanren"
+    },
+    {
+      "index": 109,
+      "original_term": "正在漏沙的沙漏",
+      "targets": [
+        "⏳"
+      ],
+      "original_keys": "zhengzailoushadeshalou",
+      "selected_term": "计时沙漏",
+      "rationale": "复用已验证的用途名称。",
+      "syllables": [
+        "ji",
+        "shi",
+        "sha",
+        "lou"
+      ],
+      "pinyin": "jishishalou"
+    },
+    {
+      "index": 110,
+      "original_term": "流汗的难过脸",
+      "targets": [
+        "😥"
+      ],
+      "original_keys": "liuhandenanguolian",
+      "selected_term": "冒冷汗",
+      "rationale": "使用该表情已有的自然情绪入口。",
+      "syllables": [
+        "mao",
+        "leng",
+        "han"
+      ],
+      "pinyin": "maolenghan"
+    },
+    {
+      "index": 111,
+      "original_term": "流泪猫",
+      "targets": [
+        "😿"
+      ],
+      "original_keys": "liuleimao",
+      "selected_term": "哭泣猫",
+      "rationale": "复用已验证的同一猫脸名称。",
+      "syllables": [
+        "ku",
+        "qi",
+        "mao"
+      ],
+      "pinyin": "kuqimao"
+    },
+    {
+      "index": 112,
+      "original_term": "浅蓝心",
+      "targets": [
+        "🩵"
+      ],
+      "original_keys": "qianlanxin",
+      "selected_term": "浅蓝色的心",
+      "rationale": "使用既有完整颜色描述，保留与蓝心的色差。",
+      "syllables": [
+        "qian",
+        "lan",
+        "se",
+        "de",
+        "xin"
+      ],
+      "pinyin": "qianlansedexin"
+    },
+    {
+      "index": 113,
+      "original_term": "浅锅料理",
+      "targets": [
+        "🥘"
+      ],
+      "original_keys": "qianguoliaoli",
+      "selected_term": "平底锅里的食物",
+      "rationale": "复用已验证的画面描述，不指定未确认菜品。",
+      "syllables": [
+        "ping",
+        "di",
+        "guo",
+        "li",
+        "de",
+        "shi",
+        "wu"
+      ],
+      "pinyin": "pingdiguolideshiwu"
+    },
+    {
+      "index": 114,
+      "original_term": "满员标志",
+      "targets": [
+        "🈵"
+      ],
+      "original_keys": "manyuanbiaozhi",
+      "selected_term": "满员标志",
+      "rationale": "保留明确含义，补整词候选。",
+      "syllables": [
+        "man",
+        "yuan",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "manyuanbiaozhi"
+    },
+    {
+      "index": 115,
+      "original_term": "满字标志",
+      "targets": [
+        "🈵"
+      ],
+      "original_keys": "manzibiaozhi",
+      "selected_term": "满员标志",
+      "rationale": "将字面标签改为明确含义名称。",
+      "syllables": [
+        "man",
+        "yuan",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "manyuanbiaozhi"
+    },
+    {
+      "index": 116,
+      "original_term": "澳门区旗",
+      "targets": [
+        "🇲🇴"
+      ],
+      "original_keys": "aomenquqi",
+      "selected_term": "中国澳门",
+      "rationale": "复用已验证专名，保留地区旗帜身份。",
+      "syllables": [
+        "zhong",
+        "guo",
+        "ao",
+        "men"
+      ],
+      "pinyin": "zhongguoaomen"
+    },
+    {
+      "index": 117,
+      "original_term": "爆头脸",
+      "targets": [
+        "🤯"
+      ],
+      "original_keys": "baotoulian",
+      "selected_term": "脑袋爆炸",
+      "rationale": "复用已验证的形象化叫法。",
+      "syllables": [
+        "nao",
+        "dai",
+        "bao",
+        "zha"
+      ],
+      "pinyin": "naodaibaozha"
+    },
+    {
+      "index": 118,
+      "original_term": "爱心眼",
+      "targets": [
+        "😍"
+      ],
+      "original_keys": "aixinyan",
+      "selected_term": "花痴",
+      "rationale": "采用该表情既有的自然情绪叫法。",
+      "syllables": [
+        "hua",
+        "chi"
+      ],
+      "pinyin": "huachi"
+    },
+    {
+      "index": 119,
+      "original_term": "爱心眼猫",
+      "targets": [
+        "😻"
+      ],
+      "original_keys": "aixinyanmao",
+      "selected_term": "花痴猫",
+      "rationale": "复用已验证的猫脸叫法。",
+      "syllables": [
+        "hua",
+        "chi",
+        "mao"
+      ],
+      "pinyin": "huachimao"
+    },
+    {
+      "index": 120,
+      "original_term": "爱心装饰",
+      "targets": [
+        "💟"
+      ],
+      "original_keys": "aixinzhuangshi",
+      "selected_term": "心形图案",
+      "rationale": "复用已验证的图案名称。",
+      "syllables": [
+        "xin",
+        "xing",
+        "tu",
+        "an"
+      ],
+      "pinyin": "xinxingtuan"
+    },
+    {
+      "index": 121,
+      "original_term": "特里斯坦达库尼亚旗",
+      "targets": [
+        "🇹🇦"
+      ],
+      "original_keys": "telisitandakuniyaqi",
+      "selected_term": "特里斯坦达库尼亚群岛",
+      "rationale": "复用已验证的完整专名，不削弱地理区别。",
+      "syllables": [
+        "te",
+        "li",
+        "si",
+        "tan",
+        "da",
+        "ku",
+        "ni",
+        "ya",
+        "qun",
+        "dao"
+      ],
+      "pinyin": "telisitandakuniyaqundao"
+    },
+    {
+      "index": 122,
+      "original_term": "犹太烛台",
+      "targets": [
+        "🕎"
+      ],
+      "original_keys": "youtaizhutai",
+      "selected_term": "光明节烛台",
+      "rationale": "使用更明确的器物名，避免泛指其他犹太烛台。",
+      "syllables": [
+        "guang",
+        "ming",
+        "jie",
+        "zhu",
+        "tai"
+      ],
+      "pinyin": "guangmingjiezhutai"
+    },
+    {
+      "index": 123,
+      "original_term": "理发店灯柱",
+      "targets": [
+        "💈"
+      ],
+      "original_keys": "lifadiandengzhu",
+      "selected_term": "理发店标志",
+      "rationale": "复用已验证的用途名称。",
+      "syllables": [
+        "li",
+        "fa",
+        "dian",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "lifadianbiaozhi"
+    },
+    {
+      "index": 124,
+      "original_term": "申字标志",
+      "targets": [
+        "🈸"
+      ],
+      "original_keys": "shenzibiaozhi",
+      "selected_term": "申请标志",
+      "rationale": "采用已验证的含义名称。",
+      "syllables": [
+        "shen",
+        "qing",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "shenqingbiaozhi"
+    },
+    {
+      "index": 125,
+      "original_term": "男人做拒绝手势",
+      "targets": [
+        "🙅‍♂️"
+      ],
+      "original_keys": "nanrenzuojujueshoushi",
+      "selected_term": "男生拒绝",
+      "rationale": "复用已验证且明确性别的动作名称。",
+      "syllables": [
+        "nan",
+        "sheng",
+        "ju",
+        "jue"
+      ],
+      "pinyin": "nanshengjujue"
+    },
+    {
+      "index": 126,
+      "original_term": "男仙子",
+      "targets": [
+        "🧚‍♂️"
+      ],
+      "original_keys": "nanxianzi",
+      "selected_term": "男性仙子",
+      "rationale": "复用已验证的自然词序和明确性别。",
+      "syllables": [
+        "nan",
+        "xing",
+        "xian",
+        "zi"
+      ],
+      "pinyin": "nanxingxianzi"
+    },
+    {
+      "index": 127,
+      "original_term": "男兔耳舞者",
+      "targets": [
+        "👯‍♂️"
+      ],
+      "original_keys": "nantuerwuzhe",
+      "selected_term": "戴兔耳的男人",
+      "rationale": "使用完整装扮描述，保留男性。",
+      "syllables": [
+        "dai",
+        "tu",
+        "er",
+        "de",
+        "nan",
+        "ren"
+      ],
+      "pinyin": "daituerdenanren"
+    },
+    {
+      "index": 128,
+      "original_term": "男女接吻",
+      "targets": [
+        "👩‍❤️‍💋‍👨"
+      ],
+      "original_keys": "nannvjiewen",
+      "selected_term": "一男一女亲吻",
+      "rationale": "复用已验证的具体人物和动作描述。",
+      "syllables": [
+        "yi",
+        "nan",
+        "yi",
+        "nv",
+        "qin",
+        "wen"
+      ],
+      "pinyin": "yinanyinvqinwen"
+    },
+    {
+      "index": 129,
+      "original_term": "男女牵手",
+      "targets": [
+        "👫"
+      ],
+      "original_keys": "nannvqianshou",
+      "selected_term": "男女牵手",
+      "rationale": "保留动作与人物性别组合。",
+      "syllables": [
+        "nan",
+        "nv",
+        "qian",
+        "shou"
+      ],
+      "pinyin": "nannvqianshou"
+    },
+    {
+      "index": 130,
+      "original_term": "男性情侣接吻",
+      "targets": [
+        "👨‍❤️‍💋‍👨"
+      ],
+      "original_keys": "nanxingqinglvjiewen",
+      "selected_term": "两个男人接吻",
+      "rationale": "复用已验证的具体人物和动作描述。",
+      "syllables": [
+        "liang",
+        "ge",
+        "nan",
+        "ren",
+        "jie",
+        "wen"
+      ],
+      "pinyin": "lianggenanrenjiewen"
+    },
+    {
+      "index": 131,
+      "original_term": "男攀岩者",
+      "targets": [
+        "🧗‍♂️"
+      ],
+      "original_keys": "nanpanyanzhe",
+      "selected_term": "男人攀岩",
+      "rationale": "复用已验证的自然主谓叫法。",
+      "syllables": [
+        "nan",
+        "ren",
+        "pan",
+        "yan"
+      ],
+      "pinyin": "nanrenpanyan"
+    },
+    {
+      "index": 132,
+      "original_term": "男杂耍演员",
+      "targets": [
+        "🤹‍♂️"
+      ],
+      "original_keys": "nanzashuayanyuan",
+      "selected_term": "男人抛球杂耍",
+      "rationale": "复用已验证且明确性别的动作描述。",
+      "syllables": [
+        "nan",
+        "ren",
+        "pao",
+        "qiu",
+        "za",
+        "shua"
+      ],
+      "pinyin": "nanrenpaoqiuzashua"
+    },
+    {
+      "index": 133,
+      "original_term": "男生做同意手势",
+      "targets": [
+        "🙆‍♂️"
+      ],
+      "original_keys": "nanshengzuotongyishoushi",
+      "selected_term": "男生双手举过头顶",
+      "rationale": "复用已验证且明确性别的动作描述。",
+      "syllables": [
+        "nan",
+        "sheng",
+        "shuang",
+        "shou",
+        "ju",
+        "guo",
+        "tou",
+        "ding"
+      ],
+      "pinyin": "nanshengshuangshoujuguotouding"
+    },
+    {
+      "index": 134,
+      "original_term": "男生托手",
+      "targets": [
+        "💁‍♂️"
+      ],
+      "original_keys": "nanshengtuoshou",
+      "selected_term": "男生单手摊开",
+      "rationale": "沿用中性入口单手摊开的说法，补足明确男性。",
+      "syllables": [
+        "nan",
+        "sheng",
+        "dan",
+        "shou",
+        "tan",
+        "kai"
+      ],
+      "pinyin": "nanshengdanshoutankai"
+    },
+    {
+      "index": 135,
+      "original_term": "男生拍球",
+      "targets": [
+        "⛹️‍♂️"
+      ],
+      "original_keys": "nanshengpaiqiu",
+      "selected_term": "男生打篮球",
+      "rationale": "复用已验证的动作名称。",
+      "syllables": [
+        "nan",
+        "sheng",
+        "da",
+        "lan",
+        "qiu"
+      ],
+      "pinyin": "nanshengdalanqiu"
+    },
+    {
+      "index": 136,
+      "original_term": "男生撅嘴",
+      "targets": [
+        "🙎‍♂️"
+      ],
+      "original_keys": "nanshengjuezui",
+      "selected_term": "男生噘嘴",
+      "rationale": "接受宿主使用的噘嘴字形，保留撅嘴旧写法。",
+      "syllables": [
+        "nan",
+        "sheng",
+        "jue",
+        "zui"
+      ],
+      "pinyin": "nanshengjuezui"
+    },
+    {
+      "index": 137,
+      "original_term": "男男情侣",
+      "targets": [
+        "👨‍❤️‍👨"
+      ],
+      "original_keys": "nannanqinglv",
+      "selected_term": "男性情侣",
+      "rationale": "复用已验证的自然描述。",
+      "syllables": [
+        "nan",
+        "xing",
+        "qing",
+        "lv"
+      ],
+      "pinyin": "nanxingqinglv"
+    },
+    {
+      "index": 138,
+      "original_term": "白发成人",
+      "targets": [
+        "🧑‍🦳"
+      ],
+      "original_keys": "baifachengren",
+      "selected_term": "白发的人",
+      "rationale": "复用已验证的中性发型描述。",
+      "syllables": [
+        "bai",
+        "fa",
+        "de",
+        "ren"
+      ],
+      "pinyin": "baifaderen"
+    },
+    {
+      "index": 139,
+      "original_term": "相框画",
+      "targets": [
+        "🖼️"
+      ],
+      "original_keys": "xiangkuanghua",
+      "selected_term": "画框",
+      "rationale": "使用该图形既有的自然器物名。",
+      "syllables": [
+        "hua",
+        "kuang"
+      ],
+      "pinyin": "huakuang"
+    },
+    {
+      "index": 140,
+      "original_term": "眯眼笑的猫",
+      "targets": [
+        "😸"
+      ],
+      "original_keys": "miyanxiaodemao",
+      "selected_term": "微笑猫",
+      "rationale": "复用已验证的同一猫脸名称。",
+      "syllables": [
+        "wei",
+        "xiao",
+        "mao"
+      ],
+      "pinyin": "weixiaomao"
+    },
+    {
+      "index": 141,
+      "original_term": "碗和勺子",
+      "targets": [
+        "🥣"
+      ],
+      "original_keys": "wanheshaozi",
+      "selected_term": "碗和勺子",
+      "rationale": "保留直白器物组合名称。",
+      "syllables": [
+        "wan",
+        "he",
+        "shao",
+        "zi"
+      ],
+      "pinyin": "wanheshaozi"
+    },
+    {
+      "index": 142,
+      "original_term": "礼花筒",
+      "targets": [
+        "🎉"
+      ],
+      "original_keys": "lihuatong",
+      "selected_term": "庆祝彩带",
+      "rationale": "复用已验证的节庆用品名称。",
+      "syllables": [
+        "qing",
+        "zhu",
+        "cai",
+        "dai"
+      ],
+      "pinyin": "qingzhucaidai"
+    },
+    {
+      "index": 143,
+      "original_term": "祝字标志",
+      "targets": [
+        "㊗️"
+      ],
+      "original_keys": "zhuzibiaozhi",
+      "selected_term": "祝贺标志",
+      "rationale": "采用已验证的含义名称。",
+      "syllables": [
+        "zhu",
+        "he",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "zhuhebiaozhi"
+    },
+    {
+      "index": 144,
+      "original_term": "禁字标志",
+      "targets": [
+        "🈲"
+      ],
+      "original_keys": "jinzibiaozhi",
+      "selected_term": "禁止标志",
+      "rationale": "复用已验证的含义名称，保留合理多义。",
+      "syllables": [
+        "jin",
+        "zhi",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "jinzhibiaozhi"
+    },
+    {
+      "index": 145,
+      "original_term": "科科斯群岛旗",
+      "targets": [
+        "🇨🇨"
+      ],
+      "original_keys": "kekesiqundaoqi",
+      "selected_term": "科科斯群岛",
+      "rationale": "复用已验证的专名，保留与其他地区旗帜区别。",
+      "syllables": [
+        "ke",
+        "ke",
+        "si",
+        "qun",
+        "dao"
+      ],
+      "pinyin": "kekesiqundao"
+    },
+    {
+      "index": 146,
+      "original_term": "秘字标志",
+      "targets": [
+        "㊙️"
+      ],
+      "original_keys": "mizibiaozhi",
+      "selected_term": "秘密标志",
+      "rationale": "采用已验证的含义名称。",
+      "syllables": [
+        "mi",
+        "mi",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "mimibiaozhi"
+    },
+    {
+      "index": 147,
+      "original_term": "笑哭猫",
+      "targets": [
+        "😹"
+      ],
+      "original_keys": "xiaokumao",
+      "selected_term": "笑哭的猫",
+      "rationale": "采用完整描述，保留猫脸特征。",
+      "syllables": [
+        "xiao",
+        "ku",
+        "de",
+        "mao"
+      ],
+      "pinyin": "xiaokudemao"
+    },
+    {
+      "index": 148,
+      "original_term": "笑哭的猫",
+      "targets": [
+        "😹"
+      ],
+      "original_keys": "xiaokudemao",
+      "selected_term": "笑哭的猫",
+      "rationale": "保留自然描述，补整词候选。",
+      "syllables": [
+        "xiao",
+        "ku",
+        "de",
+        "mao"
+      ],
+      "pinyin": "xiaokudemao"
+    },
+    {
+      "index": 149,
+      "original_term": "笑脸猫",
+      "targets": [
+        "😺"
+      ],
+      "original_keys": "xiaolianmao",
+      "selected_term": "大笑的猫",
+      "rationale": "使用该表情既有的完整描述。",
+      "syllables": [
+        "da",
+        "xiao",
+        "de",
+        "mao"
+      ],
+      "pinyin": "daxiaodemao"
+    },
+    {
+      "index": 150,
+      "original_term": "系丝带的心",
+      "targets": [
+        "💝"
+      ],
+      "original_keys": "jisidaidexin",
+      "selected_term": "礼物爱心",
+      "rationale": "复用已验证的装饰含义名称，避开系的多音字问题。",
+      "syllables": [
+        "li",
+        "wu",
+        "ai",
+        "xin"
+      ],
+      "pinyin": "liwuaixin"
+    },
+    {
+      "index": 151,
+      "original_term": "红发成人",
+      "targets": [
+        "🧑‍🦰"
+      ],
+      "original_keys": "hongfachengren",
+      "selected_term": "红发的人",
+      "rationale": "复用已验证的中性发型描述。",
+      "syllables": [
+        "hong",
+        "fa",
+        "de",
+        "ren"
+      ],
+      "pinyin": "hongfaderen"
+    },
+    {
+      "index": 152,
+      "original_term": "苏格兰旗",
+      "targets": [
+        "🏴󠁧󠁢󠁳󠁣󠁴󠁿"
+      ],
+      "original_keys": "sugelanqi",
+      "selected_term": "苏格兰",
+      "rationale": "复用已验证专名，保留完整旗帜 tag 序列。",
+      "syllables": [
+        "su",
+        "ge",
+        "lan"
+      ],
+      "pinyin": "sugelan"
+    },
+    {
+      "index": 153,
+      "original_term": "英格兰旗",
+      "targets": [
+        "🏴󠁧󠁢󠁥󠁮󠁧󠁿"
+      ],
+      "original_keys": "yinggelanqi",
+      "selected_term": "英格兰",
+      "rationale": "复用已验证专名，不改为英国。",
+      "syllables": [
+        "ying",
+        "ge",
+        "lan"
+      ],
+      "pinyin": "yinggelan"
+    },
+    {
+      "index": 154,
+      "original_term": "营字标志",
+      "targets": [
+        "🈺"
+      ],
+      "original_keys": "yingzibiaozhi",
+      "selected_term": "营业标志",
+      "rationale": "采用已验证的含义名称。",
+      "syllables": [
+        "ying",
+        "ye",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "yingyebiaozhi"
+    },
+    {
+      "index": 155,
+      "original_term": "落旗的关闭信箱",
+      "targets": [
+        "📪"
+      ],
+      "original_keys": "luoqideguanbixinxiang",
+      "selected_term": "关闭且旗子放下的信箱",
+      "rationale": "明确箱门和旗子状态，保留可理解的长描述。",
+      "syllables": [
+        "guan",
+        "bi",
+        "qie",
+        "qi",
+        "zi",
+        "fang",
+        "xia",
+        "de",
+        "xin",
+        "xiang"
+      ],
+      "pinyin": "guanbiqieqizifangxiadexinxiang"
+    },
+    {
+      "index": 156,
+      "original_term": "落旗的打开信箱",
+      "targets": [
+        "📭"
+      ],
+      "original_keys": "luoqidedakaixinxiang",
+      "selected_term": "打开且旗子放下的信箱",
+      "rationale": "明确箱门和旗子状态，与关闭信箱区分。",
+      "syllables": [
+        "da",
+        "kai",
+        "qie",
+        "qi",
+        "zi",
+        "fang",
+        "xia",
+        "de",
+        "xin",
+        "xiang"
+      ],
+      "pinyin": "dakaiqieqizifangxiadexinxiang"
+    },
+    {
+      "index": 157,
+      "original_term": "螺旋眼",
+      "targets": [
+        "😵‍💫"
+      ],
+      "original_keys": "luoxuanyan",
+      "selected_term": "眼冒金星",
+      "rationale": "复用已验证的自然状态名称。",
+      "syllables": [
+        "yan",
+        "mao",
+        "jin",
+        "xing"
+      ],
+      "pinyin": "yanmaojinxing"
+    },
+    {
+      "index": 158,
+      "original_term": "行人禁行",
+      "targets": [
+        "🚷"
+      ],
+      "original_keys": "xingrenjinxing",
+      "selected_term": "禁止行人",
+      "rationale": "复用已验证的禁行含义。",
+      "syllables": [
+        "jin",
+        "zhi",
+        "xing",
+        "ren"
+      ],
+      "pinyin": "jinzhixingren"
+    },
+    {
+      "index": 159,
+      "original_term": "装框的画",
+      "targets": [
+        "🖼️"
+      ],
+      "original_keys": "zhuangkuangdehua",
+      "selected_term": "画框",
+      "rationale": "使用既有自然器物名，原画面描述保留。",
+      "syllables": [
+        "hua",
+        "kuang"
+      ],
+      "pinyin": "huakuang"
+    },
+    {
+      "index": 160,
+      "original_term": "财迷脸",
+      "targets": [
+        "🤑"
+      ],
+      "original_keys": "caimilian",
+      "selected_term": "见钱眼开",
+      "rationale": "采用该表情既有的自然神态叫法。",
+      "syllables": [
+        "jian",
+        "qian",
+        "yan",
+        "kai"
+      ],
+      "pinyin": "jianqianyankai"
+    },
+    {
+      "index": 161,
+      "original_term": "赏月供品",
+      "targets": [
+        "🎑"
+      ],
+      "original_keys": "shangyuegongpin",
+      "selected_term": "赏月供品",
+      "rationale": "保留文化场景描述，不笼统称为食物。",
+      "syllables": [
+        "shang",
+        "yue",
+        "gong",
+        "pin"
+      ],
+      "pinyin": "shangyuegongpin"
+    },
+    {
+      "index": 162,
+      "original_term": "赏月摆设",
+      "targets": [
+        "🎑"
+      ],
+      "original_keys": "shangyuebaishe",
+      "selected_term": "赏月供品",
+      "rationale": "采用更明确的场景名称。",
+      "syllables": [
+        "shang",
+        "yue",
+        "gong",
+        "pin"
+      ],
+      "pinyin": "shangyuegongpin"
+    },
+    {
+      "index": 163,
+      "original_term": "迪斯科球",
+      "targets": [
+        "🪩"
+      ],
+      "original_keys": "disikeqiu",
+      "selected_term": "镜面球",
+      "rationale": "复用已验证的器物名称。",
+      "syllables": [
+        "jing",
+        "mian",
+        "qiu"
+      ],
+      "pinyin": "jingmianqiu"
+    },
+    {
+      "index": 164,
+      "original_term": "酷按钮",
+      "targets": [
+        "🆒"
+      ],
+      "original_keys": "kuanniu",
+      "selected_term": "酷标志",
+      "rationale": "明确这是带 COOL 标签的标志，拼音切分为 ku biao zhi。",
+      "syllables": [
+        "ku",
+        "biao",
+        "zhi"
+      ],
+      "pinyin": "kubiaozhi"
+    },
+    {
+      "index": 165,
+      "original_term": "醉脸",
+      "targets": [
+        "🥴"
+      ],
+      "original_keys": "zuilian",
+      "selected_term": "晕乎乎",
+      "rationale": "复用已验证的自然状态叫法。",
+      "syllables": [
+        "yun",
+        "hu",
+        "hu"
+      ],
+      "pinyin": "yunhuhu"
+    },
+    {
+      "index": 166,
+      "original_term": "金钱脸",
+      "targets": [
+        "🤑"
+      ],
+      "original_keys": "jinqianlian",
+      "selected_term": "见钱眼开",
+      "rationale": "使用已有的自然神态叫法，原脸部名称保留。",
+      "syllables": [
+        "jian",
+        "qian",
+        "yan",
+        "kai"
+      ],
+      "pinyin": "jianqianyankai"
+    },
+    {
+      "index": 167,
+      "original_term": "钢笔和锁",
+      "targets": [
+        "🔏"
+      ],
+      "original_keys": "gangbihesuo",
+      "selected_term": "钢笔和锁",
+      "rationale": "保留两个器物，不用泛称隐私替代画面差别。",
+      "syllables": [
+        "gang",
+        "bi",
+        "he",
+        "suo"
+      ],
+      "pinyin": "gangbihesuo"
+    },
+    {
+      "index": 168,
+      "original_term": "锤镐",
+      "targets": [
+        "⚒️"
+      ],
+      "original_keys": "chuigao",
+      "selected_term": "锤子和镐",
+      "rationale": "复用已验证的完整器物组合名。",
+      "syllables": [
+        "chui",
+        "zi",
+        "he",
+        "gao"
+      ],
+      "pinyin": "chuizihegao"
+    },
+    {
+      "index": 169,
+      "original_term": "长鼻子鬼面",
+      "targets": [
+        "👺"
+      ],
+      "original_keys": "changbiziguimian",
+      "selected_term": "天狗面具",
+      "rationale": "选用同一目标的具体名称，保留长鼻子鬼面旧描述。",
+      "syllables": [
+        "tian",
+        "gou",
+        "mian",
+        "ju"
+      ],
+      "pinyin": "tiangoumianju"
+    },
+    {
+      "index": 170,
+      "original_term": "闪亮爱心",
+      "targets": [
+        "💖"
+      ],
+      "original_keys": "shanliangaixin",
+      "selected_term": "闪亮的心",
+      "rationale": "使用既有完整形态描述。",
+      "syllables": [
+        "shan",
+        "liang",
+        "de",
+        "xin"
+      ],
+      "pinyin": "shanliangdexin"
+    },
+    {
+      "index": 171,
+      "original_term": "闪闪的心",
+      "targets": [
+        "💖"
+      ],
+      "original_keys": "shanshandexin",
+      "selected_term": "闪亮的心",
+      "rationale": "统一到含义相同的完整描述。",
+      "syllables": [
+        "shan",
+        "liang",
+        "de",
+        "xin"
+      ],
+      "pinyin": "shanliangdexin"
+    },
+    {
+      "index": 172,
+      "original_term": "雾景",
+      "targets": [
+        "🌁"
+      ],
+      "original_keys": "wujing",
+      "selected_term": "大雾",
+      "rationale": "复用已验证的自然天气叫法。",
+      "syllables": [
+        "da",
+        "wu"
+      ],
+      "pinyin": "dawu"
+    },
+    {
+      "index": 173,
+      "original_term": "鼻孔喷气",
+      "targets": [
+        "😤"
+      ],
+      "original_keys": "bikongpenqi",
+      "selected_term": "气哼哼",
+      "rationale": "复用已验证的表情神态叫法。",
+      "syllables": [
+        "qi",
+        "heng",
+        "heng"
+      ],
+      "pinyin": "qihengheng"
+    },
+    {
+      "index": 174,
+      "original_term": "害羞的笑脸",
+      "targets": [
+        "😊"
+      ],
+      "original_keys": "haixiudexiaolian",
+      "selected_term": "害羞的笑脸",
+      "rationale": "保留区别于普通微笑的自然描述，补整词候选。",
+      "syllables": [
+        "hai",
+        "xiu",
+        "de",
+        "xiao",
+        "lian"
+      ],
+      "pinyin": "haixiudexiaolian"
+    }
+  ]
+}

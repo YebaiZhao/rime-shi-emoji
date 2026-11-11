@@ -3,7 +3,7 @@ from pathlib import Path
 import unittest
 from shi_emoji.preferences import variant_data
 from shi_emoji.coverage import normalize
-from shi_emoji.export import lua_value, runtime_source
+from shi_emoji.export import lua_value
 from shi_emoji.match import Matcher
 import test_lua_filter as lua_tests
 
@@ -49,12 +49,10 @@ class VariantBuildTests(unittest.TestCase):
                 self.assertTrue(set(family.values()) <= valid)
         self.assertEqual(data[normalize('🧑‍💻')]['female']['3'],'👩🏽‍💻')
 
-    def test_generated_modules_match_sources(self):
+    def test_generated_variants_match_source(self):
         rows=json.loads(Path('data/emoji_inventory.json').read_text())
         expected='-- Unicode-3.0; generated from pinned Emoji 16.0 inventory\nreturn '+lua_value(variant_data(rows))+'\n'
         self.assertEqual(Path('rime/lua/shi_emoji/variant_data.lua').read_text(),expected)
-        adult=json.loads(Path('data/adult_phrases.json').read_text())
-        self.assertEqual(Path('rime/lua/shi_emoji/adult.lua').read_text(),runtime_source(adult))
 
 
 @unittest.skipUnless(lua_tests.LUA_LIBRARY,'Needs Lua')

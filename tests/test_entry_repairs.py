@@ -36,15 +36,28 @@ class EntryRepairDataTests(unittest.TestCase):
     def test_all_existing_exact_alternatives_and_tiers_are_retained(self):
         old = compile_rules('data')
         new = compile_entry_rules('data')
-        self.assertEqual(len(new), 496)
+        reviews = json.loads(Path('data/strict_entry_reviews.json').read_text())['entries']
+        promotions = {(term, normalize(row['target'])) for row in reviews
+                      for term in [row['term'], *row.get('traditional', [])]}
         self.assertEqual(Path('rime/lua/shi_emoji/entry_data.lua').read_text(), entry_runtime_source(new))
         for term, rule in new.items():
+            tiers = {normalize(target): tier for target, tier in rule['targets']}
             for target, tier, _, _ in old.get(term, []):
-                self.assertIn([target, tier], rule['targets'], term)
+                key = normalize(target)
+                self.assertEqual(tiers[key], 1 if (term, key) in promotions else tier, term)
 
 
 @unittest.skipUnless(LUA_LIBRARY, 'Actual Lua required')
 class EntryRepairLuaTests(unittest.TestCase):
+    def test_strict_names_and_traditional_forms_emit_in_both_tiers(self):
+        entries = json.loads(Path('data/strict_entry_reviews.json').read_text())['entries']
+        cases = [(term, row['target']) for row in entries
+                 for term in [row['term'], *row.get('traditional', [])]]
+        actual = lua_suffixes(sorted({term for term, _ in cases}), Path('rime/lua'))
+        for term, target in cases:
+            for tier in ('strict', 'general'):
+                self.assertTrue(contains(actual[term][tier], target), (term, target, tier, actual[term]))
+
     def test_every_repaired_name_and_target_with_extension_on_and_off(self):
         manifest = json.loads(Path('data/entry_repairs_262.json').read_text())
         rows = manifest['entries'] + manifest['preservation_entries']

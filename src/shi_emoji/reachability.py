@@ -23,8 +23,8 @@ ROOT = Path(__file__).resolve().parents[2]
 TIERS = ('strict', 'general', 'divergent')
 
 
-def lua_suffixes(terms, runtime, settings=None):
-    """Execute the shipped composer/filter in Lua, once per term and tier."""
+def run_lua(script):
+    """Execute a validation script in the actual Lua runtime."""
     base = Path('/Library/Input Methods/Squirrel.app/Contents/Frameworks')
     plugin = base / 'rime-plugins/librime-lua.dylib'
     library = str(plugin) if plugin.exists() else C.util.find_library('lua5.4')
@@ -40,6 +40,20 @@ def lua_suffixes(terms, runtime, settings=None):
     lua.lua_tolstring.argtypes = [C.c_void_p, C.c_int, C.c_void_p]
     lua.lua_tolstring.restype = C.c_char_p
     lua.lua_close.argtypes = [C.c_void_p]
+    state = lua.luaL_newstate()
+    lua.luaL_openlibs(state)
+    try:
+        status = lua.luaL_loadstring(state, script.encode())
+        if status == 0:
+            status = lua.lua_pcallk(state, 0, 0, 0, 0, None)
+        if status:
+            raise RuntimeError(lua.lua_tolstring(state, -1, None).decode())
+    finally:
+        lua.lua_close(state)
+
+
+def lua_suffixes(terms, runtime, settings=None):
+    """Execute the shipped composer/filter in Lua, once per term and tier."""
     with tempfile.TemporaryDirectory(prefix='shi-entry-lua-') as directory:
         output = Path(directory) / 'suffixes.tsv'
         script = '\n'.join([
@@ -51,16 +65,7 @@ def lua_suffixes(terms, runtime, settings=None):
             "  out:write(filter.suffix(term," + lua_value(settings or {'skin': 'default', 'gender': 'neutral'}) + ",tier) or '', '\\n')",
             ' end', 'end', 'out:close()',
         ])
-        state = lua.luaL_newstate()
-        lua.luaL_openlibs(state)
-        try:
-            status = lua.luaL_loadstring(state, script.encode())
-            if status == 0:
-                status = lua.lua_pcallk(state, 0, 0, 0, 0, None)
-            if status:
-                raise RuntimeError(lua.lua_tolstring(state, -1, None).decode())
-        finally:
-            lua.lua_close(state)
+        run_lua(script)
         lines = output.read_text().splitlines()
     assert len(lines) == len(terms) * 3
     return {term: dict(zip(TIERS, lines[i*3:i*3+3])) for i, term in enumerate(terms)}
@@ -122,6 +127,18 @@ def analyze(root=ROOT, native=None, baseline=False, natural_names=False):
             for name in row['names']:
                 candidates[target][name['term']].add('individual_natural_name_review')
                 reviewed[(target, name['term'])] = name
+        from .pinyin_entries import validate_reviews
+        for row in validate_reviews(root):
+            term = row['selected_term']
+            for emoji in row['targets']:
+                target = normalize(emoji)
+                candidates[target][term].add('pinyin_entry_review')
+                reviewed[(target, term)] = {'rationale':row['rationale'], 'runtime_action':'pinyin_entry_review'}
+        strict_names = json.loads((root / 'data/strict_entry_reviews.json').read_text())['entries']
+        for row in strict_names:
+            target, term = normalize(row['target']), row['term']
+            candidates[target][term].add('strict_entry_review')
+            reviewed[(target, term)] = {'rationale': row['rationale'], 'runtime_action': 'strict_entry_review'}
     terms = sorted({t for r in base for t in candidates[normalize(r['emoji'])]})
     from .tier_export import runtime_source
     compiled = runtime_source(tiered)
@@ -209,6 +226,8 @@ def analyze(root=ROOT, native=None, baseline=False, natural_names=False):
                         for p in r['probes']) for r in entries)
     if natural_names:
         summary['reviewed_name_target_pairs'] = sum(len(r['names']) for r in name_rows.values())
+        summary['pinyin_reviewed_name_target_pairs'] = len({(r['selected_term'], normalize(t))
+            for r in validate_reviews(root) for t in r['targets']})
         summary['zero_reviewed_name_tier_mapping'] = sum(
             not any(p['natural_name']['status'] == 'reviewed' and p['lexicon']['tier_mapping']
                     for p in r['probes']) for r in entries)
@@ -218,9 +237,11 @@ def analyze(root=ROOT, native=None, baseline=False, natural_names=False):
     paths += ['data/relation_reviews.jsonl']
     if natural_names:
         paths += ['data/natural_name_review/decisions.psv', 'data/natural_name_review/policy.json']
+        paths += ['data/pinyin_entry_review/'+name for name in
+                  ('decisions.psv','reviews.json','mapping_additions.json','supplement.json')]
     paths += [str(p.relative_to(root)) for p in sorted((root/'rime/lua/shi_emoji').glob('*.lua'))]
     metadata = {'format_version': 1, 'baseline_release': 'v0.1.0-alpha.4',
-                'phase': 'alpha4-baseline' if baseline else ('entry-repairs-262' if natural_names else 'current'),
+                'phase': 'alpha4-baseline' if baseline else ('pinyin-entry-repairs' if natural_names else 'current'),
                 'scope': 'isolated complete input; actual Lua, default skin, neutral gender, adult=false',
                 'native_scope': (native or {}).get('scope', 'unverified'),
                 'sources_sha256': {p: hashlib.sha256((root/p).read_bytes()).hexdigest() for p in paths}}

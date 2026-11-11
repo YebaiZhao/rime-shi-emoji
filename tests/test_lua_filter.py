@@ -96,6 +96,74 @@ class LuaFilterTests(unittest.TestCase):
           check(key(0xff0d,{alt=true,ctrl=true}),nil)
         """)
 
+    def test_sentence_scope_independent_examples(self):
+        self.execute("""
+          local matcher=require('shi_emoji.matcher')
+          local metadata=require('shi_emoji.match_metadata')
+          local index=matcher.tiered(metadata,require('shi_emoji.tier_data'))
+          local adult=matcher.tiered_extension(index,require('shi_emoji.adult'))
+          local function has(text, phrase, target, gated)
+            local _,groups=matcher.search(gated and adult or index,text,100,3)
+            for _,group in ipairs(groups) do
+              if group.phrase==phrase then
+                for _,emoji in ipairs(group.emoji) do
+                  if emoji:gsub('️','')==target:gsub('️','') then return true end
+                end
+              end
+            end
+            return false
+          end
+          local cases={
+            {'她每天骑车通勤','骑车','🚲',true},
+            {'铁骑车辆已经抵达','骑车','🚲',false},
+            {'他们从来很自在','自在','😌',true},
+            {'来自在校学生的反馈','自在','😌',false},
+            {'他们从事航天工程','航天','👨‍🚀',true},
+            {'巡航天数可以延长','航天','👨‍🚀',false},
+            {'商店正在清点滑雪服','滑雪','🎿',false},
+            {'门口堆放篮球鞋','篮球','⛹',false},
+            {'今天打算去滑雪','滑雪','🎿',true},
+            {'他们没打算去滑雪','滑雪','🎿',false},
+            {'她未去收快递','快递','📦',false},
+            {'他不能去跳伞','跳伞','🪂',false},
+            {'他无法去滑冰','滑冰','⛸️',false},
+            {'她说，下午大家去滑雪','滑雪','🎿',false},
+            {'他记录了“有人去滑雪”','滑雪','🎿',false},
+            {'她说周末下雨。今天我们去滑雪','滑雪','🎿',true},
+            {'他们虽然不想开车，但是决定骑车回家','骑车','🚲',true},
+            {'門衛幫忙收快遞','快遞','📦',true},
+            {'門衛幫忙收快遞','快遞','🎁',false},
+            {'她只写了「每天騎車通勤」','騎車','🚲',false},
+            {'她打算去唱K庆祝','唱K','🎤',true},
+            {'他推荐了唱KTV的地方','唱K','🎤',false},
+            {'卡片标有字母ab。','字母ab','🆎',true},
+            {'卡片标有字母abc','字母ab','🆎',false},
+            {'听不懂','听不懂','🤔',true},
+            {'学生听不懂这个问题','听不懂','🤔',false},
+            {'买单','买单','💳',true},
+            {'客人买单后离开','买单','💳',false},
+            {'他们讨论车震新闻','车震','🚗❤️‍🔥',true,true},
+            {'记者说现场发生了车震','车震','🚗❤️‍🔥',false,false},
+            {'色诱我','色诱我','💋🪤',true,true},
+            {'嫌疑人想色诱我来套话','色诱我','💋🪤',false,true},
+            {'背后捅刀','背后捅刀','🔪🩸',true,true},
+            {'他总在背后捅刀','背后捅刀','🔪🩸',false,true},
+          }
+          for _,case in ipairs(cases) do
+            assert(has(case[1],case[2],case[3],case[5])==case[4],case[1]..' / '..case[3])
+          end
+          local function suffix(text, tier)
+            return filter.suffix(text,CONFIG,tier) or ''
+          end
+          assert(suffix('門衛幫忙收快遞',2):find('📦',1,true))
+          assert(not suffix('門衛幫忙收快遞',1):find('📦',1,true))
+          assert(suffix('来自在校学生的反馈',3)=='')
+          assert(suffix('他们讨论车震新闻',3):find('🚗❤️‍🔥',1,true))
+          CONFIG.adult=false
+          assert(not suffix('他们讨论车震新闻',3):find('🚗❤️‍🔥',1,true))
+        """, settings={"adult": True})
+
+
     def test_traditional_preview_and_explicit_gender(self):
         self.execute("""
           local a=Candidate('sentence',0,6,'開發','')

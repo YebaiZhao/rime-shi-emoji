@@ -1,8 +1,8 @@
-"""Compile only valid pinned Unicode gender/skin variants and optional addon."""
+"""Compile only valid pinned Unicode gender/skin variants."""
 import json
 from pathlib import Path
 from .coverage import normalize
-from .export import lua_value, runtime_source
+from .export import lua_value
 
 
 def variant_data(rows):
@@ -42,11 +42,7 @@ def main():
     rows = json.loads((root/'data/emoji_inventory.json').read_text())
     variants = variant_data(rows)
     (root/'rime/lua/shi_emoji/variant_data.lua').write_text('-- Unicode-3.0; generated from pinned Emoji 16.0 inventory\nreturn '+lua_value(variants)+'\n')
-    adult = json.loads((root/'data/adult_phrases.json').read_text())
-    from .match import Matcher
-    Matcher(adult)
-    (root/'rime/lua/shi_emoji/adult.lua').write_text(runtime_source(adult))
-    print(f'Compiled {len(variants)} variant entries; bundled extension separate from main dictionary')
+    print(f'Compiled {len(variants)} variant entries')
 
 
 if __name__ == '__main__':

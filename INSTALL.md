@@ -17,9 +17,11 @@
 
 ## 1. 放置插件
 
-从所用 Rime 前端打开其**用户目录**；鼠须管菜单的「用户设定」通常打开 `~/Library/Rime`。将上表对应的 **`shi_emoji` 文件夹**放进用户目录的 `lua` 下，最终应有 `lua/shi_emoji/filter.lua`、`settings.lua`、`tier_data.lua`、`entry_data.lua`、`adult.lua` 等十一个 Lua 文件。
+从所用 Rime 前端打开其**用户目录**；鼠须管菜单的「用户设定」通常打开 `~/Library/Rime`。将上表对应的 **`shi_emoji` 文件夹**放进用户目录的 `lua` 下，最终应有 `lua/shi_emoji/filter.lua`、`settings.lua`、`tier_data.lua`、`entry_data.lua`、`adult.lua` 等 Lua 文件。
 
 不要复制成 `lua/shi_emoji/shi_emoji`，不要覆盖整个 `lua` 目录，保留其他插件。
+
+其中 `pinyin.lua` 与 `pinyin_data.lua` 是[可选自然名称拼音入口](docs/pinyin-entry-repairs.md)，默认配置不会启用。它用于补充宿主缺少的完整中文候选，需要另外合并 `shi_emoji_pinyin.custom.yaml.example`。
 
 ## 2. 合并中文方案补丁
 

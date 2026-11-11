@@ -6,13 +6,15 @@
 |---|---|
 | `processor.lua` | 对高亮且有匹配的完整中文候选，处理 ⌥+回车；可选 `0` 按菜单模式输出、`⌥+0` 输出相反模式；不接管 Tab 或 Shift+0 |
 | `filter.lua` | 默认透传原候选，只给当前高亮项追加统一的联想预览；可选候选槽模式下，在页末插入随高亮变化、只提交 Emoji 的候选 |
-| `matcher.lua` | 两棵 trie：词组检索、完整名词保护；局部否定标记 |
+| `matcher.lua` | 用 trie 检索词组和保护词，逐条执行关系的匹配范围 |
+| `word_boundary.lua` / `boundary_data.lua` | 新审定句中线索的分词边界和语境判定；简繁词频表从固定词典离线生成 |
 | `compose.lua` | 最多三个不重叠、不同概念，按原文顺序组合；单概念最多两个表情 |
 | `settings.lua` | 启动时读取并校验方案配置中的肤色、性别和重口联想值 |
 | `variants.lua` | 性别/肤色偏好与明确性别表达保护 |
 | `match_metadata.lua` | 三档模式的保护词、分句和否定词；发散档扩展复用同一棵保护词索引 |
 | `tier_data.lua` | 已审定三档关系与句中权限，离线生成 |
 | `entry_data.lua` | 已审定自然名的完整候选补充表；不进入子串 trie 或新增保护词 |
+| `pinyin.lua` / `pinyin_data.lua` | 可选的完整全拼中文名称候选，仅显式接入且诗Emoji开启时工作；不写用户词库 |
 | `variant_data.lua` | 固定 Unicode 目录中确实存在的变体，离线生成 |
 | `adult.lua` | 仅在发散档且配置未关闭时加载的重口联想库；文件名保留以兼容既有数据 |
 
@@ -20,7 +22,7 @@
 
 默认安装不增加候选行，也不改变页面大小。可选的[数字候选槽](experimental-candidate-slot.md)会改变页面大小与 `7` 键用途；另有[0 键实验](experimental-zero-key.md)不增加候选行，仅在高亮词有联想时接管 `0`／`⌥+0`，并通过一个可记忆的原生选单开关切换两键各自的「原文＋Emoji／仅Emoji」行为。两种实验不同时启用。
 
-当前是有限词典 + 子串检索 + 完整词保护，不是完整分词或语义解析。否定基于分句和四字前文窗口。候选文字由宿主提供，多义词和识别错误仍会造成错误。设计与历史记录见 [匹配细节](phrase-mode.md)、[逐词决策](mapping-resolution.md)、[质量边界](evaluation.md)。
+新增的句中线索需要两端均处在词边界，并通过否定、引用和转述检查。原有句中关系继续使用词组保护和四字否定窗口。词边界由词频估计，候选文字由宿主提供，生僻词和复杂语境仍会导致误判。详见 [词边界](word-boundaries.md)。
 
 短词会按完整候选长度分层：人工明确映射和逐词审定的明确双字映射可独立触发；其余弱双字映射需至少 5 字上下文，少量宽泛单字只在长候选中可用。三字词没有这项长度限制，缺失的明确说法在人工联想库补齐。原始模型建议不因这项策略而删除；最终运行时由 `data/short_term_policy.json` 与合并规则决定。
 
@@ -50,6 +52,7 @@ PYTHONPATH=src python3 -m shi_emoji.sources
 PYTHONPATH=src python3 -m shi_emoji.coverage --fetch --check
 PYTHONPATH=src python3 -m shi_emoji.wordguards
 PYTHONPATH=src python3 -m shi_emoji.traditional
+PYTHONPATH=src python3 -m shi_emoji.boundaries
 PYTHONPATH=src python3 -m shi_emoji.preferences
 PYTHONPATH=src python3 -m shi_emoji.tier_export
 ```

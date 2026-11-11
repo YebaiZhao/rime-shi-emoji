@@ -1,0 +1,5 @@
+# Optional supplement for reviewed Chinese names missing from a host dictionary.
+# Merge after the main shi_emoji patch. Full pinyin only; no active deployment here.
+patch:
+  "engine/translators/+":
+    - lua_translator@*shi_emoji.pinyin

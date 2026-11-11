@@ -1,0 +1,553 @@
+{
+  "scope": "whole_candidate",
+  "min_tier": "strict",
+  "entries": [
+    {
+      "term": "爱心眼",
+      "target": "😍",
+      "rationale": "直接描述双眼呈爱心。",
+      "pinyin": "aixinyan",
+      "traditional": [
+        "愛心眼"
+      ]
+    },
+    {
+      "term": "舔嘴笑脸",
+      "target": "😋",
+      "rationale": "描述舔嘴微笑的外形，区分一般夸赞食物。",
+      "pinyin": "tianzuixiaolian",
+      "traditional": [
+        "舔嘴笑臉"
+      ]
+    },
+    {
+      "term": "拥抱的笑脸",
+      "target": "🤗",
+      "rationale": "描述微笑脸两侧伸开的手和拥抱动作。",
+      "traditional": [
+        "擁抱的笑臉"
+      ]
+    },
+    {
+      "term": "托腮思考",
+      "target": "🤔",
+      "rationale": "托腮姿势及思考表情一致。"
+    },
+    {
+      "term": "拉链嘴",
+      "target": "🤐",
+      "rationale": "嘴部画成闭合拉链。",
+      "pinyin": "lalianzui",
+      "traditional": [
+        "拉鏈嘴"
+      ]
+    },
+    {
+      "term": "云雾脸",
+      "target": "😶‍🌫️",
+      "rationale": "脸被云雾遮住。",
+      "pinyin": "yunwulian",
+      "traditional": [
+        "雲霧臉"
+      ]
+    },
+    {
+      "term": "释然脸",
+      "target": "😌",
+      "rationale": "闭眼、放松的释然表情。",
+      "pinyin": "shiranlian",
+      "traditional": [
+        "釋然臉"
+      ]
+    },
+    {
+      "term": "低头沉思脸",
+      "target": "😔",
+      "rationale": "闭目低垂的沉思表情。",
+      "pinyin": "ditouchensilian",
+      "traditional": [
+        "低頭沉思臉"
+      ]
+    },
+    {
+      "term": "叉眼脸",
+      "target": "😵",
+      "rationale": "双眼为叉号。",
+      "pinyin": "chayanlian",
+      "traditional": [
+        "叉眼臉"
+      ]
+    },
+    {
+      "term": "螺旋眼",
+      "target": "😵‍💫",
+      "rationale": "双眼是眩晕螺旋。",
+      "pinyin": "luoxuanyan"
+    },
+    {
+      "term": "困惑脸",
+      "target": "😕",
+      "rationale": "描述疑惑的脸部表情。",
+      "pinyin": "kunhuolian",
+      "traditional": [
+        "困惑臉"
+      ]
+    },
+    {
+      "term": "歪嘴脸",
+      "target": "🫤",
+      "rationale": "嘴线向一侧倾斜。",
+      "pinyin": "waizuilian",
+      "traditional": [
+        "歪嘴臉"
+      ]
+    },
+    {
+      "term": "张嘴吃惊",
+      "target": "😮",
+      "rationale": "睁眼张嘴的吃惊表情。",
+      "pinyin": "zhangzuichijing",
+      "traditional": [
+        "張嘴吃驚",
+        "張嘴喫驚"
+      ]
+    },
+    {
+      "term": "圆嘴惊讶脸",
+      "target": "😯",
+      "rationale": "嘴收成小圆形的惊讶表情。",
+      "pinyin": "yuanzuijingyalian",
+      "traditional": [
+        "圓嘴驚訝臉"
+      ]
+    },
+    {
+      "term": "脸红表情",
+      "target": "😳",
+      "rationale": "直接描述脸颊泛红的表情。",
+      "traditional": [
+        "臉紅表情"
+      ]
+    },
+    {
+      "term": "张嘴皱眉",
+      "target": "😦",
+      "rationale": "嘴张开且带皱眉表情。",
+      "traditional": [
+        "張嘴皺眉"
+      ]
+    },
+    {
+      "term": "痛苦的脸",
+      "target": "😧",
+      "rationale": "指表情本身呈明显痛苦。",
+      "pinyin": "tongkudelian",
+      "traditional": [
+        "痛苦的臉"
+      ]
+    },
+    {
+      "term": "害怕脸",
+      "target": "😨",
+      "rationale": "直接表示受惊、害怕的面部表情。",
+      "pinyin": "haipalian",
+      "traditional": [
+        "害怕臉"
+      ]
+    },
+    {
+      "term": "闭眼忍耐脸",
+      "target": "😣",
+      "rationale": "双眼紧闭、嘴部紧绷的忍耐表情。",
+      "pinyin": "biyanrennailian",
+      "traditional": [
+        "閉眼忍耐臉"
+      ]
+    },
+    {
+      "term": "张嘴疲惫脸",
+      "target": "😩",
+      "rationale": "张嘴且闭眼的疲惫表情。",
+      "pinyin": "zhangzuipibeilian",
+      "traditional": [
+        "張嘴疲憊臉"
+      ]
+    },
+    {
+      "term": "鼻孔喷气",
+      "target": "😤",
+      "rationale": "鼻下两股气流是主要特征。",
+      "pinyin": "bikongpenqi",
+      "traditional": [
+        "鼻孔噴氣"
+      ]
+    },
+    {
+      "term": "红脸生气",
+      "target": "😡",
+      "rationale": "区分泛称生气和脸部变红的愤怒表情。",
+      "traditional": [
+        "紅臉生氣"
+      ]
+    },
+    {
+      "term": "皱眉生气脸",
+      "target": "😠",
+      "rationale": "皱眉、抿嘴的生气表情。",
+      "pinyin": "zhoumeishengqilian",
+      "traditional": [
+        "皺眉生氣臉"
+      ]
+    },
+    {
+      "term": "骷髅交叉骨",
+      "target": "☠️",
+      "rationale": "同时指骷髅和交叉的两根骨头。",
+      "traditional": [
+        "骷髏交叉骨"
+      ]
+    },
+    {
+      "term": "天狗面具",
+      "target": "👺",
+      "rationale": "日本天狗的长鼻红面具。"
+    },
+    {
+      "term": "尖叫猫",
+      "target": "🙀",
+      "rationale": "猫脸张嘴尖叫。",
+      "pinyin": "jianjiaomao",
+      "traditional": [
+        "尖叫貓"
+      ]
+    },
+    {
+      "term": "跳动的心",
+      "target": "💓",
+      "rationale": "心形周围带搏动线。",
+      "pinyin": "tiaodongdexin",
+      "traditional": [
+        "跳動的心"
+      ]
+    },
+    {
+      "term": "灰色爱心",
+      "target": "🩶",
+      "rationale": "颜色和心形都明确。",
+      "traditional": [
+        "灰色愛心"
+      ]
+    },
+    {
+      "term": "生气符号",
+      "target": "💢",
+      "rationale": "日漫常用的生气青筋标记。",
+      "traditional": [
+        "生氣符號"
+      ]
+    },
+    {
+      "term": "眩晕星星",
+      "target": "💫",
+      "rationale": "环绕星星表现眩晕。",
+      "traditional": [
+        "眩暈星星"
+      ]
+    },
+    {
+      "term": "一溜烟",
+      "target": "💨",
+      "rationale": "直接指快速离开时留下的一股烟形。",
+      "traditional": [
+        "一溜煙"
+      ]
+    },
+    {
+      "term": "睡觉符号",
+      "target": "💤",
+      "rationale": "用 Z 字标记睡眠。",
+      "traditional": [
+        "睡覺符號"
+      ]
+    },
+    {
+      "term": "成年人",
+      "target": "🧑",
+      "rationale": "人物无其他明确性别或职业，代表泛称成人。"
+    },
+    {
+      "term": "双臂画圆",
+      "target": "🙆",
+      "rationale": "双臂举过头顶围成圆形。",
+      "pinyin": "shuangbihuayuan",
+      "traditional": [
+        "雙臂畫圓"
+      ]
+    },
+    {
+      "term": "单手托起的人",
+      "target": "💁",
+      "rationale": "描述一只手向上托起的姿势。",
+      "pinyin": "danshoutuoqideren",
+      "traditional": [
+        "單手托起的人"
+      ]
+    },
+    {
+      "term": "男生单手摊开",
+      "target": "💁‍♂️",
+      "rationale": "性别和单手摊开的姿势均明确。",
+      "traditional": [
+        "男生單手攤開"
+      ]
+    },
+    {
+      "term": "女生单手摊开",
+      "target": "💁‍♀️",
+      "rationale": "性别和单手摊开的姿势均明确。",
+      "traditional": [
+        "女生單手攤開"
+      ]
+    },
+    {
+      "term": "女农民",
+      "target": "👩‍🌾",
+      "rationale": "性别和务农职业明确。",
+      "traditional": [
+        "女農民"
+      ]
+    },
+    {
+      "term": "用奶瓶喂宝宝的女人",
+      "target": "👩‍🍼",
+      "rationale": "性别、奶瓶和喂养动作均明确。",
+      "traditional": [
+        "用奶瓶喂寶寶的女人"
+      ]
+    },
+    {
+      "term": "用奶瓶喂宝宝的男人",
+      "target": "👨‍🍼",
+      "rationale": "性别、奶瓶和喂养动作均明确。",
+      "traditional": [
+        "用奶瓶喂寶寶的男人"
+      ]
+    },
+    {
+      "term": "用奶瓶喂宝宝的人",
+      "target": "🧑‍🍼",
+      "rationale": "奶瓶喂养动作明确，人物未限定性别。",
+      "traditional": [
+        "用奶瓶喂寶寶的人"
+      ]
+    },
+    {
+      "term": "男灯神",
+      "target": "🧞‍♂️",
+      "rationale": "男性灯神的直接称呼。",
+      "traditional": [
+        "男燈神"
+      ]
+    },
+    {
+      "term": "女灯神",
+      "target": "🧞‍♀️",
+      "rationale": "女性灯神的直接称呼。",
+      "traditional": [
+        "女燈神"
+      ]
+    },
+    {
+      "term": "男兔耳舞者",
+      "target": "👯‍♂️",
+      "rationale": "男性、兔耳和舞者均明确。",
+      "pinyin": "nantuerwuzhe"
+    },
+    {
+      "term": "男生拍球",
+      "target": "⛹️‍♂️",
+      "rationale": "男性单手拍篮球的动作。",
+      "pinyin": "nanshengpaiqiu"
+    },
+    {
+      "term": "微生物",
+      "target": "🦠",
+      "rationale": "图标表示一般微生物。"
+    },
+    {
+      "term": "露营营地",
+      "target": "🏕️",
+      "rationale": "帐篷和露营场景明确。",
+      "traditional": [
+        "露營營地"
+      ]
+    },
+    {
+      "term": "建筑工地",
+      "target": "🏗️",
+      "rationale": "塔吊和施工中的建筑代表工地。",
+      "traditional": [
+        "建築工地"
+      ]
+    },
+    {
+      "term": "星空夜景",
+      "target": "🌃",
+      "rationale": "夜空有星星的城市夜景。"
+    },
+    {
+      "term": "摩托艇",
+      "target": "🛥️",
+      "rationale": "机动车船的通用名称。"
+    },
+    {
+      "term": "赏月摆设",
+      "target": "🎑",
+      "rationale": "赏月时陈列芒草与团子的布置。",
+      "pinyin": "shangyuebaishe",
+      "traditional": [
+        "賞月擺設"
+      ]
+    },
+    {
+      "term": "手风琴",
+      "target": "🪗",
+      "rationale": "乐器的直接称呼。",
+      "traditional": [
+        "手風琴"
+      ]
+    },
+    {
+      "term": "来信",
+      "target": "📨",
+      "rationale": "信封及移动标记指收到的来信。",
+      "traditional": [
+        "來信"
+      ]
+    },
+    {
+      "term": "婴儿标志",
+      "target": "🚼",
+      "rationale": "描绘婴儿的设施标志。",
+      "traditional": [
+        "嬰兒標誌"
+      ]
+    },
+    {
+      "term": "警告标志",
+      "target": "⚠️",
+      "rationale": "带感叹号的三角形警告标志。",
+      "traditional": [
+        "警告標誌"
+      ]
+    },
+    {
+      "term": "禁止标志",
+      "target": "🚫",
+      "rationale": "带斜杠的圆形通用禁止标志。",
+      "traditional": [
+        "禁止標誌"
+      ]
+    },
+    {
+      "term": "放射性标志",
+      "target": "☢️",
+      "rationale": "三叶形放射性标记的直接名称。",
+      "traditional": [
+        "放射性標誌"
+      ]
+    },
+    {
+      "term": "置顶箭头",
+      "target": "🔝",
+      "rationale": "图标由向上箭头和 TOP 文字组成。",
+      "pinyin": "zhidingjiantou",
+      "traditional": [
+        "置頂箭頭"
+      ]
+    },
+    {
+      "term": "货币兑换",
+      "target": "💱",
+      "rationale": "不同币种的双向兑换图标。",
+      "traditional": [
+        "貨幣兌換",
+        "貨幣兑換"
+      ]
+    },
+    {
+      "term": "闪光符号",
+      "target": "❇️",
+      "rationale": "中心向外放射的闪光标记。",
+      "traditional": [
+        "閃光符號"
+      ]
+    },
+    {
+      "term": "版权符号",
+      "target": "©️",
+      "rationale": "圆圈内字母 C 的版权标记。",
+      "traditional": [
+        "版權符號"
+      ]
+    },
+    {
+      "term": "信息图标",
+      "target": "ℹ️",
+      "rationale": "字母 i 表示信息入口。",
+      "traditional": [
+        "信息圖標"
+      ]
+    },
+    {
+      "term": "红圆圈",
+      "target": "⭕",
+      "rationale": "红色圈形描边直接对应。",
+      "pinyin": "hongyuanquan",
+      "traditional": [
+        "紅圓圈"
+      ]
+    },
+    {
+      "term": "红色圆圈",
+      "target": "⭕",
+      "rationale": "颜色和圆圈形状直接对应，保留实心解读。",
+      "traditional": [
+        "紅色圓圈"
+      ]
+    },
+    {
+      "term": "红色圆圈",
+      "target": "🔴",
+      "rationale": "未明确空心时可指实心红圆。",
+      "traditional": [
+        "紅色圓圈"
+      ]
+    },
+    {
+      "term": "尖耳精灵",
+      "target": "🧝",
+      "rationale": "尖耳和精灵共同指向 elf 形象。",
+      "pinyin": "jianerjingling",
+      "traditional": [
+        "尖耳精靈"
+      ]
+    },
+    {
+      "term": "脱氧核糖核酸",
+      "target": "🧬",
+      "rationale": "DNA 的中文全称，对应双螺旋图形。",
+      "traditional": [
+        "脫氧核糖核酸"
+      ]
+    },
+    {
+      "term": "无线网络标志",
+      "target": "🛜",
+      "rationale": "弧线和圆点组成的无线网络图标。",
+      "traditional": [
+        "無線網絡標誌"
+      ]
+    }
+  ]
+}

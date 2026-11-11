@@ -24,9 +24,11 @@ class PackageTests(unittest.TestCase):
             with zipfile.ZipFile(first) as archive:
                 self.assertIsNone(archive.testzip())
                 files = archive.namelist()
-                self.assertEqual(len(files), 44)
+                self.assertEqual(len(files), 50)
                 self.assertNotIn('rime-shi-emoji/lua/shi_emoji/data.lua', files)
                 self.assertIn('rime-shi-emoji/lua/shi_emoji/match_metadata.lua', files)
+                self.assertIn('rime-shi-emoji/lua/shi_emoji/word_boundary.lua', files)
+                self.assertIn('rime-shi-emoji/lua/shi_emoji/boundary_data.lua', files)
                 self.assertIn('rime-shi-emoji/lua/shi_emoji/entry_data.lua', files)
                 self.assertIn('rime-shi-emoji/lua/shi_emoji/tier_data.lua', files)
                 self.assertIn('rime-shi-emoji/docs/basic-keywords-116.md', files)
@@ -71,4 +73,11 @@ class PackageTests(unittest.TestCase):
               assert(filter.suffix('害羞的笑脸',CONFIG,2)=='😊')
               assert(filter.suffix('红脸',CONFIG,2)=='😳')
               assert(filter.suffix('涩涩',CONFIG,3)=='🍆🍑', 'Single package includes extension')
+              assert(filter.suffix('門衛幫忙收快遞',CONFIG,2):find('📦',1,true))
+              assert(filter.suffix('来自在校学生的反馈',CONFIG,2)==nil)
+              output={}
+              require('shi_emoji.pinyin').func('kubiaozhi',
+                {start=0,_end=9,has_tag=function(_,tag) return tag=='abc' end},
+                {engine={context={input='kubiaozhi',get_option=function(_,key) return key=='shi_emoji' end}}})
+              assert(#output==1 and output[1].text=='酷标志', 'Extracted optional name translator')
             """, lua_root=lua_root, settings={"adult": True})

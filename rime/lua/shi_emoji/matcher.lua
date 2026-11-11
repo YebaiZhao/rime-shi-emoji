@@ -32,32 +32,41 @@ function M.new(data)
   return new(data)
 end
 
-function M.with_guard(data, index)
-  return new(data, index.guard_root)
+local function tiered(data, entries, shared)
+  local rules = {}
+  local guards = {}
+  if not shared then
+    for _, word in ipairs(data.word_guards or {}) do guards[#guards + 1] = word end
+  end
+  for phrase, relations in pairs(entries) do
+    rules[#rules + 1] = {id = phrase, phrases = {phrase}, relations = relations}
+    if not shared then
+      local sentence = false
+      for _, relation in ipairs(relations) do sentence = sentence or relation[3] == true end
+      if not sentence then guards[#guards + 1] = phrase end
+    end
+  end
+  return new({rules = rules, word_guards = guards,
+              boundaries = data.boundaries, negators = data.negators}, shared and shared.guard_root)
 end
 
 function M.tiered(data, entries)
-  local rules = {}
-  local guards = {}
-  for _, word in ipairs(data.word_guards or {}) do guards[#guards + 1] = word end
-  for phrase, relations in pairs(entries) do
-    rules[#rules + 1] = {id = phrase, phrases = {phrase}, relations = relations}
-    local sentence = false
-    for _, relation in ipairs(relations) do sentence = sentence or relation[3] end
-    if not sentence then guards[#guards + 1] = phrase end
-  end
-  return M.new({rules = rules, word_guards = guards,
-                boundaries = data.boundaries, negators = data.negators})
+  return tiered(data, entries)
 end
 
-local function tier_rule(rule, tier, exact)
+function M.tiered_extension(index, entries)
+  return tiered(index.data, entries, index)
+end
+
+local function tier_rule(rule, tier, exact, eligible, start, finish)
   if not rule.relations then return rule end
   local found = {id = rule.id, emoji = {}}
   for _, entry in ipairs(rule.relations) do
-    local target, level, sentence, sequence = table.unpack(entry)
-    if level <= tier and (exact or sentence) then
+    local target, level, scope, sequence = table.unpack(entry)
+    if level <= tier and (exact or scope and eligible(scope, start, finish)) then
       if not found.level then
         found.level = level
+        found.legacy_negation = scope == true and not exact
         if sequence then found.suffix = target end
       end
       found.emoji[#found.emoji + 1] = target
@@ -85,6 +94,16 @@ function M.search(index, text, limit, tier)
     end
     return false
   end
+  local asserted_spans
+  local function eligible(scope, start, finish)
+    if protected(start, finish) then return false end
+    if scope == true then return true end
+    if not asserted_spans then
+      local boundary = require("shi_emoji.word_boundary")
+      asserted_spans = boundary.asserted_spans(text, index.data.negators)
+    end
+    return asserted_spans(start, finish)
+  end
   while position <= #text do
     local left, boundary = text:sub(1, position - 1), 1
     for _, mark in ipairs(index.data.boundaries) do
@@ -108,21 +127,22 @@ function M.search(index, text, limit, tier)
       node = node[text:sub(finish, finish)]
       finish = finish + 1
       local exact = position == 1 and finish == #text + 1
-      local found = node.rule and tier_rule(node.rule, tier, exact)
+      local found = node.rule and tier_rule(node.rule, tier, exact, eligible, position, finish)
       if found and (not found.min_context_len
           or text_length >= found.min_context_len)
-          and not protected(position, finish)
+          and (found.level or not protected(position, finish))
           and (not found.exact_only or exact) then
         local phrase = text:sub(position, finish - 1)
+        local group_negated = negated and (not found.level or found.legacy_negation)
         groups[#groups + 1] = {start = position, finish = finish, phrase = phrase,
-          intent = found.id, emoji = found.emoji, suffix = found.suffix, negated = negated,
+          intent = found.id, emoji = found.emoji, suffix = found.suffix, negated = group_negated,
           level = found.level}
         for rank, emoji in ipairs(found.emoji) do
           local score = utf8.len(phrase) * 100 + 21 - rank + (found.priority or 0)
           if not scores[emoji] or score > scores[emoji].score
-              or (score == scores[emoji].score and scores[emoji].negated and not negated) then
+              or (score == scores[emoji].score and scores[emoji].negated and not group_negated) then
             scores[emoji] = {emoji = emoji, score = score, phrase = phrase, intent = found.id,
-                            suffix = found.suffix, negated = negated}
+                            suffix = found.suffix, negated = group_negated}
           end
         end
       end

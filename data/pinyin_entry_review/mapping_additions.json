@@ -1,0 +1,76 @@
+{
+  "entries": [
+    {
+      "term": "酷标志",
+      "targets": [
+        "🆒"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然输入别名；保留原名与原有解释。"
+    },
+    {
+      "term": "新品标志",
+      "targets": [
+        "🆕"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然输入别名；保留原名与原有解释。"
+    },
+    {
+      "term": "即将到来标志",
+      "targets": [
+        "🔜"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然输入别名；保留原名与原有解释。"
+    },
+    {
+      "term": "女生单手摊开",
+      "targets": [
+        "💁‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然输入别名；保留原名与原有解释。"
+    },
+    {
+      "term": "女生噘嘴",
+      "targets": [
+        "🙎‍♀️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然输入别名；保留原名与原有解释。"
+    },
+    {
+      "term": "尖叫的猫",
+      "targets": [
+        "🙀"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然输入别名；保留原名与原有解释。"
+    },
+    {
+      "term": "男生单手摊开",
+      "targets": [
+        "💁‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然输入别名；保留原名与原有解释。"
+    },
+    {
+      "term": "男生噘嘴",
+      "targets": [
+        "🙎‍♂️"
+      ],
+      "min_tier": "general",
+      "scope": "whole_candidate",
+      "rationale": "已逐项审定的自然输入别名；保留原名与原有解释。"
+    }
+  ]
+}
