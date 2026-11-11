@@ -127,7 +127,7 @@ function M.suffix(text, settings, tier)
       end
     end
   end
-  if #groups == 0 then return nil end
+  if not compose.has_coverage(text, groups) then return nil end
   return compose.suffix(groups, function(emoji, phrase)
     return variants.apply(emoji, phrase, settings)
   end)

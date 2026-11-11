@@ -126,15 +126,15 @@ function M.search(index, text, limit, tier)
     end
     return false
   end
-  local asserted_spans
+  local token_boundaries
   local function eligible(scope, start, finish)
     if protected(start, finish) then return false end
     if scope == true then return true end
-    if not asserted_spans then
+    if not token_boundaries then
       local boundary = require("shi_emoji.word_boundary")
-      asserted_spans = boundary.asserted_spans(text, index.data.negators)
+      token_boundaries = boundary.token_boundaries(text)
     end
-    return asserted_spans(start, finish)
+    return token_boundaries[start] and token_boundaries[finish]
   end
   while position <= #text do
     local left, boundary = text:sub(1, position - 1), 1

@@ -200,10 +200,10 @@ class RimeIntegrationTests(unittest.TestCase):
         result = self.probe("wobuxiangquhaibiandanshixiangwanyouxi")
         self.assertIn("🙅 🏖️ 🎮", result["candidates"][0]["comment"])
 
-    def test_simple_negative_emotion_is_not_positive_recommendation(self):
+    def test_negated_sentence_keeps_authorized_word_clues(self):
         result = self.probe("wobukaixin")
         self.assertEqual(result["candidates"][0]["text"], "我不开心")
-        self.assertEqual(result["candidates"][0]["comment"], "")
+        self.assertIn("😄 🥳", result["candidates"][0]["comment"])
 
     def test_disabled_preserves_chinese(self):
         result = self.probe("wanshua", state="off")

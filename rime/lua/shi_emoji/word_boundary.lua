@@ -33,7 +33,7 @@ local function separator(code)
   return not code or not (han(code) or identifier(code))
 end
 
-local function token_boundaries(text)
+function M.token_boundaries(text)
   local data = require("shi_emoji.boundary_data")
   local offsets, codes = {}, {}
   for offset, code in utf8.codes(text) do
@@ -97,57 +97,6 @@ local function token_boundaries(text)
         and not (identifier(left) and identifier(right))
   end
   return verified
-end
-
-
-local open_quotes = {["“"]="”", ["‘"]="’", ["「"]="」", ["『"]="』",
-                     ["《"]="》", ["〈"]="〉", ['"']='"', ["'"]="'"}
-local reporting = {"说", "說", "提到", "表示", "声称", "聲稱", "据说", "據說",
-                   "听说", "聽說", "转述", "轉述", "引用", "写道", "寫道"}
-local sentence_marks = {"。", "！", "？", "；", ".", "!", "?", ";", "\n",
-                        "但是", "不过", "不過", "可是", "而是", "然后", "然後"}
-local clause_marks = {"，", "、", ","}
-local negative_scope = {"没有", "沒有", "不是", "从未", "從未", "未", "未曾", "并非", "並非",
-                        "别", "別", "否认", "否認", "从没", "從沒", "不会", "不會", "不能",
-                        "不敢", "不曾", "不必", "不许", "不許", "无需", "無需", "无法", "無法"}
-
-local function starts_at(text, offset, words, boundaries)
-  for _, word in ipairs(words) do
-    if (not boundaries or boundaries[offset + #word])
-        and text:sub(offset, offset + #word - 1) == word then return #word end
-  end
-end
-
-function M.asserted_spans(text, negators)
-  local boundaries = token_boundaries(text)
-  local quotes, asserted = {}, {}
-  local negated, reported, reset_at = false, false, 0
-  for offset in utf8.codes(text) do
-    local char = text:sub(offset, (utf8.offset(text, 2, offset) or #text + 1) - 1)
-    if char == quotes[#quotes] then
-      quotes[#quotes] = nil
-    elseif open_quotes[char] then
-      quotes[#quotes + 1] = open_quotes[char]
-    end
-    if #quotes == 0 and offset >= reset_at then
-      local length = starts_at(text, offset, sentence_marks, boundaries)
-      if length then
-        reset_at, negated, reported = offset + length, false, false
-      elseif starts_at(text, offset, clause_marks) then
-        negated = false
-      else
-        asserted[offset] = not negated and not reported and boundaries[offset]
-        if boundaries[offset] then
-          negated = negated or starts_at(text, offset, negators, boundaries)
-              or starts_at(text, offset, negative_scope, boundaries)
-          reported = reported or starts_at(text, offset, reporting, boundaries)
-        end
-      end
-    end
-  end
-  return function(start, finish)
-    return asserted[start] and boundaries[finish]
-  end
 end
 
 return M

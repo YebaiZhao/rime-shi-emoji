@@ -123,17 +123,17 @@ class LuaFilterTests(unittest.TestCase):
             {'商店正在清点滑雪服','滑雪','🎿',false},
             {'门口堆放篮球鞋','篮球','⛹',false},
             {'今天打算去滑雪','滑雪','🎿',true},
-            {'他们没打算去滑雪','滑雪','🎿',false},
-            {'她未去收快递','快递','📦',false},
-            {'他不能去跳伞','跳伞','🪂',false},
-            {'他无法去滑冰','滑冰','⛸️',false},
-            {'她说，下午大家去滑雪','滑雪','🎿',false},
-            {'他记录了“有人去滑雪”','滑雪','🎿',false},
+            {'他们没打算去滑雪','滑雪','🎿',true},
+            {'她未去收快递','快递','📦',true},
+            {'他不能去跳伞','跳伞','🪂',true},
+            {'他无法去滑冰','滑冰','⛸️',true},
+            {'她说，下午大家去滑雪','滑雪','🎿',true},
+            {'他记录了“有人去滑雪”','滑雪','🎿',true},
             {'她说周末下雨。今天我们去滑雪','滑雪','🎿',true},
             {'他们虽然不想开车，但是决定骑车回家','骑车','🚲',true},
             {'門衛幫忙收快遞','快遞','📦',true},
             {'門衛幫忙收快遞','快遞','🎁',false},
-            {'她只写了「每天騎車通勤」','騎車','🚲',false},
+            {'她只写了「每天騎車通勤」','騎車','🚲',true},
             {'她打算去唱K庆祝','唱K','🎤',true},
             {'他推荐了唱KTV的地方','唱K','🎤',false},
             {'卡片标有字母ab。','字母ab','🆎',true},
@@ -143,7 +143,7 @@ class LuaFilterTests(unittest.TestCase):
             {'买单','买单','💳',true},
             {'客人买单后离开','买单','💳',false},
             {'他们讨论车震新闻','车震','🚗❤️‍🔥',true,true},
-            {'记者说现场发生了车震','车震','🚗❤️‍🔥',false,false},
+            {'记者说现场发生了车震','车震','🚗❤️‍🔥',true,true},
             {'色诱我','色诱我','💋🪤',true,true},
             {'嫌疑人想色诱我来套话','色诱我','💋🪤',false,true},
             {'背后捅刀','背后捅刀','🔪🩸',true,true},
@@ -163,6 +163,19 @@ class LuaFilterTests(unittest.TestCase):
           assert(not suffix('他们讨论车震新闻',3):find('🚗❤️‍🔥',1,true))
         """, settings={"adult": True})
 
+    def test_sparse_divergent_coverage_counts_characters_once(self):
+        self.execute("""
+          local compose=require('shi_emoji.compose')
+          local text='甲乙丙丁戊己庚辛壬癸子'
+          local a={start=1,finish=7,level=3}
+          local b={start=4,finish=7,level=3}
+          assert(not compose.has_coverage(text,{a,b}))
+          assert(compose.has_coverage(text,{a,{start=10,finish=13,level=3}}))
+          assert(compose.has_coverage('甲乙丙丁戊己庚辛壬癸',{a,b}))
+          a.level=2
+          assert(compose.has_coverage(text,{a}))
+          assert(not compose.has_coverage(text,{}))
+        """)
 
     def test_traditional_preview_and_explicit_gender(self):
         self.execute("""

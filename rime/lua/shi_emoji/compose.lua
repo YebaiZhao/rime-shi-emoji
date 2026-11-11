@@ -1,5 +1,25 @@
 -- Select distinct concepts, not several alternatives for the same concept.
 local M = {}
+
+-- Suppress a sparse result only when every surviving match is divergent.
+function M.has_coverage(text, groups)
+  if #groups == 0 then return false end
+  for _, group in ipairs(groups) do
+    if group.level ~= 3 then return true end
+  end
+  table.sort(groups, function(a, b) return a.start < b.start end)
+  local covered, finish = 0, 1
+  for _, group in ipairs(groups) do
+    local start = math.max(finish, group.start)
+    if start < group.finish then
+      covered = covered + utf8.len(text, start, group.finish - 1)
+      finish = group.finish
+    end
+  end
+  -- 20% of candidate characters; overlapping matches count only once.
+  return covered * 5 >= utf8.len(text)
+end
+
 function M.suffix(groups, transform)
   table.sort(groups, function(a, b)
     local ac, bc = a.level == 3, b.level == 3
